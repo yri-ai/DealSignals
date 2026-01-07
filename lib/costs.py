@@ -22,6 +22,46 @@ PRICING = {
     # Google
     "gemini-1.5-pro": {"input": 1.25, "output": 5.00},
     "gemini-1.5-flash": {"input": 0.075, "output": 0.30},
+    # ZenMux Models (94 total models)
+    # Auto Router
+    "zenmux/auto": {"input": 0.0, "output": 0.0},  # Dynamic pricing
+    # OpenAI Models via ZenMux
+    "openai/gpt-5.2-pro": {"input": 21.00, "output": 168.00},
+    "openai/gpt-5.2": {"input": 1.75, "output": 14.00},
+    "openai/gpt-5.2-chat": {"input": 1.75, "output": 14.00},
+    "openai/gpt-5.1": {"input": 1.25, "output": 10.00},
+    "openai/gpt-5.1-chat": {"input": 1.25, "output": 10.00},
+    "openai/gpt-5.1-codex": {"input": 1.25, "output": 10.00},
+    # Anthropic Models via ZenMux
+    "anthropic/claude-opus-4.5": {"input": 5.00, "output": 25.00},
+    # Google Models via ZenMux
+    "google/gemini-3-pro-preview": {"input": 3.00, "output": 15.00},  # Mid-range
+    "google/gemini-3-flash-preview": {"input": 0.50, "output": 3.00},
+    "google/gemini-3-flash-preview-free": {"input": 0.00, "output": 0.00},
+    "google/gemini-3-pro-image-preview": {"input": 3.00, "output": 15.00},
+    # Z.AI Models via ZenMux
+    "z-ai/glm-4.7": {"input": 0.43, "output": 1.71},  # Mid-range average
+    "z-ai/glm-4.6v": {"input": 0.21, "output": 0.64},  # Mid-range average
+    "z-ai/glm-4.6v-flash": {"input": 0.03, "output": 0.32},  # Low-end
+    "z-ai/glm-4.6v-flash-free": {"input": 0.00, "output": 0.00},
+    # DeepSeek Models via ZenMux
+    "deepseek/deepseek-v3.2": {"input": 0.28, "output": 0.43},
+    "deepseek/deepseek-chat": {"input": 0.28, "output": 0.42},
+    "deepseek/deepseek-reasoner": {"input": 0.28, "output": 0.42},
+    # xAI Models via ZenMux
+    "x-ai/grok-4.1-fast": {"input": 0.30, "output": 0.75},  # Mid-range average
+    "x-ai/grok-4.1-fast-non-reasoning": {"input": 0.30, "output": 0.75},
+    # Xiaomi Models via ZenMux
+    "xiaomi/mimo-v2-flash": {"input": 0.00, "output": 0.00},  # Limited free
+    "xiaomi/mimo-v2-flash-free": {"input": 0.00, "output": 0.00},  # Free
+    # Mistral Models via ZenMux
+    "mistralai/mistral-large-2512": {"input": 0.50, "output": 1.50},
+    # MiniMax Models via ZenMux
+    "minimax/minimax-m2.1": {"input": 0.30, "output": 1.20},
+    # VolcanoEngine Models via ZenMux
+    "volcengine/doubao-seed-1.8": {"input": 0.23, "output": 1.85},  # Mid-range average
+    # inclusionAI Models via ZenMux
+    "inclusionai/llada2.0-flash-cap": {"input": 0.28, "output": 2.85},
 }
 
 
@@ -157,3 +197,45 @@ def format_cost_summary(costs: RunCosts) -> str:
 | Avg Latency | {costs.avg_latency_ms:.0f}ms |
 | Total Time | {costs.total_latency_ms / 1000:.1f}s |
 """.strip()
+
+
+def update_zenmux_pricing(api_key: str) -> None:
+    """Update PRICING dict with latest ZenMux models and pricing."""
+    try:
+        from .llm import list_zenmux_models
+
+        models = list_zenmux_models(api_key)
+
+        for model in models:
+            model_id = model.get("id", "")
+            if model_id and model_id not in PRICING:
+                # Start with 0 pricing - will be updated if we get pricing info
+                PRICING[model_id] = {"input": 0.0, "output": 0.0}
+
+    except ImportError:
+        print("Warning: Cannot update ZenMux pricing - openai library not installed")
+    except Exception as e:
+        print(f"Warning: Failed to update ZenMux pricing: {e}")
+
+
+def get_cost_effective_models(max_cost_per_m: float = 2.0) -> list[str]:
+    """Get models that are cost-effective (under specified threshold)."""
+    cost_effective = []
+
+    for model_id, pricing in PRICING.items():
+        avg_cost = (pricing["input"] + pricing["output"]) / 2
+        if avg_cost <= max_cost_per_m and avg_cost > 0:
+            cost_effective.append(model_id)
+
+    return sorted(cost_effective, key=lambda x: PRICING[x]["input"])
+
+
+def get_free_models() -> list[str]:
+    """Get all free models."""
+    free_models = []
+
+    for model_id, pricing in PRICING.items():
+        if pricing["input"] == 0.0 and pricing["output"] == 0.0:
+            free_models.append(model_id)
+
+    return free_models
