@@ -44,6 +44,7 @@ Thumbs.db
 *.log
 .env
 .env.local
+TODO.local.md
 
 # SEC Filing Data (large, re-downloadable from SEC EDGAR)
 # See case-studies/wework-bowx/data/README.md for download instructions
@@ -65,6 +66,15 @@ case-studies/*/data/supplemental/
 secrets.yaml
 secrets.json
 .secrets/
+*.key
+*.pem
+.envrc
+*credentials*
+**/config.local.yaml
+**/config.local.json
+
+# API keys pattern (catch accidental inline keys)
+# If you see sk-ant-*, sk-proj-*, or similar in code, DO NOT COMMIT
 
 # Large model outputs (if needed)
 *.pkl
