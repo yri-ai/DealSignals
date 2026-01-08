@@ -1,1 +1,0 @@
-# Deal Signal - Shared utilities

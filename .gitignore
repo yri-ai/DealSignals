@@ -47,7 +47,11 @@ Thumbs.db
 TODO.local.md
 
 # SEC Filing Data (large, re-downloadable from SEC EDGAR)
-# See case-studies/wework-bowx/data/README.md for download instructions
+# See experiments/wework-bowx/data/README.md for download instructions
+experiments/*/data/bowx/
+experiments/*/data/wework/
+experiments/*/data/supplemental/
+# Also cover old case-studies path
 case-studies/*/data/bowx/
 case-studies/*/data/wework/
 case-studies/*/data/supplemental/

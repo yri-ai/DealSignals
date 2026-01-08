@@ -1,0 +1,44 @@
+case_study: wework-bowx
+name: WeWork/BowX SPAC Merger Analysis
+description: |
+  Testing AI capabilities against the BowX Acquisition Corp merger with WeWork (October 2021).
+  Known outcome: WeWork bankruptcy, November 2023.
+
+documents:
+  s4: data/bowx/s4/
+  10k: data/bowx/10k/
+  10q: data/bowx/10q/
+  8k: data/bowx/8k/
+
+ground_truth: ground-truth/questions.yaml
+
+layers:
+  - 00-human-baseline
+  - 01-contamination
+  - 02-direct-llm
+  - 02b-direct-llm-optimized
+  - 03-document-parsing
+  - 04-retrieval-basic
+  - 05-retrieval-advanced
+  - 06-structured-extraction
+  - 07-entity-resolution
+  - 08-agentic-reactive
+  - 09-agentic-planning
+  - 10-agentic-extended-thinking
+  - 11-agentic-cli-tools
+  - 12-multi-agent
+  - 13-multi-model-ensemble
+  - 14-multi-document-synthesis
+  - 15-temporal-analysis
+  - 16-quantitative-modeling
+  - 17-simulation-stress-testing
+  - 18-memory-persistent-facts
+  - 19-inference-pattern-recognition
+  - 20-context-graph
+  - 21-data-graph
+
+default_models:
+  - claude
+  - gpt4
+  - gemini-flash
+  - deepseek

@@ -1,0 +1,34 @@
+layer:
+  id: "01-contamination"
+  name: "Contamination Baseline"
+  description: |
+    Test what LLMs know about WeWork/BowX before seeing any documents.
+    Establishes training data contamination level per model.
+
+  documents: []
+  tools: []
+
+  prompts:
+    system: prompts/system.md
+    user: prompts/user.md
+
+  models:
+    - claude
+    - gpt4
+    - gemini-flash
+    - deepseek
+    - grok
+    - mistral
+
+  question_filter: {}
+
+  evaluation:
+    criteria:
+      - contamination_level
+      - confidence_accuracy
+    outputs:
+      - contamination_map.yaml
+      - per_model_summary.yaml
+
+ground_truth: ../../ground-truth/questions.yaml
+output_dir: ../../../../results/wework-bowx/layers/01-contamination
