@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about WeWork's specific \"contribution margin per membership\" metric from my training data.\n\nConfidence: LOW\nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 219,
+  "output_tokens": 33,
+  "latency_ms": 826,
+  "timestamp": "2026-01-08T23:57:00.143090",
+  "cost_usd": 0.00017010000000000001,
+  "raw_response": {
+    "id": "chatcmpl-2700f83665f74d99ad24dee4aedb7add",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about WeWork's specific \"contribution margin per membership\" metric from my training data.\n\nConfidence: LOW\nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916620,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 219,
+      "completion_tokens": 33,
+      "total_tokens": 252,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

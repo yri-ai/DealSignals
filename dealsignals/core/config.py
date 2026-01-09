@@ -10,7 +10,7 @@ class Config:
     anthropic_api_key: str | None = None
     openai_api_key: str | None = None
 
-    zenmux_base_url: str = "https://api.zenmux.ai/v1/"
+    zenmux_base_url: str = "https://opencode.ai/zen/v1/"
     openrouter_base_url: str = "https://openrouter.ai/api/v1/"
 
     experiments_dir: Path = Path("experiments")

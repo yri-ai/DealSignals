@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about this.[LOW] confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 228,
+  "output_tokens": 21,
+  "latency_ms": 838,
+  "timestamp": "2026-01-09T00:01:24.146968",
+  "cost_usd": 0.0001341,
+  "raw_response": {
+    "id": "chatcmpl-42c3658f8feb4e5397564d13adb0ff6d",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about this.[LOW] confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916883,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 228,
+      "completion_tokens": 21,
+      "total_tokens": 249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "**Answer:** [MEDIUM confidence] [TRAINING]\n\nBased on my training knowledge, I can provide the following about WeWork's customer concentration dynamics:\n\n**General Customer Base Structure:**\n- WeWork historically had a highly diversified customer base with thousands of members/tenants\n- No single customer typically represented a dominant percentage of revenue, which was generally viewed as a positive diversification factor\n- The membership model meant revenue was spread across many small-to-medium enterprise customers and individual members\n\n**Shift Toward Enterprise Clients:**\n- Leading up to and during the SPAC period, WeWork was actively shifting toward larger enterprise customers\n- Enterprise clients (companies with 500+ employees) were becoming a larger portion of the revenue mix\n- This was positioned as improving revenue quality and reducing churn, though it could increase concentration risk over time\n\n**What I'm Less Certain About:**\n- I don't have reliable specific figures on exact customer concentration percentages (e.g., \"top 10 customers = X% of revenue\") from the BowX S-4 filing\n- I cannot confirm precise enterprise vs. SMB revenue splits at the time of the merger\n\n**Known Risk Factors:**\n- Geographic concentration was more notable than individual customer concentration\n- Major markets like NYC, London, and a few others represented outsized portions of revenue\n\n*If you need precise concentration metrics from the merger documents, I would recommend consulting the S-4 filing directly.*",
+  "model": "claude-opus-4-5",
+  "input_tokens": 235,
+  "output_tokens": 313,
+  "latency_ms": 10132,
+  "timestamp": "2026-01-08T22:12:28.460127",
+  "cost_usd": 0.009000000000000001,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_015NiBTwncYAchrYWaiX9yiZ",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "**Answer:** [MEDIUM confidence] [TRAINING]\n\nBased on my training knowledge, I can provide the following about WeWork's customer concentration dynamics:\n\n**General Customer Base Structure:**\n- WeWork historically had a highly diversified customer base with thousands of members/tenants\n- No single customer typically represented a dominant percentage of revenue, which was generally viewed as a positive diversification factor\n- The membership model meant revenue was spread across many small-to-medium enterprise customers and individual members\n\n**Shift Toward Enterprise Clients:**\n- Leading up to and during the SPAC period, WeWork was actively shifting toward larger enterprise customers\n- Enterprise clients (companies with 500+ employees) were becoming a larger portion of the revenue mix\n- This was positioned as improving revenue quality and reducing churn, though it could increase concentration risk over time\n\n**What I'm Less Certain About:**\n- I don't have reliable specific figures on exact customer concentration percentages (e.g., \"top 10 customers = X% of revenue\") from the BowX S-4 filing\n- I cannot confirm precise enterprise vs. SMB revenue splits at the time of the merger\n\n**Known Risk Factors:**\n- Geographic concentration was more notable than individual customer concentration\n- Major markets like NYC, London, and a few others represented outsized portions of revenue\n\n*If you need precise concentration metrics from the merger documents, I would recommend consulting the S-4 filing directly.*"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 235,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 313,
+      "service_tier": "standard"
+    }
+  }
+}

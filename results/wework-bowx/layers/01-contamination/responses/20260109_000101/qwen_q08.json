@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific contribution margin per membership for the WeWork/BowX SPAC merger in2021.[LOW] confidence[UNCERTAIN]This metric would be a specific financial detail from WeWork's business operations that I don't have reliable data on in my training knowledge.<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 229,
+  "output_tokens": 69,
+  "latency_ms": 1666,
+  "timestamp": "2026-01-09T00:01:14.490409",
+  "cost_usd": 0.00020655,
+  "raw_response": {
+    "id": "chatcmpl-5ab0ae1e7a6b47bf977ccdc766dcab13",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific contribution margin per membership for the WeWork/BowX SPAC merger in2021.[LOW] confidence[UNCERTAIN]This metric would be a specific financial detail from WeWork's business operations that I don't have reliable data on in my training knowledge.<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916874,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 229,
+      "completion_tokens": 69,
+      "total_tokens": 298,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

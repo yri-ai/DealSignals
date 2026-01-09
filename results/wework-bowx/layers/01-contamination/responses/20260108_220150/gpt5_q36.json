@@ -1,0 +1,78 @@
+{
+  "content": "I don\u2019t have reliable information about WeWork\u2019s specific market share in flexible workspace.\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Note: This would be **specific** (it depends on how \u201cflexible workspace\u201d is defined\u2014global vs. regional, revenue vs. desks/seats, time period, inclusion of serviced offices/coworking), and I don\u2019t have a verified figure in my training knowledge.",
+  "model": "gpt-5.2",
+  "input_tokens": 222,
+  "output_tokens": 97,
+  "latency_ms": 2453,
+  "timestamp": "2026-01-08T22:04:15.403692",
+  "cost_usd": 0.0017465,
+  "raw_response": {
+    "id": "resp_0b1d686a1b934e0800696029dd288481a2992474df05383556",
+    "object": "response",
+    "created_at": 1767909853,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1767909855,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0b1d686a1b934e0800696029dd577c81a2b42a14c469ff09d8",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don\u2019t have reliable information about WeWork\u2019s specific market share in flexible workspace.\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Note: This would be **specific** (it depends on how \u201cflexible workspace\u201d is defined\u2014global vs. regional, revenue vs. desks/seats, time period, inclusion of serviced offices/coworking), and I don\u2019t have a verified figure in my training knowledge."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 222,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 97,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 319
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

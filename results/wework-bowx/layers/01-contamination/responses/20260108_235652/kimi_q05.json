@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about WeWork's specific cash runway at the time of its SPAC merger with BowX Acquisition Corp in 2021.\n\n[HIGH] confidence\n[TRAINING] - This is based on my training, which did not include this specific financial metric for WeWork at that time.",
+  "model": "kimi-k2",
+  "input_tokens": 222,
+  "output_tokens": 63,
+  "latency_ms": 975,
+  "timestamp": "2026-01-08T23:56:57.283903",
+  "cost_usd": 0.0002463,
+  "raw_response": {
+    "id": "chatcmpl-fdd76c8fff2443e79d4be40a9a3da73f",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about WeWork's specific cash runway at the time of its SPAC merger with BowX Acquisition Corp in 2021.\n\n[HIGH] confidence\n[TRAINING] - This is based on my training, which did not include this specific financial metric for WeWork at that time.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916617,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 63,
+      "total_tokens": 285,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

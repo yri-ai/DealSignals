@@ -1,0 +1,78 @@
+{
+  "content": "**Answer:** Revenue per available desk/workstation is a unit-economics metric calculated as **total revenue over a period divided by the number of available desks/workstations (capacity) over that period** (often expressed per month or per year). It indicates how much revenue the company generates per unit of workspace capacity.\n\n- **Confidence:** HIGH  \n- **Source tag:** [TRAINING]  \n- **Note (general vs. WeWork/BowX-specific):** General knowledge (definition of the metric), not specific to the WeWork/BowX 2021 deal.",
+  "model": "gpt-5.2",
+  "input_tokens": 220,
+  "output_tokens": 120,
+  "latency_ms": 2665,
+  "timestamp": "2026-01-08T22:02:22.359788",
+  "cost_usd": 0.002065,
+  "raw_response": {
+    "id": "resp_01053b2b9775aec9006960296bdf5881a18bfb66cfbfc8f2b5",
+    "object": "response",
+    "created_at": 1767909739,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1767909742,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_01053b2b9775aec9006960296c12c081a18f079bfe362f7672",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Answer:** Revenue per available desk/workstation is a unit-economics metric calculated as **total revenue over a period divided by the number of available desks/workstations (capacity) over that period** (often expressed per month or per year). It indicates how much revenue the company generates per unit of workspace capacity.\n\n- **Confidence:** HIGH  \n- **Source tag:** [TRAINING]  \n- **Note (general vs. WeWork/BowX-specific):** General knowledge (definition of the metric), not specific to the WeWork/BowX 2021 deal."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 220,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 120,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 340
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

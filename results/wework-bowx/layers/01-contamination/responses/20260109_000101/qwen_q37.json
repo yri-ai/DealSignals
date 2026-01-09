@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific customer acquisition cost for the WeWork/BowX merger transaction.[LOW] confidence[UNCERTAIN] - I don't have specific training data about this metric for the WeWork/BowX SPAC merger in2021, and I cannot reliably determine a specific customer acquisition cost figure for this transaction.<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 229,
+  "output_tokens": 77,
+  "latency_ms": 1392,
+  "timestamp": "2026-01-09T00:02:15.615647",
+  "cost_usd": 0.00021855000000000003,
+  "raw_response": {
+    "id": "chatcmpl-7bb1679c71e84db38df136a1badc19ed",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific customer acquisition cost for the WeWork/BowX merger transaction.[LOW] confidence[UNCERTAIN] - I don't have specific training data about this metric for the WeWork/BowX SPAC merger in2021, and I cannot reliably determine a specific customer acquisition cost figure for this transaction.<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916935,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 229,
+      "completion_tokens": 77,
+      "total_tokens": 306,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

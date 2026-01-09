@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about specific litigation or regulatory issues disclosed in connection with the WeWork / BowX Acquisition Corp SPAC merger.",
+  "model": "kimi-k2",
+  "input_tokens": 220,
+  "output_tokens": 28,
+  "latency_ms": 817,
+  "timestamp": "2026-01-08T23:57:17.359760",
+  "cost_usd": 0.000158,
+  "raw_response": {
+    "id": "chatcmpl-f0321643712d422ca85105b62beb0864",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about specific litigation or regulatory issues disclosed in connection with the WeWork / BowX Acquisition Corp SPAC merger.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916637,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 220,
+      "completion_tokens": 28,
+      "total_tokens": 248,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

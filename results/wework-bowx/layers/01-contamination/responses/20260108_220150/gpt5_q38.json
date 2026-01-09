@@ -1,0 +1,78 @@
+{
+  "content": "Competitor occupancy rates are the **percentage of available space (desks/units/square footage) that competing operators have currently leased or in use**, typically used as a benchmark against a company\u2019s own occupancy. In the flexible/workspace context, this usually refers to **other coworking/flexible office providers\u2019 average occupancy** across their locations/markets over a given period.\n\n- Confidence: **HIGH**\n- Source tag: **[TRAINING]**\n- Note (case specificity): **General knowledge (not specific to the WeWork/BowX merger)**",
+  "model": "gpt-5.2",
+  "input_tokens": 217,
+  "output_tokens": 116,
+  "latency_ms": 23549,
+  "timestamp": "2026-01-08T22:04:41.412872",
+  "cost_usd": 0.00200375,
+  "raw_response": {
+    "id": "resp_0e5f2d006f040e0400696029e2ec88819fb2f2c44e167673a6",
+    "object": "response",
+    "created_at": 1767909859,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1767909879,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0e5f2d006f040e0400696029e51268819f9ecb5e5ad3db35e7",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Competitor occupancy rates are the **percentage of available space (desks/units/square footage) that competing operators have currently leased or in use**, typically used as a benchmark against a company\u2019s own occupancy. In the flexible/workspace context, this usually refers to **other coworking/flexible office providers\u2019 average occupancy** across their locations/markets over a given period.\n\n- Confidence: **HIGH**\n- Source tag: **[TRAINING]**\n- Note (case specificity): **General knowledge (not specific to the WeWork/BowX merger)**"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 217,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 116,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 333
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

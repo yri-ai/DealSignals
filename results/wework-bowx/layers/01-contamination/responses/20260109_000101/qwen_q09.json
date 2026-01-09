@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific revenue per available desk/workstation metric for WeWork's SPAC merger with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 231,
+  "output_tokens": 47,
+  "latency_ms": 1115,
+  "timestamp": "2026-01-09T00:01:15.608723",
+  "cost_usd": 0.00017444999999999998,
+  "raw_response": {
+    "id": "chatcmpl-0b69bbe85ba543dcb5b0cb3c072b16fa",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific revenue per available desk/workstation metric for WeWork's SPAC merger with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916875,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 231,
+      "completion_tokens": 47,
+      "total_tokens": 278,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

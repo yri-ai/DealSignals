@@ -1,0 +1,40 @@
+{
+  "content": "Based on my training knowledge, I don't have reliable information about the specific PIPE (Private Investment in Public Equity) terms or the detailed list of investors involved in the WeWork SPAC merger with BowX Acquisition Corp in2021.I don't have reliable information about this.Confidence: LOWClassification: UNCERTAINNote: While I'm aware that WeWork did complete a SPAC merger with BowX Acquisition Corp in2021, I don't have specific details about the PIPE investment terms or investor identities from my training data.<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 233,
+  "output_tokens": 118,
+  "latency_ms": 2557,
+  "timestamp": "2026-01-09T00:01:37.868895",
+  "cost_usd": 0.00028185,
+  "raw_response": {
+    "id": "chatcmpl-bacca99763e94c0a8f0a3e01e3507f26",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "Based on my training knowledge, I don't have reliable information about the specific PIPE (Private Investment in Public Equity) terms or the detailed list of investors involved in the WeWork SPAC merger with BowX Acquisition Corp in2021.I don't have reliable information about this.Confidence: LOWClassification: UNCERTAINNote: While I'm aware that WeWork did complete a SPAC merger with BowX Acquisition Corp in2021, I don't have specific details about the PIPE investment terms or investor identities from my training data.<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916897,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 233,
+      "completion_tokens": 118,
+      "total_tokens": 351,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

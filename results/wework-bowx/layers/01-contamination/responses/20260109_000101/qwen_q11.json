@@ -1,0 +1,40 @@
+{
+  "content": "Member churn rate is the percentage of members who leave or cancel their membership with a company like WeWork during a specific time period. It represents the rate at which a company loses its members or subscribers.In the context of a membership-based business like WeWork, the member churn rate is calculated by taking the number of members who leave during a given period and dividing it by the average number of members during that same period.[HIGH] confidence[TRAINING] from pre-training knowledgeThis is a standard business metric used across membership-based companies and is not specific to WeWork or the SPAC merger context.<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 228,
+  "output_tokens": 125,
+  "latency_ms": 2669,
+  "timestamp": "2026-01-09T00:01:22.200615",
+  "cost_usd": 0.0002901,
+  "raw_response": {
+    "id": "chatcmpl-668261ce27814e70beaef121fd179be1",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "Member churn rate is the percentage of members who leave or cancel their membership with a company like WeWork during a specific time period. It represents the rate at which a company loses its members or subscribers.In the context of a membership-based business like WeWork, the member churn rate is calculated by taking the number of members who leave during a given period and dividing it by the average number of members during that same period.[HIGH] confidence[TRAINING] from pre-training knowledgeThis is a standard business metric used across membership-based companies and is not specific to WeWork or the SPAC merger context.<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916881,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 228,
+      "completion_tokens": 125,
+      "total_tokens": 353,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

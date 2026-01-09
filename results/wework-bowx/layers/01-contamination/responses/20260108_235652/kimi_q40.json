@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific 2021 revenue projection from WeWork's 2019 IPO S-1 filing.\n\nConfidence: LOW\nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 229,
+  "output_tokens": 36,
+  "latency_ms": 1214,
+  "timestamp": "2026-01-08T23:57:29.140360",
+  "cost_usd": 0.00018160000000000002,
+  "raw_response": {
+    "id": "chatcmpl-216d078d8c2e4e6896273ec03afaa43e",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific 2021 revenue projection from WeWork's 2019 IPO S-1 filing.\n\nConfidence: LOW\nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916649,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 229,
+      "completion_tokens": 36,
+      "total_tokens": 265,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

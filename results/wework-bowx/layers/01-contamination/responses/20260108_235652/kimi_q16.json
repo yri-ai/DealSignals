@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about what specifically happens to WeWork's business at 70% occupancy in the context of the BowX SPAC merger.\n\nConfidence: LOW\nSource: UNCERTAIN\n\nMy training data doesn't contain specific details about occupancy rate thresholds or their business implications for the WeWork/BowX Acquisition Corp transaction.",
+  "model": "kimi-k2",
+  "input_tokens": 223,
+  "output_tokens": 67,
+  "latency_ms": 1108,
+  "timestamp": "2026-01-08T23:57:07.613019",
+  "cost_usd": 0.0002567,
+  "raw_response": {
+    "id": "chatcmpl-63f56a7f6c8649f5b565e57bd76be113",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about what specifically happens to WeWork's business at 70% occupancy in the context of the BowX SPAC merger.\n\nConfidence: LOW\nSource: UNCERTAIN\n\nMy training data doesn't contain specific details about occupancy rate thresholds or their business implications for the WeWork/BowX Acquisition Corp transaction.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916627,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 67,
+      "total_tokens": 290,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

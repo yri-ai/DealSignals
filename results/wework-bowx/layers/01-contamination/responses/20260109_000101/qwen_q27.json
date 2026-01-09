@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific customer concentration dynamics of the WeWork/BowX Acquisition Corp merger.[LOW] confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 229,
+  "output_tokens": 35,
+  "latency_ms": 821,
+  "timestamp": "2026-01-09T00:01:50.451052",
+  "cost_usd": 0.00015555,
+  "raw_response": {
+    "id": "chatcmpl-aa94b7999b534df5a2b4efa0cb34e729",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific customer concentration dynamics of the WeWork/BowX Acquisition Corp merger.[LOW] confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916910,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 229,
+      "completion_tokens": 35,
+      "total_tokens": 264,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

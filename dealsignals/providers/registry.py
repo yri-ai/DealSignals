@@ -2,18 +2,31 @@ from dealsignals.core.types import CompletionRequest, CompletionResponse, ModelI
 from .base import Provider
 
 
+# Zen model IDs (from https://opencode.ai/docs/zen)
 MODEL_ALIASES = {
-    "claude": "anthropic/claude-opus-4.5",
-    "gpt4": "openai/gpt-5.2",
-    "gpt5": "openai/gpt-5.2",
-    "gemini": "google/gemini-3-flash-preview",
-    "gemini-pro": "google/gemini-3-pro-preview",
-    "gemini-flash": "google/gemini-3-flash-preview",
-    "deepseek": "deepseek/deepseek-reasoner",
-    "grok": "x-ai/grok-4.1-fast",
-    "mistral": "mistralai/mistral-large-2512",
-    "glm": "z-ai/glm-4.7",
-    "auto": "zenmux/auto",
+    # GPT models
+    "gpt5": "gpt-5.2",
+    "gpt4": "gpt-5.2",
+    "gpt-5.2": "gpt-5.2",
+    "gpt-5.1": "gpt-5.1",
+    "gpt-5.1-codex": "gpt-5.1-codex",
+    "gpt-5": "gpt-5",
+    "gpt-5-nano": "gpt-5-nano",
+    # Claude models
+    "claude": "claude-sonnet-4-5",
+    "claude-sonnet": "claude-sonnet-4-5",
+    "claude-opus": "claude-opus-4-5",
+    "claude-haiku": "claude-haiku-4-5",
+    # Gemini models
+    "gemini": "gemini-3-flash",
+    "gemini-pro": "gemini-3-pro",
+    "gemini-flash": "gemini-3-flash",
+    # Other models
+    "grok": "grok-code",
+    "glm": "glm-4.7-free",
+    "kimi": "kimi-k2",
+    "qwen": "qwen3-coder",
+    "minimax": "minimax-m2.1-free",
 }
 
 
@@ -21,7 +34,7 @@ class ModelRegistry:
     def __init__(self):
         self._providers: dict[str, Provider] = {}
         self._aliases: dict[str, str] = MODEL_ALIASES.copy()
-        self._provider_priority: list[str] = ["zenmux", "openrouter", "direct"]
+        self._provider_priority: list[str] = ["zen", "openrouter", "direct"]
 
     def register_provider(self, provider: Provider) -> None:
         self._providers[provider.name] = provider

@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific duration profile of lease commitments for the WeWork SPAC merger with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 231,
+  "output_tokens": 45,
+  "latency_ms": 1226,
+  "timestamp": "2026-01-09T00:01:25.375599",
+  "cost_usd": 0.00017145000000000002,
+  "raw_response": {
+    "id": "chatcmpl-e445586202a34721bf00c00fe84d0071",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific duration profile of lease commitments for the WeWork SPAC merger with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916885,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 231,
+      "completion_tokens": 45,
+      "total_tokens": 276,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

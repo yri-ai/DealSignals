@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about WeWork's specific market share in flexible workspace.[LOW] [UNCERTAIN]I'm aware that WeWork is a major player in the flexible workspace/co-working industry, but I don't have access to current, reliable market share data for this specific segment. Market share figures would require up-to-date industry analysis and competitive data that I don't have access to in my training.<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 233,
+  "output_tokens": 87,
+  "latency_ms": 1532,
+  "timestamp": "2026-01-09T00:02:14.220463",
+  "cost_usd": 0.00023535,
+  "raw_response": {
+    "id": "chatcmpl-68017eac813d4e99974972222a0a0519",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about WeWork's specific market share in flexible workspace.[LOW] [UNCERTAIN]I'm aware that WeWork is a major player in the flexible workspace/co-working industry, but I don't have access to current, reliable market share data for this specific segment. Market share figures would require up-to-date industry analysis and competitive data that I don't have access to in my training.<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916934,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 233,
+      "completion_tokens": 87,
+      "total_tokens": 320,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

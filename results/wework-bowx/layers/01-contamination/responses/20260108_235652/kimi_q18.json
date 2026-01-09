@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the implied enterprise value of the WeWork SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 219,
+  "output_tokens": 37,
+  "latency_ms": 868,
+  "timestamp": "2026-01-08T23:57:09.715878",
+  "cost_usd": 0.00018010000000000001,
+  "raw_response": {
+    "id": "chatcmpl-37a775ccf386442ba777d09d41cb0c7c",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the implied enterprise value of the WeWork SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916629,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 219,
+      "completion_tokens": 37,
+      "total_tokens": 256,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

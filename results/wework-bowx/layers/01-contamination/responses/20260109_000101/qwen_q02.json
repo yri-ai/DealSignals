@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific revenue growth rate year-over-year for the WeWork SPAC merger with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 232,
+  "output_tokens": 46,
+  "latency_ms": 1224,
+  "timestamp": "2026-01-09T00:01:05.305029",
+  "cost_usd": 0.00017339999999999999,
+  "raw_response": {
+    "id": "chatcmpl-bfe9145fcd6c41a3b60f7beb4b9c6245",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific revenue growth rate year-over-year for the WeWork SPAC merger with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916865,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 232,
+      "completion_tokens": 46,
+      "total_tokens": 278,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

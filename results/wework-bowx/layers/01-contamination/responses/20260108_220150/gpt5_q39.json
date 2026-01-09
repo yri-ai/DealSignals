@@ -1,0 +1,78 @@
+{
+  "content": "Adam Neumann did **not** have an ongoing management or governance role at WeWork at the time of the 2021 BowX SPAC merger announcement/closing. He had stepped down earlier (2019) and was no longer CEO or chairman. However, he remained **financially involved** as a **significant shareholder** and was party to arrangements in which WeWork/SoftBank-related entities **bought out or reduced** portions of his stake and addressed certain obligations connected to his departure; he was not expected to return to run the company.\n\n- Confidence: **MEDIUM**\n- Source flag: **[TRAINING]**\n- Note: **Specific to the WeWork/BowX case** (with some general context about his 2019 departure)",
+  "model": "gpt-5.2",
+  "input_tokens": 220,
+  "output_tokens": 159,
+  "latency_ms": 4095,
+  "timestamp": "2026-01-08T22:04:45.511088",
+  "cost_usd": 0.0026109999999999996,
+  "raw_response": {
+    "id": "resp_01b0e5d0cb9ade4b00696029f9a08481a093a1d1966ecbc00f",
+    "object": "response",
+    "created_at": 1767909881,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1767909885,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_01b0e5d0cb9ade4b00696029f9d13481a0bdd896e2a7b3d517",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Adam Neumann did **not** have an ongoing management or governance role at WeWork at the time of the 2021 BowX SPAC merger announcement/closing. He had stepped down earlier (2019) and was no longer CEO or chairman. However, he remained **financially involved** as a **significant shareholder** and was party to arrangements in which WeWork/SoftBank-related entities **bought out or reduced** portions of his stake and addressed certain obligations connected to his departure; he was not expected to return to run the company.\n\n- Confidence: **MEDIUM**\n- Source flag: **[TRAINING]**\n- Note: **Specific to the WeWork/BowX case** (with some general context about his 2019 departure)"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 220,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 379
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

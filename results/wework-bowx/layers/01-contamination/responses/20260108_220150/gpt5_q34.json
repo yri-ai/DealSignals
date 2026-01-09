@@ -1,0 +1,78 @@
+{
+  "content": "I don\u2019t have reliable information about this.  \n\n- Confidence: **LOW**  \n- Source tag: **[UNCERTAIN]**  \n- Note: This is **specific to the WeWork/BowX case**, and your question depends on evaluating \u201cthese documents,\u201d which I don\u2019t have access to here.",
+  "model": "gpt-5.2",
+  "input_tokens": 224,
+  "output_tokens": 68,
+  "latency_ms": 1914,
+  "timestamp": "2026-01-08T22:03:55.220102",
+  "cost_usd": 0.001344,
+  "raw_response": {
+    "id": "resp_0552831b871e7c4600696029c98a64819f8685ffb723d3656d",
+    "object": "response",
+    "created_at": 1767909833,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1767909835,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0552831b871e7c4600696029c9c77c819fb07cbc4eed09a551",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don\u2019t have reliable information about this.  \n\n- Confidence: **LOW**  \n- Source tag: **[UNCERTAIN]**  \n- Note: This is **specific to the WeWork/BowX case**, and your question depends on evaluating \u201cthese documents,\u201d which I don\u2019t have access to here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 224,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 68,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 292
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

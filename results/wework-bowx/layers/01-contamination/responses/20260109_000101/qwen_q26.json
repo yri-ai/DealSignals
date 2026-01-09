@@ -1,0 +1,40 @@
+{
+  "content": "Based on my training knowledge, I cannot recall specific details about litigation or regulatory issues disclosed in the WeWork SPAC merger with BowX Acquisition Corp in2021.I don't have reliable information about this.[LOW] confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 230,
+  "output_tokens": 57,
+  "latency_ms": 1113,
+  "timestamp": "2026-01-09T00:01:49.626065",
+  "cost_usd": 0.000189,
+  "raw_response": {
+    "id": "chatcmpl-6657bb8b330c4cbcb077a28d2bd97cb6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "Based on my training knowledge, I cannot recall specific details about litigation or regulatory issues disclosed in the WeWork SPAC merger with BowX Acquisition Corp in2021.I don't have reliable information about this.[LOW] confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916909,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 230,
+      "completion_tokens": 57,
+      "total_tokens": 287,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

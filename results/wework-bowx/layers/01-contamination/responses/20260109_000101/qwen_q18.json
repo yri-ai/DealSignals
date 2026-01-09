@@ -1,0 +1,40 @@
+{
+  "content": "Based on my training knowledge, I don't have reliable information about the specific implied enterprise value for the WeWork SPAC merger with BowX Acquisition Corp in2021.I'm aware that BowX Acquisition Corp was indeed a SPAC that merged with WeWork, but I don't have the specific financial details including the exact enterprise value from my training data.LOW confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 229,
+  "output_tokens": 85,
+  "latency_ms": 2047,
+  "timestamp": "2026-01-09T00:01:32.748575",
+  "cost_usd": 0.00023055000000000002,
+  "raw_response": {
+    "id": "chatcmpl-81413c81192c461d9f9de0fadd432315",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "Based on my training knowledge, I don't have reliable information about the specific implied enterprise value for the WeWork SPAC merger with BowX Acquisition Corp in2021.I'm aware that BowX Acquisition Corp was indeed a SPAC that merged with WeWork, but I don't have the specific financial details including the exact enterprise value from my training data.LOW confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916892,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 229,
+      "completion_tokens": 85,
+      "total_tokens": 314,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

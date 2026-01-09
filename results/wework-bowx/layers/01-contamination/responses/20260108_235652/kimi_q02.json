@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about WeWork's specific year-over-year revenue growth rate related to its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 222,
+  "output_tokens": 42,
+  "latency_ms": 860,
+  "timestamp": "2026-01-08T23:56:54.568332",
+  "cost_usd": 0.0001938,
+  "raw_response": {
+    "id": "chatcmpl-14ada6e3ee2c4084813dfe133ecdb9a6",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about WeWork's specific year-over-year revenue growth rate related to its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916614,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 42,
+      "total_tokens": 264,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

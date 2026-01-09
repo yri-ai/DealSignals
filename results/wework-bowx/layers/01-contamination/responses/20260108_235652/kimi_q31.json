@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about the specific projections or the exact conditions that would have to be true for them to be achieved in the WeWork / BowX Acquisition Corp SPAC merger. My training data does not contain those details.",
+  "model": "kimi-k2",
+  "input_tokens": 225,
+  "output_tokens": 48,
+  "latency_ms": 877,
+  "timestamp": "2026-01-08T23:57:21.705593",
+  "cost_usd": 0.00021,
+  "raw_response": {
+    "id": "chatcmpl-5012006c8d9d460f9af296066955c745",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about the specific projections or the exact conditions that would have to be true for them to be achieved in the WeWork / BowX Acquisition Corp SPAC merger. My training data does not contain those details.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916641,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 225,
+      "completion_tokens": 48,
+      "total_tokens": 273,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

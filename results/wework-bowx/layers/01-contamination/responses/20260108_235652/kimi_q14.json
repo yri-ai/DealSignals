@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific duration profile of lease commitments for the WeWork / BowX Acquisition Corp SPAC merger in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 221,
+  "output_tokens": 40,
+  "latency_ms": 816,
+  "timestamp": "2026-01-08T23:57:05.604981",
+  "cost_usd": 0.00018840000000000003,
+  "raw_response": {
+    "id": "chatcmpl-a4b6f3c1a9f34dc6b13972ca514296df",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific duration profile of lease commitments for the WeWork / BowX Acquisition Corp SPAC merger in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916625,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 221,
+      "completion_tokens": 40,
+      "total_tokens": 261,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific cash burn rate figure for WeWork during the SPAC merger period with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 229,
+  "output_tokens": 46,
+  "latency_ms": 1217,
+  "timestamp": "2026-01-09T00:01:07.762876",
+  "cost_usd": 0.00017205,
+  "raw_response": {
+    "id": "chatcmpl-1db0b829d0d249d7a8041d0b7836d657",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific cash burn rate figure for WeWork during the SPAC merger period with BowX Acquisition Corp in2021.[LOW] confidence[UNCERTAIN]<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916867,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 229,
+      "completion_tokens": 46,
+      "total_tokens": 275,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 128
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

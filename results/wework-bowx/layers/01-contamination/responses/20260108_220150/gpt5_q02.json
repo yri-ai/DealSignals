@@ -1,0 +1,78 @@
+{
+  "content": "I don't have reliable information about the year-over-year revenue growth rate for WeWork in the context of the 2021 SPAC merger with BowX Acquisition Corp.\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Note: This would be **specific to the WeWork/BowX case** (depends on the exact period/financials referenced).",
+  "model": "gpt-5.2",
+  "input_tokens": 221,
+  "output_tokens": 82,
+  "latency_ms": 2152,
+  "timestamp": "2026-01-08T22:01:54.644897",
+  "cost_usd": 0.0015347499999999999,
+  "raw_response": {
+    "id": "resp_08210d6791e574a90069602950ba3481928c7c9a3a673ce783",
+    "object": "response",
+    "created_at": 1767909712,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1767909714,
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_08210d6791e574a9006960295109808192af276b8dfbdc9986",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don't have reliable information about the year-over-year revenue growth rate for WeWork in the context of the 2021 SPAC merger with BowX Acquisition Corp.\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Note: This would be **specific to the WeWork/BowX case** (depends on the exact period/financials referenced)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 221,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 82,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 303
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

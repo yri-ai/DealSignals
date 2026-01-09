@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about what specifically happens to the WeWork/BowX business at50% occupancy.LOW confidenceUNCERTAINMy training data does not contain specific details about the operational or financial outcomes for the WeWork/BowX merger at exactly50% occupancy rates. While I have general knowledge about WeWork's SPAC merger in2021, I don't have the detailed occupancy scenario analysis you're asking about.<|im_end|>",
+  "model": "qwen3-coder",
+  "input_tokens": 234,
+  "output_tokens": 98,
+  "latency_ms": 2242,
+  "timestamp": "2026-01-09T00:01:30.698638",
+  "cost_usd": 0.0002523,
+  "raw_response": {
+    "id": "chatcmpl-051c4ba14605488f8ea01fc5c27284f5",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about what specifically happens to the WeWork/BowX business at50% occupancy.LOW confidenceUNCERTAINMy training data does not contain specific details about the operational or financial outcomes for the WeWork/BowX merger at exactly50% occupancy rates. While I have general knowledge about WeWork's SPAC merger in2021, I don't have the detailed occupancy scenario analysis you're asking about.<|im_end|>",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916890,
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 234,
+      "completion_tokens": 98,
+      "total_tokens": 332,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 160
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

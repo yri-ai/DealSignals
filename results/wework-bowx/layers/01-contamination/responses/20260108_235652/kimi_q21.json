@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific PIPE terms or the complete list of investors in the WeWork / BowX Acquisition Corp transaction. My training data does not contain those deal-level details.",
+  "model": "kimi-k2",
+  "input_tokens": 223,
+  "output_tokens": 39,
+  "latency_ms": 802,
+  "timestamp": "2026-01-08T23:57:12.132295",
+  "cost_usd": 0.00018669999999999998,
+  "raw_response": {
+    "id": "chatcmpl-2d94e7d514284610a7168e8cd4b2c954",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific PIPE terms or the complete list of investors in the WeWork / BowX Acquisition Corp transaction. My training data does not contain those deal-level details.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916632,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 39,
+      "total_tokens": 262,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

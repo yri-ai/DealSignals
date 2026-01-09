@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about this.  \nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 223,
+  "output_tokens": 20,
+  "latency_ms": 728,
+  "timestamp": "2026-01-08T23:57:02.128932",
+  "cost_usd": 0.0001392,
+  "raw_response": {
+    "id": "chatcmpl-56081bdf6d85406bb938e974d5195e65",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about this.  \nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916622,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 20,
+      "total_tokens": 243,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

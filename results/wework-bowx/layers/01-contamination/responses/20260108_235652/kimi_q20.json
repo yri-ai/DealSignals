@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about which specific comparable transactions or companies were cited in connection with the WeWork / BowX Acquisition Corp SPAC merger.",
+  "model": "kimi-k2",
+  "input_tokens": 220,
+  "output_tokens": 31,
+  "latency_ms": 756,
+  "timestamp": "2026-01-08T23:57:11.326726",
+  "cost_usd": 0.0001655,
+  "raw_response": {
+    "id": "chatcmpl-7435f3389d4c4f78b520e4ce0a082cb2",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about which specific comparable transactions or companies were cited in connection with the WeWork / BowX Acquisition Corp SPAC merger.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916631,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 220,
+      "completion_tokens": 31,
+      "total_tokens": 251,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

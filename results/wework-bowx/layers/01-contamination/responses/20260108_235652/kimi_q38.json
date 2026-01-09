@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about competitor occupancy rates in the WeWork / BowX SPAC context.  \nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 218,
+  "output_tokens": 32,
+  "latency_ms": 756,
+  "timestamp": "2026-01-08T23:57:27.131440",
+  "cost_usd": 0.0001672,
+  "raw_response": {
+    "id": "chatcmpl-a7c1b99076fa49bebdb57d2280e84bcd",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about competitor occupancy rates in the WeWork / BowX SPAC context.  \nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1767916647,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 218,
+      "completion_tokens": 32,
+      "total_tokens": 250,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 96
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}
