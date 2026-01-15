@@ -1,0 +1,21 @@
+layer:
+  id: "02-direct-naive"
+  name: "Direct LLM (Naive)"
+  description: |
+    Direct analysis of specific documents using naive prompts.
+    Baseline for prompt engineering impact.
+
+  documents:
+    - experiments/wework-bowx/data/layer-02/investor_presentation.txt
+    - experiments/wework-bowx/data/layer-02/s4_risk_factors.txt
+
+  prompts:
+    system: prompts/system.md
+    user: prompts/naive.md
+
+  models:
+    - claude-sonnet-4-5
+    - gpt-5.2
+
+ground_truth: ../../ground-truth/questions.yaml
+output_dir: ../../../../results/wework-bowx/layers/02-direct/naive

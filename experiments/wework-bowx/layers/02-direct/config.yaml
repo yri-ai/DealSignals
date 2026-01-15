@@ -1,0 +1,31 @@
+layer:
+  id: "02-direct-optimized"
+  name: "Direct LLM (Optimized)"
+  description: |
+    Direct analysis of specific documents (Investor Deck, S-4 Risk Factors)
+    using optimized analyst prompts.
+
+  documents:
+    - experiments/wework-bowx/data/layer-02/investor_presentation.txt
+    - experiments/wework-bowx/data/layer-02/s4_risk_factors.txt
+
+  prompts:
+    system: prompts/system.md
+    user: prompts/optimized.md
+
+  models:
+    - claude-sonnet-4-5
+    - gpt-5.2
+    - claude-opus-4-5
+    # Exclude Gemini for now due to 500 errors
+
+  evaluation:
+    criteria:
+      - accurate
+      - cited
+      - relevant
+    outputs:
+      - responses
+
+ground_truth: ../../ground-truth/questions.yaml
+output_dir: ../../../../results/wework-bowx/layers/02-direct/optimized
