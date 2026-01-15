@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about WeWork's specific revenue per available desk/workstation metric from my training data.\n\nConfidence: LOW\nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 221,
+  "output_tokens": 32,
+  "latency_ms": 933,
+  "timestamp": "2026-01-14T00:52:23.798570",
+  "cost_usd": 0.0001684,
+  "raw_response": {
+    "id": "chatcmpl-80799a12308248f48f98817878e159ae",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about WeWork's specific revenue per available desk/workstation metric from my training data.\n\nConfidence: LOW\nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351943,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 221,
+      "completion_tokens": 32,
+      "total_tokens": 253,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

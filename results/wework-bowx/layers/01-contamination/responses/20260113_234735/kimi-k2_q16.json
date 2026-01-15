@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about what specifically happens to WeWork\u2019s business at 70 % occupancy.  \nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 223,
+  "output_tokens": 32,
+  "latency_ms": 967,
+  "timestamp": "2026-01-14T00:52:31.002069",
+  "cost_usd": 0.0001692,
+  "raw_response": {
+    "id": "chatcmpl-7f1d7ff3d9424932819383df0c1d9c83",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about what specifically happens to WeWork\u2019s business at 70 % occupancy.  \nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351950,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 32,
+      "total_tokens": 255,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "content": "I don't have reliable information about this.",
+  "model": "grok-code",
+  "input_tokens": 416,
+  "output_tokens": 8,
+  "latency_ms": 14796,
+  "timestamp": "2026-01-13T23:31:31.543251",
+  "cost_usd": 0.0,
+  "raw_response": {
+    "id": "313d9987-4783-bab8-c468-8254197c7e35",
+    "object": "chat.completion",
+    "created": 1768347076,
+    "model": "grok-code",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "I don't have reliable information about this.",
+          "reasoning_content": "## Reviewing financial details  \n- WeWork's merger with BowX Acquisition Corp was completed in October 2021, making it public again.  \n- Post-merger, WeWork faced financial challenges, including significant losses and a high cash burn rate.  \n\n## Examining cash position  \n- At the end of 2021, WeWork reportedly had about $1.5 billion in cash.  \n- In early 2022, they raised $1 billion from SoftBank, impacting their cash reserves.  \n\n## Calculating cash runway  \n- Cash runway is typically current cash divided by monthly burn rate.  \n- Reports suggest a Q1 2022 burn of $1.1 billion, potentially leaving a runway of around 4 months with $1.5 billion cash.  \n\n## Assessing reliability  \n- Exact figures for cash runway at the 2021 burn rate aren't reliably known from training data.  \n- Without precise information, speculation should be avoided.",
+          "refusal": null
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 416,
+      "completion_tokens": 8,
+      "total_tokens": 1241,
+      "prompt_tokens_details": {
+        "text_tokens": 416,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "cached_tokens": 320
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 817,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 0
+    },
+    "system_fingerprint": "fp_c85e32c255"
+  }
+}

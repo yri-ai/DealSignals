@@ -1,0 +1,34 @@
+{
+  "content": "# Lock-Up Agreements in the WeWork/BowX SPAC Merger\n\n**Confidence: [HIGH] for general concepts, [MEDIUM] for WeWork-specific terms**\n**Source: [TRAINING]**\n\n## General Definition\n\nLock-up agreements are contractual provisions that restrict certain shareholders from selling their shares for a specified period following a transaction (such as an IPO, SPAC merger, or de-SPAC). They are designed to:\n\n- Prevent a flood of shares hitting the market immediately post-transaction\n- Provide price stability during the initial trading period\n- Demonstrate insider confidence in the company's prospects\n\n## Typical Structure in SPAC Mergers\n\n| Party | Typical Lock-Up Period |\n|-------|----------------------|\n| Sponsor shares | 12 months (often with early release triggers) |\n| Founder/management shares | 6-12 months |\n| PIPE investors | Often 6 months or less |\n| Existing shareholders | Varies, typically 6-12 months |\n\n## WeWork/BowX Specific Terms\n\nFrom my training knowledge, the WeWork SPAC deal included lock-up provisions for:\n\n- **SoftBank** (largest shareholder) - subject to lock-up restrictions\n- **BowX Sponsor shares** - standard sponsor lock-up terms\n- **WeWork management/insiders** - restricted from immediate sales\n\n**Note:** I have general knowledge that lock-ups were part of this deal, but I don't have reliable information about the *exact* durations or specific early release conditions for each party. The specific percentages and triggers would be detailed in the merger agreement and proxy filings.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 236,
+  "output_tokens": 377,
+  "latency_ms": 10472,
+  "timestamp": "2026-01-13T23:52:19.622019",
+  "cost_usd": 0.010605,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01EtUrva4JDi6pLtE36gqrhQ",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Lock-Up Agreements in the WeWork/BowX SPAC Merger\n\n**Confidence: [HIGH] for general concepts, [MEDIUM] for WeWork-specific terms**\n**Source: [TRAINING]**\n\n## General Definition\n\nLock-up agreements are contractual provisions that restrict certain shareholders from selling their shares for a specified period following a transaction (such as an IPO, SPAC merger, or de-SPAC). They are designed to:\n\n- Prevent a flood of shares hitting the market immediately post-transaction\n- Provide price stability during the initial trading period\n- Demonstrate insider confidence in the company's prospects\n\n## Typical Structure in SPAC Mergers\n\n| Party | Typical Lock-Up Period |\n|-------|----------------------|\n| Sponsor shares | 12 months (often with early release triggers) |\n| Founder/management shares | 6-12 months |\n| PIPE investors | Often 6 months or less |\n| Existing shareholders | Varies, typically 6-12 months |\n\n## WeWork/BowX Specific Terms\n\nFrom my training knowledge, the WeWork SPAC deal included lock-up provisions for:\n\n- **SoftBank** (largest shareholder) - subject to lock-up restrictions\n- **BowX Sponsor shares** - standard sponsor lock-up terms\n- **WeWork management/insiders** - restricted from immediate sales\n\n**Note:** I have general knowledge that lock-ups were part of this deal, but I don't have reliable information about the *exact* durations or specific early release conditions for each party. The specific percentages and triggers would be detailed in the merger agreement and proxy filings."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 236,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 377,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "I don\u2019t have reliable information about whether there were going concern disclosures in the WeWork/BowX 2021 SPAC merger documents (e.g., in the proxy/registration statement, financial statements, or auditor\u2019s report).  \n\n- Confidence: **LOW**  \n- Source: **[UNCERTAIN]**  \n- Case specificity: **Specific to the WeWork/BowX case**",
+  "model": "gpt-5.2",
+  "input_tokens": 217,
+  "output_tokens": 84,
+  "latency_ms": 3017,
+  "timestamp": "2026-01-14T00:00:40.641235",
+  "cost_usd": 0.0015557499999999998,
+  "raw_response": {
+    "id": "resp_044e3af7903de046006966dca5e7b081a2a2637b625b74e7f4",
+    "object": "response",
+    "created_at": 1768348837,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348840,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_044e3af7903de046006966dca6394c81a28a9a452fc4c3fb21",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don\u2019t have reliable information about whether there were going concern disclosures in the WeWork/BowX 2021 SPAC merger documents (e.g., in the proxy/registration statement, financial statements, or auditor\u2019s report).  \n\n- Confidence: **LOW**  \n- Source: **[UNCERTAIN]**  \n- Case specificity: **Specific to the WeWork/BowX case**"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 217,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 84,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 301
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

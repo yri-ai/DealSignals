@@ -1,0 +1,47 @@
+{
+  "content": "I don't have reliable information about this.",
+  "model": "grok-code",
+  "input_tokens": 416,
+  "output_tokens": 8,
+  "latency_ms": 18249,
+  "timestamp": "2026-01-13T23:31:00.163608",
+  "cost_usd": 0.0,
+  "raw_response": {
+    "id": "4335e9d5-c8f5-1919-2666-8f9b0b3b491b",
+    "object": "chat.completion",
+    "created": 1768347042,
+    "model": "grok-code",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "I don't have reliable information about this.",
+          "reasoning_content": "## Investigating WeWork's Financials  \n- WeWork reported a net loss of $1.4 billion for the nine months ended September 30, 2021, before its merger.  \n- For 2021, total revenue was around $2.15 billion, but the company still faced significant losses, including a $3.2 billion net loss for the year.  \n\n## Reviewing Post-Merger Performance  \n- In 2022, WeWork's net loss was $1.3 billion for the year, showing continued financial challenges.  \n- By Q3 2023, revenue grew to $935 million (up 13%), with adjusted EBITDA at $108 million, but a net loss of $109 million persisted.  \n\n## Assessing Operating Losses  \n- Operating loss, defined as loss from operations before interest and taxes, is unclear for the most recent period in the given data.  \n- WeWork's financials suggest large operating losses historically, but exact figures for the latest period aren't reliably memorized here.  \n\n## Determining Reliable Information  \n- The question's \"most recent period\" is vague, possibly referring to pre- or post-merger in 2021, but specifics are lacking.  \n- Given the uncertainty, the response is: \"I don't have reliable information about this,\" with [LOW] confidence, [UNCERTAIN].",
+          "refusal": null
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 416,
+      "completion_tokens": 8,
+      "total_tokens": 1361,
+      "prompt_tokens_details": {
+        "text_tokens": 416,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "cached_tokens": 320
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 937,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 0
+    },
+    "system_fingerprint": "fp_c85e32c255"
+  }
+}

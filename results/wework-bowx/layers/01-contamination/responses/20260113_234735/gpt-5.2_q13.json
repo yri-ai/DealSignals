@@ -1,0 +1,80 @@
+{
+  "content": "**Answer:** Total lease obligations are the total contractual payments a company is committed to make under its lease agreements over the remaining lease terms (often including fixed minimum rent and other non-cancelable payments; treatment of variable/contingent amounts depends on the accounting rules and disclosure). They\u2019re typically disclosed as future minimum lease payments/commitments and, under modern lease accounting (ASC 842/IFRS 16), relate to the cash outflows underlying recognized lease liabilities (for operating and finance leases).\n\n- **Confidence:** HIGH  \n- **Source tag:** [TRAINING]  \n- **Note (general vs. WeWork/BowX-specific):** General accounting/finance concept (not specific to the WeWork/BowX deal).",
+  "model": "gpt-5.2",
+  "input_tokens": 217,
+  "output_tokens": 153,
+  "latency_ms": 5051,
+  "timestamp": "2026-01-13T23:59:22.940839",
+  "cost_usd": 0.00252175,
+  "raw_response": {
+    "id": "resp_0a2043d81ec1d0ef006966dc562428819ca2703914e3a5fa24",
+    "object": "response",
+    "created_at": 1768348758,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348762,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0a2043d81ec1d0ef006966dc56680c819c9ff1958c2f554caf",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Answer:** Total lease obligations are the total contractual payments a company is committed to make under its lease agreements over the remaining lease terms (often including fixed minimum rent and other non-cancelable payments; treatment of variable/contingent amounts depends on the accounting rules and disclosure). They\u2019re typically disclosed as future minimum lease payments/commitments and, under modern lease accounting (ASC 842/IFRS 16), relate to the cash outflows underlying recognized lease liabilities (for operating and finance leases).\n\n- **Confidence:** HIGH  \n- **Source tag:** [TRAINING]  \n- **Note (general vs. WeWork/BowX-specific):** General accounting/finance concept (not specific to the WeWork/BowX deal)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 217,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 153,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 370
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "Revenue per available desk/workstation is a unit metric typically calculated as:\n\n**Revenue per available desk (or workstation) = Total revenue over a period \u00f7 Average number of available desks/workstations (capacity) during that period**  \n(often expressed per month or per year).\n\nIt\u2019s used in flexible office/coworking to measure monetization of capacity (similar in spirit to hotel \u201cRevPAR,\u201d but per desk).\n\n- **Confidence:** HIGH (for the definition/formula as general finance/real-estate unit economics)\n- **Source tag:** [TRAINING]\n- **Note:** General knowledge (not specific to the WeWork/BowX 2021 deal)\n\nIf you meant the *specific numerical value WeWork reported* for this metric around the BowX merger, **I don\u2019t have reliable information about the exact figure**.  \n- **Confidence:** LOW for any specific WeWork number (so I\u2019m not providing one)  \n- **Source tag:** [UNCERTAIN]",
+  "model": "gpt-5.2",
+  "input_tokens": 220,
+  "output_tokens": 205,
+  "latency_ms": 7916,
+  "timestamp": "2026-01-13T23:27:38.866262",
+  "cost_usd": 0.003255,
+  "raw_response": {
+    "id": "resp_06c6c85e904ba775006966d4e3bbcc8193a199528807ae6f03",
+    "object": "response",
+    "created_at": 1768346851,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768346858,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_06c6c85e904ba775006966d4e428c08193a2e30e01c7edeaa6",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Revenue per available desk/workstation is a unit metric typically calculated as:\n\n**Revenue per available desk (or workstation) = Total revenue over a period \u00f7 Average number of available desks/workstations (capacity) during that period**  \n(often expressed per month or per year).\n\nIt\u2019s used in flexible office/coworking to measure monetization of capacity (similar in spirit to hotel \u201cRevPAR,\u201d but per desk).\n\n- **Confidence:** HIGH (for the definition/formula as general finance/real-estate unit economics)\n- **Source tag:** [TRAINING]\n- **Note:** General knowledge (not specific to the WeWork/BowX 2021 deal)\n\nIf you meant the *specific numerical value WeWork reported* for this metric around the BowX merger, **I don\u2019t have reliable information about the exact figure**.  \n- **Confidence:** LOW for any specific WeWork number (so I\u2019m not providing one)  \n- **Source tag:** [UNCERTAIN]"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 220,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 205,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 425
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

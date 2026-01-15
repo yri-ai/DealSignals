@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the average revenue per member for WeWork around the time of its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 220,
+  "output_tokens": 42,
+  "latency_ms": 919,
+  "timestamp": "2026-01-14T00:52:27.163466",
+  "cost_usd": 0.000193,
+  "raw_response": {
+    "id": "chatcmpl-8cebe39adac5400283615636770ced15",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the average revenue per member for WeWork around the time of its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351946,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 220,
+      "completion_tokens": 42,
+      "total_tokens": 262,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

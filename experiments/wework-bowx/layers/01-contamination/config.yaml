@@ -13,12 +13,18 @@ layer:
     user: prompts/user.md
 
   models:
-    - claude
-    - gpt4
-    - gemini-flash
-    - deepseek
-    - grok
-    - mistral
+    - claude-opus-4-5
+    - claude-sonnet-4-5
+    - gpt-5.2
+    # - gemini-3-flash  # EXCLUDED: ZenMux 500 errors as of 2026-01-13
+    - grok-code
+    - glm-4.7-free
+    - kimi-k2
+
+  # NOTE: gemini-3-flash and gemini-3-pro excluded due to ZenMux upstream 500 errors.
+  # Issue detected: 2026-01-13. All other models (Claude, GPT, Grok, GLM, Kimi) working.
+  # Re-test Gemini availability before production runs.
+  # See: results/wework-bowx/layers/01-contamination/NOTES.md
 
   question_filter: {}
 

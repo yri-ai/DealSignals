@@ -1,0 +1,34 @@
+{
+  "content": "**Answer:** I don't have reliable information about this specific metric.\n\n**Confidence:** LOW\n\n**Source:** [UNCERTAIN]\n\n**Explanation:** \"Contribution margin per membership\" is a unit economics metric that WeWork would have disclosed in their investor presentations and SEC filings related to the BowX SPAC merger. While I have general knowledge that WeWork tracked metrics around per-desk and per-membership profitability, I do not have reliable recall of the specific contribution margin figures they reported.\n\nThis is the type of granular financial data that would have been in their S-4 filing, investor presentations, or earnings materials, but I cannot confidently cite a specific number without risking fabrication.\n\n**What I do know (MEDIUM confidence, TRAINING):**\n- WeWork emphasized improving unit economics as part of their turnaround story for the SPAC merger\n- They reported metrics showing improvement from their failed 2019 IPO attempt\n- Contribution margin was a key metric they used to demonstrate path to profitability\n\nIf you need the specific figure, I'd recommend reviewing WeWork's SEC filings from the BowX transaction period (2021) or their investor presentation materials.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 235,
+  "output_tokens": 261,
+  "latency_ms": 7607,
+  "timestamp": "2026-01-13T23:48:22.159198",
+  "cost_usd": 0.0077,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_011HZCYGDqmC3ebZoaqPV1oS",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "**Answer:** I don't have reliable information about this specific metric.\n\n**Confidence:** LOW\n\n**Source:** [UNCERTAIN]\n\n**Explanation:** \"Contribution margin per membership\" is a unit economics metric that WeWork would have disclosed in their investor presentations and SEC filings related to the BowX SPAC merger. While I have general knowledge that WeWork tracked metrics around per-desk and per-membership profitability, I do not have reliable recall of the specific contribution margin figures they reported.\n\nThis is the type of granular financial data that would have been in their S-4 filing, investor presentations, or earnings materials, but I cannot confidently cite a specific number without risking fabrication.\n\n**What I do know (MEDIUM confidence, TRAINING):**\n- WeWork emphasized improving unit economics as part of their turnaround story for the SPAC merger\n- They reported metrics showing improvement from their failed 2019 IPO attempt\n- Contribution margin was a key metric they used to demonstrate path to profitability\n\nIf you need the specific figure, I'd recommend reviewing WeWork's SEC filings from the BowX transaction period (2021) or their investor presentation materials."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 235,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 261,
+      "service_tier": "standard"
+    }
+  }
+}

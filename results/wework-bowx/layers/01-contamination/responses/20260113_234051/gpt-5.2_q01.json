@@ -1,0 +1,80 @@
+{
+  "content": "I don\u2019t have reliable information about WeWork\u2019s revenue for the most recent reported period.  \n- Confidence: **LOW**  \n- Source tag: **[UNCERTAIN]**  \n- Note: This would be **specific to the WeWork/BowX case** (and depends on the exact \u201cmost recent period\u201d and reporting date).",
+  "model": "gpt-5.2",
+  "input_tokens": 224,
+  "output_tokens": 74,
+  "latency_ms": 2865,
+  "timestamp": "2026-01-13T23:41:20.004236",
+  "cost_usd": 0.001428,
+  "raw_response": {
+    "id": "resp_0effde26bfb679e5006966d81d713c81929f84119106824f89",
+    "object": "response",
+    "created_at": 1768347677,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768347679,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0effde26bfb679e5006966d81dede48192b78d018e34190b0d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don\u2019t have reliable information about WeWork\u2019s revenue for the most recent reported period.  \n- Confidence: **LOW**  \n- Source tag: **[UNCERTAIN]**  \n- Note: This would be **specific to the WeWork/BowX case** (and depends on the exact \u201cmost recent period\u201d and reporting date)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 224,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 74,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 298
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

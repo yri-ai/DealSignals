@@ -1,0 +1,80 @@
+{
+  "content": "I don\u2019t have reliable information about the specific **duration profile of WeWork\u2019s lease commitments** in the context of the **2021 BowX SPAC merger** (e.g., a breakdown by maturity buckets/weighted-average remaining lease term as presented in the merger materials).\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Note: This is **specific to the WeWork/BowX case**, not general knowledge.",
+  "model": "gpt-5.2",
+  "input_tokens": 220,
+  "output_tokens": 96,
+  "latency_ms": 3125,
+  "timestamp": "2026-01-13T23:59:26.069253",
+  "cost_usd": 0.001729,
+  "raw_response": {
+    "id": "resp_0413c7d4fcb33184006966dc5b341081a2a0e2f375f44c532a",
+    "object": "response",
+    "created_at": 1768348763,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348765,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0413c7d4fcb33184006966dc5b73a481a280d203f71c8bf013",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don\u2019t have reliable information about the specific **duration profile of WeWork\u2019s lease commitments** in the context of the **2021 BowX SPAC merger** (e.g., a breakdown by maturity buckets/weighted-average remaining lease term as presented in the merger materials).\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Note: This is **specific to the WeWork/BowX case**, not general knowledge."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 220,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 96,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 316
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "content": "I don't have reliable information about WeWork's contribution margin per membership from my training data. This appears to be a specific financial metric for the company, and I lack details on it.\n\n- Confidence: LOW\n- Source: UNCERTAIN (not from pre-training knowledge)",
+  "model": "grok-code",
+  "input_tokens": 413,
+  "output_tokens": 55,
+  "latency_ms": 7814,
+  "timestamp": "2026-01-13T23:32:06.019442",
+  "cost_usd": 0.0,
+  "raw_response": {
+    "id": "35950477-16d7-7fe7-3918-511bc21186d5",
+    "object": "chat.completion",
+    "created": 1768347118,
+    "model": "grok-code",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "I don't have reliable information about WeWork's contribution margin per membership from my training data. This appears to be a specific financial metric for the company, and I lack details on it.\n\n- Confidence: LOW\n- Source: UNCERTAIN (not from pre-training knowledge)",
+          "reasoning_content": "## Investigating WeWork's Contribution Margin  \n- The user asked about WeWork's contribution margin per membership related to its 2021 SPAC merger with BowX Acquisition Corp.  \n- Contribution margin is revenue minus variable costs, typically calculated per unit, but specific figures for WeWork per membership aren't in my knowledge base.  \n\n## Assessing Knowledge Reliability  \n- I don't have reliable information on WeWork's contribution margin per membership; it's a company-specific metric, not general financial knowledge.  \n- My response will note this limitation, following instructions to avoid speculation.",
+          "refusal": null
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 413,
+      "completion_tokens": 55,
+      "total_tokens": 849,
+      "prompt_tokens_details": {
+        "text_tokens": 413,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "cached_tokens": 320
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 381,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 0
+    },
+    "system_fingerprint": "fp_c85e32c255"
+  }
+}

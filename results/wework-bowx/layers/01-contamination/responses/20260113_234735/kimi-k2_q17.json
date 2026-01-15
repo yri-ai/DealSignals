@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about what specifically happens to WeWork\u2019s business at a 50 % occupancy level. My training does not contain a clear, pre-existing data point that links the 50 % occupancy threshold to a defined operational or financial outcome for WeWork or for the BowX SPAC merger.",
+  "model": "kimi-k2",
+  "input_tokens": 223,
+  "output_tokens": 63,
+  "latency_ms": 1176,
+  "timestamp": "2026-01-14T00:52:32.181955",
+  "cost_usd": 0.0002467,
+  "raw_response": {
+    "id": "chatcmpl-eeb52ad96cff4402a3f9bf7d17e11600",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about what specifically happens to WeWork\u2019s business at a 50 % occupancy level. My training does not contain a clear, pre-existing data point that links the 50 % occupancy threshold to a defined operational or financial outcome for WeWork or for the BowX SPAC merger.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351951,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 63,
+      "total_tokens": 286,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

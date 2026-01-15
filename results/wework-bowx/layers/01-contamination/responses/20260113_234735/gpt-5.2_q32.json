@@ -1,0 +1,80 @@
+{
+  "content": "I don't have reliable information about the exact post-merger voting structure (e.g., whether WeWork had dual-class shares, specific class vote weights, or detailed governance/vote control provisions) for the WeWork\u2013BowX 2021 transaction.\n\n- Confidence: LOW  \n- Source: [UNCERTAIN]  \n- Note: This is specific to the WeWork/BowX case (not general knowledge).",
+  "model": "gpt-5.2",
+  "input_tokens": 220,
+  "output_tokens": 87,
+  "latency_ms": 3375,
+  "timestamp": "2026-01-14T00:00:53.542114",
+  "cost_usd": 0.0016029999999999998,
+  "raw_response": {
+    "id": "resp_088fc6954aed6598006966dcb26a088195aa3dff9c7b8ae528",
+    "object": "response",
+    "created_at": 1768348850,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348853,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_088fc6954aed6598006966dcb2ca3481959236d913642de4c2",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don't have reliable information about the exact post-merger voting structure (e.g., whether WeWork had dual-class shares, specific class vote weights, or detailed governance/vote control provisions) for the WeWork\u2013BowX 2021 transaction.\n\n- Confidence: LOW  \n- Source: [UNCERTAIN]  \n- Note: This is specific to the WeWork/BowX case (not general knowledge)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 220,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 87,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 307
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

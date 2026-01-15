@@ -1,336 +1,696 @@
 # Ground Truth Answers for WeWork/BowX Case Study
 # 
-# STATUS: NOT YET COMPLETED
-# These answers must be established by human expert review BEFORE any AI testing.
-# Do not modify after AI experiments begin.
+# STATUS: LOCKED - Do not modify
+# Populated from Human_Review.md expert analysis
+# Locked per methodology: no modifications after AI testing begins.
 #
-# Process:
-# 1. Expert reads all source documents
-# 2. Answers each question with citations
-# 3. Categories each answer (stated/derived/inferred/external/synthesized)
-# 4. Lock this file (no modifications after AI testing begins)
+# Categories:
+#   stated: Explicitly written in filings
+#   derived: Calculable from disclosed numbers
+#   inferred: Patterns requiring interpretation
+#   external: Requires knowledge beyond documents
+#   synthesized: Requires connecting multiple documents
 
-locked: false
-locked_at: null
-locked_by: null
+locked: true
+locked_at: "2026-01-13T00:00:00Z"
+locked_by: "human_expert"
 
 answers:
   q01:
-    status: pending
-    answer: null
-    category: null  # stated | derived | inferred | external | synthesized
-    citations: []
-    difficulty: null  # easy | medium | hard
-    notes: null
-    
+    status: complete
+    answer: |
+      H1 2021 (6 months ended June 30): $1,191M
+      FY 2020 (full year): $3,416M
+    category: stated
+    citations:
+      - document: S-4
+        page: 254
+        section: Condensed Consolidated Results of Operations
+    difficulty: easy
+    notes: Direct extraction from income statement
+
   q02:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      H1 2021 vs H1 2020: -38.6% ($1,191M vs $1,939M)
+      FY 2020 vs FY 2019: -1.2% ($3,416M vs $3,459M)
+      FY 2019 vs FY 2018: +89.8% ($3,459M vs $1,822M)
+    category: derived
+    citations:
+      - document: S-4
+        page: 254
+        section: Condensed Consolidated Results of Operations
+    difficulty: easy
+    notes: Calculation from stated revenue figures
 
   q03:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      H1 2021: $(2,356M) operating loss
+      H1 2020: $(2,040M) operating loss
+      FY 2020: $(4,347M) operating loss
+    category: stated
+    citations:
+      - document: S-4
+        page: 254
+        section: Loss from operations line item
+    difficulty: easy
+    notes: Direct extraction
 
   q04:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Cash used in operating activities (H1 2021): $(1,159M)
+      Cash used in investing activities (H1 2021): $(187M)
+      Total burn (H1 2021): $(1,346M)
+      Monthly burn rate: ~$224M/month
+    category: derived
+    citations:
+      - document: S-4
+        page: 286
+        section: Statement of Cash Flows
+    difficulty: medium
+    notes: Requires combining operating and investing cash flows
 
   q05:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Cash at end of H1 2021: $855M
+      Monthly burn rate: $224M
+      Runway: ~3.8 months
+      WeWork required the SPAC proceeds to survive.
+    category: derived
+    citations:
+      - document: S-4
+        page: 286
+        section: Cash balance, calculated runway
+    difficulty: medium
+    notes: Critical finding - less than 4 months cash without deal
 
   q06:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      WeWork projected Adjusted EBITDA profitability in 2022 with $243M positive EBITDA.
+      2020A: $(1,754M), 2021E: $(1,463M), 2022E: $243M, 2023E: $1,256M, 2024E: $1,996M
+      Initial projections showed 2022E EBITDA of $485M - revised down to $243M before deal closed.
+    category: stated
+    citations:
+      - document: S-4
+        page: 147
+        section: Current Projections
+    difficulty: medium
+    notes: Projections were already revised down 50% before closing
 
   q07:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Physical Occupancy: 44% (2020A) -> 74% (2021E) -> 86% (2022E) -> 87% (2023E)
+      Total Occupancy: 45% (2020A) -> 81% (2021E) -> 94% (2022E) -> 101% (2023E)
+      Physical Memberships: 380k -> 541k -> 706k -> 776k -> 839k
+      Net ARPM: $494 -> $463 -> $494 -> $528 -> $547
+      Red Flags: Occupancy assumed to nearly double in 2 years; 101% total occupancy assumes "All Access" fills beyond physical capacity; 64% revenue growth projected while H1 2021 showed -39% YoY decline
+    category: stated
+    citations:
+      - document: S-4
+        page: 147-148
+        section: Key assumptions underlying the Current Projections
+    difficulty: medium
+    notes: Aggressive assumptions are key red flag
 
   q08:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      NEGATIVE contribution margin
+      Revenue (H1 2021): $1,191M (~$441/member/month)
+      Location operating expenses: $1,599M (~$592/member/month)
+      Location-level contribution: $(408M) ($(151)/member/month)
+      WeWork loses approximately $150/month per member at the location level, before corporate overhead.
+    category: derived
+    citations:
+      - document: S-4
+        page: 254
+        section: Revenue & location expenses
+      - document: S-4
+        page: 147
+        section: Memberships
+    difficulty: hard
+    notes: Critical finding - negative unit economics
 
   q09:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Net ARPM (revenue per membership): $463-494/month
+      Revenue per physical workstation: ~$3,600-3,700/year
+      2020A: $3,210M / 865k workstations = $3,711/workstation/year
+      2021E: $2,655M / 730k workstations = $3,637/workstation/year
+    category: derived
+    citations:
+      - document: S-4
+        page: 147
+    difficulty: medium
+    notes: Calculation from projections table
 
   q10:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      2019A: 74% physical, 74% total (Pre-COVID baseline)
+      2020A: 44% physical, 45% total (COVID collapse)
+      2021E: 74% physical, 81% total (Projected full recovery)
+      2022E: 86% physical, 94% total (Projected growth)
+      Key Finding: Occupancy crashed 74% to 44% due to COVID. Projections assumed exceeding pre-COVID levels within 2 years.
+    category: stated
+    citations:
+      - document: S-4
+        page: 147
+    difficulty: easy
+    notes: Trend shows COVID impact and aggressive recovery assumptions
 
   q11:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      NOT DISCLOSED
+      The S-4 does not disclose member churn rate directly.
+      Inferrable: Physical memberships 517k (2019A) -> 380k (2020A) = -26% decline, but this conflates churn with COVID-driven demand collapse.
+      Red Flag: Material metric omission. Churn is critical for a membership business but not provided.
+    category: stated
+    citations:
+      - document: S-4
+        page: 147
+        section: Membership counts only
+    difficulty: medium
+    notes: Absence of disclosure is itself a red flag
 
   q12:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      $463-494/month (Net ARPM)
+      2020A: $494/month
+      2021E: $463/month
+      2022E: $494/month
+      2024E: $547/month
+    category: stated
+    citations:
+      - document: S-4
+        page: 147
+        section: Core + New Leased Net ARPM
+    difficulty: easy
+    notes: Direct extraction
 
   q13:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      $34.1 BILLION in non-cancelable operating lease commitments as of June 30, 2021.
+      Additional: Per footnote (1), this EXCLUDES an additional $2.4 billion relating to executed non-cancelable leases not yet commenced.
+      True total exposure: ~$36.5 billion
+    category: stated
+    citations:
+      - document: S-4
+        page: 291
+        section: Contractual Obligations table
+    difficulty: easy
+    notes: Critical finding - massive fixed obligations
 
   q14:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Remainder 2021: $1.24B (3.6%)
+      2022: $2.52B (7.4%)
+      2023: $2.60B (7.6%)
+      2024: $2.65B (7.8%)
+      2025: $2.68B (7.9%)
+      2026 and beyond: $22.45B (65.8%)
+      Total: $34.14B
+      Key Finding: Two-thirds of lease obligations extend past 2026 - these are 10-15+ year commitments.
+    category: stated
+    citations:
+      - document: S-4
+        page: 291
+        section: Contractual Obligations table
+    difficulty: easy
+    notes: Long duration creates structural inflexibility
 
   q15:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      NON-CANCELABLE
+      Per footnote (1) on Page 291: "non-cancelable operating leases" with "initial or remaining lease terms in excess of one year."
+      Includes: Escalation clauses, lease incentive receivables, contingent lease cost payments.
+      WeWork has NO general right to exit these obligations early without landlord consent and likely significant breakage costs.
+    category: stated
+    citations:
+      - document: S-4
+        page: 291
+        section: Contractual Obligations footnote (1)
+    difficulty: medium
+    notes: No exit option is the structural flaw
 
   q16:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      At 70% occupancy (just 4 points below plan):
+      Members: 591k x (70/74) = 559k
+      Revenue: 559k x $463 ARPM x 12 = $3.1B
+      Costs: Lease payments (fixed) $2.7B + Other location costs $0.6B + Corporate overhead $1.0B = $4.3B
+      Operating Loss: $(1.2B)/year
+    category: derived
+    citations:
+      - document: S-4
+        page: 147
+        section: Projections (baseline for calculation)
+    difficulty: hard
+    notes: Sensitivity analysis - shows fragility of model
 
   q17:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      At 50% occupancy:
+      Members: 591k x (50/74) = 399k
+      Revenue: 399k x $463 ARPM x 12 = $2.2B
+      Costs: Lease payments (fixed) $2.7B + Other location costs $0.4B + Corporate overhead $1.0B = $4.1B
+      Operating Loss: $(1.9B)/year
+      Revenue doesn't even cover lease costs alone.
+    category: derived
+    citations:
+      - document: S-4
+        page: 147
+        section: Projections (baseline for calculation)
+    difficulty: hard
+    notes: Shows revenue < lease obligations at moderate stress
 
   q18:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      $8.8 billion (pre-transaction enterprise value)
+      Timeline: Dec 22, 2020 BowX proposal $9.79B -> Jan 15, 2021 LOI $10.11B -> Feb 4, 2021 Final LOI $9.80B -> Final deal $8.8B
+      Valuation DECREASED 13% during negotiations ($10.1B -> $8.8B)
+      Merger consideration: 851.3M shares at $10.00/share
+      Implied pre-transaction equity value: $8.53B
+      Minimum cash condition: $1.0B
+    category: stated
+    citations:
+      - document: S-4
+        page: 16
+      - document: S-4
+        page: 130-131
+    difficulty: medium
+    notes: Valuation declined during negotiations - unusual
 
   q19:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      NONE DISCLOSED / NO FAIRNESS OPINION
+      "The BowX board of directors did not obtain a third-party valuation or fairness opinion in connection with its determination to approve the Business Combination."
+      Board claimed they were "qualified to conclude that the Business Combination was fair from a financial perspective" based on their own "financial skills and background."
+      Board self-determined WeWork's fair market value was at least 80% of BowX's net assets - the minimum SPAC threshold.
+    category: stated
+    citations:
+      - document: S-4
+        section: Q&A section
+    difficulty: easy
+    notes: Critical red flag - no independent validation of $8.8B price
 
   q20:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      NOT PROVIDED
+      No DCF analysis, no comparable public companies analysis, no precedent transactions analysis, no justification for the multiple paid, no independent valuation of any kind.
+      Filing states: "Investors will be relying on the judgment of the BowX board of directors... and assuming the risk that the BowX board of directors may not have properly valued such business."
+    category: stated
+    citations:
+      - document: S-4
+        section: Q&A section
+    difficulty: easy
+    notes: $8.8B deal with zero valuation benchmarking
 
   q21:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      CEO Sandeep Mathrani - experienced real estate executive, but traditional property management background.
+      Brookfield Properties Retail CEO (Aug 2018-Feb 2020, 1.5 years)
+      General Growth Properties CEO (Dec 2010-Aug 2018, led post-bankruptcy turnaround)
+      Vornado Realty Trust EVP (2002-2010, 9 years)
+      Forest City Ratner EVP (1994-2002, retail development)
+      Positive: GGP turnaround experience.
+      Concern: All experience is traditional property management (malls, retail REITs). WeWork is different - subscription/membership model with $34B lease liabilities (not assets).
+    category: stated
+    citations:
+      - document: S-4
+        section: Management section
+    difficulty: medium
+    notes: Track record is in different business model
 
   q22:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      SoftBank is WeWork's largest shareholder, primary lender, and co-obligor on critical credit facilities.
+      2020 LC Facility: $1.7B outstanding (SBG is co-obligor)
+      Senior Unsecured Debt: $2.2B outstanding
+      LC Debt Facility: $349M outstanding
+      Senior Secured Notes: $1.1B available (undrawn)
+      Total SoftBank Exposure: ~$4.25B+ outstanding plus $1.1B available
+      LC Facility termination: February 10, 2023 (18 months post-deal)
+      Red Flag: SoftBank NEEDED this SPAC deal to create exit liquidity for their $4B+ exposure. The LC facility expired Feb 2023 - without public listing or refinancing, WeWork collapses and SoftBank loses billions.
+    category: stated
+    citations:
+      - document: S-4
+        page: 135
+      - document: S-4
+        page: 282
+    difficulty: hard
+    notes: SoftBank had massive conflict of interest
 
   q23:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Extensive SoftBank sweetheart deals and Neumann landlord conflicts.
+      SoftBank Penny Warrants: 14.4M shares on LC facility renewal (~$144M) + 47.4M shares at merger closing (~$474M) = 61.8M total shares (~$618M for essentially free)
+      Adam Neumann Landlord Conflicts: WeWork leased buildings from entities Neumann had ownership interest in.
+      Filing admits: "the interests of the landlord entity and its stockholders may not align with the interests of the Company"
+      Filing admits: "Company may have achieved more favorable terms if such transactions had not been entered into with related parties"
+    category: stated
+    citations:
+      - document: S-4
+        page: 40
+      - document: S-4
+        page: F-81
+      - document: S-4
+        page: F-256-257
+    difficulty: medium
+    notes: Multiple conflicts acknowledged in filing
 
   q24:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Executives received substantial compensation while company burned $224M/month with 3.8 months runway.
+      2020 Executive Compensation:
+      Sandeep Mathrani (CEO): $7.54M total ($1.28M salary + $1.50M bonus + $4.76M options)
+      Benjamin Dunham (CFO): $2.53M
+      Former Executive Golden Parachutes:
+      Arthur Minson (Former Co-CEO): $8.74M ($8.3M severance)
+      Sebastian Gunningham (Former Co-CEO): $11.30M ($8.3M severance + $2.2M loan forgiveness)
+      Eugen Miropolski (Former President): $32.10M ($12.9M loan forgiveness + $10.3M tax gross-up)
+      Red Flags: Option grants at $2.10/share while SPAC investors pay $10/share. Total exec comp ~$71M in a year with 3.8 months runway.
+    category: stated
+    citations:
+      - document: S-4
+        page: 313-315
+        section: Executive Compensation Tables
+    difficulty: medium
+    notes: Misaligned incentives during cash crisis
 
   q25:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Despite being ousted after 2019 IPO collapse, Neumann retained substantial ownership and voting control.
+      WE Holdings LLC: 57,790,545 shares (sole voting power)
+      ANINCENTCO entities: 544,030 shares
+      WeWork Partnerships Profits Interest Units: 19,884,233 units
+      Class C Common Stock: 19,884,233 shares
+      Total Voting Power Post-Merger: 10.9% - 11.7%
+      Red Flags: Neumann was fired for cause but retained ~11% voting power. Gets ~20M profit interest units - additional upside despite his failures. Was both landlord AND CEO. No clawback of prior compensation.
+    category: stated
+    citations:
+      - document: S-4
+        page: 40
+      - document: S-4
+        section: Beneficial ownership tables
+    difficulty: medium
+    notes: Fired founder retained significant control
 
   q26:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      THE SMOKING GUN DISCLOSURE (Pages 34-35):
+      "The average length of the initial term of its leases is approximately 15 years, and the average term of its membership agreements is 15 months."
+      "Future undiscounted minimum lease cost payment obligations... was $36.6 billion and committed sales contracts to be recognized as revenue in the future totaled approximately $3 billion."
+      Additional: Lease inflexibility ("long-term leases that, with limited exceptions, do not contain early termination provisions"), fixed costs not tied to utilization, inability to reduce rent or terminate leases, $12.5B+ cumulative losses, landlords suing on guarantees, security deposits being drawn.
+      The fatal 26:1 liability mismatch ($36.6B vs $3B) was explicitly stated in the filing.
+    category: stated
+    citations:
+      - document: S-4
+        page: 34-35
+      - document: S-4
+        page: 40
+    difficulty: easy
+    notes: Fatal flaw WAS DISCLOSED - investors didn't act on it
 
   q27:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Yes - BowX had accounting issues and a director had prior bankruptcy.
+      BowX Warrant Accounting: Restated financial statements in 2021. Warrants reclassified from equity to liabilities. Filing warns of "potential for litigation or other disputes... claims invoking federal and state securities laws"
+      BowX Director Background: Hamid Hashemi was CEO of iPic Entertainment which filed Chapter 11 bankruptcy in August 2019.
+      Material Weakness (Page 82): "we did not maintain effective internal control over financial reporting as of December 31, 2020 because of a material weakness... related to the accounting for a significant and unusual transaction related to the warrants"
+    category: stated
+    citations:
+      - document: S-4
+        page: 82
+        section: BowX financial statements
+    difficulty: medium
+    notes: BowX itself had control failures
 
   q28:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      YES - BowX explicitly warned the combined company might not be able to pay its bills.
+      Page 72: "the cash held by New WeWork and its subsidiaries... after the Closing may not be sufficient to allow it to operate and pay its bills as they become due"
+      "Any such event in the future may negatively impact the analysis regarding New WeWork's ability to continue as a going concern at such time."
+      BowX's Own Cash Position (F-230): Cash in operating account $506,000, Working capital $(2.9M) deficit, 100% reliant on PIPE + redemption outcome.
+      The filing warned: if too many BowX shareholders redeem, the merged company might not survive - but they might close the deal anyway.
+    category: stated
+    citations:
+      - document: S-4
+        page: 72
+      - document: S-4
+        page: F-230
+    difficulty: medium
+    notes: Going concern warning was explicit
 
   q29:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Ernst & Young issued a CLEAN OPINION with NO going concern language.
+      "In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company at December 31, 2020 and 2019..."
+      Critical Audit Matters: Impairment of Long-lived Assets ($1.142B impairment), Valuation of Equity Instruments ($419M in convertible liabilities).
+      MISSING: Going Concern Paragraph - despite ~4 months runway, $224M/month burn, $36.6B lease obligations, $3.8B net loss (2020), ~$12.5B accumulated deficit, dependence on SoftBank.
+      Auditor Failure: EY likely relied on SoftBank support and SPAC deal closing - circular logic.
+    category: stated
+    citations:
+      - document: S-4
+        page: F-98
+      - document: S-4
+        page: F-99
+        section: Ernst & Young Report
+    difficulty: hard
+    notes: Gatekeeper failure - clean audit despite going concern indicators
 
   q30:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      YES - BowX disclosed a material weakness in internal controls.
+      "we did not maintain effective internal control over financial reporting as of December 31, 2020 because of a material weakness in our internal control over financial reporting related to the accounting for a significant and unusual transaction related to the warrants"
+      Impact: Required restatement of audited financial statements. Warrants reclassified from equity to liabilities. Management concluded controls NOT effective.
+      Note: This was BowX's issue, but raises questions about BowX's capability to evaluate a complex target.
+    category: stated
+    citations:
+      - document: S-4
+        page: 82
+    difficulty: easy
+    notes: Acquirer itself had control deficiencies
 
   q31:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      9-member board with significant SoftBank representation and limited independence.
+      SoftBank-affiliated (3): Marcelo Claure (SoftBank COO AND WeWork Executive Chairman), Michel Combes (President, SoftBank Group International), Kirthiga Reddy (Partner, SoftBank Investment Advisers)
+      Management: Sandeep Mathrani (WeWork CEO)
+      Investors: Bruce Dunlevie (Benchmark), Deven Parekh (Insight Partners)
+      Other: Jeffrey Sine (Raine Group), Vivek Ranadive (BowX Chairman)
+      Independent: Veronique Laury (1 of 9)
+      Control Summary: SoftBank 3 of 9 (33%), Truly independent 1 of 9 (11%), Management/Investors/Sponsors 5 of 9 (56%)
+    category: stated
+    citations:
+      - document: S-4
+        page: 297-301
+        section: Management of New WeWork Following the Business Combination
+    difficulty: medium
+    notes: SoftBank controlled board plus 65% voting power
 
   q32:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      SoftBank controls 65.2% of voting power - absolute majority control.
+      SBG (SoftBank Group): 364,289,126 shares (52.7%)
+      SVFE (SoftBank Vision Fund): 81,029,831 shares (12.5%)
+      SoftBank TOTAL: 445,318,957 shares (65.2%)
+      Adam Neumann: 58,334,575 shares (9.0%)
+      SoftBank + Neumann combined: 74.2% (supermajority)
+      SoftBank can unilaterally: Elect all directors, approve any transaction, block any shareholder proposal, amend bylaws/charter.
+      Red Flag: Public shareholders have NO meaningful governance voice. This is a controlled company in all but name.
+    category: stated
+    citations:
+      - document: S-4
+        page: 324-326
+        section: Beneficial Ownership of Securities
+    difficulty: medium
+    notes: SoftBank had absolute control
 
   q33:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Different lock-up periods for different insiders - Neumann gets preferential treatment.
+      Adam Neumann: 270 days (9 months)
+      SoftBank (SBG + SVFE): 1 year
+      Benchmark Capital: 1 year
+      BowX Sponsor: 1 year
+      Management: 1 year
+      Early Release Triggers: BowX sponsors if stock hits $12 for 20/30 trading days after 150 days.
+      Loopholes: Transfers to affiliates/funds/partners permitted, pledge arrangements for loans permitted, Neumann has special carve-out for existing pledge with StarBright WW LP, MFN clause.
+      Red Flags: Neumann (fired founder) can sell 3 months before SoftBank. Pledge arrangements allow effective early monetization.
+    category: stated
+    citations:
+      - document: S-4
+        page: 223
+      - document: S-4
+        section: Annex M (Lock-Up Agreement)
+    difficulty: hard
+    notes: Preferential treatment for fired founder
 
   q34:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      Major shareholders have demand and piggyback registration rights - company pays all costs.
+      SoftBank: 445.3M shares (65.2%) - Demand + Piggyback
+      Adam Neumann: 58.3M shares (9.0%) - Demand + Piggyback
+      Benchmark Capital: 19.5M shares (3.0%) - Demand + Piggyback
+      BowX Sponsor: 4.9M shares (<1%) - Demand + Piggyback
+      Management/Directors: Piggyback only
+      Terms: Up to 3 demand registrations, company bears all costs, cut-back provisions if oversubscribed.
+      Red Flag: Registration rights are the mechanism for SoftBank to convert 65% stake into cash. Cash-strapped WeWork pays for insider liquidity.
+    category: stated
+    citations:
+      - document: S-4
+        page: 225
+      - document: S-4
+        page: 332
+      - document: S-4
+        section: Annex I (Registration Rights Agreement)
+    difficulty: hard
+    notes: Company funds insider exits
 
   q35:
-    status: pending
-    answer: null
-    category: null
-    citations: []
-    difficulty: null
-    notes: null
+    status: complete
+    answer: |
+      WeWork claimed COVID accelerated flex-space demand, but their own numbers showed the opposite.
+      Claims: "Multi trillion-dollar commercial real estate market", Flex space to reach 13.3%-22.2% of U.S. office by 2030, "COVID-19 pandemic has accelerated the shift to flexible workspace", ~23% market share in U.S./Canada, "57% of 2021 Fortune 100 companies were WeWork members"
+      Contradictions: "COVID accelerated shift to flex" BUT Revenue DOWN 38.6%, "Proven business model through downturn" BUT Occupancy DOWN to 46%, "Maintained consistent revenue of $3.2B" BUT H1 2021 was collapsing
+      Competition Section (Page 235): ONE paragraph, no named competitors, no mention of IWG/Regus (larger, profitable competitor) or Knotel (bankrupt Jan 2021).
+    category: synthesized
+    citations:
+      - document: S-4
+        page: 229-236
+        section: Information About WeWork
+    difficulty: hard
+    notes: Narrative contradicted by financials
 
   q36:
-    status: pending
-    answer: "Not available in provided documents"
-    category: negative_test
-    citations: []
-    difficulty: easy
-    notes: Hallucination test - this information is not in the SEC filings
+    status: complete
+    answer: |
+      NO - Zero comparables, no valuation benchmarking.
+      Not Provided: Fairness opinion, DCF analysis, comparable public companies, precedent transactions, EV/Revenue multiple justification, EV/EBITDA multiple justification.
+      What Should Have Been Disclosed:
+      Public Company Comparables: IWG plc (Regus) - Global flex space leader, 3,300+ locations, PROFITABLE; Servcorp - Premium serviced offices, PROFITABLE
+      Precedent Transactions: Knotel bankruptcy (January 2021) - Flex-space competitor LIQUIDATED 9 months before deal; WeWork IPO (failed) September 2019 - Pulled at $47B, then $20B, then cancelled
+      Red Flags: $8.8B deal with zero benchmarking. IWG not mentioned (comparison would show WeWork overvalued). Knotel bankruptcy completely ignored. Board self-certified as "qualified."
+    category: stated
+    citations:
+      - document: S-4
+        section: Absence confirmed through search
+    difficulty: medium
+    notes: Most relevant comparables deliberately omitted
 
   q37:
-    status: pending
-    answer: "Not available in provided documents"
-    category: negative_test
-    citations: []
-    difficulty: easy
-    notes: Hallucination test - CAC not disclosed
+    status: complete
+    answer: |
+      NO CREDIBLE EXIT STRATEGY WAS DISCLOSED.
+      SPAC Proceeds: PIPE Investment $800M + BowX Trust ~$333M = ~$1.13B total
+      What $1.13B Covers: Monthly cash burn $224M (~5 months), Interest expense ~$300M/year (~3.8 months), CapEx ~$400M (<3 months)
+      What $1.13B Does NOT Cover: Lease obligations $36.6B (32x proceeds), Near-term lease payments (2022) ~$3.5B (3x proceeds), SoftBank LC Facility maturity Feb 2023 (16 months away)
+      Coverage ratio: $1.13B / $36.6B = 3.1%
+      Stated "Strategy": Asset-light transition (minimal progress), Lease renegotiations (no specifics), Location closures (ongoing losses), Achieve profitability by 2022 (required 44%->86% occupancy)
+      Red Flag: NO concrete plan for $36.6B structural mismatch. SPAC cash bought ~12-18 months runway, not a solution.
+    category: inferred
+    citations:
+      - document: S-4
+        section: Pro forma financials, projections
+    difficulty: hard
+    notes: Proceeds were band-aid, not solution
 
   q38:
-    status: pending
-    answer: "Not available in provided documents"
-    category: negative_test
-    citations: []
-    difficulty: easy
-    notes: Hallucination test - competitor data not in filings
+    status: complete
+    answer: |
+      MINIMAL STRUCTURAL CHANGES - same business model, same risks.
+      What Changed: Legal structure (private->public NYSE:WE), Cash position ($855M -> ~$2B with SPAC)
+      What Did NOT Change: Core structural mismatch (15-year leases vs 15-month memberships), Unit economics (still losing per member), SoftBank dependency, Governance (SoftBank 65% control), Cost structure (non-cancelable)
+      "Turnaround" Plan: Occupancy improvement (required impossible 44%->86% jump), Cost cutting (already done $1.5B in 2020), Asset-light model (<5% were management agreements), Geographic focus (still 700+ locations globally)
+      Red Flag: The SPAC was a LIQUIDITY EVENT, not a TRANSFORMATION. The fundamental business model that caused the 2019 IPO collapse remained intact.
+    category: synthesized
+    citations:
+      - document: S-4
+        section: Investor presentation, management discussion
+    difficulty: hard
+    notes: Nothing changed about the structural problem
 
   q39:
-    status: pending
-    answer: "Not available in provided documents"
-    category: negative_test
-    citations: []
-    difficulty: medium
-    notes: Hallucination test - may require careful reading to confirm absence
+    status: complete
+    answer: |
+      MULTIPLE RESTRICTIVE COVENANTS with SoftBank holding significant control.
+      2020 LC Facility: $1.7B outstanding, matures Feb 10, 2023, SBG is co-obligor
+      Senior Unsecured Debt: $2.2B, direct SoftBank lending
+      LC Debt Facility: $349M
+      Senior Secured Notes: $1.1B available, collateralized by "substantially all assets"
+      Covenant Structure: "Substantially all assets" pledged to SoftBank, restrictions on additional secured debt, change of control triggers, minimum liquidity requirements.
+      If WeWork Defaults: SoftBank can accelerate all facilities, seize substantially all assets, LC letters of credit called, landlords draw on security, cross-default triggers.
+      Circular Problem: WeWork needs cash -> Only SoftBank will lend -> SoftBank has $4B+ exposure -> Needs WeWork to survive -> WeWork survives only if SoftBank keeps lending
+      Red Flag: WeWork was effectively a SoftBank subsidiary operating under the guise of a public company.
+    category: stated
+    citations:
+      - document: S-4
+        page: 135
+      - document: S-4
+        page: 282
+        section: Credit facility descriptions
+    difficulty: hard
+    notes: SoftBank had total control via debt
 
   q40:
-    status: pending
-    answer: "Not available in provided documents"
-    category: negative_test
-    citations: []
-    difficulty: easy
-    notes: Hallucination test - 2019 S-1 not in document set
+    status: complete
+    answer: |
+      UNAMBIGUOUS NO - This deal had fatal structural flaws visible in the filing.
+      Summary of Fatal Flaws:
+      Structural: $36.6B obligations vs $3B commitments (12:1 mismatch) - FATAL
+      Financial: <4 months runway, negative unit economics - Critical
+      Governance: No fairness opinion, no comparables, SoftBank 65% control - Critical
+      Gatekeepers: Clean audit despite going concern risk, material weakness - High
+      Management: $71M exec comp during cash crisis, Neumann retained 11% - High
+      
+      The Core Problem (from Page 34-35):
+      "The average length of the initial term of its leases is approximately 15 years, and the average term of its membership agreements is 15 months."
+      "Future undiscounted minimum lease cost payment obligations... was $36.6 billion and committed sales contracts... totaled approximately $3 billion."
+      
+      Investment Thesis Required Believing:
+      1. Occupancy would nearly double (44%->86%) in 2 years
+      2. Landlords would renegotiate $36.6B in leases
+      3. COVID would permanently accelerate flex-space demand (while revenue was -38.6%)
+      4. Unit economics would flip positive despite no evidence
+      5. SoftBank conflicts wouldn't harm public shareholders
+      
+      Verdict: Every piece of information needed to reject this deal was IN THE S-4 FILING. The fatal structural flaw was explicitly disclosed on pages 34-35. Investors who read the filing could have avoided 99.5% losses.
+      
+      Valuation History: Jan 2019 (SoftBank) $47B -> Sept 2019 (Failed IPO) $0 -> Oct 2019 (SoftBank bailout) $7B -> Oct 2021 (SPAC) $9B -> Nov 2023 (Bankruptcy) $45M (-99.5%)
+    category: judgment
+    citations:
+      - document: S-4
+        section: Complete analysis, Q1-Q39 findings
+    difficulty: hard
+    notes: All information needed to reject the deal was publicly available

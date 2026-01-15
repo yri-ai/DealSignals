@@ -1,0 +1,80 @@
+{
+  "content": "**Answer (based on training knowledge):**  \nCash burn rate is the rate at which a company uses up cash (typically measured as net cash used in operating activities and/or free cash flow outflow) over a period\u2014often expressed per month or per quarter. It\u2019s essentially how quickly the company is \u201cburning\u201d its cash balance before it needs additional funding.\n\n**Confidence:** HIGH  \n**Source tag:** [TRAINING]  \n**Note:** General knowledge (not specific to the WeWork/BowX 2021 merger)\n\nI don\u2019t have reliable information about a specific WeWork/BowX cash burn rate figure from the merger context based on my training alone.",
+  "model": "gpt-5.2",
+  "input_tokens": 218,
+  "output_tokens": 140,
+  "latency_ms": 4233,
+  "timestamp": "2026-01-13T23:58:42.711101",
+  "cost_usd": 0.0023415,
+  "raw_response": {
+    "id": "resp_0c47e952f95b2d8f006966dc2ec2c081a09afd32d4798448a7",
+    "object": "response",
+    "created_at": 1768348718,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348722,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0c47e952f95b2d8f006966dc2f4bd881a0a3ae44d3443e0895",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Answer (based on training knowledge):**  \nCash burn rate is the rate at which a company uses up cash (typically measured as net cash used in operating activities and/or free cash flow outflow) over a period\u2014often expressed per month or per quarter. It\u2019s essentially how quickly the company is \u201cburning\u201d its cash balance before it needs additional funding.\n\n**Confidence:** HIGH  \n**Source tag:** [TRAINING]  \n**Note:** General knowledge (not specific to the WeWork/BowX 2021 merger)\n\nI don\u2019t have reliable information about a specific WeWork/BowX cash burn rate figure from the merger context based on my training alone."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 218,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 140,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 358
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about the specific management-incentive or compensation arrangements in the 2021 WeWork / BowX SPAC merger.  \nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 223,
+  "output_tokens": 40,
+  "latency_ms": 894,
+  "timestamp": "2026-01-14T00:52:38.427870",
+  "cost_usd": 0.0001892,
+  "raw_response": {
+    "id": "chatcmpl-7371927bf650451c86b09ceeaaf1da13",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about the specific management-incentive or compensation arrangements in the 2021 WeWork / BowX SPAC merger.  \nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351958,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 40,
+      "total_tokens": 263,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

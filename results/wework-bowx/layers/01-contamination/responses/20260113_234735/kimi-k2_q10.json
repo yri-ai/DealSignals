@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about WeWork's specific occupancy rate trends around the 2021 SPAC merger with BowX Acquisition Corp.\n\n**Occupancy rate** (general knowledge): A metric showing the percentage of available space that is currently leased or in use. Calculated as: (occupied space \u00f7 total available space) \u00d7 100.\n\n**Confidence**: [HIGH] for the general definition, [LOW] for WeWork-specific trends  \n**Source**: [TRAINING] for the definition, [UNCERTAIN] for WeWork/BowX case",
+  "model": "kimi-k2",
+  "input_tokens": 223,
+  "output_tokens": 113,
+  "latency_ms": 1521,
+  "timestamp": "2026-01-14T00:52:25.322940",
+  "cost_usd": 0.0003717,
+  "raw_response": {
+    "id": "chatcmpl-50ec522082674224b06395d83ca26cc5",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about WeWork's specific occupancy rate trends around the 2021 SPAC merger with BowX Acquisition Corp.\n\n**Occupancy rate** (general knowledge): A metric showing the percentage of available space that is currently leased or in use. Calculated as: (occupied space \u00f7 total available space) \u00d7 100.\n\n**Confidence**: [HIGH] for the general definition, [LOW] for WeWork-specific trends  \n**Source**: [TRAINING] for the definition, [UNCERTAIN] for WeWork/BowX case",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351945,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 223,
+      "completion_tokens": 113,
+      "total_tokens": 336,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

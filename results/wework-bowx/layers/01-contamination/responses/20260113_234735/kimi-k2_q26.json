@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about the specific, disclosed risk factors for the WeWork / BowX Acquisition Corp SPAC merger.  \nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 220,
+  "output_tokens": 37,
+  "latency_ms": 880,
+  "timestamp": "2026-01-14T00:52:40.435517",
+  "cost_usd": 0.0001805,
+  "raw_response": {
+    "id": "chatcmpl-6a3929b7eb3f4cbfa78569373cbbd078",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about the specific, disclosed risk factors for the WeWork / BowX Acquisition Corp SPAC merger.  \nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351960,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 220,
+      "completion_tokens": 37,
+      "total_tokens": 257,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific member churn rate for WeWork around the time of its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 218,
+  "output_tokens": 42,
+  "latency_ms": 914,
+  "timestamp": "2026-01-14T00:52:26.242000",
+  "cost_usd": 0.0001922,
+  "raw_response": {
+    "id": "chatcmpl-f64988ca186649ee936abca11e2842dc",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific member churn rate for WeWork around the time of its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351946,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 218,
+      "completion_tokens": 42,
+      "total_tokens": 260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

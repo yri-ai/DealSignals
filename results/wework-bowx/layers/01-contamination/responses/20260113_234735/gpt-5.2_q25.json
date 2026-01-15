@@ -1,0 +1,80 @@
+{
+  "content": "Adam Neumann was no longer CEO by the time of the 2021 BowX SPAC merger, but he retained an ongoing economic exposure to WeWork primarily through his equity stake (and potentially through related monetization/financing arrangements tied to that stake). He was not positioned as an ongoing operator/manager in the combined public company.\n\n- Confidence level: **MEDIUM**\n- Source flag: **[TRAINING]**\n- Note (general vs case-specific): **Specific to the WeWork/BowX case (relationship/exposure as understood around the merger timeframe)**",
+  "model": "gpt-5.2",
+  "input_tokens": 222,
+  "output_tokens": 119,
+  "latency_ms": 5809,
+  "timestamp": "2026-01-14T00:00:31.015039",
+  "cost_usd": 0.0020545000000000003,
+  "raw_response": {
+    "id": "resp_0a1d82aa80d74d5a006966dc99766c81a29cb903fb0b44d050",
+    "object": "response",
+    "created_at": 1768348825,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348830,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0a1d82aa80d74d5a006966dc99d2d481a2b72b97690e1ca862",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Adam Neumann was no longer CEO by the time of the 2021 BowX SPAC merger, but he retained an ongoing economic exposure to WeWork primarily through his equity stake (and potentially through related monetization/financing arrangements tied to that stake). He was not positioned as an ongoing operator/manager in the combined public company.\n\n- Confidence level: **MEDIUM**\n- Source flag: **[TRAINING]**\n- Note (general vs case-specific): **Specific to the WeWork/BowX case (relationship/exposure as understood around the merger timeframe)**"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 222,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 119,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 341
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

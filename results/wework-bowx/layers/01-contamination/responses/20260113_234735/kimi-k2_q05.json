@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about WeWork\u2019s exact cash runway at the time of the BowX SPAC merger in 2021.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 222,
+  "output_tokens": 38,
+  "latency_ms": 1019,
+  "timestamp": "2026-01-14T00:52:19.991775",
+  "cost_usd": 0.00018380000000000002,
+  "raw_response": {
+    "id": "chatcmpl-950a39bd344e4a7fa2719920440f9983",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about WeWork\u2019s exact cash runway at the time of the BowX SPAC merger in 2021.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351939,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 38,
+      "total_tokens": 260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

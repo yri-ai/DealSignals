@@ -1,0 +1,80 @@
+{
+  "content": "**Answer (based on training knowledge):**  \nSoftBank (via SoftBank Group and its Vision Fund affiliates) was WeWork\u2019s major controlling/anchor shareholder and sponsor prior to, and through, the 2021 SPAC merger with BowX. In the transaction, SoftBank-backed entities participated as significant sellers/recipients of proceeds and also agreed to governance/lock-up style restrictions typical for large holders. SoftBank also had (from its earlier rescue financing) ongoing financial ties to WeWork (e.g., financing arrangements and commitments), but I do **not** have reliable, specific detail from memory on the exact \u201congoing obligations\u201d terms (such as precise amounts, dates, or covenants) as defined in the BowX merger documents.\n\n**Confidence:** MEDIUM (high-level role), LOW (specific ongoing obligations)  \n**Source tag:** [TRAINING] for general role; [UNCERTAIN] for specific obligations  \n**Note:** Mix of general knowledge (SoftBank as major backer/controlling shareholder) and WeWork/BowX-case-specific elements (transaction participation/lock-ups), but I lack reliable specifics on the \u201congoing obligations\u201d without the filings.",
+  "model": "gpt-5.2",
+  "input_tokens": 221,
+  "output_tokens": 245,
+  "latency_ms": 6549,
+  "timestamp": "2026-01-13T23:28:39.890266",
+  "cost_usd": 0.00381675,
+  "raw_response": {
+    "id": "resp_05487de033e7acd3006966d521964081a08129b78a07b3bd5c",
+    "object": "response",
+    "created_at": 1768346913,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768346919,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_05487de033e7acd3006966d521df6481a0946c1cc16751140c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Answer (based on training knowledge):**  \nSoftBank (via SoftBank Group and its Vision Fund affiliates) was WeWork\u2019s major controlling/anchor shareholder and sponsor prior to, and through, the 2021 SPAC merger with BowX. In the transaction, SoftBank-backed entities participated as significant sellers/recipients of proceeds and also agreed to governance/lock-up style restrictions typical for large holders. SoftBank also had (from its earlier rescue financing) ongoing financial ties to WeWork (e.g., financing arrangements and commitments), but I do **not** have reliable, specific detail from memory on the exact \u201congoing obligations\u201d terms (such as precise amounts, dates, or covenants) as defined in the BowX merger documents.\n\n**Confidence:** MEDIUM (high-level role), LOW (specific ongoing obligations)  \n**Source tag:** [TRAINING] for general role; [UNCERTAIN] for specific obligations  \n**Note:** Mix of general knowledge (SoftBank as major backer/controlling shareholder) and WeWork/BowX-case-specific elements (transaction participation/lock-ups), but I lack reliable specifics on the \u201congoing obligations\u201d without the filings."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 221,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 245,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 466
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

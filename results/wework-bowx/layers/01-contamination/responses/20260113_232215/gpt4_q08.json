@@ -1,0 +1,80 @@
+{
+  "content": "**Answer:** Contribution margin per membership is a unit profitability metric that measures the contribution margin generated per member (or per membership) over a period. It is typically calculated as:\n\n- **Contribution margin per membership = (Revenue per membership \u2212 direct variable costs to service that membership)**\n- In a WeWork-style context, \u201cdirect variable costs\u201d often refer to costs directly tied to delivering the workspace/service (e.g., building-level operating expenses and other directly attributable costs), excluding broader fixed corporate overhead and non-cash items. The exact definition can vary by company\u2019s reporting.\n\n**Confidence:** HIGH  \n**Source tag:** [TRAINING]  \n**Case note:** General knowledge (not specific to the WeWork/BowX merger numbers/definitions)",
+  "model": "gpt-5.2",
+  "input_tokens": 218,
+  "output_tokens": 154,
+  "latency_ms": 5000,
+  "timestamp": "2026-01-13T23:27:30.948062",
+  "cost_usd": 0.0025375,
+  "raw_response": {
+    "id": "resp_00cc567e31dd7956006966d4deae3c8194a40763c4ddbe8fe0",
+    "object": "response",
+    "created_at": 1768346846,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768346850,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_00cc567e31dd7956006966d4df3cb08194b17d4e61c31b1e9c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Answer:** Contribution margin per membership is a unit profitability metric that measures the contribution margin generated per member (or per membership) over a period. It is typically calculated as:\n\n- **Contribution margin per membership = (Revenue per membership \u2212 direct variable costs to service that membership)**\n- In a WeWork-style context, \u201cdirect variable costs\u201d often refer to costs directly tied to delivering the workspace/service (e.g., building-level operating expenses and other directly attributable costs), excluding broader fixed corporate overhead and non-cash items. The exact definition can vary by company\u2019s reporting.\n\n**Confidence:** HIGH  \n**Source tag:** [TRAINING]  \n**Case note:** General knowledge (not specific to the WeWork/BowX merger numbers/definitions)"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 218,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 154,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 372
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

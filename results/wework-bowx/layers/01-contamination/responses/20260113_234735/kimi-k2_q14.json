@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about the specific duration profile of lease commitments in the WeWork / BowX Acquisition Corp transaction.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 221,
+  "output_tokens": 35,
+  "latency_ms": 943,
+  "timestamp": "2026-01-14T00:52:29.109657",
+  "cost_usd": 0.0001759,
+  "raw_response": {
+    "id": "chatcmpl-63728b9ed9dd40169e585074c2884e01",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about the specific duration profile of lease commitments in the WeWork / BowX Acquisition Corp transaction.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351948,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 221,
+      "completion_tokens": 35,
+      "total_tokens": 256,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

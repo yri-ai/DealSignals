@@ -1,0 +1,47 @@
+{
+  "content": "Yes, based on publicly available SEC filings from WeWork (now known as The We Company) following its merger with BowX Acquisition Corp in 2021, the company disclosed material weaknesses in its internal controls over financial reporting in its 2021 Form 10-K (for the fiscal year ended December 31, 2021). These weaknesses were primarily related to deficiencies in controls over revenue recognition, lease accounting, and financial statement preparation, attributed to the company's rapid growth, complex business model, and historical governance issues.\n\n[HIGH] confidence  \n[TRAINING]",
+  "model": "grok-code",
+  "input_tokens": 415,
+  "output_tokens": 113,
+  "latency_ms": 10760,
+  "timestamp": "2026-01-14T00:08:15.621038",
+  "cost_usd": 0.0,
+  "raw_response": {
+    "id": "41b23e93-5e4b-ec4e-8b1a-404c0ca988ae",
+    "object": "chat.completion",
+    "created": 1768349285,
+    "model": "grok-code",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Yes, based on publicly available SEC filings from WeWork (now known as The We Company) following its merger with BowX Acquisition Corp in 2021, the company disclosed material weaknesses in its internal controls over financial reporting in its 2021 Form 10-K (for the fiscal year ended December 31, 2021). These weaknesses were primarily related to deficiencies in controls over revenue recognition, lease accounting, and financial statement preparation, attributed to the company's rapid growth, complex business model, and historical governance issues.\n\n[HIGH] confidence  \n[TRAINING]",
+          "reasoning_content": "## Investigating WeWork's Financials  \n- The user asked about material weaknesses in internal controls for WeWork's 2021 SPAC merger with BowX Acquisition Corp.  \n- WeWork's 2019 IPO was withdrawn due to financial and governance issues, setting context for later disclosures.  \n\n## Reviewing SEC Filings  \n- WeWork's 2021 10-K, post-merger with BowX, disclosed material weaknesses in internal controls over financial reporting.  \n- These weaknesses involved revenue recognition, lease accounting, and other areas, linked to rapid growth and past problems.  \n\n## Assessing Confidence  \n- Confidence in this information is HIGH, as it aligns with well-documented SEC filings.  \n- The knowledge comes from pre-training data [TRAINING], ensuring reliability.",
+          "refusal": null
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 415,
+      "completion_tokens": 113,
+      "total_tokens": 1017,
+      "prompt_tokens_details": {
+        "text_tokens": 415,
+        "audio_tokens": 0,
+        "image_tokens": 0,
+        "cached_tokens": 320
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 489,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 0
+    },
+    "system_fingerprint": "fp_c85e32c255"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about SoftBank\u2019s specific role or ongoing obligations in the WeWork / BowX SPAC merger.",
+  "model": "kimi-k2",
+  "input_tokens": 222,
+  "output_tokens": 27,
+  "latency_ms": 816,
+  "timestamp": "2026-01-14T00:52:36.790344",
+  "cost_usd": 0.0001563,
+  "raw_response": {
+    "id": "chatcmpl-0035e0e4044e44bc9491007310fe5412",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about SoftBank\u2019s specific role or ongoing obligations in the WeWork / BowX SPAC merger.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351956,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 27,
+      "total_tokens": 249,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

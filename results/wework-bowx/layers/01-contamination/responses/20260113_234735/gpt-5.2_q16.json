@@ -1,0 +1,80 @@
+{
+  "content": "I don\u2019t have reliable information about what specifically \u201chappens to the business at 70% occupancy\u201d in the context of WeWork\u2019s 2021 SPAC merger with BowX Acquisition Corp.\n\n- Confidence: **LOW**\n- Source: **[UNCERTAIN]**\n- Note: This appears **specific to the WeWork/BowX case** rather than general knowledge.",
+  "model": "gpt-5.2",
+  "input_tokens": 222,
+  "output_tokens": 82,
+  "latency_ms": 3253,
+  "timestamp": "2026-01-13T23:59:34.284818",
+  "cost_usd": 0.0015364999999999999,
+  "raw_response": {
+    "id": "resp_0e0cc7a033c4be10006966dc634c90819d90246b70ea6e7b60",
+    "object": "response",
+    "created_at": 1768348771,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348773,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0e0cc7a033c4be10006966dc639d2c819db8f61242c65d2df7",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don\u2019t have reliable information about what specifically \u201chappens to the business at 70% occupancy\u201d in the context of WeWork\u2019s 2021 SPAC merger with BowX Acquisition Corp.\n\n- Confidence: **LOW**\n- Source: **[UNCERTAIN]**\n- Note: This appears **specific to the WeWork/BowX case** rather than general knowledge."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 222,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 82,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 304
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

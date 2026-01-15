@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about the specific post-merger integration plans or business model changes that were planned for WeWork after its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN\n\nMy training data doesn't contain detailed information about the specific integration strategies or business model changes that were planned following this particular SPAC transaction.",
+  "model": "kimi-k2",
+  "input_tokens": 225,
+  "output_tokens": 76,
+  "latency_ms": 1341,
+  "timestamp": "2026-01-14T00:52:52.746485",
+  "cost_usd": 0.00028000000000000003,
+  "raw_response": {
+    "id": "chatcmpl-1f0d470dc91f422bbb64a78e57c788da",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about the specific post-merger integration plans or business model changes that were planned for WeWork after its SPAC merger with BowX Acquisition Corp in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN\n\nMy training data doesn't contain detailed information about the specific integration strategies or business model changes that were planned following this particular SPAC transaction.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351972,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 225,
+      "completion_tokens": 76,
+      "total_tokens": 301,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

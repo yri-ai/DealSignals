@@ -1,0 +1,40 @@
+{
+  "content": "I don't have reliable information about WeWork's operating losses for the most recent period around the time of the BowX SPAC merger in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN\n\nMy training data doesn't contain specific financial figures for WeWork's operating losses during that period.",
+  "model": "kimi-k2",
+  "input_tokens": 222,
+  "output_tokens": 60,
+  "latency_ms": 1126,
+  "timestamp": "2026-01-14T00:52:18.050980",
+  "cost_usd": 0.0002388,
+  "raw_response": {
+    "id": "chatcmpl-f85871027e5343a6890d942165979b4f",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don't have reliable information about WeWork's operating losses for the most recent period around the time of the BowX SPAC merger in 2021.\n\nConfidence: LOW\nSource: UNCERTAIN\n\nMy training data doesn't contain specific financial figures for WeWork's operating losses during that period.",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351937,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 222,
+      "completion_tokens": 60,
+      "total_tokens": 282,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

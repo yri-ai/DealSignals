@@ -1,0 +1,40 @@
+{
+  "content": "I don\u2019t have reliable information about WeWork\u2019s specific cash-burn rate in the period around its 2021 SPAC merger with BowX Acquisition Corp.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+  "model": "kimi-k2",
+  "input_tokens": 219,
+  "output_tokens": 41,
+  "latency_ms": 918,
+  "timestamp": "2026-01-14T00:52:18.970821",
+  "cost_usd": 0.0001901,
+  "raw_response": {
+    "id": "chatcmpl-ab45b0fe7f1447fda64d0e0f263663c0",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "content": "I don\u2019t have reliable information about WeWork\u2019s specific cash-burn rate in the period around its 2021 SPAC merger with BowX Acquisition Corp.\n\nConfidence: LOW  \nSource: UNCERTAIN",
+          "role": "assistant"
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "created": 1768351938,
+    "model": "moonshotai/Kimi-K2-Instruct-0905",
+    "object": "chat.completion",
+    "usage": {
+      "prompt_tokens": 219,
+      "completion_tokens": 41,
+      "total_tokens": 260,
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    }
+  }
+}

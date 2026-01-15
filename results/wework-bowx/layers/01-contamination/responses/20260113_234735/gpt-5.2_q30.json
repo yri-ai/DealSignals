@@ -1,0 +1,80 @@
+{
+  "content": "I don\u2019t have reliable information about whether WeWork (in connection with the 2021 BowX SPAC merger) disclosed **material weaknesses in internal control over financial reporting**.\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Case note: **Specific to the WeWork/BowX case**",
+  "model": "gpt-5.2",
+  "input_tokens": 220,
+  "output_tokens": 72,
+  "latency_ms": 2736,
+  "timestamp": "2026-01-14T00:00:46.348532",
+  "cost_usd": 0.0013930000000000001,
+  "raw_response": {
+    "id": "resp_0374d8656c5c2075006966dcabe2f881979456da39e90bb0cf",
+    "object": "response",
+    "created_at": 1768348843,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768348846,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0374d8656c5c2075006966dcac435c8197a46c325ee6e95509",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "I don\u2019t have reliable information about whether WeWork (in connection with the 2021 BowX SPAC merger) disclosed **material weaknesses in internal control over financial reporting**.\n\n- Confidence: **LOW**\n- Source tag: **[UNCERTAIN]**\n- Case note: **Specific to the WeWork/BowX case**"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 220,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 72,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 292
+    },
+    "user": null,
+    "metadata": {}
+  }
+}
