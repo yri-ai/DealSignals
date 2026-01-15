@@ -74,12 +74,15 @@ class ExperimentRunner:
                 target_questions = list(self.questions)
 
         question_ids = [q.id for q in target_questions]
-        pending = self.state.get_pending(target_models, question_ids)
+        documents = self.definition.layer.documents
+
+        pending = self.state.get_pending(target_models, question_ids, documents)
 
         if dry_run:
             print(f"Dry run: {len(pending)} tasks pending")
-            for model, qid in pending:
-                print(f"  {model} x {qid}")
+            for model, doc, qid in pending:
+                doc_info = f"[{Path(doc).name}] " if doc else ""
+                print(f"  {model} x {doc_info}{qid}")
             return RunSummary(
                 run_id=run_id,
                 layer=self.definition.layer.id,
@@ -99,7 +102,7 @@ class ExperimentRunner:
         total_cost = 0.0
         total_tokens = 0
 
-        for model, question_id in pending:
+        for model, document, question_id in pending:
             question = self.questions.get(question_id)
             if not question:
                 continue
@@ -113,14 +116,23 @@ class ExperimentRunner:
                     layer=self.definition.layer.id,
                     model=model,
                     question_id=question_id,
+                    document=document,
                     event_type=EventType.STARTED,
                 )
             )
 
             try:
-                response = self._execute(model, question)
+                document_content = None
+                if document:
+                    doc_path = Path(document)
+                    if doc_path.exists():
+                        document_content = doc_path.read_text()
+                    else:
+                        raise FileNotFoundError(f"Document not found: {document}")
 
-                self._save_response(run_id, model, question_id, response)
+                response = self._execute(model, question, document_content)
+
+                self._save_response(run_id, model, question_id, response, document)
 
                 self.state.append(
                     RunEvent(
@@ -128,6 +140,7 @@ class ExperimentRunner:
                         layer=self.definition.layer.id,
                         model=model,
                         question_id=question_id,
+                        document=document,
                         event_type=EventType.COMPLETED,
                         data={
                             "latency_ms": response.latency_ms,
@@ -152,6 +165,7 @@ class ExperimentRunner:
                         layer=self.definition.layer.id,
                         model=model,
                         question_id=question_id,
+                        document=document,
                         event_type=EventType.FAILED,
                         data={"error": str(e)},
                     )
@@ -178,13 +192,18 @@ class ExperimentRunner:
             total_tokens=total_tokens,
         )
 
-    def _execute(self, model: str, question: Question) -> CompletionResponse:
+    def _execute(
+        self,
+        model: str,
+        question: Question,
+        document_content: str | None = None,
+    ) -> CompletionResponse:
         messages = []
 
         if self._system_prompt:
             messages.append({"role": "system", "content": self._system_prompt})
 
-        user_content = self._build_user_prompt(question)
+        user_content = self._build_user_prompt(question, document_content)
         messages.append({"role": "user", "content": user_content})
 
         return self.registry.complete(
@@ -194,10 +213,19 @@ class ExperimentRunner:
             max_tokens=8192,
         )
 
-    def _build_user_prompt(self, question: Question) -> str:
+    def _build_user_prompt(
+        self,
+        question: Question,
+        document_content: str | None = None,
+    ) -> str:
+        text = question.text
         if self._user_prompt_template:
-            return self._user_prompt_template.replace("{{question}}", question.text)
-        return question.text
+            text = self._user_prompt_template.replace("{{question}}", question.text)
+
+        if document_content and "{{document}}" in text:
+            text = text.replace("{{document}}", document_content)
+
+        return text
 
     def _save_response(
         self,
@@ -205,19 +233,23 @@ class ExperimentRunner:
         model: str,
         question_id: str,
         response: CompletionResponse,
+        document: str | None = None,
     ) -> None:
         responses_dir = self.output_dir / "responses" / run_id
         responses_dir.mkdir(parents=True, exist_ok=True)
 
         safe_model = model.replace("/", "_")
+        safe_doc = f"_{Path(document).stem}" if document else ""
 
-        json_path = responses_dir / f"{safe_model}_{question_id}.json"
+        json_path = responses_dir / f"{safe_model}{safe_doc}_{question_id}.json"
         with open(json_path, "w") as f:
             json.dump(response.to_dict(), f, indent=2)
 
-        md_path = responses_dir / f"{safe_model}_{question_id}.md"
+        md_path = responses_dir / f"{safe_model}{safe_doc}_{question_id}.md"
         with open(md_path, "w") as f:
             f.write(f"# {model} - {question_id}\n\n")
+            if document:
+                f.write(f"**Document:** {Path(document).name}\n")
             f.write(f"**Timestamp:** {response.timestamp}\n")
             f.write(f"**Latency:** {response.latency_ms}ms\n")
             f.write(f"**Tokens:** {response.input_tokens} in, {response.output_tokens} out\n")

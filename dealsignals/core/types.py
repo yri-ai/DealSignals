@@ -115,6 +115,7 @@ class RunEvent:
     model: str
     question_id: str
     event_type: EventType
+    document: str | None = None
     timestamp: str = field(default_factory=lambda: datetime.utcnow().isoformat())
     data: dict = field(default_factory=dict)
 
@@ -124,6 +125,7 @@ class RunEvent:
             "layer": self.layer,
             "model": self.model,
             "question_id": self.question_id,
+            "document": self.document,
             "event_type": self.event_type.value,
             "timestamp": self.timestamp,
             "data": self.data,

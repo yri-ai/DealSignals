@@ -29,11 +29,11 @@ class RunState:
 
         self._events.append(event)
 
-    def get_completed(self) -> set[tuple[str, str]]:
+    def get_completed(self) -> set[tuple[str, str | None, str]]:
         completed = set()
 
         for event in self._events:
-            key = (event.model, event.question_id)
+            key = (event.model, event.document, event.question_id)
             if event.event_type == EventType.COMPLETED:
                 completed.add(key)
             elif event.event_type == EventType.FAILED:
@@ -41,12 +41,12 @@ class RunState:
 
         return completed
 
-    def get_failed(self) -> set[tuple[str, str]]:
+    def get_failed(self) -> set[tuple[str, str | None, str]]:
         failed = set()
         completed = set()
 
         for event in self._events:
-            key = (event.model, event.question_id)
+            key = (event.model, event.document, event.question_id)
             if event.event_type == EventType.COMPLETED:
                 completed.add(key)
                 failed.discard(key)
@@ -60,20 +60,24 @@ class RunState:
         self,
         models: list[str],
         question_ids: list[str],
-    ) -> list[tuple[str, str]]:
+        documents: list[str] | None = None,
+    ) -> list[tuple[str, str | None, str]]:
         completed = self.get_completed()
         pending = []
 
+        target_documents = documents if documents else [None]
+
         for model in models:
-            for question_id in question_ids:
-                key = (model, question_id)
-                if key not in completed:
-                    pending.append(key)
+            for document in target_documents:
+                for question_id in question_ids:
+                    key = (model, document, question_id)
+                    if key not in completed:
+                        pending.append(key)
 
         return pending
 
-    def is_complete(self, model: str, question_id: str) -> bool:
-        return (model, question_id) in self.get_completed()
+    def is_complete(self, model: str, question_id: str, document: str | None = None) -> bool:
+        return (model, document, question_id) in self.get_completed()
 
     def summary(self) -> dict:
         completed = self.get_completed()
@@ -81,10 +85,13 @@ class RunState:
 
         models = set()
         questions = set()
+        documents = set()
 
         for event in self._events:
             models.add(event.model)
             questions.add(event.question_id)
+            if event.document:
+                documents.add(event.document)
 
         return {
             "total_events": len(self._events),
@@ -92,4 +99,5 @@ class RunState:
             "failed": len(failed),
             "models": sorted(models),
             "questions": sorted(questions),
+            "documents": sorted(documents),
         }
