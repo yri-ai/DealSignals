@@ -1,0 +1,34 @@
+{
+  "content": "The document does not explicitly state what happens to the business at 50% occupancy. However, the document discusses several related concepts:\n\n1. **Physical Occupancy Definition**: The document defines \"Physical Occupancy\" as \"the number of physical memberships divided by total workstations.\"\n\n2. **Revenue and Occupancy**: The business model depends on maintaining sufficient occupancy levels to generate revenue to cover fixed lease costs. The document states that leases \"generally provide for fixed monthly or quarterly payments that are not tied to space utilization or the size of its member base.\"\n\n3. **Risk Factors**: The document notes that \"in locations where the Company does not generate sufficient revenue from members at a particular space, including if members terminate their membership agreements with the Company and the Company is not able to replace these departing members or the Company ceases to operate at leased spaces, the Company's lease cost expense exceeds its revenue.\"\n\n4. **COVID-19 Impact**: Between Q2 2020 and Q2 2021, \"the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%,\" suggesting the business experienced significant occupancy challenges.\n\nThe document does not specify a particular occupancy threshold (such as 50%) at which specific business outcomes occur, but it's clear that lower occupancy creates financial pressure since lease costs remain fixed while revenue declines.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72933,
+  "output_tokens": 304,
+  "latency_ms": 13310,
+  "timestamp": "2026-01-16T19:48:36.911541",
+  "cost_usd": 0.223359,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01SBXuAVJez9momRJsMc8DeB",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "The document does not explicitly state what happens to the business at 50% occupancy. However, the document discusses several related concepts:\n\n1. **Physical Occupancy Definition**: The document defines \"Physical Occupancy\" as \"the number of physical memberships divided by total workstations.\"\n\n2. **Revenue and Occupancy**: The business model depends on maintaining sufficient occupancy levels to generate revenue to cover fixed lease costs. The document states that leases \"generally provide for fixed monthly or quarterly payments that are not tied to space utilization or the size of its member base.\"\n\n3. **Risk Factors**: The document notes that \"in locations where the Company does not generate sufficient revenue from members at a particular space, including if members terminate their membership agreements with the Company and the Company is not able to replace these departing members or the Company ceases to operate at leased spaces, the Company's lease cost expense exceeds its revenue.\"\n\n4. **COVID-19 Impact**: Between Q2 2020 and Q2 2021, \"the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%,\" suggesting the business experienced significant occupancy challenges.\n\nThe document does not specify a particular occupancy threshold (such as 50%) at which specific business outcomes occur, but it's clear that lower occupancy creates financial pressure since lease costs remain fixed while revenue declines."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72933,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 304,
+      "service_tier": "standard"
+    }
+  }
+}

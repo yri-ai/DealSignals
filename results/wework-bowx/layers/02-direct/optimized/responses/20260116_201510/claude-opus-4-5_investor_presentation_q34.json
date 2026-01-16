@@ -1,0 +1,34 @@
+{
+  "content": "## Analysis: Registration Rights\n\n**Not found in document.**\n\nThe provided document does not contain any information regarding registration rights. The document appears to be a WeWork investor presentation or pitch deck from 2021, consisting primarily of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Corporate values statements (page with \"Do the Right Thing,\" \"Be Better Together,\" etc.)\n- Bullet points without visible content\n- References to business products like \"All Access\" subscription model\n- A timeline graphic (2010-2030)\n- Various slides with incomplete or redacted content\n\nThe document does not include any discussion of:\n- Registration rights agreements\n- Demand registration rights\n- Piggyback registration rights\n- Shelf registration provisions\n- Lock-up periods or restrictions\n- Any securities registration-related terms\n\n**Caveats and Limitations:**\n1. The document appears to be heavily redacted or incompletely extracted, with most slides showing only bullet points without substantive text\n2. Registration rights would typically be found in transaction agreements, registration rights agreements, or the legal/transaction structure sections of a SPAC merger presentation, none of which appear to be included in this document\n3. To find registration rights information, you would need to review the actual merger agreement, investor rights agreement, or SEC filings (such as the S-4 or proxy statement)\n\n**Confidence Level: HIGH** (that the information is not present in this document)",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1353,
+  "output_tokens": 320,
+  "latency_ms": 9317,
+  "timestamp": "2026-01-16T20:47:40.889787",
+  "cost_usd": 0.014765,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01PPKsphWqrSo8kXxSXx47DM",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Analysis: Registration Rights\n\n**Not found in document.**\n\nThe provided document does not contain any information regarding registration rights. The document appears to be a WeWork investor presentation or pitch deck from 2021, consisting primarily of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Corporate values statements (page with \"Do the Right Thing,\" \"Be Better Together,\" etc.)\n- Bullet points without visible content\n- References to business products like \"All Access\" subscription model\n- A timeline graphic (2010-2030)\n- Various slides with incomplete or redacted content\n\nThe document does not include any discussion of:\n- Registration rights agreements\n- Demand registration rights\n- Piggyback registration rights\n- Shelf registration provisions\n- Lock-up periods or restrictions\n- Any securities registration-related terms\n\n**Caveats and Limitations:**\n1. The document appears to be heavily redacted or incompletely extracted, with most slides showing only bullet points without substantive text\n2. Registration rights would typically be found in transaction agreements, registration rights agreements, or the legal/transaction structure sections of a SPAC merger presentation, none of which appear to be included in this document\n3. To find registration rights information, you would need to review the actual merger agreement, investor rights agreement, or SEC filings (such as the S-4 or proxy statement)\n\n**Confidence Level: HIGH** (that the information is not present in this document)"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1353,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 320,
+      "service_tier": "standard"
+    }
+  }
+}

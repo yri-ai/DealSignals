@@ -1,0 +1,34 @@
+{
+  "content": "The document does not explicitly state a \"revenue per available desk/workstation\" metric.\n\nHowever, the document does provide information that could be used to calculate this:\n\n**Revenue:**\n- Six Months Ended June 30, 2021: $1,191,331 thousand\n- Year Ended December 31, 2020: $3,415,865 thousand\n- Year Ended December 31, 2019: $3,458,592 thousand\n- Year Ended December 31, 2018: $1,821,751 thousand\n\n**Available Workstations:**\nThe document does not directly provide the total number of available workstations or desks at any specific date.\n\nWhile the document mentions terms like \"Physical Occupancy\" (defined as \"the number of physical memberships divided by total workstations\") and discusses \"net capital expenditures per workstation added,\" it does not provide the actual number of total workstations that would be needed to calculate revenue per available desk/workstation.\n\nTo calculate this metric, you would need additional information about the total number of available workstations/desks across WeWork's locations during these periods, which is not included in this document.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72931,
+  "output_tokens": 267,
+  "latency_ms": 9622,
+  "timestamp": "2026-01-16T19:47:17.652997",
+  "cost_usd": 0.222798,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01EosCRpnammXSFNcVRVdwhf",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "The document does not explicitly state a \"revenue per available desk/workstation\" metric.\n\nHowever, the document does provide information that could be used to calculate this:\n\n**Revenue:**\n- Six Months Ended June 30, 2021: $1,191,331 thousand\n- Year Ended December 31, 2020: $3,415,865 thousand\n- Year Ended December 31, 2019: $3,458,592 thousand\n- Year Ended December 31, 2018: $1,821,751 thousand\n\n**Available Workstations:**\nThe document does not directly provide the total number of available workstations or desks at any specific date.\n\nWhile the document mentions terms like \"Physical Occupancy\" (defined as \"the number of physical memberships divided by total workstations\") and discusses \"net capital expenditures per workstation added,\" it does not provide the actual number of total workstations that would be needed to calculate revenue per available desk/workstation.\n\nTo calculate this metric, you would need additional information about the total number of available workstations/desks across WeWork's locations during these periods, which is not included in this document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72931,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 267,
+      "service_tier": "standard"
+    }
+  }
+}

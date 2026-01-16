@@ -1,0 +1,80 @@
+{
+  "content": "**Revenue per available desk/workstation** is a unit economics metric calculated as:\n\n\\[\n\\textbf{Revenue per available desk (or workstation)} = \\frac{\\textbf{Total membership and service revenue for the period}}{\\textbf{Average number of available desks/workstations in the period}}\n\\]\n\n- **\u201cRevenue\u201d** typically refers to *membership and service revenue* (the core revenue stream tied to desks/workstations).\n- **\u201cAvailable desks/workstations\u201d** means the total desk/workstation capacity that is open and available for sale/use (not just occupied), usually averaged over the period.",
+  "model": "gpt-5.2",
+  "input_tokens": 67609,
+  "output_tokens": 128,
+  "latency_ms": 4578,
+  "timestamp": "2026-01-16T19:56:20.398274",
+  "cost_usd": 0.12010775,
+  "raw_response": {
+    "id": "resp_08b9a93ad49addcb00696a97e04d508197b29d1e3f20255e35",
+    "object": "response",
+    "created_at": 1768593376,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593380,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_08b9a93ad49addcb00696a97e0d994819787e91571a36c9606",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Revenue per available desk/workstation** is a unit economics metric calculated as:\n\n\\[\n\\textbf{Revenue per available desk (or workstation)} = \\frac{\\textbf{Total membership and service revenue for the period}}{\\textbf{Average number of available desks/workstations in the period}}\n\\]\n\n- **\u201cRevenue\u201d** typically refers to *membership and service revenue* (the core revenue stream tied to desks/workstations).\n- **\u201cAvailable desks/workstations\u201d** means the total desk/workstation capacity that is open and available for sale/use (not just occupied), usually averaged over the period."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67609,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 128,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67737
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

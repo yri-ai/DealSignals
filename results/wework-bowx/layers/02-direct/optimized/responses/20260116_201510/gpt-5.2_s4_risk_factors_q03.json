@@ -1,0 +1,80 @@
+{
+  "content": "**Operating loss (most recent period disclosed):** **$2,355,793 thousand (i.e., $2.356 billion) loss from operations** for the **six months ended June 30, 2021** (WeWork). This is presented as \u201cLoss from operations\u201d in WeWork\u2019s selected historical financial information. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK\u201d**, table \u201cConsolidated Statements of Operations Data,\u201d **p. 23**)\n\n**Confidence:** HIGH (directly stated).\n\n**Caveats / limitations:**\n- The document provides \u201cLoss from operations\u201d for WeWork, but for BowX it provides \u201cOperating Expenses\u201d rather than an \u201coperating loss\u201d line item in its selected historical financial information. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF BOWX,\u201d p. 21**)  \n- The \u201cmost recent period\u201d in the excerpted financial tables is the **six months ended June 30, 2021**; later interim periods are **not included** in the provided document text. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK,\u201d p. 23**)",
+  "model": "gpt-5.2",
+  "input_tokens": 67715,
+  "output_tokens": 255,
+  "latency_ms": 7165,
+  "timestamp": "2026-01-16T20:34:28.205405",
+  "cost_usd": 0.12207125,
+  "raw_response": {
+    "id": "resp_022deac28a9edafd00696aa0cd5ea4819d9adf2980066f3bca",
+    "object": "response",
+    "created_at": 1768595661,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595667,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_022deac28a9edafd00696aa0ced7a0819db46ca07405e1ddc8",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Operating loss (most recent period disclosed):** **$2,355,793 thousand (i.e., $2.356 billion) loss from operations** for the **six months ended June 30, 2021** (WeWork). This is presented as \u201cLoss from operations\u201d in WeWork\u2019s selected historical financial information. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK\u201d**, table \u201cConsolidated Statements of Operations Data,\u201d **p. 23**)\n\n**Confidence:** HIGH (directly stated).\n\n**Caveats / limitations:**\n- The document provides \u201cLoss from operations\u201d for WeWork, but for BowX it provides \u201cOperating Expenses\u201d rather than an \u201coperating loss\u201d line item in its selected historical financial information. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF BOWX,\u201d p. 21**)  \n- The \u201cmost recent period\u201d in the excerpted financial tables is the **six months ended June 30, 2021**; later interim periods are **not included** in the provided document text. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK,\u201d p. 23**)"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67715,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 255,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67970
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

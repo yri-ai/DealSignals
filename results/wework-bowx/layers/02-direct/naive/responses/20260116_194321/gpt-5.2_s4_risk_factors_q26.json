@@ -1,0 +1,80 @@
+{
+  "content": "The document\u2019s **top disclosed risk factors** (as highlighted in the \u201cRisk Factors\u201d section and the summary list) include:\n\n- **COVID-19 impacts**: COVID-19 (including variants) has significantly disrupted operations, reduced memberships and sales volume, increased bad debt/non-collectability, and may continue to depress demand and increase costs.\n- **Member retention and demand risk**: WeWork may be unable to **retain existing members** (many have short-term commitments) or **attract new members** at sufficient levels; increased churn/termination risk.\n- **Macroeconomic / office-market risk**: Economic downturns and declines in market rents could increase terminations and reduce demand; city/market concentration heightens localized downturn risk.\n- **Lease structure / fixed-cost risk**: Long-term, largely non-cancelable **lease obligations** with fixed rent payments (often ~15-year terms) vs. shorter member contracts (average ~15 months) can create cash flow stress if occupancy declines; limited ability to exit/assign/sublease.\n- **Loss history / profitability risk**: Significant historical losses and accumulated deficit; risk of inability to achieve profitability.\n- **Liquidity / indebtedness risk**: Need to generate sufficient cash to service debt and other obligations; potential constraints from debt terms; risk of needing to take additional actions to meet obligations.\n- **Brand / reputation risk**: Business depends on maintaining brand value and reputation; negative publicity could reduce member demand and increase churn.\n- **Technology and cybersecurity risk**: Reliance on proprietary/third-party systems; cyber-attacks or system failures could lead to data loss, regulatory exposure, litigation, and reputational damage.\n- **Execution / restructuring strategy risk**: Ongoing transformation and real estate portfolio optimization may not succeed; lease exits/withholding rent can trigger litigation and disruption.\n- **People / workforce risk**: Ability to hire/retain key personnel; large workforce reductions and attrition may impair operations and morale.\n- **Related-party / governance conflicts**: Significant related-party arrangements (notably SoftBank) and potential conflicts of interest; board observer rights for Adam Neumann starting 2022 (subject to conditions).\n- **Joint venture / partner risk (international & asset-light models)**: Dependence on partners in joint ventures/management agreements; partner conflicts and compliance risks.\n- **Enterprise customer concentration risk**: Enterprise members are a large portion of revenue; default or non-renewal could materially hurt location economics.\n- **Development/construction risk**: Delays, cost overruns, contractor performance issues, permit risk, safety hazards.\n- **Public company / market risks post-combination**: Stock and warrant price volatility; analyst coverage risk; securities litigation risk; NYSE listing risk.\n- **SPAC transaction/risk allocation items**: No third-party fairness opinion; high redemption levels could reduce liquidity/cash (subject to minimum net tangible assets and minimum available cash conditions); dilution from merger/PIPE and warrant/equity plan issuances.\n\nIf you want, I can rank these by likely financial materiality (cash burn, solvency, dilution, etc.) based strictly on what\u2019s disclosed here.",
+  "model": "gpt-5.2",
+  "input_tokens": 67608,
+  "output_tokens": 647,
+  "latency_ms": 17900,
+  "timestamp": "2026-01-16T19:58:38.739149",
+  "cost_usd": 0.127372,
+  "raw_response": {
+    "id": "resp_0ddf0c3d34f50ecb00696a985d8fc081a18b5cc9cb820c1845",
+    "object": "response",
+    "created_at": 1768593501,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593518,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ddf0c3d34f50ecb00696a985e180481a1b75994c3dfd813cd",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document\u2019s **top disclosed risk factors** (as highlighted in the \u201cRisk Factors\u201d section and the summary list) include:\n\n- **COVID-19 impacts**: COVID-19 (including variants) has significantly disrupted operations, reduced memberships and sales volume, increased bad debt/non-collectability, and may continue to depress demand and increase costs.\n- **Member retention and demand risk**: WeWork may be unable to **retain existing members** (many have short-term commitments) or **attract new members** at sufficient levels; increased churn/termination risk.\n- **Macroeconomic / office-market risk**: Economic downturns and declines in market rents could increase terminations and reduce demand; city/market concentration heightens localized downturn risk.\n- **Lease structure / fixed-cost risk**: Long-term, largely non-cancelable **lease obligations** with fixed rent payments (often ~15-year terms) vs. shorter member contracts (average ~15 months) can create cash flow stress if occupancy declines; limited ability to exit/assign/sublease.\n- **Loss history / profitability risk**: Significant historical losses and accumulated deficit; risk of inability to achieve profitability.\n- **Liquidity / indebtedness risk**: Need to generate sufficient cash to service debt and other obligations; potential constraints from debt terms; risk of needing to take additional actions to meet obligations.\n- **Brand / reputation risk**: Business depends on maintaining brand value and reputation; negative publicity could reduce member demand and increase churn.\n- **Technology and cybersecurity risk**: Reliance on proprietary/third-party systems; cyber-attacks or system failures could lead to data loss, regulatory exposure, litigation, and reputational damage.\n- **Execution / restructuring strategy risk**: Ongoing transformation and real estate portfolio optimization may not succeed; lease exits/withholding rent can trigger litigation and disruption.\n- **People / workforce risk**: Ability to hire/retain key personnel; large workforce reductions and attrition may impair operations and morale.\n- **Related-party / governance conflicts**: Significant related-party arrangements (notably SoftBank) and potential conflicts of interest; board observer rights for Adam Neumann starting 2022 (subject to conditions).\n- **Joint venture / partner risk (international & asset-light models)**: Dependence on partners in joint ventures/management agreements; partner conflicts and compliance risks.\n- **Enterprise customer concentration risk**: Enterprise members are a large portion of revenue; default or non-renewal could materially hurt location economics.\n- **Development/construction risk**: Delays, cost overruns, contractor performance issues, permit risk, safety hazards.\n- **Public company / market risks post-combination**: Stock and warrant price volatility; analyst coverage risk; securities litigation risk; NYSE listing risk.\n- **SPAC transaction/risk allocation items**: No third-party fairness opinion; high redemption levels could reduce liquidity/cash (subject to minimum net tangible assets and minimum available cash conditions); dilution from merger/PIPE and warrant/equity plan issuances.\n\nIf you want, I can rank these by likely financial materiality (cash burn, solvency, dilution, etc.) based strictly on what\u2019s disclosed here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67608,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 647,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68255
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

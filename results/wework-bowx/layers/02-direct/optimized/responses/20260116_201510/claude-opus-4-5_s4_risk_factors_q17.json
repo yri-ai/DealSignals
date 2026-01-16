@@ -1,0 +1,34 @@
+{
+  "content": "## Answer\n\n**Not found in document.**\n\nThe provided document is an S-4/A registration statement for the BowX Acquisition Corp. and WeWork merger. While the document contains extensive information about the business combination, WeWork's operations, risk factors, and financial information, I was unable to locate any specific discussion about what happens to the business at 50% occupancy or any analysis of operational or financial impacts at specific occupancy thresholds.\n\nThe document does contain references to occupancy-related metrics and concepts:\n\n- \"Physical Occupancy\" is defined as \"the number of physical memberships divided by total workstations\" (page x, Selected Definitions section)\n- There are discussions of occupancy challenges related to COVID-19 and its impact on membership levels\n- The document mentions that between Q2 2020 and Q2 2021, \"total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31-32, Risk Factors section)\n\nHowever, there is no specific analysis or discussion of business performance, breakeven analysis, or operational implications at 50% occupancy levels.\n\n**Confidence: HIGH** - I am highly confident that this specific information about 50% occupancy scenarios is not contained in the provided document excerpt.\n\n**Caveats:** The document provided appears to be a partial excerpt of a much longer S-4/A filing. It's possible that such analysis could exist in portions of the filing not included in this excerpt, particularly in management's discussion and analysis sections or financial projections that may appear later in the complete document.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 351,
+  "latency_ms": 13508,
+  "timestamp": "2026-01-16T20:52:03.341281",
+  "cost_usd": 0.374035,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_016P6h1h5M6bDMfKYfAaaXL6",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Answer\n\n**Not found in document.**\n\nThe provided document is an S-4/A registration statement for the BowX Acquisition Corp. and WeWork merger. While the document contains extensive information about the business combination, WeWork's operations, risk factors, and financial information, I was unable to locate any specific discussion about what happens to the business at 50% occupancy or any analysis of operational or financial impacts at specific occupancy thresholds.\n\nThe document does contain references to occupancy-related metrics and concepts:\n\n- \"Physical Occupancy\" is defined as \"the number of physical memberships divided by total workstations\" (page x, Selected Definitions section)\n- There are discussions of occupancy challenges related to COVID-19 and its impact on membership levels\n- The document mentions that between Q2 2020 and Q2 2021, \"total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31-32, Risk Factors section)\n\nHowever, there is no specific analysis or discussion of business performance, breakeven analysis, or operational implications at 50% occupancy levels.\n\n**Confidence: HIGH** - I am highly confident that this specific information about 50% occupancy scenarios is not contained in the provided document excerpt.\n\n**Caveats:** The document provided appears to be a partial excerpt of a much longer S-4/A filing. It's possible that such analysis could exist in portions of the filing not included in this excerpt, particularly in management's discussion and analysis sections or financial projections that may appear later in the complete document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 351,
+      "service_tier": "standard"
+    }
+  }
+}

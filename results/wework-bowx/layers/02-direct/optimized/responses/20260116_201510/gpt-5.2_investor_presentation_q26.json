@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Support / citations:** The provided excerpt contains **no \u201cRisk Factors\u201d section, no enumerated risk disclosures, and no legible risk-factor text**\u2014it is largely comprised of confidentiality footers and slides with bullet placeholders (e.g., pages showing only \u201c\u2022\u201d or \u201c\u25cf\u201d) and non-risk content such as values statements and an \u201cAll Access\u201d product description (see the values slide starting \u201cWe know the \u2018right thing\u2019\u2026\u201d and the \u201cAll Access\u201d slide listing \u201cOn-Demand\u2026 / Generates Partnerships / Drives Occupancy / High Margins\u201d). No slide is labeled \u201cRisk Factors,\u201d and no risks are stated in readable form.\n\n**Confidence:** HIGH (directly not present in the provided document excerpt)\n\n**Caveats / limitations:** The document appears **incomplete or heavily redacted** in the provided text capture (many pages show only bullets like \u201c\u2022\u201d/\u201c\u25cf\u201d without the underlying content). If the full deck/filing includes a Risk Factors section, it was not included in what was provided here.",
+  "model": "gpt-5.2",
+  "input_tokens": 1057,
+  "output_tokens": 221,
+  "latency_ms": 7369,
+  "timestamp": "2026-01-16T20:32:51.539118",
+  "cost_usd": 0.00494375,
+  "raw_response": {
+    "id": "resp_0a401822c79ec3d900696aa06c67508190abbb522f792e0b7c",
+    "object": "response",
+    "created_at": 1768595564,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595571,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0a401822c79ec3d900696aa06cafc0819098e25818046c72d3",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Support / citations:** The provided excerpt contains **no \u201cRisk Factors\u201d section, no enumerated risk disclosures, and no legible risk-factor text**\u2014it is largely comprised of confidentiality footers and slides with bullet placeholders (e.g., pages showing only \u201c\u2022\u201d or \u201c\u25cf\u201d) and non-risk content such as values statements and an \u201cAll Access\u201d product description (see the values slide starting \u201cWe know the \u2018right thing\u2019\u2026\u201d and the \u201cAll Access\u201d slide listing \u201cOn-Demand\u2026 / Generates Partnerships / Drives Occupancy / High Margins\u201d). No slide is labeled \u201cRisk Factors,\u201d and no risks are stated in readable form.\n\n**Confidence:** HIGH (directly not present in the provided document excerpt)\n\n**Caveats / limitations:** The document appears **incomplete or heavily redacted** in the provided text capture (many pages show only bullets like \u201c\u2022\u201d/\u201c\u25cf\u201d without the underlying content). If the full deck/filing includes a Risk Factors section, it was not included in what was provided here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1057,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 221,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1278
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

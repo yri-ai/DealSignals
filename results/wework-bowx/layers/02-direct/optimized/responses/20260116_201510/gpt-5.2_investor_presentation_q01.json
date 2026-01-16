@@ -1,0 +1,80 @@
+{
+  "content": "**Not found in document.** The provided document text does not include any disclosed revenue figure for any period, including the most recent reported period (no financial tables or revenue numbers are shown in the excerpts provided).  \n\n**Confidence:** LOW (absence of data in provided material)  \n**Caveat/limitation:** The document appears to be heavily redacted/truncated (many slides show only \u201c\u2022\u201d bullets and no figures), so revenue may exist in the full deck but is not present in the provided extract (see repeated \u201c\u00a9 2021 WeWork. Confidential.\u201d slides and redacted bullet-only pages, including the \u201cAll Access\u201d slide with qualitative statements but no revenue numbers).",
+  "model": "gpt-5.2",
+  "input_tokens": 1062,
+  "output_tokens": 143,
+  "latency_ms": 5321,
+  "timestamp": "2026-01-16T20:29:53.772198",
+  "cost_usd": 0.0038605,
+  "raw_response": {
+    "id": "resp_0b4e21b696d6622600696a9fbcb2888197b0e83b32e16e1347",
+    "object": "response",
+    "created_at": 1768595388,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768595392,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0b4e21b696d6622600696a9fbd335881979b0d8a638c285f9f",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Not found in document.** The provided document text does not include any disclosed revenue figure for any period, including the most recent reported period (no financial tables or revenue numbers are shown in the excerpts provided).  \n\n**Confidence:** LOW (absence of data in provided material)  \n**Caveat/limitation:** The document appears to be heavily redacted/truncated (many slides show only \u201c\u2022\u201d bullets and no figures), so revenue may exist in the full deck but is not present in the provided extract (see repeated \u201c\u00a9 2021 WeWork. Confidential.\u201d slides and redacted bullet-only pages, including the \u201cAll Access\u201d slide with qualitative statements but no revenue numbers)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1062,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 143,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1205
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

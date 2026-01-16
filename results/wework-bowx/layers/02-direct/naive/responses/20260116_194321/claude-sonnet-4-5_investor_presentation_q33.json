@@ -1,0 +1,34 @@
+{
+  "content": "Based on the provided document, I cannot find any specific information about lock-up agreements. The document appears to be a WeWork confidential presentation that covers the company's values, business model (including their All Access offering), and various operational aspects, but it does not contain details about lock-up agreements.\n\nLock-up agreements are typically arrangements that prevent insiders, early investors, or employees from selling their shares for a specified period (usually following an IPO or major transaction), but this particular document does not address this topic.\n\nIf you're looking for information about WeWork's lock-up agreements, you would need to refer to other documents such as:\n- SEC filings (S-1, S-4, or 8-K forms)\n- The prospectus or registration statement\n- Merger or acquisition agreements\n- Shareholder agreements",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1237,
+  "output_tokens": 181,
+  "latency_ms": 5603,
+  "timestamp": "2026-01-16T19:44:55.118566",
+  "cost_usd": 0.006425999999999999,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_0177uAgtwq1ESoZBz3z3qinq",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the provided document, I cannot find any specific information about lock-up agreements. The document appears to be a WeWork confidential presentation that covers the company's values, business model (including their All Access offering), and various operational aspects, but it does not contain details about lock-up agreements.\n\nLock-up agreements are typically arrangements that prevent insiders, early investors, or employees from selling their shares for a specified period (usually following an IPO or major transaction), but this particular document does not address this topic.\n\nIf you're looking for information about WeWork's lock-up agreements, you would need to refer to other documents such as:\n- SEC filings (S-1, S-4, or 8-K forms)\n- The prospectus or registration statement\n- Merger or acquisition agreements\n- Shareholder agreements"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1237,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 181,
+      "service_tier": "standard"
+    }
+  }
+}

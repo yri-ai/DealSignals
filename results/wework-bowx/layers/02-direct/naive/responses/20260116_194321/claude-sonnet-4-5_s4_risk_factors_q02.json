@@ -1,0 +1,34 @@
+{
+  "content": "To calculate the revenue growth rate year-over-year, I need to look at WeWork's historical revenue data from the Selected Historical Financial Information section.\n\nFrom the Consolidated Statements of Operations Data:\n\n**Revenue figures:**\n- Year ended December 31, 2020: $3,415,865 thousand\n- Year ended December 31, 2019: $3,458,592 thousand\n- Year ended December 31, 2018: $1,821,751 thousand\n\n**Calculating year-over-year growth rates:**\n\n**2019 to 2020:**\nGrowth Rate = (($3,415,865 - $3,458,592) / $3,458,592) \u00d7 100\nGrowth Rate = (-$42,727 / $3,458,592) \u00d7 100\nGrowth Rate = **-1.2%**\n\n**2018 to 2019:**\nGrowth Rate = (($3,458,592 - $1,821,751) / $1,821,751) \u00d7 100\nGrowth Rate = ($1,636,841 / $1,821,751) \u00d7 100\nGrowth Rate = **89.9%**\n\n**Summary:**\n- Revenue **declined 1.2%** from 2019 to 2020 (from $3.46 billion to $3.42 billion)\n- Revenue **increased 89.9%** from 2018 to 2019 (from $1.82 billion to $3.46 billion)\n\nThe revenue decline in 2020 was primarily due to the COVID-19 pandemic's impact on WeWork's business operations.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72933,
+  "output_tokens": 374,
+  "latency_ms": 8125,
+  "timestamp": "2026-01-16T19:46:04.271523",
+  "cost_usd": 0.224409,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01EmGYr4JiyU6TuJqhXmpzMc",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "To calculate the revenue growth rate year-over-year, I need to look at WeWork's historical revenue data from the Selected Historical Financial Information section.\n\nFrom the Consolidated Statements of Operations Data:\n\n**Revenue figures:**\n- Year ended December 31, 2020: $3,415,865 thousand\n- Year ended December 31, 2019: $3,458,592 thousand\n- Year ended December 31, 2018: $1,821,751 thousand\n\n**Calculating year-over-year growth rates:**\n\n**2019 to 2020:**\nGrowth Rate = (($3,415,865 - $3,458,592) / $3,458,592) \u00d7 100\nGrowth Rate = (-$42,727 / $3,458,592) \u00d7 100\nGrowth Rate = **-1.2%**\n\n**2018 to 2019:**\nGrowth Rate = (($3,458,592 - $1,821,751) / $1,821,751) \u00d7 100\nGrowth Rate = ($1,636,841 / $1,821,751) \u00d7 100\nGrowth Rate = **89.9%**\n\n**Summary:**\n- Revenue **declined 1.2%** from 2019 to 2020 (from $3.46 billion to $3.42 billion)\n- Revenue **increased 89.9%** from 2018 to 2019 (from $1.82 billion to $3.46 billion)\n\nThe revenue decline in 2020 was primarily due to the COVID-19 pandemic's impact on WeWork's business operations."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72933,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 374,
+      "service_tier": "standard"
+    }
+  }
+}

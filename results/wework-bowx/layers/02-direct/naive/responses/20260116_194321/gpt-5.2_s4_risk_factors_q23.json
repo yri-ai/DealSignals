@@ -1,0 +1,80 @@
+{
+  "content": "The document indicates WeWork has **multiple related\u2011party transactions**, primarily involving **SoftBank** and, historically, arrangements involving **Adam Neumann** and a former director\u2019s affiliated real estate investment group. Key related\u2011party transactions/relationships described include:\n\n- **SoftBank-related arrangements (majority of related-party activity)**\n  - SoftBank is a significant stockholder and counterparty to various WeWork arrangements.\n  - WeWork discloses that **all transactions with the \u201cSoftBank Obligor\u201d are related\u2011party transactions**, including debt/credit support arrangements.\n  - As of **June 30, 2021**, WeWork had:\n    - **$1.7 billion** of **outstanding letters of credit** issued under the **2020 LC Facility** (related party).\n    - **$2.2 billion** of **outstanding indebtedness** under SoftBank senior unsecured debt (related party).\n  - SoftBank/affiliates are also involved in **strategic investments/joint venture structures**, including:\n    - The **PacificCo Roll-up** (WeWork Asia Holding Company B.V. becoming wholly owned after issuing Series H-1 Preferred Stock to SVFE).\n    - A continuing **Japan joint venture** with funds affiliated with SVFE.\n  - SoftBank equity-linked inducements connected to the Business Combination:\n    - **First Warrant** to SBWW (SoftBank affiliate) as an inducement for preferred conversion support.\n    - **LC Warrant** to SoftBank Obligor (or designee) tied to the LC facility term extension.\n\n- **Historically related-party landlord / real estate transactions**\n  - WeWork previously entered into lease/real estate transactions with **landlord entities** in which:\n    - **Adam Neumann** (former CEO/director) had an ownership interest; and/or\n    - **WeCap Investment Group** (operated with Rh\u00f4ne Group and associated with former director **Steven Langman**) had an ownership interest.\n  - As part of restructuring, WeWork was in **ongoing discussions to exit certain related\u2011party leases**.\n\n- **Indemnification-related payments to current/former insiders**\n  - WeWork has indemnification obligations to certain current and former directors, officers and shareholders.\n  - The document notes WeWork paid **~$14 million in legal fees in 2020** related to these indemnifications (outside insurance coverage).\n\n- **Adam Neumann board observer right (post\u2011closing governance-related arrangement)**\n  - Under an agreement, beginning **Feb. 26, 2022**, Neumann (or an approved designee) may have **board observer rights**, subject to conditions and confidentiality, until he falls below a specified ownership threshold.\n\n- **Quantified related-party revenue/expense disclosure**\n  - WeWork reports **related-party revenue** and **related-party expenses** in its financials (e.g., related\u2011party revenue of **$87.694M** for six months ended June 30, 2021; related\u2011party expenses of **$38.253M** for the same period), though the excerpt does not itemize the counterparties behind these totals.\n\nIf you want, I can organize the above into a concise table by counterparty (SoftBank / Neumann / other) and by type (financing, leases, governance, indemnification).",
+  "model": "gpt-5.2",
+  "input_tokens": 67606,
+  "output_tokens": 692,
+  "latency_ms": 16993,
+  "timestamp": "2026-01-16T19:57:54.555579",
+  "cost_usd": 0.1279985,
+  "raw_response": {
+    "id": "resp_06833e63cbdc0ec600696a9831fc6c81969a49e5b7cce156ba",
+    "object": "response",
+    "created_at": 1768593458,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593474,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_06833e63cbdc0ec600696a9832b1808196b2a432b6b5c77c63",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document indicates WeWork has **multiple related\u2011party transactions**, primarily involving **SoftBank** and, historically, arrangements involving **Adam Neumann** and a former director\u2019s affiliated real estate investment group. Key related\u2011party transactions/relationships described include:\n\n- **SoftBank-related arrangements (majority of related-party activity)**\n  - SoftBank is a significant stockholder and counterparty to various WeWork arrangements.\n  - WeWork discloses that **all transactions with the \u201cSoftBank Obligor\u201d are related\u2011party transactions**, including debt/credit support arrangements.\n  - As of **June 30, 2021**, WeWork had:\n    - **$1.7 billion** of **outstanding letters of credit** issued under the **2020 LC Facility** (related party).\n    - **$2.2 billion** of **outstanding indebtedness** under SoftBank senior unsecured debt (related party).\n  - SoftBank/affiliates are also involved in **strategic investments/joint venture structures**, including:\n    - The **PacificCo Roll-up** (WeWork Asia Holding Company B.V. becoming wholly owned after issuing Series H-1 Preferred Stock to SVFE).\n    - A continuing **Japan joint venture** with funds affiliated with SVFE.\n  - SoftBank equity-linked inducements connected to the Business Combination:\n    - **First Warrant** to SBWW (SoftBank affiliate) as an inducement for preferred conversion support.\n    - **LC Warrant** to SoftBank Obligor (or designee) tied to the LC facility term extension.\n\n- **Historically related-party landlord / real estate transactions**\n  - WeWork previously entered into lease/real estate transactions with **landlord entities** in which:\n    - **Adam Neumann** (former CEO/director) had an ownership interest; and/or\n    - **WeCap Investment Group** (operated with Rh\u00f4ne Group and associated with former director **Steven Langman**) had an ownership interest.\n  - As part of restructuring, WeWork was in **ongoing discussions to exit certain related\u2011party leases**.\n\n- **Indemnification-related payments to current/former insiders**\n  - WeWork has indemnification obligations to certain current and former directors, officers and shareholders.\n  - The document notes WeWork paid **~$14 million in legal fees in 2020** related to these indemnifications (outside insurance coverage).\n\n- **Adam Neumann board observer right (post\u2011closing governance-related arrangement)**\n  - Under an agreement, beginning **Feb. 26, 2022**, Neumann (or an approved designee) may have **board observer rights**, subject to conditions and confidentiality, until he falls below a specified ownership threshold.\n\n- **Quantified related-party revenue/expense disclosure**\n  - WeWork reports **related-party revenue** and **related-party expenses** in its financials (e.g., related\u2011party revenue of **$87.694M** for six months ended June 30, 2021; related\u2011party expenses of **$38.253M** for the same period), though the excerpt does not itemize the counterparties behind these totals.\n\nIf you want, I can organize the above into a concise table by counterparty (SoftBank / Neumann / other) and by type (financing, leases, governance, indemnification)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67606,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 692,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68298
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

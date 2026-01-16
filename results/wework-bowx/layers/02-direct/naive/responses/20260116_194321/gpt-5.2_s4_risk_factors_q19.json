@@ -1,0 +1,80 @@
+{
+  "content": "The document does **not** use a market-based valuation (e.g., comparable companies or discounted cash flow) to justify the $10.00/share price.\n\nInstead, for **registration fee/\u201cproposed maximum aggregate offering price\u201d** purposes, it states the valuation is **estimated as one-third of the aggregate par value of the WeWork securities expected to be exchanged in the merger** (per Rule 457(f)(2)), because WeWork is private, has no public market, and has an accumulated deficit.",
+  "model": "gpt-5.2",
+  "input_tokens": 67610,
+  "output_tokens": 108,
+  "latency_ms": 3465,
+  "timestamp": "2026-01-16T19:57:08.450235",
+  "cost_usd": 0.1198295,
+  "raw_response": {
+    "id": "resp_0639c00c35c5f95200696a981161fc8197a97515a2889cd123",
+    "object": "response",
+    "created_at": 1768593425,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593428,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0639c00c35c5f95200696a9811f034819787e791f4f757e2fd",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document does **not** use a market-based valuation (e.g., comparable companies or discounted cash flow) to justify the $10.00/share price.\n\nInstead, for **registration fee/\u201cproposed maximum aggregate offering price\u201d** purposes, it states the valuation is **estimated as one-third of the aggregate par value of the WeWork securities expected to be exchanged in the merger** (per Rule 457(f)(2)), because WeWork is private, has no public market, and has an accumulated deficit."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67610,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 108,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67718
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

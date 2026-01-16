@@ -1,0 +1,80 @@
+{
+  "content": "The document excerpt provided does **not include the figures needed to calculate cash runway** (i.e., current cash balance and the current cash burn rate/negative free cash flow). Therefore, the **cash runway at the current burn rate cannot be determined from this document**.\n\nTo answer it, we would need:\n- **Cash on hand** (or liquidity available), and  \n- **Current burn rate** (e.g., average monthly net cash outflow)\n\nThen: **Cash runway (months) = Cash on hand \u00f7 Monthly burn rate**.",
+  "model": "gpt-5.2",
+  "input_tokens": 954,
+  "output_tokens": 115,
+  "latency_ms": 3685,
+  "timestamp": "2026-01-16T19:53:35.715141",
+  "cost_usd": 0.0032795000000000003,
+  "raw_response": {
+    "id": "resp_069205fee30fcb7f00696a973c98f481909477b025a9183447",
+    "object": "response",
+    "created_at": 1768593212,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593215,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_069205fee30fcb7f00696a973cfd388190a835e2aa53122200",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document excerpt provided does **not include the figures needed to calculate cash runway** (i.e., current cash balance and the current cash burn rate/negative free cash flow). Therefore, the **cash runway at the current burn rate cannot be determined from this document**.\n\nTo answer it, we would need:\n- **Cash on hand** (or liquidity available), and  \n- **Current burn rate** (e.g., average monthly net cash outflow)\n\nThen: **Cash runway (months) = Cash on hand \u00f7 Monthly burn rate**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 954,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 115,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1069
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

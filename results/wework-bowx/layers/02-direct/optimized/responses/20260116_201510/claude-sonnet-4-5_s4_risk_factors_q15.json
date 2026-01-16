@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, here are the key details about lease termination provisions:\n\n**Limited Early Termination Provisions:**\n\"The Company currently leases a significant majority of its locations under long-term leases that, with limited exceptions, do not contain early termination provisions.\" (Page 32)\n\n**Member-Side Termination:**\nThe document notes that members have much more flexibility than the company: \"In many cases, members may terminate their membership agreements with the Company at any time upon as little notice as one calendar month, generally for a fee.\" (Page 33)\n\n**Typical Lease Terms:**\n\"The average length of the initial term of its leases is approximately 15 years, and the average term of its membership agreements is 15 months.\" (Page 32)\n\n**Lease Obligations:**\n\"As of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion\" (Page 32)\n\n**Challenges with Early Termination:**\n\"At certain locations, the Company has not been able to, and may not be able to, reduce its rent under the lease or otherwise terminate the lease, whether in accordance with its terms or by negotiation.\" (Page 33)\n\n**Confidence: HIGH** - These provisions are directly stated in the document.\n\n**Caveats:** The document indicates that while there are \"limited exceptions\" that do contain early termination provisions, the specific terms of those exceptions are not detailed in this document.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73048,
+  "output_tokens": 342,
+  "latency_ms": 11893,
+  "timestamp": "2026-01-16T20:24:17.487990",
+  "cost_usd": 0.224274,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01EJ4MFqyYEStW5QGoNVnG16",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, here are the key details about lease termination provisions:\n\n**Limited Early Termination Provisions:**\n\"The Company currently leases a significant majority of its locations under long-term leases that, with limited exceptions, do not contain early termination provisions.\" (Page 32)\n\n**Member-Side Termination:**\nThe document notes that members have much more flexibility than the company: \"In many cases, members may terminate their membership agreements with the Company at any time upon as little notice as one calendar month, generally for a fee.\" (Page 33)\n\n**Typical Lease Terms:**\n\"The average length of the initial term of its leases is approximately 15 years, and the average term of its membership agreements is 15 months.\" (Page 32)\n\n**Lease Obligations:**\n\"As of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion\" (Page 32)\n\n**Challenges with Early Termination:**\n\"At certain locations, the Company has not been able to, and may not be able to, reduce its rent under the lease or otherwise terminate the lease, whether in accordance with its terms or by negotiation.\" (Page 33)\n\n**Confidence: HIGH** - These provisions are directly stated in the document.\n\n**Caveats:** The document indicates that while there are \"limited exceptions\" that do contain early termination provisions, the specific terms of those exceptions are not detailed in this document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73048,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 342,
+      "service_tier": "standard"
+    }
+  }
+}

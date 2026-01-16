@@ -1,0 +1,80 @@
+{
+  "content": "The document excerpt provided does not include any revenue figures by year (or a table/chart with revenues), so the year-over-year revenue growth rate cannot be calculated from the available information.\n\nIf you share revenues for two consecutive years (e.g., Revenue 2020 and Revenue 2021), I can compute it as:\n\n\\[\n\\text{YoY Revenue Growth} = \\frac{\\text{Revenue}_{t} - \\text{Revenue}_{t-1}}{\\text{Revenue}_{t-1}}\n\\]",
+  "model": "gpt-5.2",
+  "input_tokens": 954,
+  "output_tokens": 109,
+  "latency_ms": 3110,
+  "timestamp": "2026-01-16T19:53:24.452502",
+  "cost_usd": 0.0031955,
+  "raw_response": {
+    "id": "resp_06a3580cab0cefa100696a973218d48190b394013e1017b35f",
+    "object": "response",
+    "created_at": 1768593202,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593204,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_06a3580cab0cefa100696a9732867c8190a3dc9a4c323d6727",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document excerpt provided does not include any revenue figures by year (or a table/chart with revenues), so the year-over-year revenue growth rate cannot be calculated from the available information.\n\nIf you share revenues for two consecutive years (e.g., Revenue 2020 and Revenue 2021), I can compute it as:\n\n\\[\n\\text{YoY Revenue Growth} = \\frac{\\text{Revenue}_{t} - \\text{Revenue}_{t-1}}{\\text{Revenue}_{t-1}}\n\\]"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 954,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 109,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1063
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

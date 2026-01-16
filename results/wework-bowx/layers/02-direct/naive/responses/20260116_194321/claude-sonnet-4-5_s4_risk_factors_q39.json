@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, here are the key debt covenants and restrictions that existed:\n\n1. **Minimum Available Cash Condition**: The Merger Agreement requires that the available cash (Trust Amount plus PIPE Investment) must be at least $800 million at closing.\n\n2. **Net Tangible Assets Requirement**: BowX must have at least $5,000,001 of net tangible assets as of the effective time of the consummation of the Business Combination.\n\n3. **Share Redemption Limits**: \n   - BowX cannot redeem shares in an amount that would cause net tangible assets to be less than $5,000,001\n   - Individual shareholders cannot redeem more than 15% of public stock without BowX's consent\n\n4. **SoftBank Debt Restrictions**: The document mentions that \"WeWork's debt facilities also impose or may in the future impose certain restrictions on WeWork's subsidiaries making distributions to WeWork.\"\n\n5. **LC Facility**: As of June 30, 2021, the company had:\n   - $1.7 billion in outstanding letters of credit under the 2020 LC Facility\n   - Termination date that could be extended from February 10, 2023 to February 10, 2024\n\n6. **SoftBank Senior Secured Notes**: Up to $550 million of 7.50% senior secured notes with maturity at the earlier of 18 months from Closing or February 12, 2023.\n\n7. **Surety Bonds**: Sureties have the right to increase collateral to 100% of outstanding bond amounts at any time.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72930,
+  "output_tokens": 371,
+  "latency_ms": 14115,
+  "timestamp": "2026-01-16T19:52:55.766686",
+  "cost_usd": 0.22435499999999997,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01YP351BNocnpL5WAy7d9GHz",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, here are the key debt covenants and restrictions that existed:\n\n1. **Minimum Available Cash Condition**: The Merger Agreement requires that the available cash (Trust Amount plus PIPE Investment) must be at least $800 million at closing.\n\n2. **Net Tangible Assets Requirement**: BowX must have at least $5,000,001 of net tangible assets as of the effective time of the consummation of the Business Combination.\n\n3. **Share Redemption Limits**: \n   - BowX cannot redeem shares in an amount that would cause net tangible assets to be less than $5,000,001\n   - Individual shareholders cannot redeem more than 15% of public stock without BowX's consent\n\n4. **SoftBank Debt Restrictions**: The document mentions that \"WeWork's debt facilities also impose or may in the future impose certain restrictions on WeWork's subsidiaries making distributions to WeWork.\"\n\n5. **LC Facility**: As of June 30, 2021, the company had:\n   - $1.7 billion in outstanding letters of credit under the 2020 LC Facility\n   - Termination date that could be extended from February 10, 2023 to February 10, 2024\n\n6. **SoftBank Senior Secured Notes**: Up to $550 million of 7.50% senior secured notes with maturity at the earlier of 18 months from Closing or February 12, 2023.\n\n7. **Surety Bonds**: Sureties have the right to increase collateral to 100% of outstanding bond amounts at any time."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72930,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 371,
+      "service_tier": "standard"
+    }
+  }
+}

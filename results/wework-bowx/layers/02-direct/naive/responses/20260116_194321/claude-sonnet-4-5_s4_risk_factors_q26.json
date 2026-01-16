@@ -1,0 +1,34 @@
+{
+  "content": "Based on the risk factors section, the top disclosed risk factors for WeWork are:\n\n1. **COVID-19 Impact**: The pandemic had a significant impact on the Company's business, with memberships declining 16% between Q2 2020 and Q2 2021, and causing increased member churn and non-payment.\n\n2. **Member Retention**: The Company may not be able to continue to retain existing members or attract new members. Many members can terminate with as little as one month notice, with approximately 10% of physical memberships being month-to-month during the six months ended June 30, 2021.\n\n3. **Lease Obligations**: The Company has long-term lease obligations ($36.6 billion in future undiscounted minimum lease payment obligations as of June 30, 2021) while member agreements are much shorter-term (average 15 months vs 15-year leases).\n\n4. **History of Losses**: The Company has an accumulated deficit and recorded net losses of $3.0 billion, $3.8 billion, $3.8 billion, and $1.9 billion for the six months ended June 30, 2021 and years ended December 31, 2020, 2019, and 2018 respectively.\n\n5. **Transformation Uncertainty**: The Company is undergoing a business transformation under new management with no assurance the new strategy will be successful.\n\n6. **Brand and Reputation**: The Company's success depends heavily on maintaining its brand value and reputation, which has been challenged by negative publicity.\n\n7. **Workforce Management**: The Company has reduced its global workforce by approximately 70% and may face challenges in managing employee turnover and retention.\n\n8. **Economic Downturns**: Economic downturns could lead to increased member terminations, particularly among small- and mid-sized businesses that comprise a significant portion of the member base.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72929,
+  "output_tokens": 421,
+  "latency_ms": 11674,
+  "timestamp": "2026-01-16T19:50:21.567167",
+  "cost_usd": 0.22510199999999997,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01TyQRgKca6PwQUqJG6Dqx3B",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the risk factors section, the top disclosed risk factors for WeWork are:\n\n1. **COVID-19 Impact**: The pandemic had a significant impact on the Company's business, with memberships declining 16% between Q2 2020 and Q2 2021, and causing increased member churn and non-payment.\n\n2. **Member Retention**: The Company may not be able to continue to retain existing members or attract new members. Many members can terminate with as little as one month notice, with approximately 10% of physical memberships being month-to-month during the six months ended June 30, 2021.\n\n3. **Lease Obligations**: The Company has long-term lease obligations ($36.6 billion in future undiscounted minimum lease payment obligations as of June 30, 2021) while member agreements are much shorter-term (average 15 months vs 15-year leases).\n\n4. **History of Losses**: The Company has an accumulated deficit and recorded net losses of $3.0 billion, $3.8 billion, $3.8 billion, and $1.9 billion for the six months ended June 30, 2021 and years ended December 31, 2020, 2019, and 2018 respectively.\n\n5. **Transformation Uncertainty**: The Company is undergoing a business transformation under new management with no assurance the new strategy will be successful.\n\n6. **Brand and Reputation**: The Company's success depends heavily on maintaining its brand value and reputation, which has been challenged by negative publicity.\n\n7. **Workforce Management**: The Company has reduced its global workforce by approximately 70% and may face challenges in managing employee turnover and retention.\n\n8. **Economic Downturns**: Economic downturns could lead to increased member terminations, particularly among small- and mid-sized businesses that comprise a significant portion of the member base."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72929,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 421,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "budgets": {
+    "investor_presentation_chars": 160000,
+    "s4_chars": 320000
+  },
+  "documents": {
+    "investor_presentation": {
+      "budget_chars": 160000,
+      "output_chars": 3209,
+      "output_hash": "cfa215067091a350b9a0fb1bb00bcfcfea88ec44244cdec7b492c5ecdc08399a",
+      "output_path": "experiments/wework-bowx/data/layer-02/investor_presentation.txt",
+      "section_coverage": {
+        "coverage_ratio": 0.0,
+        "found": [],
+        "missing": [
+          "EXECUTIVE SUMMARY",
+          "MARKET / STRATEGY",
+          "UNIT ECONOMICS",
+          "FINANCIAL PROJECTIONS",
+          "RISKS / DISCLAIMERS",
+          "RISKS"
+        ],
+        "requested": [
+          "EXECUTIVE SUMMARY",
+          "MARKET / STRATEGY",
+          "UNIT ECONOMICS",
+          "FINANCIAL PROJECTIONS",
+          "RISKS / DISCLAIMERS",
+          "RISKS"
+        ]
+      },
+      "source_chars": 3209,
+      "source_hash": "cfa215067091a350b9a0fb1bb00bcfcfea88ec44244cdec7b492c5ecdc08399a",
+      "source_path": "experiments/wework-bowx/data/layer-02/investor_presentation_full.txt"
+    },
+    "s4": {
+      "budget_chars": 320000,
+      "output_chars": 320000,
+      "output_hash": "2f98749a6ddb6c73a8676bbffb1262cfaea3b029514977d06f0817240d5fd47d",
+      "output_path": "experiments/wework-bowx/data/layer-02/s4_risk_factors.txt",
+      "section_coverage": {
+        "coverage_ratio": 0.0,
+        "found": [],
+        "missing": [
+          "RISK FACTORS",
+          "SUMMARY",
+          "SELECTED FINANCIAL DATA",
+          "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS",
+          "MANAGEMENT'S DISCUSSION AND ANALYSIS",
+          "PROJECTIONS",
+          "TRANSACTION TERMS",
+          "RELATED-PARTY / CONFLICTS",
+          "LEGAL / REGULATORY",
+          "APPENDICES"
+        ],
+        "requested": [
+          "RISK FACTORS",
+          "SUMMARY",
+          "SELECTED FINANCIAL DATA",
+          "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS",
+          "MANAGEMENT'S DISCUSSION AND ANALYSIS",
+          "PROJECTIONS",
+          "TRANSACTION TERMS",
+          "RELATED-PARTY / CONFLICTS",
+          "LEGAL / REGULATORY",
+          "APPENDICES"
+        ]
+      },
+      "source_chars": 4218502,
+      "source_hash": "8db80a5883423ad27e2eb3575d80a7af4919455504309fced58ccfaa20e5bee4",
+      "source_path": "experiments/wework-bowx/data/merger/s-4-a/2021-09-17_d166510ds4a.txt"
+    }
+  },
+  "generated_at": "2026-01-16T15:06:23.286247+00:00",
+  "rotation_mode": "none"
+}

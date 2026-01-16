@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I can find information about Physical Occupancy but not about how it has specifically trended over time.\n\n**Definition:**\nPhysical Occupancy is defined as \"the number of physical memberships divided by total workstations\" (page x, Selected Definitions section).\n\n**Lack of Trend Data:**\nThe document does not contain specific numerical data or historical trends showing Physical Occupancy rates over different time periods. While the term is defined in the Selected Definitions section, no actual occupancy rate percentages or trend analysis are provided in the sections I reviewed.\n\n**Related Membership Information:**\nThe document does mention that \"between the quarter ended June 30, 2020 and the quarter ended June 30, 2021, the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31, Risk Factors section). This membership decline would likely impact occupancy rates, but the document does not explicitly state the occupancy rate figures or trends.\n\n**Confidence:** MEDIUM - The definition is directly stated, but specific occupancy rate data and trends are not found in the document.\n\n**Not found in document:** Specific Physical Occupancy rate percentages and historical trend data.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 275,
+  "latency_ms": 12075,
+  "timestamp": "2026-01-16T20:23:24.238783",
+  "cost_usd": 0.223281,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_015m4bkSL6amkEBEUSrQT6GW",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I can find information about Physical Occupancy but not about how it has specifically trended over time.\n\n**Definition:**\nPhysical Occupancy is defined as \"the number of physical memberships divided by total workstations\" (page x, Selected Definitions section).\n\n**Lack of Trend Data:**\nThe document does not contain specific numerical data or historical trends showing Physical Occupancy rates over different time periods. While the term is defined in the Selected Definitions section, no actual occupancy rate percentages or trend analysis are provided in the sections I reviewed.\n\n**Related Membership Information:**\nThe document does mention that \"between the quarter ended June 30, 2020 and the quarter ended June 30, 2021, the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31, Risk Factors section). This membership decline would likely impact occupancy rates, but the document does not explicitly state the occupancy rate figures or trends.\n\n**Confidence:** MEDIUM - The definition is directly stated, but specific occupancy rate data and trends are not found in the document.\n\n**Not found in document:** Specific Physical Occupancy rate percentages and historical trend data."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 275,
+      "service_tier": "standard"
+    }
+  }
+}

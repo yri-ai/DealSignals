@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Caveats / limitations:** The provided extract appears to be an incomplete/pageless slide deck with many slides redacted or replaced by \u201c\u00a9 2021 WeWork. Confidential.\u201d placeholders and bullet dots (no readable \u201cmarket context\u201d slide, deal-time market data, or transaction-timing commentary is included). The only legible business-content sections relate to company values and an \u201cAll Access\u201d product description (no deal-time market context is stated). **(No page numbers/section headers available beyond the visible \u201cAll Access\u201d heading and values text.)**\n\n**Confidence:** HIGH (the requested information is not present in the provided document text).",
+  "model": "gpt-5.2",
+  "input_tokens": 1058,
+  "output_tokens": 140,
+  "latency_ms": 4502,
+  "timestamp": "2026-01-16T20:33:33.318747",
+  "cost_usd": 0.0038115,
+  "raw_response": {
+    "id": "resp_0ed48a5a519f5a5800696aa0992c5481a18b8bf16f81a553db",
+    "object": "response",
+    "created_at": 1768595609,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595612,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ed48a5a519f5a5800696aa0996f5c81a194505a4b9a8a3c89",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Caveats / limitations:** The provided extract appears to be an incomplete/pageless slide deck with many slides redacted or replaced by \u201c\u00a9 2021 WeWork. Confidential.\u201d placeholders and bullet dots (no readable \u201cmarket context\u201d slide, deal-time market data, or transaction-timing commentary is included). The only legible business-content sections relate to company values and an \u201cAll Access\u201d product description (no deal-time market context is stated). **(No page numbers/section headers available beyond the visible \u201cAll Access\u201d heading and values text.)**\n\n**Confidence:** HIGH (the requested information is not present in the provided document text)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1058,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 140,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1198
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "The document does **not** provide enough information to calculate a reliable \u201ccash runway at current burn rate\u201d for New WeWork.\n\nWhat it *does* provide:\n- **WeWork net cash used in operating activities (6 months ended June 30, 2021):** **$1.159B**.  \n  - Implied operating cash burn rate \u2248 **$193M/month** ($1.159B \u00f7 6).\n- **WeWork Free Cash Flow (6 months ended June 30, 2021):** **($1.312B)** (operating cash flow minus capex).  \n  - Implied FCF burn rate \u2248 **$219M/month** ($1.312B \u00f7 6).\n- **Liquidity/cash balance** (cash and cash equivalents) is **not shown** in the excerpt you provided (it only shows *total current assets*, not cash), and post-close cash depends on:\n  - **BowX trust cash remaining after redemptions** (trust was ~$483M as of 6/30/2021, but redemptions could materially reduce this), plus\n  - **$800M PIPE**, less\n  - **transaction fees/expenses**, and other uses.\n\nSo:\n- If you define burn as **operating cash burn**, the **current burn rate** implied by the filing is about **$193M/month**.\n- If you define burn as **Free Cash Flow burn**, it\u2019s about **$219M/month**.\n- But **runway (months) = available cash \u00f7 monthly burn** cannot be computed from this excerpt because **available cash at close / cash on hand isn\u2019t provided** here.\n\nIf you share the **cash and cash equivalents** figure (or the \u201csources and uses\u201d table / pro forma cash) from the filing, I can compute runway under both burn definitions and under different redemption scenarios.",
+  "model": "gpt-5.2",
+  "input_tokens": 67610,
+  "output_tokens": 398,
+  "latency_ms": 10883,
+  "timestamp": "2026-01-16T19:55:51.530082",
+  "cost_usd": 0.12388950000000001,
+  "raw_response": {
+    "id": "resp_0b80431791f1f97a00696a97bd6380819091247cdced702766",
+    "object": "response",
+    "created_at": 1768593341,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593350,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0b80431791f1f97a00696a97bdee088190a5c13156c29584ec",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document does **not** provide enough information to calculate a reliable \u201ccash runway at current burn rate\u201d for New WeWork.\n\nWhat it *does* provide:\n- **WeWork net cash used in operating activities (6 months ended June 30, 2021):** **$1.159B**.  \n  - Implied operating cash burn rate \u2248 **$193M/month** ($1.159B \u00f7 6).\n- **WeWork Free Cash Flow (6 months ended June 30, 2021):** **($1.312B)** (operating cash flow minus capex).  \n  - Implied FCF burn rate \u2248 **$219M/month** ($1.312B \u00f7 6).\n- **Liquidity/cash balance** (cash and cash equivalents) is **not shown** in the excerpt you provided (it only shows *total current assets*, not cash), and post-close cash depends on:\n  - **BowX trust cash remaining after redemptions** (trust was ~$483M as of 6/30/2021, but redemptions could materially reduce this), plus\n  - **$800M PIPE**, less\n  - **transaction fees/expenses**, and other uses.\n\nSo:\n- If you define burn as **operating cash burn**, the **current burn rate** implied by the filing is about **$193M/month**.\n- If you define burn as **Free Cash Flow burn**, it\u2019s about **$219M/month**.\n- But **runway (months) = available cash \u00f7 monthly burn** cannot be computed from this excerpt because **available cash at close / cash on hand isn\u2019t provided** here.\n\nIf you share the **cash and cash equivalents** figure (or the \u201csources and uses\u201d table / pro forma cash) from the filing, I can compute runway under both burn definitions and under different redemption scenarios."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67610,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 398,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68008
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

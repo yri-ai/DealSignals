@@ -1,0 +1,34 @@
+{
+  "content": "Based on the provided document, there is no specific information about what happens to the business at 70% occupancy.\n\nThe document mentions \"Physical Occupancy\" as one of the defined terms, which is described as \"the number of physical memberships divided by total workstations,\" but it does not provide any details about business performance, profitability, or operational changes at specific occupancy levels like 70%.\n\nThe document does discuss various financial metrics and operational challenges WeWork faces, but it does not establish any particular threshold or consequences tied to 70% occupancy specifically.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72933,
+  "output_tokens": 123,
+  "latency_ms": 7830,
+  "timestamp": "2026-01-16T19:48:23.597542",
+  "cost_usd": 0.220644,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01AhNsv2aQGjgBgzdqBefXX7",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the provided document, there is no specific information about what happens to the business at 70% occupancy.\n\nThe document mentions \"Physical Occupancy\" as one of the defined terms, which is described as \"the number of physical memberships divided by total workstations,\" but it does not provide any details about business performance, profitability, or operational changes at specific occupancy levels like 70%.\n\nThe document does discuss various financial metrics and operational challenges WeWork faces, but it does not establish any particular threshold or consequences tied to 70% occupancy specifically."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72933,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 123,
+      "service_tier": "standard"
+    }
+  }
+}

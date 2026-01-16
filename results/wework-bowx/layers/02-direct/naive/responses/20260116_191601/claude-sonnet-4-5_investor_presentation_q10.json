@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I can see that **occupancy** is mentioned as a key metric that WeWork tracks, but the specific occupancy rate figures and historical trends are not clearly visible in the portions of the document that contain readable text.\n\nHowever, I can share what the document indicates about occupancy:\n\n## What the Document Shows About Occupancy:\n\n1. **Strategic Importance**: The document mentions that WeWork's \"All Access\" product \"Drives Occupancy\" and \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\"\n\n2. **As a Metric**: Occupancy appears to be one of the key performance indicators WeWork monitors, likely defined as the percentage of available workspace that is leased or in use\n\n3. **Timeline Reference**: There is a timeline shown spanning from 2010 to 2030, which suggests historical and projected data may be presented, but the specific occupancy figures along this timeline are not readable in the provided text\n\nUnfortunately, without access to the actual charts, graphs, or data tables that appear to be in this presentation, I cannot provide you with:\n- The specific current occupancy rate\n- Historical occupancy trends\n- Target occupancy rates\n\n**To get this information, you would need to review the actual charts and data visualizations in the complete presentation slides.**",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1241,
+  "output_tokens": 291,
+  "latency_ms": 8511,
+  "timestamp": "2026-01-16T19:17:13.351436",
+  "cost_usd": 0.008088000000000001,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01WzX1VQ9bAB1YYKPSE3T1ox",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I can see that **occupancy** is mentioned as a key metric that WeWork tracks, but the specific occupancy rate figures and historical trends are not clearly visible in the portions of the document that contain readable text.\n\nHowever, I can share what the document indicates about occupancy:\n\n## What the Document Shows About Occupancy:\n\n1. **Strategic Importance**: The document mentions that WeWork's \"All Access\" product \"Drives Occupancy\" and \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\"\n\n2. **As a Metric**: Occupancy appears to be one of the key performance indicators WeWork monitors, likely defined as the percentage of available workspace that is leased or in use\n\n3. **Timeline Reference**: There is a timeline shown spanning from 2010 to 2030, which suggests historical and projected data may be presented, but the specific occupancy figures along this timeline are not readable in the provided text\n\nUnfortunately, without access to the actual charts, graphs, or data tables that appear to be in this presentation, I cannot provide you with:\n- The specific current occupancy rate\n- Historical occupancy trends\n- Target occupancy rates\n\n**To get this information, you would need to review the actual charts and data visualizations in the complete presentation slides.**"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1241,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 291,
+      "service_tier": "standard"
+    }
+  }
+}

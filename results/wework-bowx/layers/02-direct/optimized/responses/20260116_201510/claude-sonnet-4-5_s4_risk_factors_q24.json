@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, here are the management incentives and compensation in the deal:\n\n## WeWork Executive Officers' Incentives:\n\n### Transaction Bonuses\nWeWork established bonus arrangements that would result in payments upon a qualifying capital raise and/or public listing. Upon consummation of the Business Combination:\n\n- **Sandeep Mathrani (CEO)**: $10.0 million payment, subject to repayment obligations if he resigns without good reason or is terminated for cause (full after-tax amount if before January 31, 2022; 50% if between January 31, 2022 and January 31, 2023)\n\n- **Other Executive Officers** (target amounts, subject to adjustment by CEO):\n  - Anthony Yazbeck: $2.0 million\n  - Ben Dunham: $1.5 million\n  - Jared DeMatteis: $1.5 million\n  - Lauren Fritts: $1.0 million\n  - Peter Greenspan: $1.0 million\n  - Hamid Hashemi: $750,000\n  - Scott Morey: $300,000\n  - Maral Kazanjian: $250,000\n  - Roger Sol\u00e9 Rafols: $250,000\n\n(Page 14: \"Upon the consummation of the Business Combination, Sandeep Mathrani, WeWork's Chief Executive Officer, will be entitled to a payment of $10.0 million...\")\n\n### Promotion Bonus\n- **Anthony Yazbeck**: GBP 1.44 million one-time bonus for promotion to President & Chief Operating Officer, payable within 30 days following Business Combination consummation (Page 15)\n\n### Equity Awards\n\"WeWork's executive officers also hold certain WeWork Restricted Stock Unit Awards which have, as a condition to vesting, the satisfaction of a liquidity event condition... The consummation of the Business Combination will satisfy the liquidity event condition.\" (Page 15)\n\nAs of July 15, 2021, executive officers held an aggregate of 4,347,818 restricted stock units, of which 8,863 will be fully vested upon Business Combination consummation, with the remainder subject to additional service- and/or performance-based vesting requirements. (Page 15)\n\n**Confidence: HIGH** - These details are directly stated in the document.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 548,
+  "latency_ms": 16180,
+  "timestamp": "2026-01-16T20:26:12.385901",
+  "cost_usd": 0.22737600000000002,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01CLucKkU1ko5yWB9DN3Amrv",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, here are the management incentives and compensation in the deal:\n\n## WeWork Executive Officers' Incentives:\n\n### Transaction Bonuses\nWeWork established bonus arrangements that would result in payments upon a qualifying capital raise and/or public listing. Upon consummation of the Business Combination:\n\n- **Sandeep Mathrani (CEO)**: $10.0 million payment, subject to repayment obligations if he resigns without good reason or is terminated for cause (full after-tax amount if before January 31, 2022; 50% if between January 31, 2022 and January 31, 2023)\n\n- **Other Executive Officers** (target amounts, subject to adjustment by CEO):\n  - Anthony Yazbeck: $2.0 million\n  - Ben Dunham: $1.5 million\n  - Jared DeMatteis: $1.5 million\n  - Lauren Fritts: $1.0 million\n  - Peter Greenspan: $1.0 million\n  - Hamid Hashemi: $750,000\n  - Scott Morey: $300,000\n  - Maral Kazanjian: $250,000\n  - Roger Sol\u00e9 Rafols: $250,000\n\n(Page 14: \"Upon the consummation of the Business Combination, Sandeep Mathrani, WeWork's Chief Executive Officer, will be entitled to a payment of $10.0 million...\")\n\n### Promotion Bonus\n- **Anthony Yazbeck**: GBP 1.44 million one-time bonus for promotion to President & Chief Operating Officer, payable within 30 days following Business Combination consummation (Page 15)\n\n### Equity Awards\n\"WeWork's executive officers also hold certain WeWork Restricted Stock Unit Awards which have, as a condition to vesting, the satisfaction of a liquidity event condition... The consummation of the Business Combination will satisfy the liquidity event condition.\" (Page 15)\n\nAs of July 15, 2021, executive officers held an aggregate of 4,347,818 restricted stock units, of which 8,863 will be fully vested upon Business Combination consummation, with the remainder subject to additional service- and/or performance-based vesting requirements. (Page 15)\n\n**Confidence: HIGH** - These details are directly stated in the document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 548,
+      "service_tier": "standard"
+    }
+  }
+}

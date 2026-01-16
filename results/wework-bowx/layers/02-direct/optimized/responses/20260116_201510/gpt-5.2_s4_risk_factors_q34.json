@@ -1,0 +1,80 @@
+{
+  "content": "## Registration rights disclosed in the document\n\n### 1) Registration Rights Agreement (to be entered into at Closing)\n- **Parties**: BowX, the Sponsor, the Anchor PIPE Investors and \u201ccertain other WeWork Stockholders.\u201d (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n- **What it covers**: BowX will agree to **register for resale (Rule 415)** \u201ccertain shares of BowX Common Stock and other equity securities of BowX\u201d held by the parties from time to time. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n- **Demand / underwritten offering rights** (subject to limitations):\n  - Parties can **collectively demand up to nine underwritten offerings in any twelve-month period**. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n  - Parties can **collectively demand no less than six underwritten block trade offerings in any twelve-month period**. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n  - Parties also have **piggyback registration rights**. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n\n### 2) PIPE Subscription Agreements \u2013 registration rights for PIPE Investors (non-Anchor PIPE Investors)\n- **Who gets these rights**: The Subscription Agreements provide registration rights for PIPE Investors **other than Anchor PIPE Investors** (because Anchor PIPE Investors\u2019 registration rights are governed by the Registration Rights Agreement). (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n- **Filing deadline**: BowX must **file a resale registration statement** \u201cas soon as practicable but **no later than 30 calendar days following the Closing**.\u201d (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n- **Effectiveness deadline (commercially reasonable efforts)**: BowX must use commercially reasonable efforts to have the registration statement declared effective **as soon as practicable**, but **no later than the earlier of**:\n  - **60 calendar days** after filing (or **90 calendar days** if the SEC notifies BowX it will \u201creview\u201d the registration statement), or\n  - the **10th business day** after BowX is notified by the SEC that the registration statement will not be reviewed or not subject to further review. (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n- **How long it must remain effective**: Until the earliest of:\n  - the date the PIPE Investors no longer hold registrable shares,\n  - the date the shares can be sold without restriction under Rule 144 (and without needing current public information conditions under Rule 144(c)(1) or Rule 144(i)(2)), or\n  - **three years** from the date of effectiveness of the registration statement. (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n\n## Caveats / limitations\n- The document describes these registration rights at a summary level and notes they are **\u201csubject to certain limitations\u201d** in the governing agreement(s), but those limitations are not detailed in the excerpt provided. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n\n## Confidence\n**HIGH** \u2014 The existence and key terms of the registration rights are directly stated in the cited sections (p. 5).",
+  "model": "gpt-5.2",
+  "input_tokens": 67710,
+  "output_tokens": 715,
+  "latency_ms": 14560,
+  "timestamp": "2026-01-16T20:40:55.007474",
+  "cost_usd": 0.12850250000000002,
+  "raw_response": {
+    "id": "resp_0222bedd9c2f41f800696aa248ec6c8193aec5569aefd4327b",
+    "object": "response",
+    "created_at": 1768596041,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768596054,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0222bedd9c2f41f800696aa2497588819385eca89c56e90cfa",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Registration rights disclosed in the document\n\n### 1) Registration Rights Agreement (to be entered into at Closing)\n- **Parties**: BowX, the Sponsor, the Anchor PIPE Investors and \u201ccertain other WeWork Stockholders.\u201d (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n- **What it covers**: BowX will agree to **register for resale (Rule 415)** \u201ccertain shares of BowX Common Stock and other equity securities of BowX\u201d held by the parties from time to time. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n- **Demand / underwritten offering rights** (subject to limitations):\n  - Parties can **collectively demand up to nine underwritten offerings in any twelve-month period**. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n  - Parties can **collectively demand no less than six underwritten block trade offerings in any twelve-month period**. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n  - Parties also have **piggyback registration rights**. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n\n### 2) PIPE Subscription Agreements \u2013 registration rights for PIPE Investors (non-Anchor PIPE Investors)\n- **Who gets these rights**: The Subscription Agreements provide registration rights for PIPE Investors **other than Anchor PIPE Investors** (because Anchor PIPE Investors\u2019 registration rights are governed by the Registration Rights Agreement). (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n- **Filing deadline**: BowX must **file a resale registration statement** \u201cas soon as practicable but **no later than 30 calendar days following the Closing**.\u201d (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n- **Effectiveness deadline (commercially reasonable efforts)**: BowX must use commercially reasonable efforts to have the registration statement declared effective **as soon as practicable**, but **no later than the earlier of**:\n  - **60 calendar days** after filing (or **90 calendar days** if the SEC notifies BowX it will \u201creview\u201d the registration statement), or\n  - the **10th business day** after BowX is notified by the SEC that the registration statement will not be reviewed or not subject to further review. (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n- **How long it must remain effective**: Until the earliest of:\n  - the date the PIPE Investors no longer hold registrable shares,\n  - the date the shares can be sold without restriction under Rule 144 (and without needing current public information conditions under Rule 144(c)(1) or Rule 144(i)(2)), or\n  - **three years** from the date of effectiveness of the registration statement. (Section: **\u201cPIPE Subscription Agreements\u201d**, p. **5**)\n\n## Caveats / limitations\n- The document describes these registration rights at a summary level and notes they are **\u201csubject to certain limitations\u201d** in the governing agreement(s), but those limitations are not detailed in the excerpt provided. (Section: **\u201cRelated Agreements \u2014 Registration Rights Agreement\u201d**, p. **5**)\n\n## Confidence\n**HIGH** \u2014 The existence and key terms of the registration rights are directly stated in the cited sections (p. 5)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67710,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 715,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68425
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

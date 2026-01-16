@@ -1,0 +1,34 @@
+{
+  "content": "# Analysis: Cash Runway at Current Burn Rate\n\n## Answer\n\n**Not found in document.**\n\nThe provided document does not contain the specific information needed to calculate or determine the cash runway at current burn rate. The document appears to be a WeWork investor presentation from 2021, but the extracted text contains mostly:\n\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential\")\n- Bullet point markers without content\n- Company values and cultural statements\n- General product descriptions (e.g., \"All Access\" subscription model)\n- Timeline indicators (2010-2030)\n\n**Missing Information Required:**\n1. Current cash and cash equivalents balance\n2. Monthly or quarterly burn rate\n3. Operating cash flow data\n4. Any explicit cash runway projections\n\n## Confidence Level\n\n**N/A** - Cannot provide a confidence rating as the required financial data is not present in the document.\n\n## Caveats and Limitations\n\n1. **Document Quality Issue**: The extracted text appears incomplete or corrupted, with most substantive content missing (only bullet points and headers visible without associated data)\n\n2. **Slides Not Fully Rendered**: The document structure suggests this is a presentation deck where financial tables and charts were not captured in the text extraction\n\n3. **Recommendation**: To answer this question, please provide:\n   - A clearer version of the document with readable financial data\n   - Specific pages containing cash position and burn rate information\n   - The full investor presentation with visible tables and figures",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1358,
+  "output_tokens": 328,
+  "latency_ms": 9211,
+  "timestamp": "2026-01-16T20:42:54.270410",
+  "cost_usd": 0.01499,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01R6Do4zAAVkfgv2nGr6Edr2",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Analysis: Cash Runway at Current Burn Rate\n\n## Answer\n\n**Not found in document.**\n\nThe provided document does not contain the specific information needed to calculate or determine the cash runway at current burn rate. The document appears to be a WeWork investor presentation from 2021, but the extracted text contains mostly:\n\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential\")\n- Bullet point markers without content\n- Company values and cultural statements\n- General product descriptions (e.g., \"All Access\" subscription model)\n- Timeline indicators (2010-2030)\n\n**Missing Information Required:**\n1. Current cash and cash equivalents balance\n2. Monthly or quarterly burn rate\n3. Operating cash flow data\n4. Any explicit cash runway projections\n\n## Confidence Level\n\n**N/A** - Cannot provide a confidence rating as the required financial data is not present in the document.\n\n## Caveats and Limitations\n\n1. **Document Quality Issue**: The extracted text appears incomplete or corrupted, with most substantive content missing (only bullet points and headers visible without associated data)\n\n2. **Slides Not Fully Rendered**: The document structure suggests this is a presentation deck where financial tables and charts were not captured in the text extraction\n\n3. **Recommendation**: To answer this question, please provide:\n   - A clearer version of the document with readable financial data\n   - Specific pages containing cash position and burn rate information\n   - The full investor presentation with visible tables and figures"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1358,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 328,
+      "service_tier": "standard"
+    }
+  }
+}

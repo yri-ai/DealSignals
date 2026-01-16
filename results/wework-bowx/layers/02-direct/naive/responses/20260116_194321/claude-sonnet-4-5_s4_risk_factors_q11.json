@@ -1,0 +1,34 @@
+{
+  "content": "According to the document, the member churn rate is not explicitly stated as a single percentage figure. However, the document provides several relevant pieces of information about membership changes and churn:\n\n1. **Membership Decline**: Between Q2 2020 and Q2 2021, WeWork's total memberships (including ChinaCo, IndiaCo, and Israel locations) declined by **16%**.\n\n2. **Month-to-Month Memberships**: During the six months ended June 30, 2021, approximately **10% of physical memberships were month-to-month commitments** that could be terminated in any given month.\n\n3. **Renewal Rate**: During the same period, approximately **6% of physical memberships (excluding month-to-month commitments) came up for renewal each month** on average.\n\n4. **Relocation Retention**: As of June 30, 2021, the company retained approximately **90% of relocated members**, though this is specific to members who were moved to nearby buildings due to lease amendments and exits.\n\nThe document mentions that WeWork \"experienced a reduction in new sales volume\" and \"higher levels of membership agreement terminations\" due to COVID-19, but it does not provide a specific overall churn rate percentage for the company.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72928,
+  "output_tokens": 282,
+  "latency_ms": 10193,
+  "timestamp": "2026-01-16T19:47:34.805151",
+  "cost_usd": 0.22301400000000005,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01GvUgK3xpxy8ckqfxDkvAb5",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "According to the document, the member churn rate is not explicitly stated as a single percentage figure. However, the document provides several relevant pieces of information about membership changes and churn:\n\n1. **Membership Decline**: Between Q2 2020 and Q2 2021, WeWork's total memberships (including ChinaCo, IndiaCo, and Israel locations) declined by **16%**.\n\n2. **Month-to-Month Memberships**: During the six months ended June 30, 2021, approximately **10% of physical memberships were month-to-month commitments** that could be terminated in any given month.\n\n3. **Renewal Rate**: During the same period, approximately **6% of physical memberships (excluding month-to-month commitments) came up for renewal each month** on average.\n\n4. **Relocation Retention**: As of June 30, 2021, the company retained approximately **90% of relocated members**, though this is specific to members who were moved to nearby buildings due to lease amendments and exits.\n\nThe document mentions that WeWork \"experienced a reduction in new sales volume\" and \"higher levels of membership agreement terminations\" due to COVID-19, but it does not provide a specific overall churn rate percentage for the company."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72928,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 282,
+      "service_tier": "standard"
+    }
+  }
+}

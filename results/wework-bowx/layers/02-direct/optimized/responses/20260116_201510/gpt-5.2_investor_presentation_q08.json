@@ -1,0 +1,80 @@
+{
+  "content": "**Contribution margin per membership:** **Not found in document.**  \n\n- The provided pages are largely redacted/bulleted without numerical values, and there is no explicit metric or calculation shown for \u201ccontribution margin per membership\u201d (see the \u201cAll Access\u201d slide describing \u201cHigh Margins\u201d but providing no per-membership contribution margin figure). **Section header: \u201cAll Access\u201d (\u201cHigh Margins\u2026\u201d)**.  \n\n**Confidence:** HIGH (the metric/value is not stated anywhere in the provided text).  \n\n**Caveats / limitations:**  \n- Many slides contain only bullets or are partially/fully redacted (e.g., pages with only \u201c\u25cf\u201d placeholders), which may omit the underlying financial definitions or figures needed to compute contribution margin per membership.",
+  "model": "gpt-5.2",
+  "input_tokens": 1056,
+  "output_tokens": 159,
+  "latency_ms": 6105,
+  "timestamp": "2026-01-16T20:30:33.262194",
+  "cost_usd": 0.0040739999999999995,
+  "raw_response": {
+    "id": "resp_0ce19ec64adbc04a00696a9fe36390819cb98a088d8104f1e0",
+    "object": "response",
+    "created_at": 1768595427,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595432,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ce19ec64adbc04a00696a9fe3e848819c8602e6c069ecb008",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Contribution margin per membership:** **Not found in document.**  \n\n- The provided pages are largely redacted/bulleted without numerical values, and there is no explicit metric or calculation shown for \u201ccontribution margin per membership\u201d (see the \u201cAll Access\u201d slide describing \u201cHigh Margins\u201d but providing no per-membership contribution margin figure). **Section header: \u201cAll Access\u201d (\u201cHigh Margins\u2026\u201d)**.  \n\n**Confidence:** HIGH (the metric/value is not stated anywhere in the provided text).  \n\n**Caveats / limitations:**  \n- Many slides contain only bullets or are partially/fully redacted (e.g., pages with only \u201c\u25cf\u201d placeholders), which may omit the underlying financial definitions or figures needed to compute contribution margin per membership."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1056,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1215
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, there is **no information about auditors or any auditor statements/opinions** included. \n\nThe document appears to be a WeWork confidential presentation from 2021 that covers topics such as:\n- Company values and culture\n- The \"All Access\" product offering\n- Business model and partnerships\n- Various operational and strategic information\n\nHowever, it does not contain any auditor reports, audit opinions, or references to auditors' findings or statements.\n\nIf you're looking for auditor information about WeWork, that would typically be found in:\n- Annual reports (10-K filings)\n- Quarterly reports (10-Q filings)\n- Proxy statements\n- Other SEC filings that include audited financial statements",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1236,
+  "output_tokens": 164,
+  "latency_ms": 5321,
+  "timestamp": "2026-01-16T19:44:31.968258",
+  "cost_usd": 0.006168,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01Fc8f6PTRfey6hHoMEu66oq",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, there is **no information about auditors or any auditor statements/opinions** included. \n\nThe document appears to be a WeWork confidential presentation from 2021 that covers topics such as:\n- Company values and culture\n- The \"All Access\" product offering\n- Business model and partnerships\n- Various operational and strategic information\n\nHowever, it does not contain any auditor reports, audit opinions, or references to auditors' findings or statements.\n\nIf you're looking for auditor information about WeWork, that would typically be found in:\n- Annual reports (10-K filings)\n- Quarterly reports (10-Q filings)\n- Proxy statements\n- Other SEC filings that include audited financial statements"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1236,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 164,
+      "service_tier": "standard"
+    }
+  }
+}

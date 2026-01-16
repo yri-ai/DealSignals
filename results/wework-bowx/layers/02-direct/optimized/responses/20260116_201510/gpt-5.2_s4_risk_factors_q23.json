@@ -1,0 +1,80 @@
+{
+  "content": "## Related-party transactions disclosed in the document\n\n### 1) Related-party transactions with SoftBank / SoftBank affiliates (financing + support arrangements)\n- The document states that **\u201call transactions between [WeWork] and SoftBank Obligor (including with respect to the Company\u2019s debt financing arrangements with SBG) are related party transactions.\u201d** It further notes that, **as of June 30, 2021**, amounts outstanding under these arrangements included **$1.7 billion in outstanding letters of credit issued under the 2020 LC Facility** and **$2.2 billion in outstanding indebtedness under the SoftBank Senior Unsecured Debt**. (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n- In connection with the Business Combination, the document describes additional SoftBank-related arrangements that are part of the transaction structure:\n  - **Credit Support Letter Agreement** with **WeWork Companies LLC, the SoftBank Obligor, and BowX**, where the SoftBank Obligor commits to consent to extend the termination date of the LC Facility (subject to terms/conditions and lender consent). (Section **\u201cSummary \u2014 Related Agreements \u2014 Credit Support Letter\u201d**, page **6**)\n  - **First Warrant** issued to **SBWW (a SoftBank affiliate)** as an inducement for support related to automatic conversion of WeWork Preferred Stock; also treated as related to exchange ratio mechanics. (Section **\u201cSummary \u2014 Related Agreements \u2014 Warrants\u201d**, page **7**)\n  - **LC Warrant** issued to the **SoftBank Obligor** as consideration for agreeing to continue to act as co-obligor under WeWork\u2019s existing LC Facility for the extension period. (Section **\u201cSummary \u2014 Related Agreements \u2014 Warrants\u201d**, page **7**)\n\n**Confidence: HIGH** (explicitly described as related-party transactions and specific SoftBank-related instruments are detailed).  \n**Caveat:** The document describes the existence and some amounts outstanding but does not provide a comprehensive listing of all SoftBank-related agreements beyond those discussed in the cited sections. (Page **40**; page **6\u20137**)\n\n---\n\n### 2) Transactions with related-party landlords connected to Adam Neumann and/or WeCap Investment Group / Rh\u00f4ne-related entity\n- The document states that WeWork **\u201chas in the past entered into several transactions with landlord entities in which Adam Neumann\u2026 or WeCap Investment Group\u2026 operated in conjunction with Rh\u00f4ne Group\u2026 has or had an ownership interest.\u201d** (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n- It also notes that, **as part of restructuring**, WeWork is **in ongoing discussions to exit certain leases with related parties** (same section, page **40**).\n- It highlights potential conflicts from these arrangements and notes that **a small number of landlords have sued to enforce corporate guarantees** (context about lease credit support and disputes). (Section **\u201cRisk Factors \u2014 The long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d**, page **34**)\n\n**Confidence: HIGH** (explicitly stated that such landlord transactions occurred and are related-party).  \n**Caveat:** Specific properties/leases, dollar amounts, and full counterparties for these landlord-related transactions are not enumerated in the excerpt provided. (Page **40**)\n\n---\n\n### 3) Indemnification payments for certain current/former directors, executive officers, and shareholders (related-party nature)\n- The document states that WeWork has agreed to **indemnify certain current and former directors and executive officers and shareholders** under its charter and other agreements, and that it **paid approximately $14 million in legal fees in 2020 related to these indemnifications (outside of insurance)**. (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n\n**Confidence: HIGH** (directly stated).  \n**Caveat:** The document does not identify the indemnified individuals/entities in this excerpt or quantify expected future amounts beyond noting the possibility of additional payments. (Page **40**)\n\n---\n\n### 4) Board observer rights granted to Adam Neumann\n- The document states that WeWork **entered into an agreement granting Adam Neumann board observer rights**, starting February 26, 2022, conditional on him maintaining a specified beneficial ownership threshold. (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n\n**Confidence: HIGH** (directly stated).  \n**Caveat:** The document does not state consideration paid for this right (if any) in the excerpt provided. (Page **40**)",
+  "model": "gpt-5.2",
+  "input_tokens": 67711,
+  "output_tokens": 967,
+  "latency_ms": 28052,
+  "timestamp": "2026-01-16T20:38:34.587184",
+  "cost_usd": 0.13203225,
+  "raw_response": {
+    "id": "resp_0fe186006709828200696aa1aee9d4819ea2f361f4fd6609d7",
+    "object": "response",
+    "created_at": 1768595887,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595914,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0fe186006709828200696aa1af7ea0819ebee732f03b7c6175",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Related-party transactions disclosed in the document\n\n### 1) Related-party transactions with SoftBank / SoftBank affiliates (financing + support arrangements)\n- The document states that **\u201call transactions between [WeWork] and SoftBank Obligor (including with respect to the Company\u2019s debt financing arrangements with SBG) are related party transactions.\u201d** It further notes that, **as of June 30, 2021**, amounts outstanding under these arrangements included **$1.7 billion in outstanding letters of credit issued under the 2020 LC Facility** and **$2.2 billion in outstanding indebtedness under the SoftBank Senior Unsecured Debt**. (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n- In connection with the Business Combination, the document describes additional SoftBank-related arrangements that are part of the transaction structure:\n  - **Credit Support Letter Agreement** with **WeWork Companies LLC, the SoftBank Obligor, and BowX**, where the SoftBank Obligor commits to consent to extend the termination date of the LC Facility (subject to terms/conditions and lender consent). (Section **\u201cSummary \u2014 Related Agreements \u2014 Credit Support Letter\u201d**, page **6**)\n  - **First Warrant** issued to **SBWW (a SoftBank affiliate)** as an inducement for support related to automatic conversion of WeWork Preferred Stock; also treated as related to exchange ratio mechanics. (Section **\u201cSummary \u2014 Related Agreements \u2014 Warrants\u201d**, page **7**)\n  - **LC Warrant** issued to the **SoftBank Obligor** as consideration for agreeing to continue to act as co-obligor under WeWork\u2019s existing LC Facility for the extension period. (Section **\u201cSummary \u2014 Related Agreements \u2014 Warrants\u201d**, page **7**)\n\n**Confidence: HIGH** (explicitly described as related-party transactions and specific SoftBank-related instruments are detailed).  \n**Caveat:** The document describes the existence and some amounts outstanding but does not provide a comprehensive listing of all SoftBank-related agreements beyond those discussed in the cited sections. (Page **40**; page **6\u20137**)\n\n---\n\n### 2) Transactions with related-party landlords connected to Adam Neumann and/or WeCap Investment Group / Rh\u00f4ne-related entity\n- The document states that WeWork **\u201chas in the past entered into several transactions with landlord entities in which Adam Neumann\u2026 or WeCap Investment Group\u2026 operated in conjunction with Rh\u00f4ne Group\u2026 has or had an ownership interest.\u201d** (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n- It also notes that, **as part of restructuring**, WeWork is **in ongoing discussions to exit certain leases with related parties** (same section, page **40**).\n- It highlights potential conflicts from these arrangements and notes that **a small number of landlords have sued to enforce corporate guarantees** (context about lease credit support and disputes). (Section **\u201cRisk Factors \u2014 The long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d**, page **34**)\n\n**Confidence: HIGH** (explicitly stated that such landlord transactions occurred and are related-party).  \n**Caveat:** Specific properties/leases, dollar amounts, and full counterparties for these landlord-related transactions are not enumerated in the excerpt provided. (Page **40**)\n\n---\n\n### 3) Indemnification payments for certain current/former directors, executive officers, and shareholders (related-party nature)\n- The document states that WeWork has agreed to **indemnify certain current and former directors and executive officers and shareholders** under its charter and other agreements, and that it **paid approximately $14 million in legal fees in 2020 related to these indemnifications (outside of insurance)**. (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n\n**Confidence: HIGH** (directly stated).  \n**Caveat:** The document does not identify the indemnified individuals/entities in this excerpt or quantify expected future amounts beyond noting the possibility of additional payments. (Page **40**)\n\n---\n\n### 4) Board observer rights granted to Adam Neumann\n- The document states that WeWork **entered into an agreement granting Adam Neumann board observer rights**, starting February 26, 2022, conditional on him maintaining a specified beneficial ownership threshold. (Section **\u201cRisk Factors \u2014 The Company has engaged in transactions with related parties\u2026\u201d**, page **40**)\n\n**Confidence: HIGH** (directly stated).  \n**Caveat:** The document does not state consideration paid for this right (if any) in the excerpt provided. (Page **40**)"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67711,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 967,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68678
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

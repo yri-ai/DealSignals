@@ -1,0 +1,34 @@
+{
+  "content": "# Analysis: Occupancy Rate and Trends\n\n## Answer\n\n**Not found in document** - The provided document does not contain specific occupancy rate figures or historical trend data showing actual occupancy percentages over time.\n\n## What the Document Does Mention\n\nThe document makes **one reference to occupancy** in the context of the \"All Access\" product offering:\n\n> \"**Drives Occupancy** - Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\"\n\n*Source: Page containing \"All Access\" product description (approximately page 25-26 based on document flow)*\n\nThis indicates that the All Access subscription model is designed as a mechanism to improve occupancy rates, but no actual occupancy metrics, percentages, or historical trends are provided.\n\n## Caveats and Limitations\n\n1. **Document appears heavily redacted**: The document consists primarily of copyright notices (\"\u00a9 2021 WeWork. Confidential.\") with bullet points that have had their content removed\n2. **No numerical data visible**: Financial metrics, percentages, and specific figures appear to have been stripped from the document\n3. **Timeline reference without data**: There is a timeline showing years 2010-2030, but no corresponding data points are visible\n\n## Confidence Level\n\n**LOW** - The document does not contain the requested information. The reference to occupancy is conceptual (describing a product feature) rather than providing actual performance metrics.\n\n## Recommendation for Due Diligence\n\nRequest supplementary materials that include:\n- Historical occupancy rates by quarter/year\n- Occupancy by geography/market\n- Mature vs. new location occupancy comparison\n- Occupancy projections underlying financial forecasts",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1360,
+  "output_tokens": 375,
+  "latency_ms": 10236,
+  "timestamp": "2026-01-16T20:43:48.132709",
+  "cost_usd": 0.016175000000000002,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01Vxt72ro7Qnpz5r5UrnXiSz",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Analysis: Occupancy Rate and Trends\n\n## Answer\n\n**Not found in document** - The provided document does not contain specific occupancy rate figures or historical trend data showing actual occupancy percentages over time.\n\n## What the Document Does Mention\n\nThe document makes **one reference to occupancy** in the context of the \"All Access\" product offering:\n\n> \"**Drives Occupancy** - Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\"\n\n*Source: Page containing \"All Access\" product description (approximately page 25-26 based on document flow)*\n\nThis indicates that the All Access subscription model is designed as a mechanism to improve occupancy rates, but no actual occupancy metrics, percentages, or historical trends are provided.\n\n## Caveats and Limitations\n\n1. **Document appears heavily redacted**: The document consists primarily of copyright notices (\"\u00a9 2021 WeWork. Confidential.\") with bullet points that have had their content removed\n2. **No numerical data visible**: Financial metrics, percentages, and specific figures appear to have been stripped from the document\n3. **Timeline reference without data**: There is a timeline showing years 2010-2030, but no corresponding data points are visible\n\n## Confidence Level\n\n**LOW** - The document does not contain the requested information. The reference to occupancy is conceptual (describing a product feature) rather than providing actual performance metrics.\n\n## Recommendation for Due Diligence\n\nRequest supplementary materials that include:\n- Historical occupancy rates by quarter/year\n- Occupancy by geography/market\n- Mature vs. new location occupancy comparison\n- Occupancy projections underlying financial forecasts"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1360,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 375,
+      "service_tier": "standard"
+    }
+  }
+}

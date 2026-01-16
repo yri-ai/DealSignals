@@ -1,0 +1,80 @@
+{
+  "content": "The excerpt you provided **does not define or disclose \u201ccontribution margin per membership\u201d** or provide the underlying inputs (e.g., contribution profit and membership count over the same period) needed to calculate it.\n\nSo, **based on this document alone, contribution margin per membership cannot be determined**.\n\n(For clarity, in general usage this metric is typically calculated as **contribution margin \u00f7 number of memberships** over the relevant period, but the document doesn\u2019t give contribution margin.)",
+  "model": "gpt-5.2",
+  "input_tokens": 67607,
+  "output_tokens": 101,
+  "latency_ms": 4913,
+  "timestamp": "2026-01-16T19:56:15.814765",
+  "cost_usd": 0.11972625,
+  "raw_response": {
+    "id": "resp_013e13af71a150d900696a97dbbdf0819ca442b1bf285efe46",
+    "object": "response",
+    "created_at": 1768593371,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593375,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_013e13af71a150d900696a97dc7a28819c804afdeb2f8aa555",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The excerpt you provided **does not define or disclose \u201ccontribution margin per membership\u201d** or provide the underlying inputs (e.g., contribution profit and membership count over the same period) needed to calculate it.\n\nSo, **based on this document alone, contribution margin per membership cannot be determined**.\n\n(For clarity, in general usage this metric is typically calculated as **contribution margin \u00f7 number of memberships** over the relevant period, but the document doesn\u2019t give contribution margin.)"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67607,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 101,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67708
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

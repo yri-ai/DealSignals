@@ -1,0 +1,34 @@
+{
+  "content": "Based on the provided document, I cannot find specific information about debt covenants and restrictions. \n\nThe document appears to be a WeWork corporate presentation from 2021 that focuses primarily on:\n- Company values and mission\n- Business model (All Access product, partnerships, etc.)\n- Growth timeline (2010-2030)\n- Various operational metrics and strategies\n\nWhile there are multiple pages marked as \"\u00a9 2021 WeWork. Confidential,\" the actual text content regarding financial details, debt terms, covenants, or restrictions is not visible or included in the excerpts provided.\n\nTo answer your question about debt covenants and restrictions, I would need access to:\n- WeWork's credit agreements\n- Bond indentures\n- SEC filings (10-K, 10-Q)\n- Loan documentation\n- Or specific sections of this presentation that detail debt terms\n\nIf you have access to WeWork's formal debt documentation or financial filings, those would contain the specific covenant information you're looking for.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1238,
+  "output_tokens": 223,
+  "latency_ms": 5932,
+  "timestamp": "2026-01-16T19:45:37.504654",
+  "cost_usd": 0.007058999999999999,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_012cMJ31TYQyZurJdXkUwMDA",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the provided document, I cannot find specific information about debt covenants and restrictions. \n\nThe document appears to be a WeWork corporate presentation from 2021 that focuses primarily on:\n- Company values and mission\n- Business model (All Access product, partnerships, etc.)\n- Growth timeline (2010-2030)\n- Various operational metrics and strategies\n\nWhile there are multiple pages marked as \"\u00a9 2021 WeWork. Confidential,\" the actual text content regarding financial details, debt terms, covenants, or restrictions is not visible or included in the excerpts provided.\n\nTo answer your question about debt covenants and restrictions, I would need access to:\n- WeWork's credit agreements\n- Bond indentures\n- SEC filings (10-K, 10-Q)\n- Loan documentation\n- Or specific sections of this presentation that detail debt terms\n\nIf you have access to WeWork's formal debt documentation or financial filings, those would contain the specific covenant information you're looking for."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1238,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 223,
+      "service_tier": "standard"
+    }
+  }
+}

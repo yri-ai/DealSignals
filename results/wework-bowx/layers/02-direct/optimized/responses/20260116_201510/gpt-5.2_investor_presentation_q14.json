@@ -1,0 +1,80 @@
+{
+  "content": "**Duration profile of lease commitments:** **Not found in document.**  \n\n- The provided excerpt contains general narrative content (e.g., values statements) and a brief description of \u201cAll Access\u201d (subscription model benefits), but **no table, chart, note, or section describing WeWork\u2019s lease commitments by maturity/duration (e.g., 0\u20131 years, 1\u20133 years, 3\u20135 years, 5+ years) or weighted-average remaining lease term**. (No lease commitment maturity schedule appears in the provided pages; see the \u201cAll Access\u201d slide content and surrounding pages.)\n\n**Confidence:** HIGH (directly not present in the provided document excerpt).  \n\n**Caveat / limitation:** The document appears to be an incomplete extract with many slides/pages redacted or missing; the lease commitment duration profile may exist in portions not included here.",
+  "model": "gpt-5.2",
+  "input_tokens": 1058,
+  "output_tokens": 181,
+  "latency_ms": 6351,
+  "timestamp": "2026-01-16T20:31:07.913481",
+  "cost_usd": 0.0043855000000000005,
+  "raw_response": {
+    "id": "resp_07716a8da61a668a00696aa005d20881a3af76134bc0e9a036",
+    "object": "response",
+    "created_at": 1768595461,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595467,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_07716a8da61a668a00696aa0060ffc81a393c6d9d052f5db5f",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Duration profile of lease commitments:** **Not found in document.**  \n\n- The provided excerpt contains general narrative content (e.g., values statements) and a brief description of \u201cAll Access\u201d (subscription model benefits), but **no table, chart, note, or section describing WeWork\u2019s lease commitments by maturity/duration (e.g., 0\u20131 years, 1\u20133 years, 3\u20135 years, 5+ years) or weighted-average remaining lease term**. (No lease commitment maturity schedule appears in the provided pages; see the \u201cAll Access\u201d slide content and surrounding pages.)\n\n**Confidence:** HIGH (directly not present in the provided document excerpt).  \n\n**Caveat / limitation:** The document appears to be an incomplete extract with many slides/pages redacted or missing; the lease commitment duration profile may exist in portions not included here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1058,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 181,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1239
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "## Analysis: Business Performance at 70% Occupancy\n\n**Answer:** Not found in document.\n\nThe provided document does not contain specific information about what happens to the business at 70% occupancy. While the document appears to be a WeWork investor presentation (based on the \u00a9 2021 WeWork. Confidential. footers throughout), the actual content visible in the provided text consists primarily of:\n\n- Copyright notices\n- Bullet point markers (\u2022, \u25cf, \u25cb) without accompanying text\n- Company values statements (page mentioning \"right thing,\" collaboration, etc.)\n- Brief mentions of product features like \"All Access\" subscription model\n- A timeline spanning 2010-2030\n- References to definitions/metrics on what appears to be a later page\n\n**What the document does reference regarding occupancy:**\n- The \"All Access\" product section mentions that it \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\" - however, this does not address the specific 70% threshold question.\n\n**Confidence Level:** N/A - Information not present in document\n\n**Caveats/Limitations:**\n1. The document provided appears to be heavily redacted or the actual content is missing - mostly showing formatting elements (bullet points, copyright notices) without substantive text\n2. Financial metrics and occupancy thresholds that would typically appear in a SPAC investor presentation are not visible in the provided text\n3. A complete analysis would require the full readable content of the presentation slides\n\n**Recommendation:** Request the complete, unredacted document to properly analyze occupancy-related business metrics and breakeven thresholds.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1360,
+  "output_tokens": 361,
+  "latency_ms": 10040,
+  "timestamp": "2026-01-16T20:44:38.348344",
+  "cost_usd": 0.015825,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01PYwG1M5uwe8htHSq6B27pC",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Analysis: Business Performance at 70% Occupancy\n\n**Answer:** Not found in document.\n\nThe provided document does not contain specific information about what happens to the business at 70% occupancy. While the document appears to be a WeWork investor presentation (based on the \u00a9 2021 WeWork. Confidential. footers throughout), the actual content visible in the provided text consists primarily of:\n\n- Copyright notices\n- Bullet point markers (\u2022, \u25cf, \u25cb) without accompanying text\n- Company values statements (page mentioning \"right thing,\" collaboration, etc.)\n- Brief mentions of product features like \"All Access\" subscription model\n- A timeline spanning 2010-2030\n- References to definitions/metrics on what appears to be a later page\n\n**What the document does reference regarding occupancy:**\n- The \"All Access\" product section mentions that it \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\" - however, this does not address the specific 70% threshold question.\n\n**Confidence Level:** N/A - Information not present in document\n\n**Caveats/Limitations:**\n1. The document provided appears to be heavily redacted or the actual content is missing - mostly showing formatting elements (bullet points, copyright notices) without substantive text\n2. Financial metrics and occupancy thresholds that would typically appear in a SPAC investor presentation are not visible in the provided text\n3. A complete analysis would require the full readable content of the presentation slides\n\n**Recommendation:** Request the complete, unredacted document to properly analyze occupancy-related business metrics and breakeven thresholds."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1360,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 361,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "The provided document excerpt does **not include any information about the post\u2011merger voting structure** (e.g., share classes, vote-per-share, founder/sponsor control, or any dual-class arrangements). It appears to be heavily redacted/partial and contains no governance or capitalization table details.\n\nIf you can share the slide/page that covers **\u201cCapitalization,\u201d \u201cGovernance,\u201d \u201cShare Classes,\u201d** or **\u201cVoting Rights post\u2011merger,\u201d** I can extract the exact voting structure.",
+  "model": "gpt-5.2",
+  "input_tokens": 953,
+  "output_tokens": 105,
+  "latency_ms": 3250,
+  "timestamp": "2026-01-16T19:54:54.836487",
+  "cost_usd": 0.00313775,
+  "raw_response": {
+    "id": "resp_0206c4f48d4e7ad000696a978befe0819cb7a2c58ab39d520b",
+    "object": "response",
+    "created_at": 1768593291,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593294,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0206c4f48d4e7ad000696a978c510c819c84389fe02ef046d2",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The provided document excerpt does **not include any information about the post\u2011merger voting structure** (e.g., share classes, vote-per-share, founder/sponsor control, or any dual-class arrangements). It appears to be heavily redacted/partial and contains no governance or capitalization table details.\n\nIf you can share the slide/page that covers **\u201cCapitalization,\u201d \u201cGovernance,\u201d \u201cShare Classes,\u201d** or **\u201cVoting Rights post\u2011merger,\u201d** I can extract the exact voting structure."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 953,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 105,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1058
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

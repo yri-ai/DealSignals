@@ -1,0 +1,80 @@
+{
+  "content": "The document provides WeWork revenue for:\n\n- **Six months ended June 30, 2021:** **$1,191,331 thousand**\n- **Year ended December 31, 2020:** **$3,415,865 thousand**\n- **Year ended December 31, 2019:** **$3,458,592 thousand**\n\nUsing the only full-year year-over-year pair given (2020 vs. 2019), the **revenue growth rate year-over-year** is:\n\n\\[\n\\frac{3{,}415{,}865 - 3{,}458{,}592}{3{,}458{,}592} \\approx -1.24\\%\n\\]\n\n**Answer: WeWork\u2019s revenue declined ~1.2% year-over-year (2020 vs. 2019).**",
+  "model": "gpt-5.2",
+  "input_tokens": 67610,
+  "output_tokens": 179,
+  "latency_ms": 6141,
+  "timestamp": "2026-01-16T19:55:31.017052",
+  "cost_usd": 0.1208235,
+  "raw_response": {
+    "id": "resp_007c6b9de08d2f4300696a97adbad88193a46b118ac54a72de",
+    "object": "response",
+    "created_at": 1768593325,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593330,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_007c6b9de08d2f4300696a97aed42c8193afdc4da1193b8bb3",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document provides WeWork revenue for:\n\n- **Six months ended June 30, 2021:** **$1,191,331 thousand**\n- **Year ended December 31, 2020:** **$3,415,865 thousand**\n- **Year ended December 31, 2019:** **$3,458,592 thousand**\n\nUsing the only full-year year-over-year pair given (2020 vs. 2019), the **revenue growth rate year-over-year** is:\n\n\\[\n\\frac{3{,}415{,}865 - 3{,}458{,}592}{3{,}458{,}592} \\approx -1.24\\%\n\\]\n\n**Answer: WeWork\u2019s revenue declined ~1.2% year-over-year (2020 vs. 2019).**"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67610,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 179,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67789
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

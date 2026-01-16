@@ -1,0 +1,34 @@
+{
+  "content": "According to the document, the lock-up agreements are arrangements where:\n\n**Parties involved:**\n- The Sponsor\n- Certain of BowX's officers\n- Certain of WeWork's officers and stockholders\n\n**Key terms:**\nThe parties agreed not to:\n1. Sell or otherwise dispose of, directly or indirectly, any shares of New WeWork Common Stock held immediately after the Closing (the \"Lock-Up Shares\")\n2. Enter into any swap or other arrangement that transfers the economic consequences of ownership of such Lock-Up Shares\n3. Publicly announce any intention to effect such transactions\n\n**Duration:**\nThe restrictions apply for the duration of the applicable Lock-Up Period, which is either:\n- One year, or\n- Nine months\n\nas specified in the Lock-Up Agreements.\n\n**What's covered:**\nThe Lock-Up Shares include:\n- Any shares of New WeWork Common Stock held by such persons immediately after the Closing\n- Any shares of New WeWork Common Stock issuable upon the exercise of options, warrants or other convertible securities held by such persons immediately after the Closing\n\nThese agreements are designed to prevent immediate selling pressure on the stock after the Business Combination closes.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72929,
+  "output_tokens": 270,
+  "latency_ms": 9421,
+  "timestamp": "2026-01-16T19:51:33.451587",
+  "cost_usd": 0.22283699999999998,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01DUyJ9VvtovfMzm4Fcikyyf",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "According to the document, the lock-up agreements are arrangements where:\n\n**Parties involved:**\n- The Sponsor\n- Certain of BowX's officers\n- Certain of WeWork's officers and stockholders\n\n**Key terms:**\nThe parties agreed not to:\n1. Sell or otherwise dispose of, directly or indirectly, any shares of New WeWork Common Stock held immediately after the Closing (the \"Lock-Up Shares\")\n2. Enter into any swap or other arrangement that transfers the economic consequences of ownership of such Lock-Up Shares\n3. Publicly announce any intention to effect such transactions\n\n**Duration:**\nThe restrictions apply for the duration of the applicable Lock-Up Period, which is either:\n- One year, or\n- Nine months\n\nas specified in the Lock-Up Agreements.\n\n**What's covered:**\nThe Lock-Up Shares include:\n- Any shares of New WeWork Common Stock held by such persons immediately after the Closing\n- Any shares of New WeWork Common Stock issuable upon the exercise of options, warrants or other convertible securities held by such persons immediately after the Closing\n\nThese agreements are designed to prevent immediate selling pressure on the stock after the Business Combination closes."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72929,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 270,
+      "service_tier": "standard"
+    }
+  }
+}

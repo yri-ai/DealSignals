@@ -1,0 +1,80 @@
+{
+  "content": "## Occupancy rate (definition)\n\nThe document does **not** provide a definition of an overall \u201coccupancy rate\u201d metric (i.e., a single reported occupancy rate for WeWork such as % occupied). **Not found in document**.\n\nHowever, it does define a related KPI:\n\n- **Physical Occupancy** is defined as **\u201cthe number of physical memberships divided by total workstations.\u201d** (Section: **\u201cSELECTED DEFINITIONS\u201d**, definition of \u201cPhysical Occupancy\u201d, p. **xiii**)\n\n## How it has trended\n\nThe document does **not** provide historical values or a trend for \u201coccupancy rate\u201d or for \u201cPhysical Occupancy\u201d over time. **Not found in document**.\n\nThe closest disclosed \u201ctrend-like\u201d metric is **total memberships**, which is different from occupancy rate:\n\n- WeWork states that **total memberships declined 16%** between the quarter ended **June 30, 2020** and the quarter ended **June 30, 2021** (Section: **\u201cRISK FACTORS \u2014 The COVID-19 pandemic\u2026\u201d**, p. **31**; and repeated in **\u201cThe Company may not be able to continue to retain existing members\u2026\u201d**, p. **32**). This is **not** an occupancy-rate trend and cannot be converted to occupancy without workstations data, which is not provided in the excerpt.\n\n## Caveats / limitations\n- The excerpt includes a definition for **Physical Occupancy** but **no reported occupancy percentages**, and **no workstation counts**, so an occupancy trend cannot be calculated from the provided text (Section: **\u201cSELECTED DEFINITIONS\u201d**, p. **xiii**; **Risk Factors**, pp. **31\u201332**).\n\n## Confidence\n- Definition of Physical Occupancy: **HIGH** (explicitly defined; p. xiii).\n- Occupancy/Physical Occupancy trend: **HIGH** that it is **not provided** (no values/trend disclosed in the provided excerpt).",
+  "model": "gpt-5.2",
+  "input_tokens": 67716,
+  "output_tokens": 412,
+  "latency_ms": 11525,
+  "timestamp": "2026-01-16T20:35:45.820127",
+  "cost_usd": 0.12427099999999999,
+  "raw_response": {
+    "id": "resp_0d14ac96631b423500696aa116c5b48193ad6ebcdbb6cf8a28",
+    "object": "response",
+    "created_at": 1768595734,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595745,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0d14ac96631b423500696aa11742a48193bf0cb62a7b1f00e4",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Occupancy rate (definition)\n\nThe document does **not** provide a definition of an overall \u201coccupancy rate\u201d metric (i.e., a single reported occupancy rate for WeWork such as % occupied). **Not found in document**.\n\nHowever, it does define a related KPI:\n\n- **Physical Occupancy** is defined as **\u201cthe number of physical memberships divided by total workstations.\u201d** (Section: **\u201cSELECTED DEFINITIONS\u201d**, definition of \u201cPhysical Occupancy\u201d, p. **xiii**)\n\n## How it has trended\n\nThe document does **not** provide historical values or a trend for \u201coccupancy rate\u201d or for \u201cPhysical Occupancy\u201d over time. **Not found in document**.\n\nThe closest disclosed \u201ctrend-like\u201d metric is **total memberships**, which is different from occupancy rate:\n\n- WeWork states that **total memberships declined 16%** between the quarter ended **June 30, 2020** and the quarter ended **June 30, 2021** (Section: **\u201cRISK FACTORS \u2014 The COVID-19 pandemic\u2026\u201d**, p. **31**; and repeated in **\u201cThe Company may not be able to continue to retain existing members\u2026\u201d**, p. **32**). This is **not** an occupancy-rate trend and cannot be converted to occupancy without workstations data, which is not provided in the excerpt.\n\n## Caveats / limitations\n- The excerpt includes a definition for **Physical Occupancy** but **no reported occupancy percentages**, and **no workstation counts**, so an occupancy trend cannot be calculated from the provided text (Section: **\u201cSELECTED DEFINITIONS\u201d**, p. **xiii**; **Risk Factors**, pp. **31\u201332**).\n\n## Confidence\n- Definition of Physical Occupancy: **HIGH** (explicitly defined; p. xiii).\n- Occupancy/Physical Occupancy trend: **HIGH** that it is **not provided** (no values/trend disclosed in the provided excerpt)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67716,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 412,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68128
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

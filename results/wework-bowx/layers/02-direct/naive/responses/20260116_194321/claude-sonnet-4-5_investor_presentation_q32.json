@@ -1,0 +1,34 @@
+{
+  "content": "Based on the provided document, I cannot find specific information about the voting structure post-merger. \n\nThe document appears to be a WeWork corporate presentation from 2021 that covers the company's values, business model (including their All Access subscription service), and various operational aspects. However, the detailed voting structure terms that would typically include information about:\n\n- Share classes (Class A, Class B, etc.)\n- Voting rights per share class\n- Control provisions\n- Any special voting arrangements\n\n...are not visible or detailed in the portions of the document provided.\n\nTo answer your question about the voting structure post-merger, I would need access to:\n- The merger agreement or proxy statement\n- The corporate governance section of the investor presentation\n- The certificate of incorporation details\n- Or other sections of this document that specifically address shareholder voting rights\n\nIf you have access to additional pages or sections of the merger documentation, particularly those covering corporate governance or capitalization structure, I would be happy to analyze those for the voting structure details.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1238,
+  "output_tokens": 218,
+  "latency_ms": 6740,
+  "timestamp": "2026-01-16T19:44:49.512781",
+  "cost_usd": 0.006984000000000001,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_012HtD7pnMn2UQLKvuMdzSQb",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the provided document, I cannot find specific information about the voting structure post-merger. \n\nThe document appears to be a WeWork corporate presentation from 2021 that covers the company's values, business model (including their All Access subscription service), and various operational aspects. However, the detailed voting structure terms that would typically include information about:\n\n- Share classes (Class A, Class B, etc.)\n- Voting rights per share class\n- Control provisions\n- Any special voting arrangements\n\n...are not visible or detailed in the portions of the document provided.\n\nTo answer your question about the voting structure post-merger, I would need access to:\n- The merger agreement or proxy statement\n- The corporate governance section of the investor presentation\n- The certificate of incorporation details\n- Or other sections of this document that specifically address shareholder voting rights\n\nIf you have access to additional pages or sections of the merger documentation, particularly those covering corporate governance or capitalization structure, I would be happy to analyze those for the voting structure details."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1238,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 218,
+      "service_tier": "standard"
+    }
+  }
+}

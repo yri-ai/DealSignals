@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, here are the key details about the lease commitment duration profile:\n\n**Average Initial Lease Term:**\nThe average length of the initial term of WeWork's leases is approximately 15 years (page 2).\n\n**Total Future Lease Obligations:**\n\"As of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion\" (page 32).\n\n**Lease vs. Membership Agreement Mismatch:**\n\"The Company's obligations to landlords under these agreements extend for periods that generally significantly exceed the length of its membership agreements with its members, which in certain cases may be terminated by the Company's members upon as little notice as one calendar month. The average length of the initial term of its leases is approximately 15 years, and the average term of its membership agreements is 15 months\" (page 32-33).\n\n**Security Coverage:**\n\"As of June 30, 2021, the total security packages, including in the form of corporate guarantees, outstanding letters of credit, cash security deposits to landlords and surety bonds issued, provided by the Company and its subsidiaries in respect of those lease obligations was approximately $6.5 billion, representing less than 20% of future undiscounted minimum lease cost payment obligations\" (page 33).\n\n**Confidence Level:** HIGH - These figures are directly stated in the document.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73050,
+  "output_tokens": 322,
+  "latency_ms": 10722,
+  "timestamp": "2026-01-16T20:24:05.591283",
+  "cost_usd": 0.22398,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01TWT86jHs3UfRw4R6YQtooA",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, here are the key details about the lease commitment duration profile:\n\n**Average Initial Lease Term:**\nThe average length of the initial term of WeWork's leases is approximately 15 years (page 2).\n\n**Total Future Lease Obligations:**\n\"As of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion\" (page 32).\n\n**Lease vs. Membership Agreement Mismatch:**\n\"The Company's obligations to landlords under these agreements extend for periods that generally significantly exceed the length of its membership agreements with its members, which in certain cases may be terminated by the Company's members upon as little notice as one calendar month. The average length of the initial term of its leases is approximately 15 years, and the average term of its membership agreements is 15 months\" (page 32-33).\n\n**Security Coverage:**\n\"As of June 30, 2021, the total security packages, including in the form of corporate guarantees, outstanding letters of credit, cash security deposits to landlords and surety bonds issued, provided by the Company and its subsidiaries in respect of those lease obligations was approximately $6.5 billion, representing less than 20% of future undiscounted minimum lease cost payment obligations\" (page 33).\n\n**Confidence Level:** HIGH - These figures are directly stated in the document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73050,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 322,
+      "service_tier": "standard"
+    }
+  }
+}

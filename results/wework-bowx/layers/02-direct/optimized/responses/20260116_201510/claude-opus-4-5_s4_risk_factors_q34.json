@@ -1,0 +1,34 @@
+{
+  "content": "## Registration Rights\n\nBased on the provided document, the following registration rights exist:\n\n### Registration Rights Agreement\n\nAt the Closing, BowX, Anchor PIPE Investors, the Sponsor and certain WeWork Stockholders will enter into an **Amended and Restated Registration Rights Agreement**, pursuant to which BowX will agree to:\n\n- **Register for resale**, pursuant to Rule 415 under the Securities Act, certain shares of BowX Common Stock and other equity securities of BowX that are held by the parties thereto from time to time\n- In certain circumstances, various parties can **collectively demand up to nine underwritten offerings in any twelve-month period**\n- Parties can **collectively demand no less than six underwritten block trade offerings in any twelve-month period**\n- Parties will be entitled to **piggyback registration rights**, in each case subject to certain limitations set forth in the Registration Rights Agreement\n\n(Page 5, \"Registration Rights Agreement\" section; also referenced on Page 13)\n\n### PIPE Investor Registration Rights\n\nFor PIPE Investors (other than Anchor PIPE Investors, whose registration rights are governed by the Registration Rights Agreement), the Subscription Agreements provide:\n\n- BowX is required to, **no later than 30 calendar days following the Closing**, file with the SEC a registration statement registering the resale of PIPE shares\n- BowX must use commercially reasonable efforts to have the registration statement **declared effective no later than the earlier of**: (i) the 60th calendar day (or 90th if SEC notifies of \"review\") following filing, or (ii) the 10th business day after SEC notification that the statement will not be reviewed\n- BowX must keep the registration statement **effective until the earliest of**: (i) when PIPE Investors no longer hold registrable shares, (ii) when all registrable shares may be sold without restriction under Rule 144, or (iii) three years from the date of effectiveness\n\n(Page 6, \"PIPE Subscription Agreements\" section)\n\n---\n\n**Confidence Level: HIGH** - These provisions are directly stated in the document.\n\n**Caveats**: The full terms and conditions of the Registration Rights Agreement are contained in Annex I to the proxy statement/prospectus, which is referenced but not fully reproduced in the provided excerpt.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73045,
+  "output_tokens": 516,
+  "latency_ms": 16380,
+  "timestamp": "2026-01-16T20:56:15.454094",
+  "cost_usd": 0.37812500000000004,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01MCEVCQd2vL8GoapPUBoTCx",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Registration Rights\n\nBased on the provided document, the following registration rights exist:\n\n### Registration Rights Agreement\n\nAt the Closing, BowX, Anchor PIPE Investors, the Sponsor and certain WeWork Stockholders will enter into an **Amended and Restated Registration Rights Agreement**, pursuant to which BowX will agree to:\n\n- **Register for resale**, pursuant to Rule 415 under the Securities Act, certain shares of BowX Common Stock and other equity securities of BowX that are held by the parties thereto from time to time\n- In certain circumstances, various parties can **collectively demand up to nine underwritten offerings in any twelve-month period**\n- Parties can **collectively demand no less than six underwritten block trade offerings in any twelve-month period**\n- Parties will be entitled to **piggyback registration rights**, in each case subject to certain limitations set forth in the Registration Rights Agreement\n\n(Page 5, \"Registration Rights Agreement\" section; also referenced on Page 13)\n\n### PIPE Investor Registration Rights\n\nFor PIPE Investors (other than Anchor PIPE Investors, whose registration rights are governed by the Registration Rights Agreement), the Subscription Agreements provide:\n\n- BowX is required to, **no later than 30 calendar days following the Closing**, file with the SEC a registration statement registering the resale of PIPE shares\n- BowX must use commercially reasonable efforts to have the registration statement **declared effective no later than the earlier of**: (i) the 60th calendar day (or 90th if SEC notifies of \"review\") following filing, or (ii) the 10th business day after SEC notification that the statement will not be reviewed\n- BowX must keep the registration statement **effective until the earliest of**: (i) when PIPE Investors no longer hold registrable shares, (ii) when all registrable shares may be sold without restriction under Rule 144, or (iii) three years from the date of effectiveness\n\n(Page 6, \"PIPE Subscription Agreements\" section)\n\n---\n\n**Confidence Level: HIGH** - These provisions are directly stated in the document.\n\n**Caveats**: The full terms and conditions of the Registration Rights Agreement are contained in Annex I to the proxy statement/prospectus, which is referenced but not fully reproduced in the provided excerpt."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73045,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 516,
+      "service_tier": "standard"
+    }
+  }
+}

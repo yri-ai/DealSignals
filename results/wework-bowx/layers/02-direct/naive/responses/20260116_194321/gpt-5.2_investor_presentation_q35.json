@@ -1,0 +1,80 @@
+{
+  "content": "The provided document pages don\u2019t include any readable content describing the **market context at deal time** (most of the slides are redacted/blank aside from general WeWork values and an \u201cAll Access\u201d product description). As a result, the market context at deal time **cannot be determined from this document excerpt**.",
+  "model": "gpt-5.2",
+  "input_tokens": 953,
+  "output_tokens": 68,
+  "latency_ms": 2559,
+  "timestamp": "2026-01-16T19:55:03.473081",
+  "cost_usd": 0.0026197499999999997,
+  "raw_response": {
+    "id": "resp_060553294e05decc00696a9795225881958cdcf31145d3833c",
+    "object": "response",
+    "created_at": 1768593301,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593303,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_060553294e05decc00696a97956a7c81959ccc87b35e02d633",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The provided document pages don\u2019t include any readable content describing the **market context at deal time** (most of the slides are redacted/blank aside from general WeWork values and an \u201cAll Access\u201d product description). As a result, the market context at deal time **cannot be determined from this document excerpt**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 953,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 68,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1021
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

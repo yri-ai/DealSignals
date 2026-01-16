@@ -1,0 +1,80 @@
+{
+  "content": "**Total lease obligations:** **Not found in document.**\n\n**Citations:** The provided pages are largely repeated \u201c\u00a9 2021 WeWork. Confidential.\u201d slides with minimal readable financial content; no slide/page includes a table, note, or section explicitly stating **\u201ctotal lease obligations\u201d** or providing amounts (entire provided document excerpt).\n\n**Confidence:** HIGH (directly absent from provided document)\n\n**Caveats / limitations:** The document excerpt appears incomplete and/or heavily redacted (many slides contain only bullet placeholders \u201c\u2022/\u25cf\u201d with no figures), so lease obligation totals may exist in the full deck but are not present in the provided text.",
+  "model": "gpt-5.2",
+  "input_tokens": 1055,
+  "output_tokens": 137,
+  "latency_ms": 5320,
+  "timestamp": "2026-01-16T20:31:01.560097",
+  "cost_usd": 0.00376425,
+  "raw_response": {
+    "id": "resp_010f0d03ddabf65300696aa0008e00819591a058b8b84fdb3a",
+    "object": "response",
+    "created_at": 1768595456,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595461,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_010f0d03ddabf65300696aa000ed2081958e4ff53b84f39fdf",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Total lease obligations:** **Not found in document.**\n\n**Citations:** The provided pages are largely repeated \u201c\u00a9 2021 WeWork. Confidential.\u201d slides with minimal readable financial content; no slide/page includes a table, note, or section explicitly stating **\u201ctotal lease obligations\u201d** or providing amounts (entire provided document excerpt).\n\n**Confidence:** HIGH (directly absent from provided document)\n\n**Caveats / limitations:** The document excerpt appears incomplete and/or heavily redacted (many slides contain only bullet placeholders \u201c\u2022/\u25cf\u201d with no figures), so lease obligation totals may exist in the full deck but are not present in the provided text."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1055,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 137,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1192
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

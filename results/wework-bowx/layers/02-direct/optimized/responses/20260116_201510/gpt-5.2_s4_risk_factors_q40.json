@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Caveat / limitation:** The document is a preliminary proxy statement/prospectus (Form S\u20114/A) that provides transaction terms, ownership dilution examples, selected historical financials, and extensive risk factors (e.g., \u201cRisk Factors\u201d starting on page 31; \u201cSummary of the Proxy Statement/Prospectus\u201d starting on page 1; \u201cSelected Historical Financial Information of WeWork\u201d on page 23; \u201cSelected Historical Financial Information of BowX\u201d on page 21). However, it does **not** contain an explicit investment recommendation tailored to an investor (e.g., \u201cwe recommend you invest\u201d / \u201cdo not invest\u201d), nor does it provide a complete investor-specific mandate (risk tolerance, time horizon, required return) necessary to answer \u201cwould you invest\u201d solely from the text.  \n\n**Confidence:** HIGH (the document does not state whether to invest; any \u201cyes/no\u201d would require assumptions beyond the document).",
+  "model": "gpt-5.2",
+  "input_tokens": 67715,
+  "output_tokens": 201,
+  "latency_ms": 6325,
+  "timestamp": "2026-01-16T20:42:04.303085",
+  "cost_usd": 0.12131525,
+  "raw_response": {
+    "id": "resp_01398453bd3ad69500696aa29655308191a95fec1ca75d1532",
+    "object": "response",
+    "created_at": 1768596118,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768596123,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_01398453bd3ad69500696aa296e2e88191b553badd5bca42fa",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Caveat / limitation:** The document is a preliminary proxy statement/prospectus (Form S\u20114/A) that provides transaction terms, ownership dilution examples, selected historical financials, and extensive risk factors (e.g., \u201cRisk Factors\u201d starting on page 31; \u201cSummary of the Proxy Statement/Prospectus\u201d starting on page 1; \u201cSelected Historical Financial Information of WeWork\u201d on page 23; \u201cSelected Historical Financial Information of BowX\u201d on page 21). However, it does **not** contain an explicit investment recommendation tailored to an investor (e.g., \u201cwe recommend you invest\u201d / \u201cdo not invest\u201d), nor does it provide a complete investor-specific mandate (risk tolerance, time horizon, required return) necessary to answer \u201cwould you invest\u201d solely from the text.  \n\n**Confidence:** HIGH (the document does not state whether to invest; any \u201cyes/no\u201d would require assumptions beyond the document)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67715,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 201,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67916
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

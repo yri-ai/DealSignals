@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I cannot identify any going concern disclosures. \n\nThe document appears to be a WeWork corporate presentation from 2021 that focuses on:\n- Company values and culture\n- Business model (All Access membership, partnerships)\n- Strategic initiatives\n- Various operational metrics and definitions\n\nGoing concern disclosures are typically found in:\n- Audited financial statements\n- SEC filings (10-K, 10-Q)\n- Notes to financial statements\n- Audit reports\n\nThis presentation does not appear to contain formal financial statement disclosures or auditor opinions that would include going concern language. To determine if WeWork had going concern disclosures in 2021, you would need to review their official SEC filings or audited financial statements from that period.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1237,
+  "output_tokens": 172,
+  "latency_ms": 5526,
+  "timestamp": "2026-01-16T19:44:26.644443",
+  "cost_usd": 0.006291,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01DwUasmw4tzWoGQTQTTKLKM",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I cannot identify any going concern disclosures. \n\nThe document appears to be a WeWork corporate presentation from 2021 that focuses on:\n- Company values and culture\n- Business model (All Access membership, partnerships)\n- Strategic initiatives\n- Various operational metrics and definitions\n\nGoing concern disclosures are typically found in:\n- Audited financial statements\n- SEC filings (10-K, 10-Q)\n- Notes to financial statements\n- Audit reports\n\nThis presentation does not appear to contain formal financial statement disclosures or auditor opinions that would include going concern language. To determine if WeWork had going concern disclosures in 2021, you would need to review their official SEC filings or audited financial statements from that period."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1237,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 172,
+      "service_tier": "standard"
+    }
+  }
+}

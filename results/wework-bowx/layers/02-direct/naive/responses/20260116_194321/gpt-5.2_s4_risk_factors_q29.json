@@ -1,0 +1,80 @@
+{
+  "content": "The excerpt you provided does **not** include an auditor\u2019s report/opinion, so it does not state what the auditors said (e.g., unqualified opinion, going concern emphasis, etc.).\n\nIt only notes that:\n\n- **BowX\u2019s annual financial statements are audited** (\u201crestated audited annual financial statements included elsewhere in this proxy statement/prospectus\u201d), while the interim June 30, 2021 financials are **unaudited**.  \n- **WeWork\u2019s financial statements are included elsewhere** in the document.\n\nTo answer \u201cwhat did the auditors say,\u201d I\u2019d need the **auditor\u2019s opinion section** from the financial statements (typically in the F-pages, e.g., \u201cReport of Independent Registered Public Accounting Firm\u201d). If you paste that page, I can summarize the auditors\u2019 conclusion precisely.",
+  "model": "gpt-5.2",
+  "input_tokens": 67606,
+  "output_tokens": 169,
+  "latency_ms": 8858,
+  "timestamp": "2026-01-16T19:58:57.118088",
+  "cost_usd": 0.12067649999999999,
+  "raw_response": {
+    "id": "resp_0008a704f1d1614500696a9878a9788195b672c42d24c7ebb2",
+    "object": "response",
+    "created_at": 1768593528,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593536,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0008a704f1d1614500696a987ac6f48195a3087b5dc90844a8",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The excerpt you provided does **not** include an auditor\u2019s report/opinion, so it does not state what the auditors said (e.g., unqualified opinion, going concern emphasis, etc.).\n\nIt only notes that:\n\n- **BowX\u2019s annual financial statements are audited** (\u201crestated audited annual financial statements included elsewhere in this proxy statement/prospectus\u201d), while the interim June 30, 2021 financials are **unaudited**.  \n- **WeWork\u2019s financial statements are included elsewhere** in the document.\n\nTo answer \u201cwhat did the auditors say,\u201d I\u2019d need the **auditor\u2019s opinion section** from the financial statements (typically in the F-pages, e.g., \u201cReport of Independent Registered Public Accounting Firm\u201d). If you paste that page, I can summarize the auditors\u2019 conclusion precisely."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67606,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 169,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67775
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "At **~50% occupancy**, the WeWork leased-space business is generally **around break-even or loss-making**: revenue from members isn\u2019t sufficient to cover the largely fixed cost base (especially **rent/lease obligations and building operating costs**), so **cash burn increases and unit economics deteriorate** until occupancy improves.",
+  "model": "gpt-5.2",
+  "input_tokens": 955,
+  "output_tokens": 69,
+  "latency_ms": 2864,
+  "timestamp": "2026-01-16T19:54:14.830786",
+  "cost_usd": 0.00263725,
+  "raw_response": {
+    "id": "resp_0bc9ce9156adbcfb00696a976424648190876601a041cd5d89",
+    "object": "response",
+    "created_at": 1768593252,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593254,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0bc9ce9156adbcfb00696a9764639881908acda32a0063de06",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "At **~50% occupancy**, the WeWork leased-space business is generally **around break-even or loss-making**: revenue from members isn\u2019t sufficient to cover the largely fixed cost base (especially **rent/lease obligations and building operating costs**), so **cash burn increases and unit economics deteriorate** until occupancy improves."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 955,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 69,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1024
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

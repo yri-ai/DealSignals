@@ -1,0 +1,34 @@
+{
+  "content": "Not found in document.\n\n**Confidence: HIGH**\n\n**Explanation:**\nWhile the document contains extensive financial information about WeWork, including:\n- Total revenue figures for various periods (e.g., $1,191,331 thousand for six months ended June 30, 2021; $3,415,865 thousand for year ended December 31, 2020)\n- Information about membership trends (e.g., \"between the quarter ended June 30, 2020 and the quarter ended June 30, 2021, the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\")\n- Discussion of Enterprise Members accounting for certain percentages of membership revenue\n\nThe document does not provide:\n- A specific calculation or statement of average revenue per member\n- The total number of members or memberships at any given point\n- Any metric that would allow for direct calculation of average revenue per member\n\n**Caveats:**\nWhile revenue figures are provided throughout the document, without corresponding member count data, it is not possible to calculate or verify an average revenue per member figure from the information provided.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73048,
+  "output_tokens": 252,
+  "latency_ms": 11261,
+  "timestamp": "2026-01-16T20:23:45.538135",
+  "cost_usd": 0.222924,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01Gc5AWUa8CPD1eJNXFSHfBU",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Not found in document.\n\n**Confidence: HIGH**\n\n**Explanation:**\nWhile the document contains extensive financial information about WeWork, including:\n- Total revenue figures for various periods (e.g., $1,191,331 thousand for six months ended June 30, 2021; $3,415,865 thousand for year ended December 31, 2020)\n- Information about membership trends (e.g., \"between the quarter ended June 30, 2020 and the quarter ended June 30, 2021, the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\")\n- Discussion of Enterprise Members accounting for certain percentages of membership revenue\n\nThe document does not provide:\n- A specific calculation or statement of average revenue per member\n- The total number of members or memberships at any given point\n- Any metric that would allow for direct calculation of average revenue per member\n\n**Caveats:**\nWhile revenue figures are provided throughout the document, without corresponding member count data, it is not possible to calculate or verify an average revenue per member figure from the information provided."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73048,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 252,
+      "service_tier": "standard"
+    }
+  }
+}

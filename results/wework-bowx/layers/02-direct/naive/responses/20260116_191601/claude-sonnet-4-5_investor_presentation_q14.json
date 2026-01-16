@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I cannot find specific information about the duration profile of WeWork's lease commitments. \n\nThe document appears to be a corporate presentation that covers WeWork's values, business model (including their All Access subscription product), and various operational aspects, but the specific details about lease commitment durations are not visible or included in the portions of the document that were shared.\n\nTo answer your question about lease commitment duration profile, I would need access to sections of the document that contain:\n- Lease maturity schedules\n- Weighted average lease terms\n- Breakdown of lease expirations by year\n- Financial footnotes regarding lease obligations\n\nThis information is typically found in the financial statements, MD&A (Management Discussion & Analysis), or specific appendix sections dealing with lease commitments and obligations.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1239,
+  "output_tokens": 172,
+  "latency_ms": 7845,
+  "timestamp": "2026-01-16T19:17:37.099205",
+  "cost_usd": 0.0062970000000000005,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01Qqt5s7MyRgS7dyhdZjLQy2",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I cannot find specific information about the duration profile of WeWork's lease commitments. \n\nThe document appears to be a corporate presentation that covers WeWork's values, business model (including their All Access subscription product), and various operational aspects, but the specific details about lease commitment durations are not visible or included in the portions of the document that were shared.\n\nTo answer your question about lease commitment duration profile, I would need access to sections of the document that contain:\n- Lease maturity schedules\n- Weighted average lease terms\n- Breakdown of lease expirations by year\n- Financial footnotes regarding lease obligations\n\nThis information is typically found in the financial statements, MD&A (Management Discussion & Analysis), or specific appendix sections dealing with lease commitments and obligations."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 172,
+      "service_tier": "standard"
+    }
+  }
+}

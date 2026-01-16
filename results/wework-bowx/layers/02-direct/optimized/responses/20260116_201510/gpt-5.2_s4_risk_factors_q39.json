@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**What is present (related, but not a list of debt covenants/restrictions):**\n- The document defines and describes certain **debt facilities/arrangements** (e.g., \u201cCompany Credit Agreement,\u201d \u201c2020 LC Facility,\u201d \u201cSoftBank Senior Secured Notes/Amended Senior Secured Notes\u201d) in the **\u201cSelected Definitions\u201d** section and **\u201cRelated Agreements\u2014Credit Support Letter / Commitment Letter for Secured Notes\u201d** summary, but **does not disclose the specific covenant package** (e.g., leverage ratios, liquidity covenants, restricted payments, negative pledges, etc.) in the provided excerpt. (Sections: \u201cSELECTED DEFINITIONS\u201d; \u201cRelated Agreements\u2014Credit Support Letter\u201d; \u201cCommitment Letter for Secured Notes\u201d)\n- In **Risk Factors**, the document states generally that **WeWork\u2019s debt facilities impose or may impose restrictions on distributions** and that **terms of indebtedness restrict current and future operations**, but **without detailing the specific covenants**. (Sections: \u201cRisk Factors\u201d; \u201cRisks Relating to the Company\u2019s Financial Condition\u201d; also \u201cSelected Definitions\u201d referencing \u201cCompany Credit Agreement\u201d)\n\n**Caveat / limitation:** The provided document excerpt appears incomplete relative to the full S-4/A; detailed debt covenants are often found in MD&A, risk factor subsections on indebtedness, or in credit agreement exhibits\u2014none of which are included with covenant detail in the text provided here.\n\n**Confidence:** HIGH (the excerpt contains only general statements and no detailed covenant terms).",
+  "model": "gpt-5.2",
+  "input_tokens": 67713,
+  "output_tokens": 322,
+  "latency_ms": 9851,
+  "timestamp": "2026-01-16T20:41:57.974201",
+  "cost_usd": 0.12300574999999998,
+  "raw_response": {
+    "id": "resp_0efbcb40dc368d3c00696aa28cb7b88193b488e066bbd6adf5",
+    "object": "response",
+    "created_at": 1768596108,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768596117,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0efbcb40dc368d3c00696aa28d485c81939cdf0ed1610ff484",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**What is present (related, but not a list of debt covenants/restrictions):**\n- The document defines and describes certain **debt facilities/arrangements** (e.g., \u201cCompany Credit Agreement,\u201d \u201c2020 LC Facility,\u201d \u201cSoftBank Senior Secured Notes/Amended Senior Secured Notes\u201d) in the **\u201cSelected Definitions\u201d** section and **\u201cRelated Agreements\u2014Credit Support Letter / Commitment Letter for Secured Notes\u201d** summary, but **does not disclose the specific covenant package** (e.g., leverage ratios, liquidity covenants, restricted payments, negative pledges, etc.) in the provided excerpt. (Sections: \u201cSELECTED DEFINITIONS\u201d; \u201cRelated Agreements\u2014Credit Support Letter\u201d; \u201cCommitment Letter for Secured Notes\u201d)\n- In **Risk Factors**, the document states generally that **WeWork\u2019s debt facilities impose or may impose restrictions on distributions** and that **terms of indebtedness restrict current and future operations**, but **without detailing the specific covenants**. (Sections: \u201cRisk Factors\u201d; \u201cRisks Relating to the Company\u2019s Financial Condition\u201d; also \u201cSelected Definitions\u201d referencing \u201cCompany Credit Agreement\u201d)\n\n**Caveat / limitation:** The provided document excerpt appears incomplete relative to the full S-4/A; detailed debt covenants are often found in MD&A, risk factor subsections on indebtedness, or in credit agreement exhibits\u2014none of which are included with covenant detail in the text provided here.\n\n**Confidence:** HIGH (the excerpt contains only general statements and no detailed covenant terms)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67713,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 322,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68035
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

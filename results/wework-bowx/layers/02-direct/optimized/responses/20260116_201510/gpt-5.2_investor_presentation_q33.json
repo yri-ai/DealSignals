@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.  \n\n**Caveat / limitation:** The provided excerpt appears to be a heavily redacted/partial WeWork confidential presentation (many slides show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), and it does not include any section describing **lock-up agreements** (e.g., sponsor lock-up, founder shares, PIPE investor lock-up, or employee/insider lock-ups). Therefore, the lock-up terms cannot be determined from this document.  \n\n**Confidence:** HIGH (the document excerpt contains no lock-up agreement details).",
+  "model": "gpt-5.2",
+  "input_tokens": 1056,
+  "output_tokens": 118,
+  "latency_ms": 3888,
+  "timestamp": "2026-01-16T20:33:25.536830",
+  "cost_usd": 0.0035,
+  "raw_response": {
+    "id": "resp_086f20f99d86631900696aa0928dac81a08218b1f8afa14faa",
+    "object": "response",
+    "created_at": 1768595602,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595605,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_086f20f99d86631900696aa092e2e081a0830db6734f1f7a0c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.  \n\n**Caveat / limitation:** The provided excerpt appears to be a heavily redacted/partial WeWork confidential presentation (many slides show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), and it does not include any section describing **lock-up agreements** (e.g., sponsor lock-up, founder shares, PIPE investor lock-up, or employee/insider lock-ups). Therefore, the lock-up terms cannot be determined from this document.  \n\n**Confidence:** HIGH (the document excerpt contains no lock-up agreement details)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1056,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 118,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1174
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

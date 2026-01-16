@@ -1,0 +1,34 @@
+{
+  "content": "## Adam Neumann's Ongoing Relationship/Exposure\n\nBased on the proxy statement/prospectus, Adam Neumann has the following ongoing relationships and exposures with New WeWork:\n\n### Board Observer Rights\n\n**Beginning February 26, 2022**, Adam Neumann (or his designee, subject to SBG approval) has the right to:\n- Observe meetings of New WeWork's board of directors and certain committees in a **non-voting observer capacity**\n- Receive copies of written materials provided to directors (subject to certain conditions)\n\n*Citation: Page 41, \"The Company has entered into an agreement that grants Mr. Neumann board observer rights.\"*\n\n### Termination Conditions\n\nMr. Neumann's observer rights terminate when he **ceases to beneficially own equity securities representing at least 19,028,251 shares of WeWork Class A Common Stock** (on an as-converted basis, adjusted for stock splits, dividends, etc.).\n\n*Citation: Page 41*\n\n### Confidentiality and Limitations\n\n- Mr. Neumann or his representative must agree to hold all information provided in confidence\n- New WeWork reserves the right to **withhold information and exclude** Mr. Neumann from meetings that could:\n  - Adversely affect attorney-client privilege\n  - Result in disclosure of trade secrets\n  - Create a conflict of interest\n  - Occur if there has been a violation of Mr. Neumann's restrictive covenant obligations\n\n*Citation: Page 41*\n\n### Historical Related Party Transactions\n\nThe Company has **previously entered into several transactions with landlord entities** in which Adam Neumann had ownership interests. As part of the Company's restructuring, ongoing discussions exist to exit certain leases with related parties.\n\n*Citation: Page 40, \"the Company has in the past entered into several transactions with landlord entities in which Adam Neumann... has or had an ownership interest.\"*\n\n---\n\n**Confidence Level: HIGH** - These terms are directly stated in the document.\n\n**Caveats:** The document does not specify the full scope of Mr. Neumann's current equity holdings or the specific restrictive covenant obligations referenced.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 483,
+  "latency_ms": 14328,
+  "timestamp": "2026-01-16T20:54:10.522940",
+  "cost_usd": 0.37733500000000003,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01Q49PqssUyaP7xCPKGs6fi3",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Adam Neumann's Ongoing Relationship/Exposure\n\nBased on the proxy statement/prospectus, Adam Neumann has the following ongoing relationships and exposures with New WeWork:\n\n### Board Observer Rights\n\n**Beginning February 26, 2022**, Adam Neumann (or his designee, subject to SBG approval) has the right to:\n- Observe meetings of New WeWork's board of directors and certain committees in a **non-voting observer capacity**\n- Receive copies of written materials provided to directors (subject to certain conditions)\n\n*Citation: Page 41, \"The Company has entered into an agreement that grants Mr. Neumann board observer rights.\"*\n\n### Termination Conditions\n\nMr. Neumann's observer rights terminate when he **ceases to beneficially own equity securities representing at least 19,028,251 shares of WeWork Class A Common Stock** (on an as-converted basis, adjusted for stock splits, dividends, etc.).\n\n*Citation: Page 41*\n\n### Confidentiality and Limitations\n\n- Mr. Neumann or his representative must agree to hold all information provided in confidence\n- New WeWork reserves the right to **withhold information and exclude** Mr. Neumann from meetings that could:\n  - Adversely affect attorney-client privilege\n  - Result in disclosure of trade secrets\n  - Create a conflict of interest\n  - Occur if there has been a violation of Mr. Neumann's restrictive covenant obligations\n\n*Citation: Page 41*\n\n### Historical Related Party Transactions\n\nThe Company has **previously entered into several transactions with landlord entities** in which Adam Neumann had ownership interests. As part of the Company's restructuring, ongoing discussions exist to exit certain leases with related parties.\n\n*Citation: Page 40, \"the Company has in the past entered into several transactions with landlord entities in which Adam Neumann... has or had an ownership interest.\"*\n\n---\n\n**Confidence Level: HIGH** - These terms are directly stated in the document.\n\n**Caveats:** The document does not specify the full scope of Mr. Neumann's current equity holdings or the specific restrictive covenant obligations referenced."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 483,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "## Analysis of Debt Covenants and Restrictions\n\n**Answer: Not found in document**\n\nThe provided document does not contain specific information about debt covenants and restrictions. The document appears to be a WeWork confidential presentation (dated 2021), but the actual content consists primarily of:\n\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point placeholders without visible text\n- Company values/culture statements (on one page)\n- References to product offerings like \"All Access\" subscription model\n- Timeline graphic (2010-2030)\n- Various section markers but without substantive financial covenant details\n\nThe document does reference financial metrics and definitions on what appears to be a definitions page (with bullet points mentioning items like \"divided by\"), but the specific terms, ratios, and covenant language are not visible in the extracted text.\n\n**Confidence Level: N/A** (Information not present)\n\n**Caveats and Limitations:**\n1. The document text extraction appears incomplete - many pages show only the copyright footer and bullet point markers without the actual content\n2. This appears to be a SPAC merger presentation deck, which typically would include debt covenant information in a more detailed financial section or appendix that may not have been fully captured\n3. Debt covenants are typically found in credit agreements or loan documents rather than investor presentations, though summary covenant information is sometimes included in such materials\n\n**Recommendation:** To properly analyze debt covenants and restrictions, request access to:\n- The company's credit facility agreements\n- Senior secured notes indentures (if applicable)\n- The S-4 registration statement filed with the SEC for the SPAC merger",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1357,
+  "output_tokens": 367,
+  "latency_ms": 10647,
+  "timestamp": "2026-01-16T20:48:33.626019",
+  "cost_usd": 0.01596,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01Uwxn78UwTmi6Qd7nY6ozgL",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Analysis of Debt Covenants and Restrictions\n\n**Answer: Not found in document**\n\nThe provided document does not contain specific information about debt covenants and restrictions. The document appears to be a WeWork confidential presentation (dated 2021), but the actual content consists primarily of:\n\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point placeholders without visible text\n- Company values/culture statements (on one page)\n- References to product offerings like \"All Access\" subscription model\n- Timeline graphic (2010-2030)\n- Various section markers but without substantive financial covenant details\n\nThe document does reference financial metrics and definitions on what appears to be a definitions page (with bullet points mentioning items like \"divided by\"), but the specific terms, ratios, and covenant language are not visible in the extracted text.\n\n**Confidence Level: N/A** (Information not present)\n\n**Caveats and Limitations:**\n1. The document text extraction appears incomplete - many pages show only the copyright footer and bullet point markers without the actual content\n2. This appears to be a SPAC merger presentation deck, which typically would include debt covenant information in a more detailed financial section or appendix that may not have been fully captured\n3. Debt covenants are typically found in credit agreements or loan documents rather than investor presentations, though summary covenant information is sometimes included in such materials\n\n**Recommendation:** To properly analyze debt covenants and restrictions, request access to:\n- The company's credit facility agreements\n- Senior secured notes indentures (if applicable)\n- The S-4 registration statement filed with the SEC for the SPAC merger"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1357,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 367,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "Looking at the document, the voting structure post-merger includes the following key elements:\n\n**Stock Classes:**\n- **Class A Common Stock**: Standard voting shares with economic rights (dividends, liquidation proceeds)\n- **Class C Common Stock**: Non-economic voting security without rights to dividends or liquidation proceeds. These shares correspond to WeWork Partnerships Profits Interest Units and are paired 1:1 with Class A Common Stock held by the partnership.\n\n**Voting Rights:**\n- Both Class A and Class C Common Stock appear to have one vote per share\n- Class A and Class B Common Stock holders vote together as a single class on most matters\n\n**Key Voting Restrictions:**\nThe most significant feature is a **SoftBank voting cap** (Organizational Documents Proposal B):\n\n\"With respect to any vote or election submitted to the holders of shares of New WeWork Capital Stock for approval, to restrict the SoftBank Holders (as defined herein), for a period of at least two years, from exercising voting rights over more than 49.9% of the voting securities present (attending virtually or by proxy) and voting at any such meeting of the stockholders.\"\n\n**Share Authorization:**\n- 1,500,000,000 shares of Class A Common Stock\n- 25,041,666 shares of Class C Common Stock  \n- 100,000,000 shares of Preferred Stock\n\nThis structure gives SoftBank significant influence (as a major shareholder) while limiting their voting control to under 50% at any stockholder meeting for at least two years post-merger.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72930,
+  "output_tokens": 347,
+  "latency_ms": 11055,
+  "timestamp": "2026-01-16T19:51:24.027194",
+  "cost_usd": 0.22399499999999997,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01HmYxtGmxWa3ZHGTLLHtGtx",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Looking at the document, the voting structure post-merger includes the following key elements:\n\n**Stock Classes:**\n- **Class A Common Stock**: Standard voting shares with economic rights (dividends, liquidation proceeds)\n- **Class C Common Stock**: Non-economic voting security without rights to dividends or liquidation proceeds. These shares correspond to WeWork Partnerships Profits Interest Units and are paired 1:1 with Class A Common Stock held by the partnership.\n\n**Voting Rights:**\n- Both Class A and Class C Common Stock appear to have one vote per share\n- Class A and Class B Common Stock holders vote together as a single class on most matters\n\n**Key Voting Restrictions:**\nThe most significant feature is a **SoftBank voting cap** (Organizational Documents Proposal B):\n\n\"With respect to any vote or election submitted to the holders of shares of New WeWork Capital Stock for approval, to restrict the SoftBank Holders (as defined herein), for a period of at least two years, from exercising voting rights over more than 49.9% of the voting securities present (attending virtually or by proxy) and voting at any such meeting of the stockholders.\"\n\n**Share Authorization:**\n- 1,500,000,000 shares of Class A Common Stock\n- 25,041,666 shares of Class C Common Stock  \n- 100,000,000 shares of Preferred Stock\n\nThis structure gives SoftBank significant influence (as a major shareholder) while limiting their voting control to under 50% at any stockholder meeting for at least two years post-merger."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72930,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 347,
+      "service_tier": "standard"
+    }
+  }
+}

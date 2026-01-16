@@ -1,0 +1,34 @@
+{
+  "content": "I cannot find specific information about \"contribution margin per membership\" in the provided document. \n\nThe document appears to be a WeWork presentation from 2021 that discusses the company's values, business model (including their All Access subscription service), and various business metrics, but the actual numerical data and detailed financial metrics are not visible in the text extracted from the document.\n\nThe document mentions that their All Access model has \"High Margins\" and \"Significant incremental margins given subscription-based model,\" but does not provide the specific contribution margin per membership figure.\n\nTo answer your question accurately, I would need access to the actual financial data pages or appendix sections of this presentation that would typically contain such detailed metrics.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1236,
+  "output_tokens": 150,
+  "latency_ms": 7864,
+  "timestamp": "2026-01-16T19:16:59.774950",
+  "cost_usd": 0.005958,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_013TcfQSgh7zUu7rFgLEEkPg",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "I cannot find specific information about \"contribution margin per membership\" in the provided document. \n\nThe document appears to be a WeWork presentation from 2021 that discusses the company's values, business model (including their All Access subscription service), and various business metrics, but the actual numerical data and detailed financial metrics are not visible in the text extracted from the document.\n\nThe document mentions that their All Access model has \"High Margins\" and \"Significant incremental margins given subscription-based model,\" but does not provide the specific contribution margin per membership figure.\n\nTo answer your question accurately, I would need access to the actual financial data pages or appendix sections of this presentation that would typically contain such detailed metrics."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1236,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 150,
+      "service_tier": "standard"
+    }
+  }
+}

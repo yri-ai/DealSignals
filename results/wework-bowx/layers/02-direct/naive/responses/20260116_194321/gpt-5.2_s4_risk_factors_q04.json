@@ -1,0 +1,80 @@
+{
+  "content": "The document does **not** state a single \u201ccash burn rate\u201d figure.\n\nHowever, it provides enough information to infer **operating cash burn** from WeWork\u2019s cash flow statement:\n\n- **Net cash used in operating activities (WeWork)** for the **six months ended June 30, 2021**: **$(1,158,957) million**.\n\nImplied average **operating cash burn rate**:\n- **Monthly:** $(1,158.957B / 6) \u2248 **$193.2 million per month**\n- **Daily (approx., 181 days in H1 2021):** $(1,158.957B / 181) \u2248 **$6.4 million per day**\n\nNote: This is **operating cash burn only** (excludes investing capex and financing flows). If you want a \u201cfree cash flow burn rate,\u201d the document reports **Free Cash Flow** of **$(1,312,099) million** for the same six-month period (\u2248 **$218.7 million/month**).",
+  "model": "gpt-5.2",
+  "input_tokens": 67607,
+  "output_tokens": 224,
+  "latency_ms": 7315,
+  "timestamp": "2026-01-16T19:55:40.642360",
+  "cost_usd": 0.12144825000000001,
+  "raw_response": {
+    "id": "resp_0d90a65d485bd2a400696a97b5b66481a28993a4e627700c10",
+    "object": "response",
+    "created_at": 1768593333,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593340,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0d90a65d485bd2a400696a97b64b9c81a2b241dfe5f4c6ef8d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document does **not** state a single \u201ccash burn rate\u201d figure.\n\nHowever, it provides enough information to infer **operating cash burn** from WeWork\u2019s cash flow statement:\n\n- **Net cash used in operating activities (WeWork)** for the **six months ended June 30, 2021**: **$(1,158,957) million**.\n\nImplied average **operating cash burn rate**:\n- **Monthly:** $(1,158.957B / 6) \u2248 **$193.2 million per month**\n- **Daily (approx., 181 days in H1 2021):** $(1,158.957B / 181) \u2248 **$6.4 million per day**\n\nNote: This is **operating cash burn only** (excludes investing capex and financing flows). If you want a \u201cfree cash flow burn rate,\u201d the document reports **Free Cash Flow** of **$(1,312,099) million** for the same six-month period (\u2248 **$218.7 million/month**)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67607,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 224,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67831
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

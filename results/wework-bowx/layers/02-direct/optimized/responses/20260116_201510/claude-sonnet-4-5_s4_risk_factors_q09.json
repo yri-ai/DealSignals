@@ -1,0 +1,34 @@
+{
+  "content": "Not found in document.\n\nThe document does not provide a specific metric or calculation for \"revenue per available desk/workstation\" or \"revenue per workstation.\" While the document mentions various financial metrics and operational statistics, including:\n\n- Total revenue figures for different periods\n- Membership counts\n- Workstation capacity and occupancy metrics\n- Physical Occupancy (defined as \"the number of physical memberships divided by total workstations\")\n\nThere is no explicit disclosure of revenue per available desk or workstation in the sections I reviewed.\n\nConfidence: HIGH (based on thorough review of financial sections and defined metrics)",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73050,
+  "output_tokens": 133,
+  "latency_ms": 8497,
+  "timestamp": "2026-01-16T20:23:12.159945",
+  "cost_usd": 0.221145,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_018iR21bN9yEdBkecnND2aRt",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Not found in document.\n\nThe document does not provide a specific metric or calculation for \"revenue per available desk/workstation\" or \"revenue per workstation.\" While the document mentions various financial metrics and operational statistics, including:\n\n- Total revenue figures for different periods\n- Membership counts\n- Workstation capacity and occupancy metrics\n- Physical Occupancy (defined as \"the number of physical memberships divided by total workstations\")\n\nThere is no explicit disclosure of revenue per available desk or workstation in the sections I reviewed.\n\nConfidence: HIGH (based on thorough review of financial sections and defined metrics)"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73050,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 133,
+      "service_tier": "standard"
+    }
+  }
+}

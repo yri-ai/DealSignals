@@ -1,0 +1,34 @@
+{
+  "content": "# Occupancy Rate Analysis\n\n## Definition\n**Not found in document** - The document does not provide an explicit definition of how WeWork calculates its occupancy rate metric.\n\n## Trending Data\n**Not found in document** - The document does not contain specific occupancy rate figures or historical trend data.\n\n## Related Information Found\nThe document does mention occupancy in a strategic context:\n\n- **All Access Product Description**: The document states that the All Access on-demand subscription model \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\" (page discussing All Access features, specific page number not visible in provided text).\n\n**Confidence: LOW** - While the document references occupancy as a concept and business driver, it does not provide:\n- The specific calculation methodology for occupancy rate\n- Historical occupancy percentages\n- Trends over time\n- Current occupancy levels\n\n## Caveats\n- The document appears to be a presentation deck with limited numerical data visible in the extracted text\n- Many pages contain only copyright notices without substantive content in the extracted text\n- Charts and graphs that may have contained occupancy data are not readable in this text extraction\n- The timeline shown (2010-2030) suggests forward-looking projections may be present, but specific occupancy metrics are not visible in the extracted text",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1360,
+  "output_tokens": 292,
+  "latency_ms": 9006,
+  "timestamp": "2026-01-16T20:16:54.094495",
+  "cost_usd": 0.00846,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01D8VucHrTrSoHRsAsr2Htj1",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Occupancy Rate Analysis\n\n## Definition\n**Not found in document** - The document does not provide an explicit definition of how WeWork calculates its occupancy rate metric.\n\n## Trending Data\n**Not found in document** - The document does not contain specific occupancy rate figures or historical trend data.\n\n## Related Information Found\nThe document does mention occupancy in a strategic context:\n\n- **All Access Product Description**: The document states that the All Access on-demand subscription model \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\" (page discussing All Access features, specific page number not visible in provided text).\n\n**Confidence: LOW** - While the document references occupancy as a concept and business driver, it does not provide:\n- The specific calculation methodology for occupancy rate\n- Historical occupancy percentages\n- Trends over time\n- Current occupancy levels\n\n## Caveats\n- The document appears to be a presentation deck with limited numerical data visible in the extracted text\n- Many pages contain only copyright notices without substantive content in the extracted text\n- Charts and graphs that may have contained occupancy data are not readable in this text extraction\n- The timeline shown (2010-2030) suggests forward-looking projections may be present, but specific occupancy metrics are not visible in the extracted text"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1360,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 292,
+      "service_tier": "standard"
+    }
+  }
+}

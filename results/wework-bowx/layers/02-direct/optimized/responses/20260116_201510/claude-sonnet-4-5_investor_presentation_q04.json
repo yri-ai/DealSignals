@@ -1,0 +1,34 @@
+{
+  "content": "# Analysis of Cash Burn Rate\n\n## Answer\n\n**Not found in document.**\n\n## Explanation\n\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021, but the actual content of most slides is not visible in the text extraction - only copyright notices, headers, and bullet point markers are present. \n\nWhile there is a page that appears to reference financial metrics and definitions (indicated by multiple bullet points discussing various measures), the specific numerical values and detailed text are not legible in the provided document text.\n\n## Confidence Level\n\n**N/A** - Cannot assess confidence as the information is not available in the provided document.\n\n## Caveats\n\n1. The document extraction appears incomplete, showing primarily copyright notices and structural elements (bullet points, headers) rather than actual content\n2. There may be slides discussing financial metrics including cash burn rate, but the text is not readable in the provided format\n3. A complete version of the document or a higher-quality extraction would be needed to answer this question accurately\n\n## Recommendation\n\nTo conduct proper due diligence on the cash burn rate, you would need:\n- A complete, readable version of this presentation\n- Historical financial statements\n- Cash flow statements showing operating cash flows\n- Management projections and assumptions",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1355,
+  "output_tokens": 273,
+  "latency_ms": 12080,
+  "timestamp": "2026-01-16T20:15:54.086354",
+  "cost_usd": 0.00816,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_019sSQimNsMQNegkZ9mEces9",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Analysis of Cash Burn Rate\n\n## Answer\n\n**Not found in document.**\n\n## Explanation\n\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021, but the actual content of most slides is not visible in the text extraction - only copyright notices, headers, and bullet point markers are present. \n\nWhile there is a page that appears to reference financial metrics and definitions (indicated by multiple bullet points discussing various measures), the specific numerical values and detailed text are not legible in the provided document text.\n\n## Confidence Level\n\n**N/A** - Cannot assess confidence as the information is not available in the provided document.\n\n## Caveats\n\n1. The document extraction appears incomplete, showing primarily copyright notices and structural elements (bullet points, headers) rather than actual content\n2. There may be slides discussing financial metrics including cash burn rate, but the text is not readable in the provided format\n3. A complete version of the document or a higher-quality extraction would be needed to answer this question accurately\n\n## Recommendation\n\nTo conduct proper due diligence on the cash burn rate, you would need:\n- A complete, readable version of this presentation\n- Historical financial statements\n- Cash flow statements showing operating cash flows\n- Management projections and assumptions"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1355,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 273,
+      "service_tier": "standard"
+    }
+  }
+}

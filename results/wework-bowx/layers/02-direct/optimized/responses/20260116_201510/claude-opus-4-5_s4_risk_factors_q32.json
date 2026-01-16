@@ -1,0 +1,34 @@
+{
+  "content": "## Voting Structure Post-Merger\n\nBased on the proxy statement/prospectus, here is the voting structure following the Business Combination:\n\n### Share Classes and Voting Rights\n\n**Class A Common Stock:**\n- Par value $0.0001 per share\n- 1,500,000,000 shares authorized\n- Standard voting rights (one vote per share)\n(Page B-1, Organizational Documents Proposal A)\n\n**Class C Common Stock:**\n- Par value $0.0001 per share  \n- 25,041,666 shares authorized\n- Described as a \"**non-economic voting security without rights to dividends or on liquidation**\"\n- Issued in exchange for WeWork Class C Common Stock and corresponds with outstanding WeWork Partnerships Profits Interest Units\n(Pages x, xiii - Selected Definitions; Page 10 - Organizational Documents Proposal A)\n\n### SoftBank Voting Cap\n\n**Critical Restriction:** With respect to any vote or election submitted to stockholders, the SoftBank Holders are **restricted from exercising voting rights over more than 49.9%** of the voting securities present (in person or by proxy) and voting at any such meeting of stockholders. This restriction applies **for a period of at least two years** following the Business Combination.\n(Page 10, Organizational Documents Proposal B; Page i, Notice of Special Meeting)\n\n### Board Structure\n\n- **Single class of directors** (no staggered board)\n- Board vacancies filled by majority of directors then in office, unless specified otherwise in the Stockholders Agreement or Proposed Bylaws\n- Nine directors upon consummation of the Business Combination\n(Page 10, Organizational Documents Proposal C; Page ii, Director Election Proposal)\n\n### Confidence Level: **HIGH**\n\nThis information is directly stated in the document in multiple locations.\n\n### Caveats:\n- The specific voting mechanics for Class C Common Stock beyond being \"non-economic\" are not fully detailed in the excerpted portions\n- The exact terms of how the 49.9% SoftBank voting cap is calculated and enforced would require review of the full Proposed Charter (Annex B)",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73049,
+  "output_tokens": 488,
+  "latency_ms": 14828,
+  "timestamp": "2026-01-16T20:55:45.913153",
+  "cost_usd": 0.37744500000000003,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01G7QTVxokoWXgsgzZM1XCnX",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Voting Structure Post-Merger\n\nBased on the proxy statement/prospectus, here is the voting structure following the Business Combination:\n\n### Share Classes and Voting Rights\n\n**Class A Common Stock:**\n- Par value $0.0001 per share\n- 1,500,000,000 shares authorized\n- Standard voting rights (one vote per share)\n(Page B-1, Organizational Documents Proposal A)\n\n**Class C Common Stock:**\n- Par value $0.0001 per share  \n- 25,041,666 shares authorized\n- Described as a \"**non-economic voting security without rights to dividends or on liquidation**\"\n- Issued in exchange for WeWork Class C Common Stock and corresponds with outstanding WeWork Partnerships Profits Interest Units\n(Pages x, xiii - Selected Definitions; Page 10 - Organizational Documents Proposal A)\n\n### SoftBank Voting Cap\n\n**Critical Restriction:** With respect to any vote or election submitted to stockholders, the SoftBank Holders are **restricted from exercising voting rights over more than 49.9%** of the voting securities present (in person or by proxy) and voting at any such meeting of stockholders. This restriction applies **for a period of at least two years** following the Business Combination.\n(Page 10, Organizational Documents Proposal B; Page i, Notice of Special Meeting)\n\n### Board Structure\n\n- **Single class of directors** (no staggered board)\n- Board vacancies filled by majority of directors then in office, unless specified otherwise in the Stockholders Agreement or Proposed Bylaws\n- Nine directors upon consummation of the Business Combination\n(Page 10, Organizational Documents Proposal C; Page ii, Director Election Proposal)\n\n### Confidence Level: **HIGH**\n\nThis information is directly stated in the document in multiple locations.\n\n### Caveats:\n- The specific voting mechanics for Class C Common Stock beyond being \"non-economic\" are not fully detailed in the excerpted portions\n- The exact terms of how the 49.9% SoftBank voting cap is calculated and enforced would require review of the full Proposed Charter (Annex B)"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73049,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 488,
+      "service_tier": "standard"
+    }
+  }
+}

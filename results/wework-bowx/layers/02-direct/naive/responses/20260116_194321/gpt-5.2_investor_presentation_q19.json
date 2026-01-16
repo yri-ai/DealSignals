@@ -1,0 +1,80 @@
+{
+  "content": "The document indicates the price is justified using a **Discounted Cash Flow (DCF) valuation methodology** (i.e., valuing the business based on the present value of projected future cash flows).",
+  "model": "gpt-5.2",
+  "input_tokens": 954,
+  "output_tokens": 43,
+  "latency_ms": 1634,
+  "timestamp": "2026-01-16T19:54:19.335896",
+  "cost_usd": 0.0022715,
+  "raw_response": {
+    "id": "resp_0c86bca8b52d6fa700696a9769dad4819ea977eaf0f32cb2a1",
+    "object": "response",
+    "created_at": 1768593257,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593259,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0c86bca8b52d6fa700696a976a110c819ea892b8f6a635c703",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document indicates the price is justified using a **Discounted Cash Flow (DCF) valuation methodology** (i.e., valuing the business based on the present value of projected future cash flows)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 954,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 43,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 997
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

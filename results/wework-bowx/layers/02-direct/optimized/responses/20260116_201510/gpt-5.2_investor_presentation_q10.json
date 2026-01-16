@@ -1,0 +1,80 @@
+{
+  "content": "## Occupancy rate \u2014 definition\n**Not found in document.** The provided pages do not include a definition of \u201coccupancy rate\u201d (e.g., occupied desks/available capacity, revenue occupancy, etc.). The only related statement is that **All Access \u201cdrives occupancy\u2026 beyond physical capacity levels across portfolio based on utilization projections\u201d** (section titled **\u201cAll Access\u201d**), but it does not define the metric or formula.\n\n## Occupancy rate \u2014 trend over time\n**Not found in document.** No numeric occupancy rate figures (historical or projected) or an explicit occupancy trend chart is visible in the provided excerpt. The only time-axis content shown is a standalone timeline (**\u201c2010 2012 2014 2016 2018 2020 2022 2024 2026 2028 2030\u201d**) without occupancy data attached, and the \u201cAll Access\u201d slide contains qualitative claims only (section titled **\u201cAll Access\u201d**).\n\n### Confidence\n**LOW** \u2014 the excerpt contains only qualitative references to \u201coccupancy\u201d and no definition or time-series data.\n\n### Caveats / limitations\n- The document appears **heavily redacted or incomplete** (many pages show only bullet placeholders \u201c\u2022 / \u25cf\u201d), which likely omits the occupancy definition and figures.  \n- Because no metric definition is provided, **any interpretation (e.g., desks occupied \u00f7 desks available)** would be speculative and is therefore not included per the rules.",
+  "model": "gpt-5.2",
+  "input_tokens": 1060,
+  "output_tokens": 307,
+  "latency_ms": 9418,
+  "timestamp": "2026-01-16T20:30:47.020307",
+  "cost_usd": 0.006153,
+  "raw_response": {
+    "id": "resp_0ecc137e1172afe800696a9fedd2348192aef4d955c5928ce0",
+    "object": "response",
+    "created_at": 1768595437,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595446,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ecc137e1172afe800696a9fee191c8192917339e8f20f70d4",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Occupancy rate \u2014 definition\n**Not found in document.** The provided pages do not include a definition of \u201coccupancy rate\u201d (e.g., occupied desks/available capacity, revenue occupancy, etc.). The only related statement is that **All Access \u201cdrives occupancy\u2026 beyond physical capacity levels across portfolio based on utilization projections\u201d** (section titled **\u201cAll Access\u201d**), but it does not define the metric or formula.\n\n## Occupancy rate \u2014 trend over time\n**Not found in document.** No numeric occupancy rate figures (historical or projected) or an explicit occupancy trend chart is visible in the provided excerpt. The only time-axis content shown is a standalone timeline (**\u201c2010 2012 2014 2016 2018 2020 2022 2024 2026 2028 2030\u201d**) without occupancy data attached, and the \u201cAll Access\u201d slide contains qualitative claims only (section titled **\u201cAll Access\u201d**).\n\n### Confidence\n**LOW** \u2014 the excerpt contains only qualitative references to \u201coccupancy\u201d and no definition or time-series data.\n\n### Caveats / limitations\n- The document appears **heavily redacted or incomplete** (many pages show only bullet placeholders \u201c\u2022 / \u25cf\u201d), which likely omits the occupancy definition and figures.  \n- Because no metric definition is provided, **any interpretation (e.g., desks occupied \u00f7 desks available)** would be speculative and is therefore not included per the rules."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1060,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 307,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1367
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

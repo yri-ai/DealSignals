@@ -1,0 +1,34 @@
+{
+  "content": "According to the document, the Company's lease commitments have the following duration characteristics:\n\n**Average Initial Lease Term:**\n- Approximately 15 years\n\n**Long-term Nature:**\nThe document emphasizes that \"The Company's leases are primarily entered into by and through special purpose entity subsidiaries. The Company currently leases a significant majority of its locations under long-term leases that, with limited exceptions, do not contain early termination provisions.\"\n\n**Mismatch with Revenue:**\nThere is a significant duration mismatch between the Company's obligations and its revenue:\n- Average lease term: ~15 years\n- Average membership agreement term: 15 months\n\nThis creates substantial risk, as the document states: \"The Company's obligations to landlords under these agreements extend for periods that generally significantly exceed the length of its membership agreements with its members, which in certain cases may be terminated by the Company's members upon as little notice as one calendar month.\"\n\n**Total Future Obligations:**\nAs of June 30, 2021:\n- Future undiscounted minimum lease cost payment obligations: $36.6 billion\n- Committed sales contracts (future revenue): approximately $3 billion\n\nThis shows the Company has much longer-term lease obligations relative to its committed revenue stream.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72931,
+  "output_tokens": 277,
+  "latency_ms": 9954,
+  "timestamp": "2026-01-16T19:48:03.866281",
+  "cost_usd": 0.22294799999999998,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01NhQTZxZoopU8WokWfaTj99",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "According to the document, the Company's lease commitments have the following duration characteristics:\n\n**Average Initial Lease Term:**\n- Approximately 15 years\n\n**Long-term Nature:**\nThe document emphasizes that \"The Company's leases are primarily entered into by and through special purpose entity subsidiaries. The Company currently leases a significant majority of its locations under long-term leases that, with limited exceptions, do not contain early termination provisions.\"\n\n**Mismatch with Revenue:**\nThere is a significant duration mismatch between the Company's obligations and its revenue:\n- Average lease term: ~15 years\n- Average membership agreement term: 15 months\n\nThis creates substantial risk, as the document states: \"The Company's obligations to landlords under these agreements extend for periods that generally significantly exceed the length of its membership agreements with its members, which in certain cases may be terminated by the Company's members upon as little notice as one calendar month.\"\n\n**Total Future Obligations:**\nAs of June 30, 2021:\n- Future undiscounted minimum lease cost payment obligations: $36.6 billion\n- Committed sales contracts (future revenue): approximately $3 billion\n\nThis shows the Company has much longer-term lease obligations relative to its committed revenue stream."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72931,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 277,
+      "service_tier": "standard"
+    }
+  }
+}

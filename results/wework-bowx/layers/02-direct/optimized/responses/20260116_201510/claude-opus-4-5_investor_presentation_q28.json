@@ -1,0 +1,34 @@
+{
+  "content": "# Analysis: Going Concern Disclosures\n\n## Answer\n\n**Not found in document.**\n\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021 (likely related to their SPAC merger with BowX Acquisition Corp). However, the document content provided consists almost entirely of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point placeholders without visible text content\n- Corporate values statements\n- General business model descriptions (All Access product, partnerships)\n- Timeline graphics (2010-2030)\n- Slide structure indicators\n\nThe actual financial disclosures, risk factors, and auditor opinions that would typically contain going concern language are not visible in the extracted text provided.\n\n## Where Going Concern Disclosures Would Typically Appear\n\nFor a SPAC merger, going concern disclosures would normally be found in:\n- The S-4/F-4 registration statement\n- Historical audited financial statements\n- Risk factors section\n- Management's Discussion & Analysis (MD&A)\n\n## Confidence Level\n\n**N/A** - The document does not contain sufficient readable content to make a determination regarding going concern disclosures.\n\n## Caveats and Limitations\n\n1. **Document extraction issue**: The provided text appears to have formatting/extraction problems, with most substantive content not visible\n2. **Document type limitation**: This appears to be a marketing/investor presentation rather than formal SEC filings or audited financial statements where going concern disclosures would be required\n3. **Known context** (not from document): WeWork historically had going concern issues disclosed in their 2019 IPO attempt and subsequent filings, but this cannot be confirmed from the provided document",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1356,
+  "output_tokens": 382,
+  "latency_ms": 10235,
+  "timestamp": "2026-01-16T20:46:42.008723",
+  "cost_usd": 0.01633,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01VfuoSbFDqXMizdDQRYKdBf",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Analysis: Going Concern Disclosures\n\n## Answer\n\n**Not found in document.**\n\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021 (likely related to their SPAC merger with BowX Acquisition Corp). However, the document content provided consists almost entirely of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point placeholders without visible text content\n- Corporate values statements\n- General business model descriptions (All Access product, partnerships)\n- Timeline graphics (2010-2030)\n- Slide structure indicators\n\nThe actual financial disclosures, risk factors, and auditor opinions that would typically contain going concern language are not visible in the extracted text provided.\n\n## Where Going Concern Disclosures Would Typically Appear\n\nFor a SPAC merger, going concern disclosures would normally be found in:\n- The S-4/F-4 registration statement\n- Historical audited financial statements\n- Risk factors section\n- Management's Discussion & Analysis (MD&A)\n\n## Confidence Level\n\n**N/A** - The document does not contain sufficient readable content to make a determination regarding going concern disclosures.\n\n## Caveats and Limitations\n\n1. **Document extraction issue**: The provided text appears to have formatting/extraction problems, with most substantive content not visible\n2. **Document type limitation**: This appears to be a marketing/investor presentation rather than formal SEC filings or audited financial statements where going concern disclosures would be required\n3. **Known context** (not from document): WeWork historically had going concern issues disclosed in their 2019 IPO attempt and subsequent filings, but this cannot be confirmed from the provided document"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1356,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 382,
+      "service_tier": "standard"
+    }
+  }
+}

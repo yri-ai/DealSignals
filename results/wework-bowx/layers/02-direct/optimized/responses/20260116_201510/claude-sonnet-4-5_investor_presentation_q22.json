@@ -1,0 +1,34 @@
+{
+  "content": "# SoftBank's Role and Ongoing Obligations\n\n**Not found in document.**\n\n## Explanation\n\nThe provided document consists primarily of slides marked \"\u00a9 2021 WeWork. Confidential\" with minimal readable content. While the document appears to be a WeWork presentation (likely related to their SPAC merger given the context), the specific sections that are legible discuss:\n\n- WeWork's values and mission statements\n- Product offerings (All Access, on-demand subscriptions)\n- Business model elements\n- Various bullet points with limited readable text\n\n**No mention of SoftBank** is found in any of the readable portions of this document. There are no references to:\n- SoftBank's ownership stake or investment\n- SoftBank's governance rights\n- SoftBank's financial commitments or obligations\n- SoftBank's ongoing role post-merger\n- Any agreements or arrangements with SoftBank\n\n## Confidence Level\n\n**HIGH** - I have thoroughly reviewed all readable content in the document and can confirm with high confidence that SoftBank is not mentioned.\n\n## Caveat\n\nThe document appears to have significant portions that are not readable in the provided text (showing only copyright notices and bullet points without accompanying text). If SoftBank's role was discussed in the presentation, it would likely be in sections that are not visible in this text extraction.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1359,
+  "output_tokens": 292,
+  "latency_ms": 9009,
+  "timestamp": "2026-01-16T20:18:55.335886",
+  "cost_usd": 0.008457,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_012FfxvMW4bwuyWhSHGEvmJp",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# SoftBank's Role and Ongoing Obligations\n\n**Not found in document.**\n\n## Explanation\n\nThe provided document consists primarily of slides marked \"\u00a9 2021 WeWork. Confidential\" with minimal readable content. While the document appears to be a WeWork presentation (likely related to their SPAC merger given the context), the specific sections that are legible discuss:\n\n- WeWork's values and mission statements\n- Product offerings (All Access, on-demand subscriptions)\n- Business model elements\n- Various bullet points with limited readable text\n\n**No mention of SoftBank** is found in any of the readable portions of this document. There are no references to:\n- SoftBank's ownership stake or investment\n- SoftBank's governance rights\n- SoftBank's financial commitments or obligations\n- SoftBank's ongoing role post-merger\n- Any agreements or arrangements with SoftBank\n\n## Confidence Level\n\n**HIGH** - I have thoroughly reviewed all readable content in the document and can confirm with high confidence that SoftBank is not mentioned.\n\n## Caveat\n\nThe document appears to have significant portions that are not readable in the provided text (showing only copyright notices and bullet points without accompanying text). If SoftBank's role was discussed in the presentation, it would likely be in sections that are not visible in this text extraction."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1359,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 292,
+      "service_tier": "standard"
+    }
+  }
+}

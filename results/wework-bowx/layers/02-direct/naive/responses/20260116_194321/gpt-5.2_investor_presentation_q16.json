@@ -1,0 +1,80 @@
+{
+  "content": "At **70% occupancy**, the document indicates the business **reaches break-even** (i.e., it can cover its costs and is roughly **cash/EBITDA neutral**).",
+  "model": "gpt-5.2",
+  "input_tokens": 955,
+  "output_tokens": 42,
+  "latency_ms": 2043,
+  "timestamp": "2026-01-16T19:54:11.963954",
+  "cost_usd": 0.00225925,
+  "raw_response": {
+    "id": "resp_0f7f0166a5a62e7500696a976219f88197862a8826a98db502",
+    "object": "response",
+    "created_at": 1768593250,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593251,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0f7f0166a5a62e7500696a9762620881978141e273d5eaf50b",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "At **70% occupancy**, the document indicates the business **reaches break-even** (i.e., it can cover its costs and is roughly **cash/EBITDA neutral**)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 955,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 42,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 997
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

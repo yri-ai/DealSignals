@@ -1,0 +1,34 @@
+{
+  "content": "Based on the provided document, I cannot find specific information about lease termination provisions. \n\nThe document appears to be a WeWork corporate presentation that covers company values, business strategy, product offerings (like All Access), and various operational metrics, but it does not contain detailed information about lease termination provisions or contract terms.\n\nTo answer your question about lease termination provisions, I would need access to:\n- WeWork's standard lease agreements\n- Legal documents or contracts\n- Terms and conditions documentation\n- Real estate lease contracts\n\nIf you have access to WeWork's lease agreements or legal documentation, those would contain the specific termination provisions you're looking for.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1237,
+  "output_tokens": 139,
+  "latency_ms": 4906,
+  "timestamp": "2026-01-16T19:17:42.009364",
+  "cost_usd": 0.005796,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01K4wDpT2YWbkyNLN7u2VPHX",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the provided document, I cannot find specific information about lease termination provisions. \n\nThe document appears to be a WeWork corporate presentation that covers company values, business strategy, product offerings (like All Access), and various operational metrics, but it does not contain detailed information about lease termination provisions or contract terms.\n\nTo answer your question about lease termination provisions, I would need access to:\n- WeWork's standard lease agreements\n- Legal documents or contracts\n- Terms and conditions documentation\n- Real estate lease contracts\n\nIf you have access to WeWork's lease agreements or legal documentation, those would contain the specific termination provisions you're looking for."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1237,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 139,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.  \n\n**Caveats / limitations:** The provided excerpt appears to be a heavily redacted/presentation-style document (many slides show only bullets or \u201c\u00a9 2021 WeWork. Confidential.\u201d with minimal legible content), and it contains no section headers or pages detailing debt agreements, covenant terms (e.g., leverage/coverage ratios), or restriction language (e.g., limitations on additional indebtedness, liens, dividends, investments). Therefore, debt covenants and restrictions cannot be determined from the supplied text.  \n\n**Confidence:** HIGH (the excerpt contains no covenant or restriction disclosures).",
+  "model": "gpt-5.2",
+  "input_tokens": 1057,
+  "output_tokens": 126,
+  "latency_ms": 5547,
+  "timestamp": "2026-01-16T20:33:57.916021",
+  "cost_usd": 0.0036137499999999998,
+  "raw_response": {
+    "id": "resp_084ae1262ecfc48100696aa0b09e8c8194b268f81af7b66762",
+    "object": "response",
+    "created_at": 1768595632,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595637,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_084ae1262ecfc48100696aa0b0e60c81948bc055f76f10fee4",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.  \n\n**Caveats / limitations:** The provided excerpt appears to be a heavily redacted/presentation-style document (many slides show only bullets or \u201c\u00a9 2021 WeWork. Confidential.\u201d with minimal legible content), and it contains no section headers or pages detailing debt agreements, covenant terms (e.g., leverage/coverage ratios), or restriction language (e.g., limitations on additional indebtedness, liens, dividends, investments). Therefore, debt covenants and restrictions cannot be determined from the supplied text.  \n\n**Confidence:** HIGH (the excerpt contains no covenant or restriction disclosures)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1057,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 126,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1183
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, WeWork has several significant related-party transactions:\n\n## Key Related-Party Transactions:\n\n### 1. **SoftBank Debt Financing Arrangements**\n\"As of June 30, 2021, the amounts outstanding under the Company's debt financing arrangements with SBG included $1.7 billion in outstanding letters of credit issued under the 2020 LC Facility and $2.2 billion in outstanding indebtedness under the SoftBank Senior Unsecured Debt (defined below), in addition to the ability to borrow up to $1.1 billion under the SoftBank Senior Secured Debt\" (page 40, Risk Factors section).\n\n### 2. **Transactions with Former Officers and Directors**\n\"The Company has in the past entered into several transactions with landlord entities in which Adam Neumann, the Company's former chief executive officer and former member of the Company's board of directors, or WeCap Investment Group, which is operated in conjunction with Rh\u00f4ne Group, an investment entity run in part by Steven Langman, a former member of the Company's board of directors, has or had an ownership interest\" (page 40, Risk Factors section).\n\n### 3. **Revenue and Expense Amounts**\n\"Revenue (including related party revenue of $87,694, $169,783, $179,651 and $28,653 for the six months ended June 30, 2021 and for the years ended 2020, 2019 and 2018 respectively.)\" and \"Total expenses (including related party expenses of $38,253, $80,524, $290,748 and $21,098 for the six months ended June 30, 2021 and for the years ended 2020, 2019 and 2018, respectively.)\" (page 23, Selected Historical Financial Information).\n\n### 4. **Transaction Warrants**\nBowX will issue warrants to SBWW (SoftBank affiliate): \"Concurrently with and contingent upon the Closing, BowX will issue to SBWW or its designees the First Warrant to purchase a number of shares of BowX Common Stock (rounded to the nearest whole share) equal to 47,366,404 multiplied by the Exchange Ratio\" (pages 7-8).\n\n**Confidence Level:** HIGH - These transactions are directly stated in the document with specific monetary amounts and parties identified.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73047,
+  "output_tokens": 552,
+  "latency_ms": 12489,
+  "timestamp": "2026-01-16T20:25:56.201737",
+  "cost_usd": 0.227421,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01VwDmiB8EwuzzeiJnFuwbky",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, WeWork has several significant related-party transactions:\n\n## Key Related-Party Transactions:\n\n### 1. **SoftBank Debt Financing Arrangements**\n\"As of June 30, 2021, the amounts outstanding under the Company's debt financing arrangements with SBG included $1.7 billion in outstanding letters of credit issued under the 2020 LC Facility and $2.2 billion in outstanding indebtedness under the SoftBank Senior Unsecured Debt (defined below), in addition to the ability to borrow up to $1.1 billion under the SoftBank Senior Secured Debt\" (page 40, Risk Factors section).\n\n### 2. **Transactions with Former Officers and Directors**\n\"The Company has in the past entered into several transactions with landlord entities in which Adam Neumann, the Company's former chief executive officer and former member of the Company's board of directors, or WeCap Investment Group, which is operated in conjunction with Rh\u00f4ne Group, an investment entity run in part by Steven Langman, a former member of the Company's board of directors, has or had an ownership interest\" (page 40, Risk Factors section).\n\n### 3. **Revenue and Expense Amounts**\n\"Revenue (including related party revenue of $87,694, $169,783, $179,651 and $28,653 for the six months ended June 30, 2021 and for the years ended 2020, 2019 and 2018 respectively.)\" and \"Total expenses (including related party expenses of $38,253, $80,524, $290,748 and $21,098 for the six months ended June 30, 2021 and for the years ended 2020, 2019 and 2018, respectively.)\" (page 23, Selected Historical Financial Information).\n\n### 4. **Transaction Warrants**\nBowX will issue warrants to SBWW (SoftBank affiliate): \"Concurrently with and contingent upon the Closing, BowX will issue to SBWW or its designees the First Warrant to purchase a number of shares of BowX Common Stock (rounded to the nearest whole share) equal to 47,366,404 multiplied by the Exchange Ratio\" (pages 7-8).\n\n**Confidence Level:** HIGH - These transactions are directly stated in the document with specific monetary amounts and parties identified."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73047,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 552,
+      "service_tier": "standard"
+    }
+  }
+}

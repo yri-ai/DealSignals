@@ -1,0 +1,80 @@
+{
+  "content": "Post-merger (i.e., immediately following consummation of the Business Combination), the New WeWork board is expected to have **nine directors**:\n\n- **Marcelo Claure**\n- **Michel Combes**\n- **Bruce Dunlevie**\n- **V\u00e9ronique Laury**\n- **Sandeep Mathrani**\n- **Deven Parekh**\n- **Vivek Ranadiv\u00e9**\n- **Kirthiga Reddy**\n- **Jeff Sine**",
+  "model": "gpt-5.2",
+  "input_tokens": 67609,
+  "output_tokens": 102,
+  "latency_ms": 2890,
+  "timestamp": "2026-01-16T19:59:03.346856",
+  "cost_usd": 0.11974375,
+  "raw_response": {
+    "id": "resp_02520730d41e8bec00696a9885435481a1ad06fffd03d946d6",
+    "object": "response",
+    "created_at": 1768593541,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593543,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_02520730d41e8bec00696a9885e12881a188e5466a906acbb6",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Post-merger (i.e., immediately following consummation of the Business Combination), the New WeWork board is expected to have **nine directors**:\n\n- **Marcelo Claure**\n- **Michel Combes**\n- **Bruce Dunlevie**\n- **V\u00e9ronique Laury**\n- **Sandeep Mathrani**\n- **Deven Parekh**\n- **Vivek Ranadiv\u00e9**\n- **Kirthiga Reddy**\n- **Jeff Sine**"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67609,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 102,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67711
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

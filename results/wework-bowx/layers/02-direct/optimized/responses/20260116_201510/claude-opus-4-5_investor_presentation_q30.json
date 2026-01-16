@@ -1,0 +1,34 @@
+{
+  "content": "## Analysis: Material Weaknesses in Internal Controls\n\n### Answer:\n**Not found in document.**\n\nThe provided document does not contain any information regarding material weaknesses in internal controls. The document appears to be a WeWork investor presentation (dated 2021, likely related to their SPAC merger) that contains:\n\n- Company values and culture statements\n- Business model descriptions (including \"All Access\" product features)\n- A timeline graphic (2010-2030)\n- Various bullet points (content not visible in the extracted text)\n- Financial definitions section (referenced on slides toward the end)\n\n### What Would Be Expected:\nMaterial weaknesses in internal controls would typically be disclosed in:\n- Management's Discussion & Analysis (MD&A) sections\n- Auditor's reports\n- SEC filings (10-K, S-1, S-4 for SPAC mergers)\n- Risk factors sections\n\n### Caveats and Limitations:\n1. **Document Quality Issue**: The extracted text shows mostly formatting elements (bullet points, copyright notices) without substantive content, suggesting either a heavily redacted document or an extraction issue with graphics/tables\n2. **Document Type**: This appears to be an investor presentation deck rather than audited financial statements or SEC filings where internal control disclosures would typically appear\n3. **Incomplete Information**: Much of the actual content appears to be in visual/graphical format that was not captured in the text extraction\n\n### Confidence Level: \n**N/A** - Cannot assess what is not present in the document\n\n### Recommendation:\nTo assess material weaknesses in internal controls, request and review:\n- WeWork's S-4 registration statement filed with the SEC\n- Historical 10-K filings (if any)\n- Independent auditor's report on internal controls\n- Any management letters from auditors",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1358,
+  "output_tokens": 403,
+  "latency_ms": 10748,
+  "timestamp": "2026-01-16T20:47:02.715256",
+  "cost_usd": 0.016864999999999998,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_016fF8j7mzuQjkK7jkLKGrL8",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Analysis: Material Weaknesses in Internal Controls\n\n### Answer:\n**Not found in document.**\n\nThe provided document does not contain any information regarding material weaknesses in internal controls. The document appears to be a WeWork investor presentation (dated 2021, likely related to their SPAC merger) that contains:\n\n- Company values and culture statements\n- Business model descriptions (including \"All Access\" product features)\n- A timeline graphic (2010-2030)\n- Various bullet points (content not visible in the extracted text)\n- Financial definitions section (referenced on slides toward the end)\n\n### What Would Be Expected:\nMaterial weaknesses in internal controls would typically be disclosed in:\n- Management's Discussion & Analysis (MD&A) sections\n- Auditor's reports\n- SEC filings (10-K, S-1, S-4 for SPAC mergers)\n- Risk factors sections\n\n### Caveats and Limitations:\n1. **Document Quality Issue**: The extracted text shows mostly formatting elements (bullet points, copyright notices) without substantive content, suggesting either a heavily redacted document or an extraction issue with graphics/tables\n2. **Document Type**: This appears to be an investor presentation deck rather than audited financial statements or SEC filings where internal control disclosures would typically appear\n3. **Incomplete Information**: Much of the actual content appears to be in visual/graphical format that was not captured in the text extraction\n\n### Confidence Level: \n**N/A** - Cannot assess what is not present in the document\n\n### Recommendation:\nTo assess material weaknesses in internal controls, request and review:\n- WeWork's S-4 registration statement filed with the SEC\n- Historical 10-K filings (if any)\n- Independent auditor's report on internal controls\n- Any management letters from auditors"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1358,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 403,
+      "service_tier": "standard"
+    }
+  }
+}

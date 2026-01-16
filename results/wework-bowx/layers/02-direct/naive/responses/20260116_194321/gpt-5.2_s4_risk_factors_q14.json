@@ -1,0 +1,80 @@
+{
+  "content": "WeWork\u2019s lease commitments are **long-dated and front-loaded by long initial terms**:\n\n- **Average initial lease term:** approximately **15 years**.  \n- **Limited termination flexibility:** leases are generally **long-term** and, **with limited exceptions, do not contain early termination provisions**.  \n- **Scale of remaining commitments (as of June 30, 2021):** **$36.6 billion** of **future undiscounted minimum lease payments** under signed operating and finance leases.\n\nSo the lease commitment \u201cduration profile\u201d is characterized by **multi-year (\u224815-year) obligations with limited early exit**, leaving WeWork exposed to long fixed costs versus much shorter member contract terms.",
+  "model": "gpt-5.2",
+  "input_tokens": 67609,
+  "output_tokens": 148,
+  "latency_ms": 4694,
+  "timestamp": "2026-01-16T19:56:41.493248",
+  "cost_usd": 0.12038775,
+  "raw_response": {
+    "id": "resp_0ba0f2a125dc2b0a00696a97f52cec819ca8fd817ef5a2f24c",
+    "object": "response",
+    "created_at": 1768593397,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593401,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ba0f2a125dc2b0a00696a97f5a8b4819c8e054541e746d2d1",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "WeWork\u2019s lease commitments are **long-dated and front-loaded by long initial terms**:\n\n- **Average initial lease term:** approximately **15 years**.  \n- **Limited termination flexibility:** leases are generally **long-term** and, **with limited exceptions, do not contain early termination provisions**.  \n- **Scale of remaining commitments (as of June 30, 2021):** **$36.6 billion** of **future undiscounted minimum lease payments** under signed operating and finance leases.\n\nSo the lease commitment \u201cduration profile\u201d is characterized by **multi-year (\u224815-year) obligations with limited early exit**, leaving WeWork exposed to long fixed costs versus much shorter member contract terms."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67609,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67757
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

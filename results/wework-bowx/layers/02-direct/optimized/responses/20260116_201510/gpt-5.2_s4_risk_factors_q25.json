@@ -1,0 +1,80 @@
+{
+  "content": "## Adam Neumann \u2014 ongoing relationship / exposure (per document)\n\n1) **Board observer rights starting Feb. 26, 2022 (or via a designee requested by SoftBank Group).**  \n   The document states that WeWork **\u201chas entered into an agreement that grants Mr. Neumann board observer rights.\u201d** Beginning **February 26, 2022**, **\u201cMr. Neumann, or if requested by SBG, a designee of Mr. Neumann\u2019s (who shall be subject to SBG\u2019s approval), shall have the right to observe meetings of New WeWork\u2019s board of directors (and certain committees thereof) in a non-voting observer capacity\u201d** and is **\u201centitled to copies of written materials provided to directors, subject to certain conditions.\u201d** (Risk Factors section, discussion of related party transactions / Neumann observer rights; page 40)\n\n2) **Observer rights continue only while Neumann maintains a minimum ownership threshold.**  \n   The observer rights **terminate** when Neumann **\u201cceases to beneficially own equity securities of WeWork (including WeWork Partnerships Profits Interest Units) representing at least 19,028,251 shares of WeWork Class A Common Stock (on an as-converted basis and as adjusted for stock splits, dividends and the like).\u201d** (Risk Factors section; page 40)\n\n3) **Confidentiality obligation and company\u2019s right to exclude/withhold information in certain cases (limits on influence, but still information access risk).**  \n   The agreement requires Neumann (or his representative) **\u201cagree to hold in confidence all information provided\u201d** and New WeWork **\u201creserved the right \u2026 to withhold information and exclude Mr. Neumann or his representative\u201d** where disclosure could harm privilege, disclose trade secrets, create a conflict of interest, or if Neumann violates restrictive covenants. The document also clarifies he is a **\u201cnonvoting board observer \u2014 not as a director\u201d** and has **no contractual entitlement beyond customary observer attendance**. (Risk Factors section; page 40)\n\n4) **Exposure via related-party landlord transactions and ongoing lease-exit discussions involving related parties.**  \n   The document notes WeWork previously entered into lease/landlord transactions where Neumann (or related entities) **had ownership interests**, and that **\u201cas part of the Company\u2019s restructuring, the Company is in ongoing discussions to exit certain leases with related parties.\u201d** It warns these related-party transactions create **potential conflicts of interest** (e.g., lease remedies and default treatment) and could result in adverse effects, enforcement actions, investigations, or litigation. (Risk Factors section; page 40)\n\n5) **General related-party transaction context (Neumann referenced as former CEO/director involved in past related-party arrangements).**  \n   Neumann is identified as the Company\u2019s **\u201cformer chief executive officer and former member of the Company\u2019s board of directors\u201d** and tied to past related-party landlord relationships, which present conflict risk. (Risk Factors section; page 40)\n\n---\n\n### Caveats / limitations\n- The document **does not quantify** any expected costs, probabilities, or governance impact specifically attributable to Neumann\u2019s observer rights beyond the described rights/limitations. (Risk Factors section; page 40)\n- The observer rights begin in the future (Feb. 26, 2022) and are **conditional on continued ownership**, so the duration is uncertain. (Risk Factors section; page 40)\n\n### Confidence rating\n**HIGH** \u2014 these points are directly stated in the Risk Factors discussion of Neumann\u2019s observer rights and related-party transactions (page 40).",
+  "model": "gpt-5.2",
+  "input_tokens": 67716,
+  "output_tokens": 753,
+  "latency_ms": 19199,
+  "timestamp": "2026-01-16T20:39:23.525453",
+  "cost_usd": 0.129045,
+  "raw_response": {
+    "id": "resp_02635777ffe03ed700696aa1e8c43c81908697c837a1f6ed72",
+    "object": "response",
+    "created_at": 1768595944,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595963,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_02635777ffe03ed700696aa1ea354481909f05672a782637fc",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Adam Neumann \u2014 ongoing relationship / exposure (per document)\n\n1) **Board observer rights starting Feb. 26, 2022 (or via a designee requested by SoftBank Group).**  \n   The document states that WeWork **\u201chas entered into an agreement that grants Mr. Neumann board observer rights.\u201d** Beginning **February 26, 2022**, **\u201cMr. Neumann, or if requested by SBG, a designee of Mr. Neumann\u2019s (who shall be subject to SBG\u2019s approval), shall have the right to observe meetings of New WeWork\u2019s board of directors (and certain committees thereof) in a non-voting observer capacity\u201d** and is **\u201centitled to copies of written materials provided to directors, subject to certain conditions.\u201d** (Risk Factors section, discussion of related party transactions / Neumann observer rights; page 40)\n\n2) **Observer rights continue only while Neumann maintains a minimum ownership threshold.**  \n   The observer rights **terminate** when Neumann **\u201cceases to beneficially own equity securities of WeWork (including WeWork Partnerships Profits Interest Units) representing at least 19,028,251 shares of WeWork Class A Common Stock (on an as-converted basis and as adjusted for stock splits, dividends and the like).\u201d** (Risk Factors section; page 40)\n\n3) **Confidentiality obligation and company\u2019s right to exclude/withhold information in certain cases (limits on influence, but still information access risk).**  \n   The agreement requires Neumann (or his representative) **\u201cagree to hold in confidence all information provided\u201d** and New WeWork **\u201creserved the right \u2026 to withhold information and exclude Mr. Neumann or his representative\u201d** where disclosure could harm privilege, disclose trade secrets, create a conflict of interest, or if Neumann violates restrictive covenants. The document also clarifies he is a **\u201cnonvoting board observer \u2014 not as a director\u201d** and has **no contractual entitlement beyond customary observer attendance**. (Risk Factors section; page 40)\n\n4) **Exposure via related-party landlord transactions and ongoing lease-exit discussions involving related parties.**  \n   The document notes WeWork previously entered into lease/landlord transactions where Neumann (or related entities) **had ownership interests**, and that **\u201cas part of the Company\u2019s restructuring, the Company is in ongoing discussions to exit certain leases with related parties.\u201d** It warns these related-party transactions create **potential conflicts of interest** (e.g., lease remedies and default treatment) and could result in adverse effects, enforcement actions, investigations, or litigation. (Risk Factors section; page 40)\n\n5) **General related-party transaction context (Neumann referenced as former CEO/director involved in past related-party arrangements).**  \n   Neumann is identified as the Company\u2019s **\u201cformer chief executive officer and former member of the Company\u2019s board of directors\u201d** and tied to past related-party landlord relationships, which present conflict risk. (Risk Factors section; page 40)\n\n---\n\n### Caveats / limitations\n- The document **does not quantify** any expected costs, probabilities, or governance impact specifically attributable to Neumann\u2019s observer rights beyond the described rights/limitations. (Risk Factors section; page 40)\n- The observer rights begin in the future (Feb. 26, 2022) and are **conditional on continued ownership**, so the duration is uncertain. (Risk Factors section; page 40)\n\n### Confidence rating\n**HIGH** \u2014 these points are directly stated in the Risk Factors discussion of Neumann\u2019s observer rights and related-party transactions (page 40)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67716,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 753,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68469
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

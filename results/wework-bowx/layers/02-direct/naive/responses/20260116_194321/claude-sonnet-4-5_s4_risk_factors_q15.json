@@ -1,0 +1,34 @@
+{
+  "content": "According to the document, regarding lease termination provisions:\n\n**Standard Leases:**\n\"The Company currently leases a significant majority of its locations under long-term leases that, **with limited exceptions, do not contain early termination provisions**.\"\n\n**Key Characteristics:**\n- The average length of the initial term of leases is approximately 15 years\n- Most leases do NOT have early termination provisions\n- The leases are primarily entered into by special purpose entity subsidiaries\n\n**Member-side Termination:**\nIn contrast, members can terminate their agreements with WeWork \"upon as little notice as one calendar month, generally for a fee.\"\n\n**Lease Exits:**\nThe document notes that WeWork has been working to exit or amend leases as part of its optimization efforts:\n- \"As of June 30, 2021, the Company and its joint venture partners have negotiated over 500 lease amendments and/or exits with landlord partners around the world\"\n- This resulted in approximately $6.9 billion reduction to future lease payments\n\n**Risks:**\nThe document emphasizes that \"at certain locations the Company has not been able to, and may not be able to, reduce its rent under the lease or otherwise terminate the lease, whether in accordance with its terms or by negotiation.\"\n\nThe document also notes that the Company's ability to assign or sublease may be \"constrained by provisions in the lease that restrict these transfers without notice to, or the prior consent of, the landlord.\"",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72929,
+  "output_tokens": 328,
+  "latency_ms": 11893,
+  "timestamp": "2026-01-16T19:48:15.763737",
+  "cost_usd": 0.223707,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_014zjh7d4gnH1szGy3fJ59bQ",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "According to the document, regarding lease termination provisions:\n\n**Standard Leases:**\n\"The Company currently leases a significant majority of its locations under long-term leases that, **with limited exceptions, do not contain early termination provisions**.\"\n\n**Key Characteristics:**\n- The average length of the initial term of leases is approximately 15 years\n- Most leases do NOT have early termination provisions\n- The leases are primarily entered into by special purpose entity subsidiaries\n\n**Member-side Termination:**\nIn contrast, members can terminate their agreements with WeWork \"upon as little notice as one calendar month, generally for a fee.\"\n\n**Lease Exits:**\nThe document notes that WeWork has been working to exit or amend leases as part of its optimization efforts:\n- \"As of June 30, 2021, the Company and its joint venture partners have negotiated over 500 lease amendments and/or exits with landlord partners around the world\"\n- This resulted in approximately $6.9 billion reduction to future lease payments\n\n**Risks:**\nThe document emphasizes that \"at certain locations the Company has not been able to, and may not be able to, reduce its rent under the lease or otherwise terminate the lease, whether in accordance with its terms or by negotiation.\"\n\nThe document also notes that the Company's ability to assign or sublease may be \"constrained by provisions in the lease that restrict these transfers without notice to, or the prior consent of, the landlord.\""
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72929,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 328,
+      "service_tier": "standard"
+    }
+  }
+}

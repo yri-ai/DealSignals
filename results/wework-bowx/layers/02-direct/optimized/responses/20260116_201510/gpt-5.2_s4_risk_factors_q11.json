@@ -1,0 +1,80 @@
+{
+  "content": "**Not found in document.** The provided excerpt discusses membership declines (e.g., \u201ctotal memberships\u2026declined 16%\u201d between Q2 2020 and Q2 2021) and references \u201cmember churn\u201d qualitatively, but it does **not** define or report a **member churn rate** as a specific metric (see **\u201cRISK FACTORS \u2014 Risks Relating to the Company\u2019s Business\u201d**, pp. **31\u201333**).\n\n## Caveats / limitations\n- The excerpt mentions \u201cmember churn\u201d as a risk and provides a **membership decline percentage** over a year, but that is not presented as a \u201cchurn rate\u201d nor with a standard churn definition (e.g., cancellations over beginning-of-period members) (pp. **31\u201333**, **Risk Factors** section).\n\n**Confidence: HIGH** (explicit absence of a stated \u201cmember churn rate\u201d in the provided document excerpt).",
+  "model": "gpt-5.2",
+  "input_tokens": 67711,
+  "output_tokens": 193,
+  "latency_ms": 5996,
+  "timestamp": "2026-01-16T20:35:51.819759",
+  "cost_usd": 0.12119624999999999,
+  "raw_response": {
+    "id": "resp_064444c9c319185300696aa1222aa08190bc12f496279c6496",
+    "object": "response",
+    "created_at": 1768595746,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595751,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_064444c9c319185300696aa122bda08190a67ef7a360b272bd",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Not found in document.** The provided excerpt discusses membership declines (e.g., \u201ctotal memberships\u2026declined 16%\u201d between Q2 2020 and Q2 2021) and references \u201cmember churn\u201d qualitatively, but it does **not** define or report a **member churn rate** as a specific metric (see **\u201cRISK FACTORS \u2014 Risks Relating to the Company\u2019s Business\u201d**, pp. **31\u201333**).\n\n## Caveats / limitations\n- The excerpt mentions \u201cmember churn\u201d as a risk and provides a **membership decline percentage** over a year, but that is not presented as a \u201cchurn rate\u201d nor with a standard churn definition (e.g., cancellations over beginning-of-period members) (pp. **31\u201333**, **Risk Factors** section).\n\n**Confidence: HIGH** (explicit absence of a stated \u201cmember churn rate\u201d in the provided document excerpt)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67711,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 193,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67904
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

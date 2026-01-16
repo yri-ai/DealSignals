@@ -1,0 +1,80 @@
+{
+  "content": "The document explains that **WeWork\u2019s leases generally do not provide early termination rights**:\n\n- WeWork\u2019s locations are \u201c**primarily entered into by and through special purpose entity subsidiaries**.\u201d\n- The leases are \u201c**primarily entered into by and through [subsidiaries] under long-term leases that, with limited exceptions, do not contain early termination provisions**.\u201d\n- As a result, \u201c**at certain locations, [WeWork] has not been able to, and may not be able to, reduce its rent under the lease or otherwise terminate the lease**,\u201d except by **negotiating lease amendments/exits, assigning the lease, or subleasing** (often subject to landlord notice/consent restrictions).\n\nSo, **lease termination is generally not available contractually** (except limited exceptions) and typically must be achieved via **negotiated exits/amendments or transfers (assignment/sublease)**.",
+  "model": "gpt-5.2",
+  "input_tokens": 67607,
+  "output_tokens": 189,
+  "latency_ms": 5052,
+  "timestamp": "2026-01-16T19:56:46.547152",
+  "cost_usd": 0.12095825,
+  "raw_response": {
+    "id": "resp_06bf5e281657608500696a97f9d45881958e2ebdae57db45c6",
+    "object": "response",
+    "created_at": 1768593401,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593406,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_06bf5e281657608500696a97fa4d6481958b9f882e3c8b62ae",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document explains that **WeWork\u2019s leases generally do not provide early termination rights**:\n\n- WeWork\u2019s locations are \u201c**primarily entered into by and through special purpose entity subsidiaries**.\u201d\n- The leases are \u201c**primarily entered into by and through [subsidiaries] under long-term leases that, with limited exceptions, do not contain early termination provisions**.\u201d\n- As a result, \u201c**at certain locations, [WeWork] has not been able to, and may not be able to, reduce its rent under the lease or otherwise terminate the lease**,\u201d except by **negotiating lease amendments/exits, assigning the lease, or subleasing** (often subject to landlord notice/consent restrictions).\n\nSo, **lease termination is generally not available contractually** (except limited exceptions) and typically must be achieved via **negotiated exits/amendments or transfers (assignment/sublease)**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67607,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 189,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67796
+    },
+    "user": null,
+    "metadata": {}
+  }
+}
