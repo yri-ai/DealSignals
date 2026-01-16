@@ -6,9 +6,11 @@ def parse_sections(text: str, headers: list[str]) -> dict[str, str]:
     matches: list[tuple[int, int, str]] = []
     for header in headers:
         pattern = re.compile(rf"(?m)^{re.escape(header)}\s*$")
-        match = pattern.search(text)
-        if match:
-            matches.append((match.start(), match.end(), header))
+        last_match: re.Match[str] | None = None
+        for match in pattern.finditer(text):
+            last_match = match
+        if last_match:
+            matches.append((last_match.start(), last_match.end(), header))
 
     matches.sort()
     sections: dict[str, str] = {}
@@ -73,7 +75,8 @@ def main():
         risk_text = "RISK FACTORS SECTION NOT FOUND"
     elif end_idx == -1:
         print(
-            f"Warning: Could not find '{end_marker}' marker. Extracting from start marker to end of 100k chars."
+            f"Warning: Could not find '{end_marker}' marker. "
+            "Extracting from start marker to end of 100k chars."
         )
         risk_text = text[start_idx : start_idx + 100000]
     else:
