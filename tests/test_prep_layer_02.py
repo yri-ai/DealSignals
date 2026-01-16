@@ -1,3 +1,5 @@
+import json
+
 import pytest
 
 from scripts.prep_layer_02 import parse_sections, truncate_sections
@@ -65,3 +67,40 @@ def test_truncate_sections_exact_budget_keeps_full_sections():
     )
 
     assert result == sections["SECTION A"] + sections["SECTION B"]
+
+
+def test_prep_writes_metadata(tmp_path, monkeypatch):
+    base_dir = tmp_path / "experiments/wework-bowx"
+    s4_path = base_dir / "data/merger/s-4-a/2021-09-17_d166510ds4a.txt"
+    investor_path = base_dir / "data/merger/investor_presentation.txt"
+
+    s4_path.parent.mkdir(parents=True, exist_ok=True)
+    investor_path.parent.mkdir(parents=True, exist_ok=True)
+
+    s4_path.write_text("RISK FACTORS\nRisk body\nSUMMARY\nSummary body\n")
+    investor_path.write_text("EXECUTIVE SUMMARY\nDeck body\nRISKS\nRisk deck\n")
+
+    monkeypatch.setenv("LAYER_02_BASE_DIR", str(base_dir))
+    monkeypatch.setenv("LAYER_02_INVESTOR_PRESENTATION_PATH", str(investor_path))
+
+    from scripts import prep_layer_02
+
+    prep_layer_02.main()
+
+    meta_path = base_dir / "data/layer-02/layer-02_meta.json"
+    assert meta_path.exists()
+
+    metadata = json.loads(meta_path.read_text())
+    assert "documents" in metadata
+    assert "s4" in metadata["documents"]
+    assert "investor_presentation" in metadata["documents"]
+
+    s4_meta = metadata["documents"]["s4"]
+    investor_meta = metadata["documents"]["investor_presentation"]
+
+    assert len(s4_meta["source_hash"]) == 64
+    assert len(investor_meta["source_hash"]) == 64
+    assert s4_meta["budget_chars"] > 0
+    assert investor_meta["budget_chars"] > 0
+    assert "section_coverage" in s4_meta
+    assert "section_coverage" in investor_meta
