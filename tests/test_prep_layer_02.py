@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 import pytest
 
@@ -104,3 +105,12 @@ def test_prep_writes_metadata(tmp_path, monkeypatch):
     assert investor_meta["budget_chars"] > 0
     assert "section_coverage" in s4_meta
     assert "section_coverage" in investor_meta
+
+
+def test_readme_mentions_truncation_protocol():
+    content = Path("experiments/wework-bowx/layers/02-direct/README.md").read_text()
+    lowered = content.lower()
+
+    assert "truncation" in lowered
+    assert "metadata sidecar" in lowered
+    assert "no placeholders" in lowered
