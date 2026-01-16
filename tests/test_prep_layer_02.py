@@ -108,9 +108,18 @@ def test_prep_writes_metadata(tmp_path, monkeypatch):
 
 
 def test_readme_mentions_truncation_protocol():
-    content = Path("experiments/wework-bowx/layers/02-direct/README.md").read_text()
+    repo_root = Path(__file__).resolve().parents[1]
+    readme_path = repo_root / "experiments/wework-bowx/layers/02-direct/README.md"
+    content = readme_path.read_text()
     lowered = content.lower()
 
-    assert "truncation" in lowered
-    assert "metadata sidecar" in lowered
-    assert "no placeholders" in lowered
+    required_terms = [
+        "truncation",
+        "metadata",
+        "no placeholders",
+        "layer_02_investor_presentation_path",
+        "layer_02_s4_budget_chars",
+    ]
+
+    for term in required_terms:
+        assert term in lowered
