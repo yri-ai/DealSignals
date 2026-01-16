@@ -2,6 +2,45 @@ import re
 from pathlib import Path
 
 
+def parse_sections(text: str, headers: list[str]) -> dict[str, str]:
+    matches: list[tuple[int, int, str]] = []
+    for header in headers:
+        pattern = re.compile(rf"(?m)^{re.escape(header)}\s*$")
+        match = pattern.search(text)
+        if match:
+            matches.append((match.start(), match.end(), header))
+
+    matches.sort()
+    sections: dict[str, str] = {}
+    for index, (start, _end, header) in enumerate(matches):
+        section_end = matches[index + 1][0] if index + 1 < len(matches) else len(text)
+        sections[header] = text[start:section_end]
+    return sections
+
+
+def truncate_sections(
+    sections: dict[str, str],
+    priority: list[str],
+    budget_chars: int,
+) -> str:
+    if budget_chars <= 0:
+        return ""
+
+    remaining = budget_chars
+    output: list[str] = []
+    for header in priority:
+        if header not in sections or remaining <= 0:
+            continue
+        section_text = sections[header]
+        if len(section_text) <= remaining:
+            output.append(section_text)
+            remaining -= len(section_text)
+        else:
+            output.append(section_text[:remaining])
+            remaining = 0
+    return "".join(output)
+
+
 def main():
     # Setup paths
     base_dir = Path("experiments/wework-bowx")
