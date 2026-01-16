@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n- The provided excerpt contains mostly confidentiality headers and high-level narrative/strategy bullets (e.g., \u201cAll Access\u201d description and company values) but does **not** include any section, table, or disclosure describing the **post-merger voting structure** (e.g., one-share/one-vote vs. dual-class, super-voting shares, founder shares, voting agreements, or shareholder vote thresholds). **(Not found in document; no relevant section headers/pages provided in the excerpt.)**\n\n**Confidence:** HIGH (document does not contain the requested information)\n\n**Caveats / limitations:**  \n- The document excerpt does not include page numbers and appears incomplete/redacted (many bullet lists without content). As a result, voting-structure details may exist in omitted pages/sections but are not present in the provided text.",
+  "model": "gpt-5.2",
+  "input_tokens": 1058,
+  "output_tokens": 174,
+  "latency_ms": 7165,
+  "timestamp": "2026-01-16T20:33:21.645588",
+  "cost_usd": 0.0042875,
+  "raw_response": {
+    "id": "resp_0c14e7e29b4484df00696aa08ab0588196814a187d0ffbc35c",
+    "object": "response",
+    "created_at": 1768595594,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595601,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0c14e7e29b4484df00696aa08afea081968cbcdffd5f23fd0d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n- The provided excerpt contains mostly confidentiality headers and high-level narrative/strategy bullets (e.g., \u201cAll Access\u201d description and company values) but does **not** include any section, table, or disclosure describing the **post-merger voting structure** (e.g., one-share/one-vote vs. dual-class, super-voting shares, founder shares, voting agreements, or shareholder vote thresholds). **(Not found in document; no relevant section headers/pages provided in the excerpt.)**\n\n**Confidence:** HIGH (document does not contain the requested information)\n\n**Caveats / limitations:**  \n- The document excerpt does not include page numbers and appears incomplete/redacted (many bullet lists without content). As a result, voting-structure details may exist in omitted pages/sections but are not present in the provided text."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1058,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 174,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1232
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

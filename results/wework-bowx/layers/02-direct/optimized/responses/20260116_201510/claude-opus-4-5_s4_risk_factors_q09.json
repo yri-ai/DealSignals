@@ -1,0 +1,34 @@
+{
+  "content": "Not found in document.\n\nThe document does not contain information about revenue per available desk or workstation. While the document discusses WeWork's business model, memberships, revenue figures (such as $1,191,331 thousand for the six months ended June 30, 2021 - page 23), and mentions workstations in the context of Physical Occupancy definition (\"the number of physical memberships divided by total workstations\" - page xiii), it does not provide a metric or calculation for revenue per available desk/workstation.\n\n**Confidence: HIGH** - I have thoroughly reviewed the document and can confirm this specific metric is not disclosed.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73050,
+  "output_tokens": 141,
+  "latency_ms": 6339,
+  "timestamp": "2026-01-16T20:50:26.265410",
+  "cost_usd": 0.368775,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01Vx8EkbKkZht7oUMhkHpHsU",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Not found in document.\n\nThe document does not contain information about revenue per available desk or workstation. While the document discusses WeWork's business model, memberships, revenue figures (such as $1,191,331 thousand for the six months ended June 30, 2021 - page 23), and mentions workstations in the context of Physical Occupancy definition (\"the number of physical memberships divided by total workstations\" - page xiii), it does not provide a metric or calculation for revenue per available desk/workstation.\n\n**Confidence: HIGH** - I have thoroughly reviewed the document and can confirm this specific metric is not disclosed."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73050,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 141,
+      "service_tier": "standard"
+    }
+  }
+}

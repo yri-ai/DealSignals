@@ -1,0 +1,80 @@
+{
+  "content": "Yes. The document discloses **material litigation/disputes**, primarily in connection with WeWork\u2019s real estate portfolio optimization and certain guarantees:\n\n- **Landlord litigation tied to lease exits/renegotiations:** It states that, as part of WeWork\u2019s efforts to amend or exit leases, **\u201cin a small number of cases, [these] efforts have resulted in litigation filed by landlords,\u201d** and warns that **additional litigation could result** as the process continues.\n\n- **Guarantee enforcement disputes:** It also notes that **\u201ca small number of landlords have sued to enforce the corporate guarantees\u201d** related to certain leases.\n\n- **Significant legal costs/reserves related to the 2019 withdrawn IPO and SoftBank transactions:** While not describing specific cases in this excerpt, the definitions and risk language indicate WeWork has incurred **significant legal costs** tied to **regulatory investigations and litigation** regarding the **2019 withdrawn IPO** and related SoftBank transactions.\n\nThese statements indicate the presence of litigation/disputes that could be material, even if the excerpt does not quantify all exposures or list each case.",
+  "model": "gpt-5.2",
+  "input_tokens": 67608,
+  "output_tokens": 231,
+  "latency_ms": 6481,
+  "timestamp": "2026-01-16T19:58:45.225529",
+  "cost_usd": 0.121548,
+  "raw_response": {
+    "id": "resp_039676c6969afacd00696a986f2c0481979ce0e9ceb78c7d48",
+    "object": "response",
+    "created_at": 1768593519,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593524,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_039676c6969afacd00696a986faa948197836e2260b8951b39",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Yes. The document discloses **material litigation/disputes**, primarily in connection with WeWork\u2019s real estate portfolio optimization and certain guarantees:\n\n- **Landlord litigation tied to lease exits/renegotiations:** It states that, as part of WeWork\u2019s efforts to amend or exit leases, **\u201cin a small number of cases, [these] efforts have resulted in litigation filed by landlords,\u201d** and warns that **additional litigation could result** as the process continues.\n\n- **Guarantee enforcement disputes:** It also notes that **\u201ca small number of landlords have sued to enforce the corporate guarantees\u201d** related to certain leases.\n\n- **Significant legal costs/reserves related to the 2019 withdrawn IPO and SoftBank transactions:** While not describing specific cases in this excerpt, the definitions and risk language indicate WeWork has incurred **significant legal costs** tied to **regulatory investigations and litigation** regarding the **2019 withdrawn IPO** and related SoftBank transactions.\n\nThese statements indicate the presence of litigation/disputes that could be material, even if the excerpt does not quantify all exposures or list each case."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67608,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 231,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67839
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

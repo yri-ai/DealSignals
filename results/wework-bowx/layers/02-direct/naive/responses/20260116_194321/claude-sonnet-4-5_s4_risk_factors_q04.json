@@ -1,0 +1,34 @@
+{
+  "content": "I cannot find a specific cash burn rate explicitly stated in this document.\n\nHowever, I can provide relevant cash flow information from the document:\n\n**Free Cash Flow** (defined as cash flow from operating activities less capital expenditures):\n- Six months ended June 30, 2021: $(1,312,099) thousand or $(1.3) billion\n- Year ended December 31, 2020: $(2,298,240) thousand or $(2.3) billion\n- Year ended December 31, 2019: $(3,936,330) thousand or $(3.9) billion\n\n**Net Cash Used in Operating Activities:**\n- Six months ended June 30, 2021: $(1,158,957) thousand or $(1.2) billion\n- Year ended December 31, 2020: $(857,008) thousand or $(0.9) billion\n\nTo calculate a monthly burn rate from the 2021 data:\n- Six months of operating cash outflow: $1.2 billion\n- Monthly burn rate: approximately $200 million per month\n\nThis represents the rate at which WeWork was consuming cash from operations during this period, though it's important to note that cash burn rates can vary significantly based on business conditions and strategic decisions.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72928,
+  "output_tokens": 278,
+  "latency_ms": 8391,
+  "timestamp": "2026-01-16T19:46:17.440903",
+  "cost_usd": 0.22295400000000004,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01JLPijjFmCxfJ57zupyoRCa",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "I cannot find a specific cash burn rate explicitly stated in this document.\n\nHowever, I can provide relevant cash flow information from the document:\n\n**Free Cash Flow** (defined as cash flow from operating activities less capital expenditures):\n- Six months ended June 30, 2021: $(1,312,099) thousand or $(1.3) billion\n- Year ended December 31, 2020: $(2,298,240) thousand or $(2.3) billion\n- Year ended December 31, 2019: $(3,936,330) thousand or $(3.9) billion\n\n**Net Cash Used in Operating Activities:**\n- Six months ended June 30, 2021: $(1,158,957) thousand or $(1.2) billion\n- Year ended December 31, 2020: $(857,008) thousand or $(0.9) billion\n\nTo calculate a monthly burn rate from the 2021 data:\n- Six months of operating cash outflow: $1.2 billion\n- Monthly burn rate: approximately $200 million per month\n\nThis represents the rate at which WeWork was consuming cash from operations during this period, though it's important to note that cash burn rates can vary significantly based on business conditions and strategic decisions."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72928,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 278,
+      "service_tier": "standard"
+    }
+  }
+}

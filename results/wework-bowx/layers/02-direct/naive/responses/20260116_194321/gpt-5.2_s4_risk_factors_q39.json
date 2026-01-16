@@ -1,0 +1,80 @@
+{
+  "content": "The excerpted document does **not** provide a detailed list of specific *debt covenants* (e.g., leverage ratios, interest coverage tests, restricted payments baskets, etc.). It does, however, describe the **key categories of restrictions** and one **transaction-specific condition** tied to cash availability:\n\n## Debt-related covenants / restrictions described\n- **Distributions restricted by debt facilities:** The document states that **WeWork is dependent on distributions from the WeWork Partnership**, and that **WeWork\u2019s debt facilities \u201cimpose or may in the future impose certain restrictions\u201d on WeWork\u2019s subsidiaries making distributions to WeWork** (i.e., upstream dividend/distribution limitations).\n- **General restrictive covenant impact:** It states that **\u201cthe terms of the Company\u2019s indebtedness restrict its current and future operations\u201d**, including limiting its ability to respond to changes or take certain actions (the detailed list is referenced but not included in the provided excerpt).\n\n## Related financing constraint affecting the transaction (not a debt covenant, but a cash condition)\n- **Minimum Available Cash Condition (closing condition):** At closing, **Trust Amount (after redemptions, before deferred underwriting commissions and transaction expenses) + PIPE proceeds must be \u2265 $800 million**. This is a merger closing condition, not a covenant, but it functions as a binding financing constraint.\n\n## Other contractual restriction mentioned (not a debt covenant)\n- **Letter of credit facility extension requirement:** The SoftBank obligor committed to consent to extend the **2020 LC Facility termination date** (subject to lender consent), which is a condition/requirement tied to that facility.\n\nIf you want, paste the section of the S-4 that describes the credit agreements (or the \u201cLiquidity and Capital Resources\u201d debt subsection / note disclosures), and I can extract the **actual covenant package** (restricted payments, liens, debt incurrence, financial maintenance tests if any, events of default, etc.).",
+  "model": "gpt-5.2",
+  "input_tokens": 67608,
+  "output_tokens": 397,
+  "latency_ms": 9192,
+  "timestamp": "2026-01-16T20:00:01.855874",
+  "cost_usd": 0.12387200000000001,
+  "raw_response": {
+    "id": "resp_080b9b9721897eeb00696a98b918f881a3806b79ffaf22b664",
+    "object": "response",
+    "created_at": 1768593593,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593601,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_080b9b9721897eeb00696a98b9b36081a397940f3a8fedf7db",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The excerpted document does **not** provide a detailed list of specific *debt covenants* (e.g., leverage ratios, interest coverage tests, restricted payments baskets, etc.). It does, however, describe the **key categories of restrictions** and one **transaction-specific condition** tied to cash availability:\n\n## Debt-related covenants / restrictions described\n- **Distributions restricted by debt facilities:** The document states that **WeWork is dependent on distributions from the WeWork Partnership**, and that **WeWork\u2019s debt facilities \u201cimpose or may in the future impose certain restrictions\u201d on WeWork\u2019s subsidiaries making distributions to WeWork** (i.e., upstream dividend/distribution limitations).\n- **General restrictive covenant impact:** It states that **\u201cthe terms of the Company\u2019s indebtedness restrict its current and future operations\u201d**, including limiting its ability to respond to changes or take certain actions (the detailed list is referenced but not included in the provided excerpt).\n\n## Related financing constraint affecting the transaction (not a debt covenant, but a cash condition)\n- **Minimum Available Cash Condition (closing condition):** At closing, **Trust Amount (after redemptions, before deferred underwriting commissions and transaction expenses) + PIPE proceeds must be \u2265 $800 million**. This is a merger closing condition, not a covenant, but it functions as a binding financing constraint.\n\n## Other contractual restriction mentioned (not a debt covenant)\n- **Letter of credit facility extension requirement:** The SoftBank obligor committed to consent to extend the **2020 LC Facility termination date** (subject to lender consent), which is a condition/requirement tied to that facility.\n\nIf you want, paste the section of the S-4 that describes the credit agreements (or the \u201cLiquidity and Capital Resources\u201d debt subsection / note disclosures), and I can extract the **actual covenant package** (restricted payments, liens, debt incurrence, financial maintenance tests if any, events of default, etc.)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67608,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 397,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68005
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

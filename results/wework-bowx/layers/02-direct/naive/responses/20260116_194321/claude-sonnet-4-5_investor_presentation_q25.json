@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I cannot find any specific information about Adam Neumann's ongoing relationship or exposure to WeWork. \n\nThe document appears to be a confidential WeWork presentation from 2021 that focuses on:\n- Company values and culture\n- Business model (All Access membership)\n- Operational metrics and strategy\n- Financial projections through 2030\n\nHowever, there is no mention of Adam Neumann, his role, ownership stake, or any ongoing relationship with the company in the portions of the document that are visible/readable.\n\nTo answer your question accurately, I would need additional documents or sections that specifically address:\n- Leadership/governance structure\n- Shareholder information\n- Any ongoing agreements or arrangements with former executives\n- Legal or financial exposure related to Adam Neumann\n\nIf you have access to other sections of this presentation or related documents that cover these topics, I'd be happy to help analyze those for information about Adam Neumann's relationship with WeWork.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1241,
+  "output_tokens": 212,
+  "latency_ms": 6578,
+  "timestamp": "2026-01-16T19:44:07.828740",
+  "cost_usd": 0.006902999999999999,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_017fRNcPSzbiQLPwRZFGyjAs",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I cannot find any specific information about Adam Neumann's ongoing relationship or exposure to WeWork. \n\nThe document appears to be a confidential WeWork presentation from 2021 that focuses on:\n- Company values and culture\n- Business model (All Access membership)\n- Operational metrics and strategy\n- Financial projections through 2030\n\nHowever, there is no mention of Adam Neumann, his role, ownership stake, or any ongoing relationship with the company in the portions of the document that are visible/readable.\n\nTo answer your question accurately, I would need additional documents or sections that specifically address:\n- Leadership/governance structure\n- Shareholder information\n- Any ongoing agreements or arrangements with former executives\n- Legal or financial exposure related to Adam Neumann\n\nIf you have access to other sections of this presentation or related documents that cover these topics, I'd be happy to help analyze those for information about Adam Neumann's relationship with WeWork."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1241,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 212,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "**Not found in document**\n\nThe document does not contain information about contribution margin per membership. This S-4/A registration statement provides extensive information about the BowX-WeWork merger transaction, including:\n\n- Revenue figures and membership counts\n- Operating expenses and losses\n- Adjusted EBITDA metrics\n- Various financial statements and pro forma information\n\nHowever, the document does not disclose or calculate a contribution margin per membership figure. While the document contains references to:\n- Total memberships and membership trends (noting a 16% decline between Q2 2020 and Q2 2021 - page 31)\n- Membership and service revenue percentages from Enterprise Members (50% for six months ended June 30, 2021 - page 42)\n- Average membership agreement terms (15 months - page 34)\n\nThere is no specific contribution margin calculation on a per-membership basis provided in this filing.\n\n**Confidence: HIGH** - I have thoroughly reviewed the document and can confirm this metric is not disclosed.\n\n**Caveats/Limitations**: \n- The document does reference various revenue and cost metrics that could theoretically be used to derive such a figure, but the actual contribution margin per membership is not explicitly stated\n- WeWork's non-GAAP financial measures section (pages 24-25) discusses Adjusted EBITDA and Free Cash Flow, but not contribution margin per membership",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73047,
+  "output_tokens": 308,
+  "latency_ms": 11672,
+  "timestamp": "2026-01-16T20:50:19.921967",
+  "cost_usd": 0.37293499999999996,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01XcTEHQzBCdevS833ToXP7A",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "**Not found in document**\n\nThe document does not contain information about contribution margin per membership. This S-4/A registration statement provides extensive information about the BowX-WeWork merger transaction, including:\n\n- Revenue figures and membership counts\n- Operating expenses and losses\n- Adjusted EBITDA metrics\n- Various financial statements and pro forma information\n\nHowever, the document does not disclose or calculate a contribution margin per membership figure. While the document contains references to:\n- Total memberships and membership trends (noting a 16% decline between Q2 2020 and Q2 2021 - page 31)\n- Membership and service revenue percentages from Enterprise Members (50% for six months ended June 30, 2021 - page 42)\n- Average membership agreement terms (15 months - page 34)\n\nThere is no specific contribution margin calculation on a per-membership basis provided in this filing.\n\n**Confidence: HIGH** - I have thoroughly reviewed the document and can confirm this metric is not disclosed.\n\n**Caveats/Limitations**: \n- The document does reference various revenue and cost metrics that could theoretically be used to derive such a figure, but the actual contribution margin per membership is not explicitly stated\n- WeWork's non-GAAP financial measures section (pages 24-25) discusses Adjusted EBITDA and Free Cash Flow, but not contribution margin per membership"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73047,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 308,
+      "service_tier": "standard"
+    }
+  }
+}

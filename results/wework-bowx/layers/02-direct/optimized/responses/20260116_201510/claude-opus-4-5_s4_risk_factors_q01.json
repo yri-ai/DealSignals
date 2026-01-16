@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, WeWork's revenue for the most recent reported period (six months ended June 30, 2021) was **$1,191,331 thousand (approximately $1.19 billion)**.\n\n**Citation:** This figure is found in the \"Consolidated Statements of Operations Data\" table on page 23 of the document, which shows:\n- \"Revenue (including related party revenue of $87,694... for the six months ended June 30, 2021...): $1,191,331\" (in thousands)\n\nThis is also confirmed on page 26 in the \"Summary Unaudited Pro Forma Condensed Combined Statement of Comprehensive Income (Loss) For The Six Months Ended June 30, 2021\" which shows \"Revenue: $1,191,331\" for the pro forma combined entity.\n\n**Confidence: HIGH** - This figure is directly stated in the audited/unaudited financial statements presented in the document.\n\n**Caveats:**\n- This revenue figure includes related party revenue of $87,694 thousand (as noted in the table on page 23)\n- The six months ended June 30, 2021 represents an interim period, not a full fiscal year\n- For comparison, the full year ended December 31, 2020 showed revenue of $3,415,865 thousand (page 23)",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73053,
+  "output_tokens": 308,
+  "latency_ms": 9826,
+  "timestamp": "2026-01-16T20:48:54.720185",
+  "cost_usd": 0.37296500000000005,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01L8F86wSSNPsBXQ3DG9L4jZ",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, WeWork's revenue for the most recent reported period (six months ended June 30, 2021) was **$1,191,331 thousand (approximately $1.19 billion)**.\n\n**Citation:** This figure is found in the \"Consolidated Statements of Operations Data\" table on page 23 of the document, which shows:\n- \"Revenue (including related party revenue of $87,694... for the six months ended June 30, 2021...): $1,191,331\" (in thousands)\n\nThis is also confirmed on page 26 in the \"Summary Unaudited Pro Forma Condensed Combined Statement of Comprehensive Income (Loss) For The Six Months Ended June 30, 2021\" which shows \"Revenue: $1,191,331\" for the pro forma combined entity.\n\n**Confidence: HIGH** - This figure is directly stated in the audited/unaudited financial statements presented in the document.\n\n**Caveats:**\n- This revenue figure includes related party revenue of $87,694 thousand (as noted in the table on page 23)\n- The six months ended June 30, 2021 represents an interim period, not a full fiscal year\n- For comparison, the full year ended December 31, 2020 showed revenue of $3,415,865 thousand (page 23)"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73053,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 308,
+      "service_tier": "standard"
+    }
+  }
+}

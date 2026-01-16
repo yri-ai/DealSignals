@@ -1,0 +1,80 @@
+{
+  "content": "For **the most recent period shown (six months ended June 30, 2021)**, **WeWork\u2019s loss from operations (operating loss)** was **$2,355,793 thousand**, i.e. **approximately $2.356 billion**.",
+  "model": "gpt-5.2",
+  "input_tokens": 67610,
+  "output_tokens": 58,
+  "latency_ms": 2302,
+  "timestamp": "2026-01-16T19:55:33.323027",
+  "cost_usd": 0.1191295,
+  "raw_response": {
+    "id": "resp_098652a13dc1eae400696a97b35af88197b0aa3bbd1faf9e68",
+    "object": "response",
+    "created_at": 1768593331,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593333,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_098652a13dc1eae400696a97b3d7688197a8053ba0a6031dc2",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "For **the most recent period shown (six months ended June 30, 2021)**, **WeWork\u2019s loss from operations (operating loss)** was **$2,355,793 thousand**, i.e. **approximately $2.356 billion**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67610,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 58,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67668
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

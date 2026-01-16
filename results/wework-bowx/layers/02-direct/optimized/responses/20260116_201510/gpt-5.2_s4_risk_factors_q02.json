@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Caveat / limitation:** The document provides WeWork revenue for the **six months ended June 30, 2021** and for fiscal years **2020, 2019 and 2018** (see **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK \u2014 Consolidated Statements of Operations Data\u201d (p. 23)**), but it does **not** provide revenue for the comparable **six months ended June 30, 2020** or any explicit \u201cyear-over-year revenue growth rate\u201d calculation. Therefore, a YoY growth rate cannot be calculated from the information provided in this excerpt.\n\n**Confidence:** HIGH (the required YoY growth rate is not presented, and the needed comparable-period revenue is not provided in the excerpt).",
+  "model": "gpt-5.2",
+  "input_tokens": 67715,
+  "output_tokens": 165,
+  "latency_ms": 7573,
+  "timestamp": "2026-01-16T20:34:21.037282",
+  "cost_usd": 0.12081125000000001,
+  "raw_response": {
+    "id": "resp_0c0f4a2bf694d60200696aa0c6cd3c8195a63e475a37ab8143",
+    "object": "response",
+    "created_at": 1768595654,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595659,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0c0f4a2bf694d60200696aa0c76720819599f0bacf37093924",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Caveat / limitation:** The document provides WeWork revenue for the **six months ended June 30, 2021** and for fiscal years **2020, 2019 and 2018** (see **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK \u2014 Consolidated Statements of Operations Data\u201d (p. 23)**), but it does **not** provide revenue for the comparable **six months ended June 30, 2020** or any explicit \u201cyear-over-year revenue growth rate\u201d calculation. Therefore, a YoY growth rate cannot be calculated from the information provided in this excerpt.\n\n**Confidence:** HIGH (the required YoY growth rate is not presented, and the needed comparable-period revenue is not provided in the excerpt)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67715,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 165,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67880
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

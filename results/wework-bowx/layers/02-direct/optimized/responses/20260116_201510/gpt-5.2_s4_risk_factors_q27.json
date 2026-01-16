@@ -1,0 +1,80 @@
+{
+  "content": "## Material litigation or disputes\n\n**Yes.** The document discloses litigation/disputes in multiple contexts, including:\n\n1) **Landlord-related litigation arising from lease optimization / rent withholding**\n- The document states that, as part of WeWork\u2019s real estate portfolio optimization, *\u201cin connection with these optimization efforts, at certain locations the Company has withheld, is withholding, or may in the future withhold rent payments for some period of time\u201d* and that *\u201cin a small number of cases, the Company\u2019s real estate portfolio optimization efforts have resulted in litigation filed by landlords\u201d*; it further notes that *\u201cadditional litigation could result\u201d* and WeWork could be exposed to *\u201cbreach of contract, eviction or other claims\u201d* with direct/indirect costs and operational disruptions. (Section: **Risk Factors \u2014 \u201cThe Company is undergoing a transformation in its business plan\u2026\u201d**, pp. **37\u201338**)\n\n- The document also states that *\u201cIn certain circumstances, landlords have drawn under the letters of credit or demanded payment under the surety bonds\u2026 [and] a small number of landlords have sued to enforce the corporate guarantees.\u201d* (Section: **Risk Factors \u2014 \u201cThe long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d**, pp. **34\u201335**)\n\n2) **Legal costs/reserves tied to the 2019 withdrawn IPO and SoftBank Transactions**\n- The definition of Adjusted EBITDA includes add-backs for *\u201csignificant legal costs incurred by WeWork in connection with regulatory investigations and litigation regarding WeWork\u2019s 2019 withdrawn initial public offering and the related execution of the SoftBank Transactions\u201d*. (Section: **Selected Definitions \u2014 \u201cAdjusted EBITDA\u201d**, p. **x**; also referenced again in **Non-GAAP Financial Measures**, p. **24**)\n\n3) **Indemnification-related legal fee payments**\n- The document states WeWork has agreed to indemnify certain current and former directors/executive officers/shareholders and that *\u201cin 2020, paid approximately $14 million in legal fees related to these indemnifications, outside of the amounts covered by insurance.\u201d* (Section: **Risk Factors \u2014 \u201cThe Company has engaged in transactions with related parties\u2026\u201d**, p. **40**)\n\n## Caveats / limitations\n- The excerpt does **not** quantify total litigation exposure, list specific case names, venues, or damages sought; it describes litigation categories and states only that litigation exists in a \u201csmall number of cases.\u201d (Risk Factors cited above)\n\n## Confidence: HIGH\n- Litigation/disputes are directly stated in the Risk Factors and definitions sections.",
+  "model": "gpt-5.2",
+  "input_tokens": 67713,
+  "output_tokens": 542,
+  "latency_ms": 12177,
+  "timestamp": "2026-01-16T20:39:42.669801",
+  "cost_usd": 0.12608575,
+  "raw_response": {
+    "id": "resp_07fe9ebc2411195900696aa2031420819ea33bb41bf84b1263",
+    "object": "response",
+    "created_at": 1768595971,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595982,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_07fe9ebc2411195900696aa203a6d8819e859fe47e40721c59",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Material litigation or disputes\n\n**Yes.** The document discloses litigation/disputes in multiple contexts, including:\n\n1) **Landlord-related litigation arising from lease optimization / rent withholding**\n- The document states that, as part of WeWork\u2019s real estate portfolio optimization, *\u201cin connection with these optimization efforts, at certain locations the Company has withheld, is withholding, or may in the future withhold rent payments for some period of time\u201d* and that *\u201cin a small number of cases, the Company\u2019s real estate portfolio optimization efforts have resulted in litigation filed by landlords\u201d*; it further notes that *\u201cadditional litigation could result\u201d* and WeWork could be exposed to *\u201cbreach of contract, eviction or other claims\u201d* with direct/indirect costs and operational disruptions. (Section: **Risk Factors \u2014 \u201cThe Company is undergoing a transformation in its business plan\u2026\u201d**, pp. **37\u201338**)\n\n- The document also states that *\u201cIn certain circumstances, landlords have drawn under the letters of credit or demanded payment under the surety bonds\u2026 [and] a small number of landlords have sued to enforce the corporate guarantees.\u201d* (Section: **Risk Factors \u2014 \u201cThe long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d**, pp. **34\u201335**)\n\n2) **Legal costs/reserves tied to the 2019 withdrawn IPO and SoftBank Transactions**\n- The definition of Adjusted EBITDA includes add-backs for *\u201csignificant legal costs incurred by WeWork in connection with regulatory investigations and litigation regarding WeWork\u2019s 2019 withdrawn initial public offering and the related execution of the SoftBank Transactions\u201d*. (Section: **Selected Definitions \u2014 \u201cAdjusted EBITDA\u201d**, p. **x**; also referenced again in **Non-GAAP Financial Measures**, p. **24**)\n\n3) **Indemnification-related legal fee payments**\n- The document states WeWork has agreed to indemnify certain current and former directors/executive officers/shareholders and that *\u201cin 2020, paid approximately $14 million in legal fees related to these indemnifications, outside of the amounts covered by insurance.\u201d* (Section: **Risk Factors \u2014 \u201cThe Company has engaged in transactions with related parties\u2026\u201d**, p. **40**)\n\n## Caveats / limitations\n- The excerpt does **not** quantify total litigation exposure, list specific case names, venues, or damages sought; it describes litigation categories and states only that litigation exists in a \u201csmall number of cases.\u201d (Risk Factors cited above)\n\n## Confidence: HIGH\n- Litigation/disputes are directly stated in the Risk Factors and definitions sections."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67713,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 542,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68255
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

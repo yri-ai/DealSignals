@@ -1,0 +1,80 @@
+{
+  "content": "The document states: \u201c**WeWork will have an anticipated initial pre-transaction enterprise value of $8.8 billion**.\u201d\n\nSo, the **implied enterprise value is approximately $8.8 billion**.",
+  "model": "gpt-5.2",
+  "input_tokens": 67607,
+  "output_tokens": 47,
+  "latency_ms": 2297,
+  "timestamp": "2026-01-16T19:57:04.980008",
+  "cost_usd": 0.11897025000000001,
+  "raw_response": {
+    "id": "resp_04b841d6f8dc6f0100696a980f1198819f90009fdbf0828dda",
+    "object": "response",
+    "created_at": 1768593423,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593424,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_04b841d6f8dc6f0100696a980f8f84819f8ffa1016c1bec819",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document states: \u201c**WeWork will have an anticipated initial pre-transaction enterprise value of $8.8 billion**.\u201d\n\nSo, the **implied enterprise value is approximately $8.8 billion**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67607,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 47,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67654
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

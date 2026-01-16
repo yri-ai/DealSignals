@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n## Key executives\n- **Not found in document.** The provided pages do not list executive names, titles, biographies, or an \u201cExecutive Team/Management\u201d section. (Entire provided document excerpt; no section headers or names shown)\n\n## Track record\n- **Not found in document.** The excerpt does not include prior roles, tenure, prior company performance, operating history by executive, or other track-record disclosures. (Entire provided document excerpt)\n\n## Caveats / limitations\n- The supplied document appears to be a **heavily redacted/partial slide extract** (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders without content), so executive details may exist in omitted pages. (Entire provided document excerpt)\n- **No page numbers are visible** in the excerpt; therefore, citations can only refer to the absence across the provided excerpt rather than specific pages. (Entire provided document excerpt)\n\n**Confidence: HIGH** (the excerpt contains no executive identification or track-record information).",
+  "model": "gpt-5.2",
+  "input_tokens": 1061,
+  "output_tokens": 214,
+  "latency_ms": 6960,
+  "timestamp": "2026-01-16T20:32:00.749014",
+  "cost_usd": 0.00485275,
+  "raw_response": {
+    "id": "resp_0debf4e74c8bb2ac00696aa03a031c8191b7579d0b7a5c048a",
+    "object": "response",
+    "created_at": 1768595514,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595519,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0debf4e74c8bb2ac00696aa03a437081918b9a9d09948b14cb",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n## Key executives\n- **Not found in document.** The provided pages do not list executive names, titles, biographies, or an \u201cExecutive Team/Management\u201d section. (Entire provided document excerpt; no section headers or names shown)\n\n## Track record\n- **Not found in document.** The excerpt does not include prior roles, tenure, prior company performance, operating history by executive, or other track-record disclosures. (Entire provided document excerpt)\n\n## Caveats / limitations\n- The supplied document appears to be a **heavily redacted/partial slide extract** (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders without content), so executive details may exist in omitted pages. (Entire provided document excerpt)\n- **No page numbers are visible** in the excerpt; therefore, citations can only refer to the absence across the provided excerpt rather than specific pages. (Entire provided document excerpt)\n\n**Confidence: HIGH** (the excerpt contains no executive identification or track-record information)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1061,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 214,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1275
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

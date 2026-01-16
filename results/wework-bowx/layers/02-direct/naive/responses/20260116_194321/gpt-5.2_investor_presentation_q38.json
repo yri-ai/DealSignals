@@ -1,0 +1,80 @@
+{
+  "content": "The document indicates a planned **business model shift/expansion** (rather than detailing a step-by-step post\u2011merger integration plan):\n\n- **Launch/scale \u201cAll Access\u201d**: an **on\u2011demand pay\u2011as\u2011you\u2011go or monthly subscription** product providing access to WeWork\u2019s global network of locations.  \n- **Use partnerships to drive demand**: **affinity partnerships** were intended to **generate top\u2011of\u2011funnel demand**.  \n- **Operate beyond physical capacity using utilization management**: All Access was expected to **drive occupancy beyond physical capacity levels** across the portfolio based on **utilization projections**.  \n- **Improve incremental margins via subscription overlay**: the subscription model was positioned as **high margin**, delivering **significant incremental margins** on top of the traditional leased-space business.\n\nNo explicit post\u2011merger integration workstreams (systems, org, governance, etc.) are described in the provided text beyond these business model changes.",
+  "model": "gpt-5.2",
+  "input_tokens": 956,
+  "output_tokens": 204,
+  "latency_ms": 5060,
+  "timestamp": "2026-01-16T19:55:12.584429",
+  "cost_usd": 0.004529,
+  "raw_response": {
+    "id": "resp_068e497e62595cbd00696a979bc62881a088413b296860e118",
+    "object": "response",
+    "created_at": 1768593307,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593312,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_068e497e62595cbd00696a979bfd3481a0ad940316e1231e77",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document indicates a planned **business model shift/expansion** (rather than detailing a step-by-step post\u2011merger integration plan):\n\n- **Launch/scale \u201cAll Access\u201d**: an **on\u2011demand pay\u2011as\u2011you\u2011go or monthly subscription** product providing access to WeWork\u2019s global network of locations.  \n- **Use partnerships to drive demand**: **affinity partnerships** were intended to **generate top\u2011of\u2011funnel demand**.  \n- **Operate beyond physical capacity using utilization management**: All Access was expected to **drive occupancy beyond physical capacity levels** across the portfolio based on **utilization projections**.  \n- **Improve incremental margins via subscription overlay**: the subscription model was positioned as **high margin**, delivering **significant incremental margins** on top of the traditional leased-space business.\n\nNo explicit post\u2011merger integration workstreams (systems, org, governance, etc.) are described in the provided text beyond these business model changes."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 956,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 204,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1160
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

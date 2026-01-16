@@ -1,0 +1,80 @@
+{
+  "content": "At roughly **70% occupancy**, the business (WeWork/New WeWork) is generally **not expected to be profitable on a location basis** because its cost structure is dominated by **fixed, long-term lease payments** that do **not flex down** with occupancy.\n\nFrom the document\u2019s risk-factor discussion:\n- WeWork\u2019s leases typically have **fixed monthly/quarterly payments** with **minimum rent obligations**, largely **not tied to utilization**.\n- If a location **does not generate sufficient revenue from members** (i.e., occupancy is too low), **lease cost expense exceeds revenue**, hurting cash flow and results of operations.\n- Because lease terms are long (average initial term ~**15 years**) while memberships are shorter (average ~**15 months**, and some can be cancelled with **one month\u2019s notice**), sustained sub-100% occupancy can quickly translate into **operating losses** that are hard to eliminate without renegotiating/exiting leases or subleasing.\n\nSo, **at 70% occupancy**, many sites would likely be **cash-flow negative**, forcing reliance on:\n- continued sales/marketing to refill space,\n- pricing concessions (which can further compress margins),\n- and/or lease restructuring/exits (which can involve costs and litigation risk).",
+  "model": "gpt-5.2",
+  "input_tokens": 67611,
+  "output_tokens": 260,
+  "latency_ms": 8435,
+  "timestamp": "2026-01-16T19:56:54.987563",
+  "cost_usd": 0.12195925000000002,
+  "raw_response": {
+    "id": "resp_0b3fc425b7fcb2d300696a97feeccc819f8ad75e6b42ad3d0f",
+    "object": "response",
+    "created_at": 1768593407,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593414,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0b3fc425b7fcb2d300696a97ff8d50819f986ac9fb5daa1036",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "At roughly **70% occupancy**, the business (WeWork/New WeWork) is generally **not expected to be profitable on a location basis** because its cost structure is dominated by **fixed, long-term lease payments** that do **not flex down** with occupancy.\n\nFrom the document\u2019s risk-factor discussion:\n- WeWork\u2019s leases typically have **fixed monthly/quarterly payments** with **minimum rent obligations**, largely **not tied to utilization**.\n- If a location **does not generate sufficient revenue from members** (i.e., occupancy is too low), **lease cost expense exceeds revenue**, hurting cash flow and results of operations.\n- Because lease terms are long (average initial term ~**15 years**) while memberships are shorter (average ~**15 months**, and some can be cancelled with **one month\u2019s notice**), sustained sub-100% occupancy can quickly translate into **operating losses** that are hard to eliminate without renegotiating/exiting leases or subleasing.\n\nSo, **at 70% occupancy**, many sites would likely be **cash-flow negative**, forcing reliance on:\n- continued sales/marketing to refill space,\n- pricing concessions (which can further compress margins),\n- and/or lease restructuring/exits (which can involve costs and litigation risk)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67611,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 260,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67871
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

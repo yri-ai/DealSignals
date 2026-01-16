@@ -1,0 +1,34 @@
+{
+  "content": "Not found in document.\n\nThe document does not contain information about contribution margin per membership. While the document extensively discusses WeWork's business operations, financial performance, and various metrics, it does not specifically disclose or calculate contribution margin per membership as a key performance indicator.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73047,
+  "output_tokens": 57,
+  "latency_ms": 3992,
+  "timestamp": "2026-01-16T20:23:03.658914",
+  "cost_usd": 0.219996,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_013F4DKz9TPVENe2tq7hPLCC",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Not found in document.\n\nThe document does not contain information about contribution margin per membership. While the document extensively discusses WeWork's business operations, financial performance, and various metrics, it does not specifically disclose or calculate contribution margin per membership as a key performance indicator."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73047,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 57,
+      "service_tier": "standard"
+    }
+  }
+}

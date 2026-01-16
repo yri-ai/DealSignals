@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document. The provided excerpts contain branding/confidentiality footers and high-level narrative/product bullets (e.g., \u201cAll Access\u201d description) but no financial statement footnotes, auditor\u2019s report, or explicit \u201cgoing concern\u201d/\u201csubstantial doubt\u201d language to assess going concern disclosures (no page numbers or section headers indicating such a disclosure are included in the text provided).\n\n**Confidence:** HIGH (document excerpt does not include any going concern disclosure language)  \n**Caveat/limitation:** The document appears incomplete/heavily redacted (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), so a going concern disclosure could exist in omitted sections/pages; it is not verifiable from the provided content.",
+  "model": "gpt-5.2",
+  "input_tokens": 1055,
+  "output_tokens": 157,
+  "latency_ms": 4696,
+  "timestamp": "2026-01-16T20:33:00.949723",
+  "cost_usd": 0.004044249999999999,
+  "raw_response": {
+    "id": "resp_020568c7d3112c4b00696aa078a6a08192a7cc7173b830d43b",
+    "object": "response",
+    "created_at": 1768595576,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595580,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_020568c7d3112c4b00696aa078e36c8192a17d16888bcbd570",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document. The provided excerpts contain branding/confidentiality footers and high-level narrative/product bullets (e.g., \u201cAll Access\u201d description) but no financial statement footnotes, auditor\u2019s report, or explicit \u201cgoing concern\u201d/\u201csubstantial doubt\u201d language to assess going concern disclosures (no page numbers or section headers indicating such a disclosure are included in the text provided).\n\n**Confidence:** HIGH (document excerpt does not include any going concern disclosure language)  \n**Caveat/limitation:** The document appears incomplete/heavily redacted (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), so a going concern disclosure could exist in omitted sections/pages; it is not verifiable from the provided content."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1055,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 157,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1212
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

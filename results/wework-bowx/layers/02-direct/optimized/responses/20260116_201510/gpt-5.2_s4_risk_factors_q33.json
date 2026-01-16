@@ -1,0 +1,80 @@
+{
+  "content": "The document describes **\u201cLock-Up Agreements\u201d** as agreements entered into **in connection with the Business Combination** by **the Sponsor, certain BowX officers, certain WeWork officers, and certain WeWork stockholders**. Under these agreements, the parties agree that, for the applicable **Lock-Up Period** (defined elsewhere as **one year or nine months**, depending on the agreement), they will not: **(a)** sell or otherwise dispose of (or agree to do so), directly or indirectly, any shares of **New WeWork Common Stock** they hold immediately after Closing (\u201cLock-Up Shares\u201d); **(b)** enter into any swap or other arrangement that transfers, in whole or in part, the economic consequences of ownership of those Lock-Up Shares; or **(c)** publicly announce any intention to effect any transaction described in (a) or (b). *(Section: \u201cSummary of the Proxy Statement/Prospectus \u2014 Related Agreements \u2014 Lock-Up Agreement,\u201d p. 6; see also \u201cSelected Definitions \u2014 \u2018Lock-Up Agreements\u2019 / \u2018Lock-Up Period\u2019 / \u2018Lock-Up Shares\u2019,\u201d p. xii.)*\n\n**Not found in document:** The document excerpt does not provide the *full text* of the Lock-Up Agreements (e.g., specific release triggers, exceptions, or which parties are subject to the one-year vs. nine-month period). *(Caveat based on the provided excerpt; \u201cLock-Up Period\u201d only defined generally, p. xii.)*\n\n**Confidence:** HIGH (directly stated description of the Lock-Up Agreements\u2019 restrictions and parties).",
+  "model": "gpt-5.2",
+  "input_tokens": 67712,
+  "output_tokens": 327,
+  "latency_ms": 11068,
+  "timestamp": "2026-01-16T20:40:40.442304",
+  "cost_usd": 0.12307399999999999,
+  "raw_response": {
+    "id": "resp_0c33dde1375565c700696aa23df310819fa852bfe5cb2e722e",
+    "object": "response",
+    "created_at": 1768596031,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768596040,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0c33dde1375565c700696aa2403008819fb72abe406579cf6d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document describes **\u201cLock-Up Agreements\u201d** as agreements entered into **in connection with the Business Combination** by **the Sponsor, certain BowX officers, certain WeWork officers, and certain WeWork stockholders**. Under these agreements, the parties agree that, for the applicable **Lock-Up Period** (defined elsewhere as **one year or nine months**, depending on the agreement), they will not: **(a)** sell or otherwise dispose of (or agree to do so), directly or indirectly, any shares of **New WeWork Common Stock** they hold immediately after Closing (\u201cLock-Up Shares\u201d); **(b)** enter into any swap or other arrangement that transfers, in whole or in part, the economic consequences of ownership of those Lock-Up Shares; or **(c)** publicly announce any intention to effect any transaction described in (a) or (b). *(Section: \u201cSummary of the Proxy Statement/Prospectus \u2014 Related Agreements \u2014 Lock-Up Agreement,\u201d p. 6; see also \u201cSelected Definitions \u2014 \u2018Lock-Up Agreements\u2019 / \u2018Lock-Up Period\u2019 / \u2018Lock-Up Shares\u2019,\u201d p. xii.)*\n\n**Not found in document:** The document excerpt does not provide the *full text* of the Lock-Up Agreements (e.g., specific release triggers, exceptions, or which parties are subject to the one-year vs. nine-month period). *(Caveat based on the provided excerpt; \u201cLock-Up Period\u201d only defined generally, p. xii.)*\n\n**Confidence:** HIGH (directly stated description of the Lock-Up Agreements\u2019 restrictions and parties)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67712,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 327,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68039
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

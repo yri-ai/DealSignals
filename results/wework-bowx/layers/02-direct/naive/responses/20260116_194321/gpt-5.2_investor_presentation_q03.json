@@ -1,0 +1,80 @@
+{
+  "content": "The document excerpt provided doesn\u2019t include any financial table or figure showing \u201coperating losses\u201d (it\u2019s mostly confidentiality footers and qualitative slides). As a result, **operating losses for the most recent period are not stated in the provided document**.",
+  "model": "gpt-5.2",
+  "input_tokens": 954,
+  "output_tokens": 55,
+  "latency_ms": 3066,
+  "timestamp": "2026-01-16T19:53:27.521486",
+  "cost_usd": 0.0024395,
+  "raw_response": {
+    "id": "resp_0e8f14f37a9a692a00696a97354140819fb5bc01797b3cb894",
+    "object": "response",
+    "created_at": 1768593205,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593207,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0e8f14f37a9a692a00696a9735c85c819fa1809706efeec776",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document excerpt provided doesn\u2019t include any financial table or figure showing \u201coperating losses\u201d (it\u2019s mostly confidentiality footers and qualitative slides). As a result, **operating losses for the most recent period are not stated in the provided document**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 954,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 55,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1009
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

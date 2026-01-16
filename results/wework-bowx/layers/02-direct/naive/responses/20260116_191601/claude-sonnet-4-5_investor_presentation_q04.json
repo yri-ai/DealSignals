@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I cannot find specific information about WeWork's cash burn rate. \n\nThe document appears to be a presentation deck that focuses on:\n- WeWork's company values and mission\n- Their \"All Access\" on-demand subscription model\n- Business strategy and partnerships\n- Various operational metrics (though the specific values are not visible in the text extracted)\n\nTo answer your question about cash burn rate, I would need:\n- Cash flow statements\n- Operating cash flow figures\n- Monthly or quarterly cash consumption data\n- Beginning and ending cash balances for specific periods\n\nThis financial metric is not explicitly mentioned or calculable from the information visible in this document. You may need to refer to WeWork's financial statements, investor presentations with detailed financials, or SEC filings (such as 10-Q or 10-K reports) to find cash burn rate information.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1236,
+  "output_tokens": 188,
+  "latency_ms": 6563,
+  "timestamp": "2026-01-16T19:16:25.621928",
+  "cost_usd": 0.006527999999999999,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_011cAG4TfycMPB8zbCCYx3u2",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I cannot find specific information about WeWork's cash burn rate. \n\nThe document appears to be a presentation deck that focuses on:\n- WeWork's company values and mission\n- Their \"All Access\" on-demand subscription model\n- Business strategy and partnerships\n- Various operational metrics (though the specific values are not visible in the text extracted)\n\nTo answer your question about cash burn rate, I would need:\n- Cash flow statements\n- Operating cash flow figures\n- Monthly or quarterly cash consumption data\n- Beginning and ending cash balances for specific periods\n\nThis financial metric is not explicitly mentioned or calculable from the information visible in this document. You may need to refer to WeWork's financial statements, investor presentations with detailed financials, or SEC filings (such as 10-Q or 10-K reports) to find cash burn rate information."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1236,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 188,
+      "service_tier": "standard"
+    }
+  }
+}

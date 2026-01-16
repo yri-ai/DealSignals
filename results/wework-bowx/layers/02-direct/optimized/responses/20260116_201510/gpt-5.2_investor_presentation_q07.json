@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Support / citations:** The provided excerpt does not include any projection tables, forecast schedules, or an assumptions section. Most pages are blank/placeholder (\u201c\u00a9 2021 WeWork. Confidential.\u201d) and where text exists it is high-level narrative (e.g., the \u201cAll Access\u201d slide describing a subscription product\u2019s intended benefits such as \u201cDrives Occupancy\u201d and \u201cHigh Margins\u201d) but **does not state the underlying forecast assumptions** (e.g., revenue growth rates, occupancy/utilization assumptions, pricing, member churn, location openings/closures, lease cost inflation, capex, macro assumptions, etc.). (Slide/section header: **\u201cAll Access\u201d**)\n\n**Caveats / limitations:** The document appears incomplete or heavily redacted in the provided text (many bullets without content), so projection assumptions may exist in the full deck but are not present here.\n\n**Confidence:** HIGH (the assumptions are not provided in the excerpt).",
+  "model": "gpt-5.2",
+  "input_tokens": 1058,
+  "output_tokens": 201,
+  "latency_ms": 6960,
+  "timestamp": "2026-01-16T20:30:27.154550",
+  "cost_usd": 0.0046654999999999995,
+  "raw_response": {
+    "id": "resp_0c66f8c0ae216c3a00696a9fdc82fc8197953170dc2a54a86c",
+    "object": "response",
+    "created_at": 1768595420,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768595426,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0c66f8c0ae216c3a00696a9fdd402081978e4c4feb468b3f6d",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Support / citations:** The provided excerpt does not include any projection tables, forecast schedules, or an assumptions section. Most pages are blank/placeholder (\u201c\u00a9 2021 WeWork. Confidential.\u201d) and where text exists it is high-level narrative (e.g., the \u201cAll Access\u201d slide describing a subscription product\u2019s intended benefits such as \u201cDrives Occupancy\u201d and \u201cHigh Margins\u201d) but **does not state the underlying forecast assumptions** (e.g., revenue growth rates, occupancy/utilization assumptions, pricing, member churn, location openings/closures, lease cost inflation, capex, macro assumptions, etc.). (Slide/section header: **\u201cAll Access\u201d**)\n\n**Caveats / limitations:** The document appears incomplete or heavily redacted in the provided text (many bullets without content), so projection assumptions may exist in the full deck but are not present here.\n\n**Confidence:** HIGH (the assumptions are not provided in the excerpt)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1058,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 201,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1259
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

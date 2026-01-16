@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, here are the key executives and information about their track record:\n\n**Key Executives:**\n\n1. **Marcelo Claure** - Executive Chairman\n\n2. **Sandeep Mathrani** - Chief Executive Officer\n   - Joined WeWork in February 2020\n   - \"decades of public market experience\"\n   - Part of the leadership team that has \"demonstrated proven results within their first 12 months at WeWork\"\n\n3. **Benjamin \"Ben\" Dunham** - (position not specified in provided text)\n\n4. **Anthony Yazbeck** - President & Chief Operating Officer\n\n5. **Jared DeMatteis** - (position not specified)\n\n6. **Lauren Fritts** - (position not specified)\n\n7. **Peter Greenspan** - (position not specified)\n\n8. **Hamid Hashemi** - (position not specified)\n\n9. **Maral Kazanjian** - (position not specified)\n\n10. **Scott Morey** - (position not specified)\n\n11. **Roger Sol\u00e9 Rafols** - (position not specified)\n\n**Their Track Record:**\n\nThe document specifically notes that under Claure and Mathrani's leadership:\n- WeWork \"refocused on its core business model and applied a disciplined approach to costs\"\n- They have \"demonstrated proven results within their first 12 months at WeWork\"\n- The management team has \"decades of public market experience\"\n\n**Restructuring Achievements:**\n- Since management changes, WeWork has \"reduced its global workforce by approximately 70% through reductions in force, voluntary attrition not replaced, divestitures and joint venture arrangements\"\n- Negotiated \"over 500 lease amendments and/or exits with landlord partners around the world, resulting in an approximately $6.9 billion reduction to future lease payments\" as of June 30, 2021\n\nThe document emphasizes that the executives will continue with the combined company following the Business Combination.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72933,
+  "output_tokens": 451,
+  "latency_ms": 13516,
+  "timestamp": "2026-01-16T19:49:20.945302",
+  "cost_usd": 0.225564,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01Qkc21CNYsbCk4WDpZb6PvA",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, here are the key executives and information about their track record:\n\n**Key Executives:**\n\n1. **Marcelo Claure** - Executive Chairman\n\n2. **Sandeep Mathrani** - Chief Executive Officer\n   - Joined WeWork in February 2020\n   - \"decades of public market experience\"\n   - Part of the leadership team that has \"demonstrated proven results within their first 12 months at WeWork\"\n\n3. **Benjamin \"Ben\" Dunham** - (position not specified in provided text)\n\n4. **Anthony Yazbeck** - President & Chief Operating Officer\n\n5. **Jared DeMatteis** - (position not specified)\n\n6. **Lauren Fritts** - (position not specified)\n\n7. **Peter Greenspan** - (position not specified)\n\n8. **Hamid Hashemi** - (position not specified)\n\n9. **Maral Kazanjian** - (position not specified)\n\n10. **Scott Morey** - (position not specified)\n\n11. **Roger Sol\u00e9 Rafols** - (position not specified)\n\n**Their Track Record:**\n\nThe document specifically notes that under Claure and Mathrani's leadership:\n- WeWork \"refocused on its core business model and applied a disciplined approach to costs\"\n- They have \"demonstrated proven results within their first 12 months at WeWork\"\n- The management team has \"decades of public market experience\"\n\n**Restructuring Achievements:**\n- Since management changes, WeWork has \"reduced its global workforce by approximately 70% through reductions in force, voluntary attrition not replaced, divestitures and joint venture arrangements\"\n- Negotiated \"over 500 lease amendments and/or exits with landlord partners around the world, resulting in an approximately $6.9 billion reduction to future lease payments\" as of June 30, 2021\n\nThe document emphasizes that the executives will continue with the combined company following the Business Combination."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72933,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 451,
+      "service_tier": "standard"
+    }
+  }
+}

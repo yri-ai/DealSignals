@@ -1,0 +1,80 @@
+{
+  "content": "The provided document excerpt does not include any readable content describing **SoftBank\u2019s role** or its **ongoing obligations** (it mostly contains \u201c\u00a9 2021 WeWork. Confidential.\u201d placeholders and partial, non-specific bullets). As a result, **SoftBank\u2019s role and obligations cannot be determined from this document**.\n\nIf you can share the specific slide/page that mentions SoftBank (or a clearer export), I can extract and summarize its role and any continuing commitments (e.g., funding backstops, guarantees, governance/board rights, lockups, service agreements).",
+  "model": "gpt-5.2",
+  "input_tokens": 954,
+  "output_tokens": 120,
+  "latency_ms": 3184,
+  "timestamp": "2026-01-16T19:54:27.396788",
+  "cost_usd": 0.0033495,
+  "raw_response": {
+    "id": "resp_0049b75689dd6e4400696a977065808191a454b79b46b07c61",
+    "object": "response",
+    "created_at": 1768593264,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593267,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0049b75689dd6e4400696a97709e20819183b22846a501ecc9",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The provided document excerpt does not include any readable content describing **SoftBank\u2019s role** or its **ongoing obligations** (it mostly contains \u201c\u00a9 2021 WeWork. Confidential.\u201d placeholders and partial, non-specific bullets). As a result, **SoftBank\u2019s role and obligations cannot be determined from this document**.\n\nIf you can share the specific slide/page that mentions SoftBank (or a clearer export), I can extract and summarize its role and any continuing commitments (e.g., funding backstops, guarantees, governance/board rights, lockups, service agreements)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 954,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 120,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1074
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

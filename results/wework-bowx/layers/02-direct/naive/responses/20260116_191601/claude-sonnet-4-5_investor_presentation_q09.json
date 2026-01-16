@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I cannot find a specific definition or calculation for \"revenue per available desk/workstation.\" \n\nWhile the document appears to be a WeWork confidential presentation that discusses various business metrics and operations, the actual content details are largely obscured or not fully visible in the provided text. The document mentions various operational metrics and business concepts, but does not explicitly define or provide the formula for revenue per available desk/workstation.\n\nThis metric would typically be calculated as:\n**Total Revenue \u00f7 Total Available Desks/Workstations**\n\nHowever, I cannot confirm this is how WeWork specifically defines or calculates this metric based on the information provided in this document.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1239,
+  "output_tokens": 149,
+  "latency_ms": 5059,
+  "timestamp": "2026-01-16T19:17:04.837258",
+  "cost_usd": 0.005952000000000001,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_019e9c6KVMsq1BVFYNqobdxe",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I cannot find a specific definition or calculation for \"revenue per available desk/workstation.\" \n\nWhile the document appears to be a WeWork confidential presentation that discusses various business metrics and operations, the actual content details are largely obscured or not fully visible in the provided text. The document mentions various operational metrics and business concepts, but does not explicitly define or provide the formula for revenue per available desk/workstation.\n\nThis metric would typically be calculated as:\n**Total Revenue \u00f7 Total Available Desks/Workstations**\n\nHowever, I cannot confirm this is how WeWork specifically defines or calculates this metric based on the information provided in this document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 149,
+      "service_tier": "standard"
+    }
+  }
+}

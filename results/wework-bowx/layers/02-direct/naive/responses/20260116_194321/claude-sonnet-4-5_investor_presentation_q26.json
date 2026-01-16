@@ -1,0 +1,34 @@
+{
+  "content": "I apologize, but I cannot identify specific risk factors from the document provided. The document appears to be a WeWork presentation that contains:\n\n1. **Company values and culture statements** (integrity, collaboration, gratitude, etc.)\n2. **Business model information** (All Access product, subscription-based model)\n3. **Various bullet points and structural elements** (though the actual content is mostly obscured)\n\nHowever, the document does not contain a clear \"Risk Factors\" section that would typically be found in:\n- SEC filings (10-K, 10-Q, S-1)\n- Prospectuses\n- Other regulatory documents\n\nTo provide you with WeWork's top disclosed risk factors, I would need access to their:\n- **Annual Report (Form 10-K)**\n- **Quarterly Reports (Form 10-Q)**\n- **Registration Statement (S-1 or S-4)**\n- **Proxy statements**\n\nThese documents typically contain detailed risk factor disclosures covering areas such as:\n- Long-term lease obligations\n- Market competition\n- Regulatory risks\n- Financial liquidity\n- Real estate market conditions\n\nCould you provide a document that specifically contains the risk factors section, or let me know if you'd like information from a different source?",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1237,
+  "output_tokens": 281,
+  "latency_ms": 7752,
+  "timestamp": "2026-01-16T19:44:15.583847",
+  "cost_usd": 0.007925999999999999,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_014RRvvm3XDfYJjDvWxbLVDP",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "I apologize, but I cannot identify specific risk factors from the document provided. The document appears to be a WeWork presentation that contains:\n\n1. **Company values and culture statements** (integrity, collaboration, gratitude, etc.)\n2. **Business model information** (All Access product, subscription-based model)\n3. **Various bullet points and structural elements** (though the actual content is mostly obscured)\n\nHowever, the document does not contain a clear \"Risk Factors\" section that would typically be found in:\n- SEC filings (10-K, 10-Q, S-1)\n- Prospectuses\n- Other regulatory documents\n\nTo provide you with WeWork's top disclosed risk factors, I would need access to their:\n- **Annual Report (Form 10-K)**\n- **Quarterly Reports (Form 10-Q)**\n- **Registration Statement (S-1 or S-4)**\n- **Proxy statements**\n\nThese documents typically contain detailed risk factor disclosures covering areas such as:\n- Long-term lease obligations\n- Market competition\n- Regulatory risks\n- Financial liquidity\n- Real estate market conditions\n\nCould you provide a document that specifically contains the risk factors section, or let me know if you'd like information from a different source?"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1237,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 281,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "Management (both BowX and WeWork) had several deal-related incentives/compensation elements disclosed:\n\n## BowX (SPAC) sponsor/director/officer incentives\nBowX\u2019s initial stockholders (including the Sponsor) and BowX directors/officers had strong economic incentives to close a transaction because their securities would become worthless if no business combination occurred by the deadline:\n- **Founder shares:** initial stockholders owned **12,075,000 shares of BowX Class B common stock** (founder shares). They **waived redemption** rights on these shares, so they would be worth **$0 if no deal closes**.\n- **Private placement warrants:** initial stockholders owned **7,773,333 private placement warrants** purchased for **$11.66 million**, which also **expire worthless if no business combination is completed**.\n- **Sponsor support / forfeiture:** under the Sponsor Support Agreement, the Sponsor/Sponsor Persons agreed to **forfeit 3,000,000 shares of BowX Class B common stock** and to vote at least **9,454,534** Class B shares in favor of the deal.\n- **Post-close role:** BowX\u2019s chairman/co-CEO **Vivek Ranadiv\u00e9** is expected to **continue as a director of New WeWork**, while other BowX officers/directors (except him) would resign at closing.\n- **Other continuing benefits:** registration rights for sponsor holders (via a Registration Rights Agreement) and continuation of D&O indemnification/insurance post-close are also noted as interests.\n\n## WeWork management compensation tied to the transaction (\u201ctransaction bonuses\u201d)\nWeWork disclosed explicit cash bonus payments triggered by a qualifying capital raise/public listing event\u2014**the business combination satisfies this**:\n- **CEO cash payment:** **Sandeep Mathrani** (WeWork CEO) entitled to **$10.0 million** at consummation, subject to **repayment (\u201cclawback\u201d)**:\n  - repay **100% of after-tax amount** if he resigns without good reason or is terminated for cause **on/before Jan 31, 2022**\n  - repay **50% of after-tax amount** if such termination occurs **after Jan 31, 2022 but on/before Jan 31, 2023**\n- **Other executive officer bonus pool (target amounts):**\n  - Anthony Yazbeck **$2.0M**\n  - Ben Dunham **$1.5M**\n  - Jared DeMatteis **$1.5M**\n  - Lauren Fritts **$1.0M**\n  - Peter Greenspan **$1.0M**\n  - Hamid Hashemi **$0.75M**\n  - Scott Morey **$0.30M**\n  - Maral Kazanjian **$0.25M**\n  - Roger Sol\u00e9 Rafols **$0.25M**\n  - These are **target** amounts and may be adjusted up/down at Mathrani\u2019s discretion, **subject to an aggregate cap of $11.5M**, and subject to the **same repayment obligations** as above.\n- **Additional one-time bonus (COO promotion):** Anthony Yazbeck received a **GBP 1.44 million** one-time bonus payable within 30 days after closing, **conditional on employment through the payment date**.\n- **Equity acceleration condition:** the transaction satisfies the **\u201cliquidity event\u201d vesting condition** for certain WeWork executive RSUs (service/performance vesting may still apply). As of July 15, 2021, executives held **4,347,818** such RSUs; **8,863** would be fully vested upon consummation, with the remainder still subject to additional vesting requirements.\n\nIf you want, I can separate these into \u201ccash at close,\u201d \u201cequity/vesting impact,\u201d and \u201cgovernance/continuing role\u201d and quantify the sponsor\u2019s implied value at various post-close share prices.",
+  "model": "gpt-5.2",
+  "input_tokens": 67612,
+  "output_tokens": 824,
+  "latency_ms": 20088,
+  "timestamp": "2026-01-16T19:58:14.650763",
+  "cost_usd": 0.129857,
+  "raw_response": {
+    "id": "resp_08277c07dc0a0c7600696a984315448196967b054939cad4e8",
+    "object": "response",
+    "created_at": 1768593475,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593494,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_08277c07dc0a0c7600696a9843b86c8196aaade808aabff9f8",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Management (both BowX and WeWork) had several deal-related incentives/compensation elements disclosed:\n\n## BowX (SPAC) sponsor/director/officer incentives\nBowX\u2019s initial stockholders (including the Sponsor) and BowX directors/officers had strong economic incentives to close a transaction because their securities would become worthless if no business combination occurred by the deadline:\n- **Founder shares:** initial stockholders owned **12,075,000 shares of BowX Class B common stock** (founder shares). They **waived redemption** rights on these shares, so they would be worth **$0 if no deal closes**.\n- **Private placement warrants:** initial stockholders owned **7,773,333 private placement warrants** purchased for **$11.66 million**, which also **expire worthless if no business combination is completed**.\n- **Sponsor support / forfeiture:** under the Sponsor Support Agreement, the Sponsor/Sponsor Persons agreed to **forfeit 3,000,000 shares of BowX Class B common stock** and to vote at least **9,454,534** Class B shares in favor of the deal.\n- **Post-close role:** BowX\u2019s chairman/co-CEO **Vivek Ranadiv\u00e9** is expected to **continue as a director of New WeWork**, while other BowX officers/directors (except him) would resign at closing.\n- **Other continuing benefits:** registration rights for sponsor holders (via a Registration Rights Agreement) and continuation of D&O indemnification/insurance post-close are also noted as interests.\n\n## WeWork management compensation tied to the transaction (\u201ctransaction bonuses\u201d)\nWeWork disclosed explicit cash bonus payments triggered by a qualifying capital raise/public listing event\u2014**the business combination satisfies this**:\n- **CEO cash payment:** **Sandeep Mathrani** (WeWork CEO) entitled to **$10.0 million** at consummation, subject to **repayment (\u201cclawback\u201d)**:\n  - repay **100% of after-tax amount** if he resigns without good reason or is terminated for cause **on/before Jan 31, 2022**\n  - repay **50% of after-tax amount** if such termination occurs **after Jan 31, 2022 but on/before Jan 31, 2023**\n- **Other executive officer bonus pool (target amounts):**\n  - Anthony Yazbeck **$2.0M**\n  - Ben Dunham **$1.5M**\n  - Jared DeMatteis **$1.5M**\n  - Lauren Fritts **$1.0M**\n  - Peter Greenspan **$1.0M**\n  - Hamid Hashemi **$0.75M**\n  - Scott Morey **$0.30M**\n  - Maral Kazanjian **$0.25M**\n  - Roger Sol\u00e9 Rafols **$0.25M**\n  - These are **target** amounts and may be adjusted up/down at Mathrani\u2019s discretion, **subject to an aggregate cap of $11.5M**, and subject to the **same repayment obligations** as above.\n- **Additional one-time bonus (COO promotion):** Anthony Yazbeck received a **GBP 1.44 million** one-time bonus payable within 30 days after closing, **conditional on employment through the payment date**.\n- **Equity acceleration condition:** the transaction satisfies the **\u201cliquidity event\u201d vesting condition** for certain WeWork executive RSUs (service/performance vesting may still apply). As of July 15, 2021, executives held **4,347,818** such RSUs; **8,863** would be fully vested upon consummation, with the remainder still subject to additional vesting requirements.\n\nIf you want, I can separate these into \u201ccash at close,\u201d \u201cequity/vesting impact,\u201d and \u201cgovernance/continuing role\u201d and quantify the sponsor\u2019s implied value at various post-close share prices."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67612,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 824,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68436
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

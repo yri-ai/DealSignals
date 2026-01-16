@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n- The provided excerpt contains high-level statements about WeWork\u2019s values (e.g., integrity, shared purpose, courage, gratitude, community) but does not describe any **post\u2011merger integration plan** or **specific planned business model changes tied to the SPAC merger** (values text section: \u201cWe know the \u2018right thing\u2019\u2026,\u201d \u201cWe\u2019ve always believed\u2026,\u201d \u201cTo reshape the way\u2026,\u201d \u201cWe will not take\u2026,\u201d \u201cCollaboration, kindness\u2026\u201d).\n- The excerpt describes **\u201cAll Access\u201d** as an offering (on-demand/pay\u2011as\u2011you\u2011go or monthly subscription providing access to a global network, generating partnerships, driving occupancy beyond physical capacity based on utilization projections, and providing high incremental margins) but does not state this as a *post\u2011merger* change or integration initiative (section block titled/headed \u201cAll Access\u201d).\n\n**Confidence:** HIGH (the excerpt does not include post-merger integration details; this is a direct absence).  \n**Caveats / limitations:** The document appears heavily truncated/redacted (many pages show only bullets or confidentiality marks), and no page numbers are visible in the provided text, which limits precise citation beyond identifiable section headers/quoted blocks.",
+  "model": "gpt-5.2",
+  "input_tokens": 1061,
+  "output_tokens": 256,
+  "latency_ms": 6337,
+  "timestamp": "2026-01-16T20:33:52.367240",
+  "cost_usd": 0.00544075,
+  "raw_response": {
+    "id": "resp_07c2007a00498cf800696aa0aa51d4819cb7fc687b3c02582c",
+    "object": "response",
+    "created_at": 1768595626,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595632,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_07c2007a00498cf800696aa0aaa2f8819ca1e21364f780777f",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n- The provided excerpt contains high-level statements about WeWork\u2019s values (e.g., integrity, shared purpose, courage, gratitude, community) but does not describe any **post\u2011merger integration plan** or **specific planned business model changes tied to the SPAC merger** (values text section: \u201cWe know the \u2018right thing\u2019\u2026,\u201d \u201cWe\u2019ve always believed\u2026,\u201d \u201cTo reshape the way\u2026,\u201d \u201cWe will not take\u2026,\u201d \u201cCollaboration, kindness\u2026\u201d).\n- The excerpt describes **\u201cAll Access\u201d** as an offering (on-demand/pay\u2011as\u2011you\u2011go or monthly subscription providing access to a global network, generating partnerships, driving occupancy beyond physical capacity based on utilization projections, and providing high incremental margins) but does not state this as a *post\u2011merger* change or integration initiative (section block titled/headed \u201cAll Access\u201d).\n\n**Confidence:** HIGH (the excerpt does not include post-merger integration details; this is a direct absence).  \n**Caveats / limitations:** The document appears heavily truncated/redacted (many pages show only bullets or confidentiality marks), and no page numbers are visible in the provided text, which limits precise citation beyond identifiable section headers/quoted blocks."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1061,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 256,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1317
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

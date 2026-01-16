@@ -1,0 +1,34 @@
+{
+  "content": "To find the total lease obligations, I need to look through the document for information about WeWork's future lease payment obligations.\n\nFrom the document, I can find this key information:\n\n\"As of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion and committed sales contracts to be recognized as revenue in the future totaled approximately $3 billion.\"\n\n**Answer: As of June 30, 2021, WeWork's total future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion.**\n\nAdditional context from the document:\n- The Company had negotiated over 500 lease amendments and/or exits with landlord partners, resulting in approximately $6.9 billion reduction to future lease payments since December 31, 2019\n- Total security packages (including corporate guarantees, letters of credit, cash security deposits, and surety bonds) provided by the Company in respect of those lease obligations was approximately $6.5 billion, representing less than 20% of future undiscounted minimum lease cost payment obligations\n- The average length of the initial term of WeWork's leases is approximately 15 years",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72927,
+  "output_tokens": 274,
+  "latency_ms": 10242,
+  "timestamp": "2026-01-16T19:47:53.908238",
+  "cost_usd": 0.222891,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_016rSH54G7zbgnW8U3UCw28p",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "To find the total lease obligations, I need to look through the document for information about WeWork's future lease payment obligations.\n\nFrom the document, I can find this key information:\n\n\"As of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion and committed sales contracts to be recognized as revenue in the future totaled approximately $3 billion.\"\n\n**Answer: As of June 30, 2021, WeWork's total future undiscounted minimum lease cost payment obligations under signed operating and finance leases was $36.6 billion.**\n\nAdditional context from the document:\n- The Company had negotiated over 500 lease amendments and/or exits with landlord partners, resulting in approximately $6.9 billion reduction to future lease payments since December 31, 2019\n- Total security packages (including corporate guarantees, letters of credit, cash security deposits, and surety bonds) provided by the Company in respect of those lease obligations was approximately $6.5 billion, representing less than 20% of future undiscounted minimum lease cost payment obligations\n- The average length of the initial term of WeWork's leases is approximately 15 years"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72927,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 274,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "# Analysis: What Happens to the Business at 50% Occupancy?\n\n## Answer\n\n**Not found in document.**\n\n## Explanation\n\nThe provided document does not contain specific information about what happens to WeWork's business at 50% occupancy levels. \n\nWhile the document mentions occupancy in several contexts:\n- References to \"Drives Occupancy\" as a benefit of the All Access product, noting it \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\" (page referencing All Access product features)\n- General business model discussions\n\nThere is **no specific analysis, financial impact, breakeven point, or operational outcomes** tied to a 50% occupancy threshold in the document.\n\n## Confidence Level\n\n**HIGH** - I am highly confident this specific information is not present in the document, as I have reviewed all readable content.\n\n## Caveats\n\n- The document contains many pages marked \"\u00a9 2021 WeWork. Confidential\" without visible content details\n- Some pages appear to contain bullet points or structured content that is not fully legible in the provided format\n- If detailed financial modeling or sensitivity analyses exist in the document, they are not visible in the provided text",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1360,
+  "output_tokens": 269,
+  "latency_ms": 8400,
+  "timestamp": "2026-01-16T20:18:01.273802",
+  "cost_usd": 0.008115,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01KREwni5ETdhstTBWWjQkpr",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Analysis: What Happens to the Business at 50% Occupancy?\n\n## Answer\n\n**Not found in document.**\n\n## Explanation\n\nThe provided document does not contain specific information about what happens to WeWork's business at 50% occupancy levels. \n\nWhile the document mentions occupancy in several contexts:\n- References to \"Drives Occupancy\" as a benefit of the All Access product, noting it \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\" (page referencing All Access product features)\n- General business model discussions\n\nThere is **no specific analysis, financial impact, breakeven point, or operational outcomes** tied to a 50% occupancy threshold in the document.\n\n## Confidence Level\n\n**HIGH** - I am highly confident this specific information is not present in the document, as I have reviewed all readable content.\n\n## Caveats\n\n- The document contains many pages marked \"\u00a9 2021 WeWork. Confidential\" without visible content details\n- Some pages appear to contain bullet points or structured content that is not fully legible in the provided format\n- If detailed financial modeling or sensitivity analyses exist in the document, they are not visible in the provided text"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1360,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 269,
+      "service_tier": "standard"
+    }
+  }
+}

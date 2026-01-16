@@ -1,0 +1,80 @@
+{
+  "content": "Material litigation or disputes: **Not found in document.**  \n\n- The provided document excerpts do not include any section addressing **litigation**, **legal proceedings**, **claims**, **disputes**, **contingencies**, or similar disclosures (no relevant section headers/pages present in the provided text).  \n\n**Confidence:** LOW (absence of evidence in the provided excerpts; the document may be incomplete or missing legal/disclosure sections).  \n\n**Caveats / limitations:**  \n- The document appears to be a **partial/excerpted** set of slides with many redacted or placeholder bullets (\u201c\u2022\u201d, \u201c\u25cf\u201d) and **no visible page numbers**, limiting the ability to confirm whether litigation/dispute disclosures exist elsewhere in the full deck.",
+  "model": "gpt-5.2",
+  "input_tokens": 1057,
+  "output_tokens": 152,
+  "latency_ms": 4709,
+  "timestamp": "2026-01-16T20:32:56.249959",
+  "cost_usd": 0.00397775,
+  "raw_response": {
+    "id": "resp_003271007da7478f00696aa073bbac819c9870715d95f613b1",
+    "object": "response",
+    "created_at": 1768595571,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595575,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_003271007da7478f00696aa07438dc819ca86ef49917b39c6c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Material litigation or disputes: **Not found in document.**  \n\n- The provided document excerpts do not include any section addressing **litigation**, **legal proceedings**, **claims**, **disputes**, **contingencies**, or similar disclosures (no relevant section headers/pages present in the provided text).  \n\n**Confidence:** LOW (absence of evidence in the provided excerpts; the document may be incomplete or missing legal/disclosure sections).  \n\n**Caveats / limitations:**  \n- The document appears to be a **partial/excerpted** set of slides with many redacted or placeholder bullets (\u201c\u2022\u201d, \u201c\u25cf\u201d) and **no visible page numbers**, limiting the ability to confirm whether litigation/dispute disclosures exist elsewhere in the full deck."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1057,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 152,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1209
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

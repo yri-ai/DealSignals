@@ -1,0 +1,80 @@
+{
+  "content": "The document does **not** provide a specific definition or numerical **member churn rate**.\n\nIt does note membership decline and contract termination characteristics (e.g., total memberships declined **16%** from the quarter ended June 30, 2020 to the quarter ended June 30, 2021; ~**10%** of physical memberships were month\u2011to\u2011month commitments during the six months ended June 30, 2021), but it does **not** define \u201cmember churn rate\u201d as a KPI or give a churn-rate formula/value.",
+  "model": "gpt-5.2",
+  "input_tokens": 67606,
+  "output_tokens": 116,
+  "latency_ms": 4023,
+  "timestamp": "2026-01-16T19:56:29.307057",
+  "cost_usd": 0.1199345,
+  "raw_response": {
+    "id": "resp_0b1dee35c24df3e500696a97e9dfa0819fbbf807b17a538e9d",
+    "object": "response",
+    "created_at": 1768593386,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593389,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0b1dee35c24df3e500696a97ea86a0819f826bb0e706efff18",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document does **not** provide a specific definition or numerical **member churn rate**.\n\nIt does note membership decline and contract termination characteristics (e.g., total memberships declined **16%** from the quarter ended June 30, 2020 to the quarter ended June 30, 2021; ~**10%** of physical memberships were month\u2011to\u2011month commitments during the six months ended June 30, 2021), but it does **not** define \u201cmember churn rate\u201d as a KPI or give a churn-rate formula/value."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67606,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 116,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67722
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

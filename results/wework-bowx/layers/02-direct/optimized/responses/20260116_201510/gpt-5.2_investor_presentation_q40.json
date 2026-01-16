@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Basis:** The provided document text is almost entirely composed of repeated confidentiality footers and slides with bullets redacted/omitted (shown as \u201c\u2022\u201d / \u201c\u25cf\u201d), and includes only limited high-level qualitative statements (e.g., company values and a brief description of \u201cAll Access\u201d product benefits such as \u201cHigh Margins\u201d and \u201cDrives Occupancy\u201d) without any supporting financials, valuation, risks, SPAC deal terms, governance, projections, unit economics, cash burn, capitalization, or comparable analysis needed to make an investment recommendation (sections showing \u201cWeWork values\u201d paragraph; \u201cAll Access\u201d slide listing \u201cOn-Demand\u2026\u201d, \u201cGenerates Partnerships\u201d, \u201cDrives Occupancy\u201d, \u201cHigh Margins\u201d).  \n\n**Conclusion:** With the information provided, I cannot make an informed invest/not-invest recommendation.  \n**Confidence:** HIGH (the necessary investment decision data is not present in the provided document excerpt).  \n**Caveats/limitations:** The document appears incomplete and/or heavily redacted (numerous slides contain only \u201c\u2022/\u25cf\u201d placeholders), and no page numbers are provided in the excerpt, limiting precise citation and preventing due-diligence level analysis.",
+  "model": "gpt-5.2",
+  "input_tokens": 1059,
+  "output_tokens": 248,
+  "latency_ms": 8578,
+  "timestamp": "2026-01-16T20:34:06.497295",
+  "cost_usd": 0.00532525,
+  "raw_response": {
+    "id": "resp_030cf1f0cdfde54c00696aa0b62cc88195b8e9c9b6155a3713",
+    "object": "response",
+    "created_at": 1768595638,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595646,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_030cf1f0cdfde54c00696aa0b671cc81958583b18b9b9a4ce4",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Basis:** The provided document text is almost entirely composed of repeated confidentiality footers and slides with bullets redacted/omitted (shown as \u201c\u2022\u201d / \u201c\u25cf\u201d), and includes only limited high-level qualitative statements (e.g., company values and a brief description of \u201cAll Access\u201d product benefits such as \u201cHigh Margins\u201d and \u201cDrives Occupancy\u201d) without any supporting financials, valuation, risks, SPAC deal terms, governance, projections, unit economics, cash burn, capitalization, or comparable analysis needed to make an investment recommendation (sections showing \u201cWeWork values\u201d paragraph; \u201cAll Access\u201d slide listing \u201cOn-Demand\u2026\u201d, \u201cGenerates Partnerships\u201d, \u201cDrives Occupancy\u201d, \u201cHigh Margins\u201d).  \n\n**Conclusion:** With the information provided, I cannot make an informed invest/not-invest recommendation.  \n**Confidence:** HIGH (the necessary investment decision data is not present in the provided document excerpt).  \n**Caveats/limitations:** The document appears incomplete and/or heavily redacted (numerous slides contain only \u201c\u2022/\u25cf\u201d placeholders), and no page numbers are provided in the excerpt, limiting precise citation and preventing due-diligence level analysis."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1059,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 248,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1307
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

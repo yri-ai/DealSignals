@@ -1,0 +1,80 @@
+{
+  "content": "## Key assumptions underlying the projections\n\n**Not found in document.**\n\n### What is available (but not the underlying projection assumptions)\n- The document includes **selected unaudited pro forma condensed combined financial information** and indicates it is prepared under **two illustrative scenarios** regarding redemptions (**\u201cAssuming No Redemption\u201d** and **\u201cAssuming Maximum Possible Redemption\u201d**) rather than management \u201cprojections\u201d assumptions. (Section: **\u201cSELECTED UNAUDITED PRO FORMA CONDENSED COMBINED FINANCIAL INFORMATION\u201d**, pp. **25\u201327**)\n- It also notes key **transaction-related assumptions** for the pro forma presentation (e.g., consummation date assumptions; PIPE issuance; conversion/exchange of securities; sponsor share conversion). (Section: **\u201cSELECTED UNAUDITED PRO FORMA CONDENSED COMBINED FINANCIAL INFORMATION\u201d**, p. **25**)\n\n### Caveats / limitations\n- The excerpt provided does **not** include a management projection section (e.g., forecasted revenue/EBITDA/cash flow) or any explicit list of **projection assumptions** (macroeconomic, occupancy, pricing, margins, capex, etc.).  \n- The pro forma information described is explicitly **illustrative** and \u201cdoes not purport to represent\u201d future results. (Section: **\u201cSELECTED UNAUDITED PRO FORMA CONDENSED COMBINED FINANCIAL INFORMATION\u201d**, pp. **25\u201326**; also **\u201cCOMPARATIVE PER SHARE DATA\u201d**, p. **28**)\n\n**Confidence: HIGH** (the document excerpt does not contain projection assumptions; only pro forma scenario assumptions are described).",
+  "model": "gpt-5.2",
+  "input_tokens": 67714,
+  "output_tokens": 349,
+  "latency_ms": 9421,
+  "timestamp": "2026-01-16T20:35:18.791446",
+  "cost_usd": 0.1233855,
+  "raw_response": {
+    "id": "resp_04d5b6e842a83e4600696aa0fdb6dc81a29169dd0247505c55",
+    "object": "response",
+    "created_at": 1768595709,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595718,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_04d5b6e842a83e4600696aa0fec87081a2ac089b2993fc38d0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Key assumptions underlying the projections\n\n**Not found in document.**\n\n### What is available (but not the underlying projection assumptions)\n- The document includes **selected unaudited pro forma condensed combined financial information** and indicates it is prepared under **two illustrative scenarios** regarding redemptions (**\u201cAssuming No Redemption\u201d** and **\u201cAssuming Maximum Possible Redemption\u201d**) rather than management \u201cprojections\u201d assumptions. (Section: **\u201cSELECTED UNAUDITED PRO FORMA CONDENSED COMBINED FINANCIAL INFORMATION\u201d**, pp. **25\u201327**)\n- It also notes key **transaction-related assumptions** for the pro forma presentation (e.g., consummation date assumptions; PIPE issuance; conversion/exchange of securities; sponsor share conversion). (Section: **\u201cSELECTED UNAUDITED PRO FORMA CONDENSED COMBINED FINANCIAL INFORMATION\u201d**, p. **25**)\n\n### Caveats / limitations\n- The excerpt provided does **not** include a management projection section (e.g., forecasted revenue/EBITDA/cash flow) or any explicit list of **projection assumptions** (macroeconomic, occupancy, pricing, margins, capex, etc.).  \n- The pro forma information described is explicitly **illustrative** and \u201cdoes not purport to represent\u201d future results. (Section: **\u201cSELECTED UNAUDITED PRO FORMA CONDENSED COMBINED FINANCIAL INFORMATION\u201d**, pp. **25\u201326**; also **\u201cCOMPARATIVE PER SHARE DATA\u201d**, p. **28**)\n\n**Confidence: HIGH** (the document excerpt does not contain projection assumptions; only pro forma scenario assumptions are described)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67714,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 349,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68063
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

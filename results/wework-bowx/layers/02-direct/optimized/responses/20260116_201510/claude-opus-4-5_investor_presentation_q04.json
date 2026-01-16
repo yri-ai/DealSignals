@@ -1,0 +1,34 @@
+{
+  "content": "## Cash Burn Rate Analysis\n\n**Finding: Not found in document**\n\nAfter reviewing the provided document, I was unable to locate specific information regarding WeWork's cash burn rate. The document appears to be a presentation deck (likely an investor presentation based on the 2021 copyright and SPAC-related context), but the actual content visible consists primarily of:\n\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point markers without associated text\n- Company values/mission statements (referencing integrity, collaboration, community, etc.)\n- References to product offerings like \"All Access\" subscription model\n- Timeline markers (2010-2030)\n- Various structural elements (bullet points, section breaks)\n\n**Limitations:**\n- The document text appears to be incomplete or improperly extracted, showing mostly formatting elements rather than substantive financial data\n- No financial statements, cash flow data, or operating metrics containing burn rate information are visible in the provided text\n- Key financial pages that would typically contain cash burn analysis appear to be missing or unreadable\n\n**Confidence Level: N/A** - Cannot provide a confidence rating as the information is not present in the document.\n\n**Recommendation:** To properly assess WeWork's cash burn rate, you would need access to:\n1. Cash flow statements\n2. Operating expense breakdowns\n3. Liquidity analysis sections\n4. Pro forma financial projections\n\nThese materials should be requested separately or obtained from other due diligence sources.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1355,
+  "output_tokens": 324,
+  "latency_ms": 9420,
+  "timestamp": "2026-01-16T20:42:45.055918",
+  "cost_usd": 0.014875,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01QHZ32FQhT4hicTHnVjeLhg",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Cash Burn Rate Analysis\n\n**Finding: Not found in document**\n\nAfter reviewing the provided document, I was unable to locate specific information regarding WeWork's cash burn rate. The document appears to be a presentation deck (likely an investor presentation based on the 2021 copyright and SPAC-related context), but the actual content visible consists primarily of:\n\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point markers without associated text\n- Company values/mission statements (referencing integrity, collaboration, community, etc.)\n- References to product offerings like \"All Access\" subscription model\n- Timeline markers (2010-2030)\n- Various structural elements (bullet points, section breaks)\n\n**Limitations:**\n- The document text appears to be incomplete or improperly extracted, showing mostly formatting elements rather than substantive financial data\n- No financial statements, cash flow data, or operating metrics containing burn rate information are visible in the provided text\n- Key financial pages that would typically contain cash burn analysis appear to be missing or unreadable\n\n**Confidence Level: N/A** - Cannot provide a confidence rating as the information is not present in the document.\n\n**Recommendation:** To properly assess WeWork's cash burn rate, you would need access to:\n1. Cash flow statements\n2. Operating expense breakdowns\n3. Liquidity analysis sections\n4. Pro forma financial projections\n\nThese materials should be requested separately or obtained from other due diligence sources."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1355,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 324,
+      "service_tier": "standard"
+    }
+  }
+}

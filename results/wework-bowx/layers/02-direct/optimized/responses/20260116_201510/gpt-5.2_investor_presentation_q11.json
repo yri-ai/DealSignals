@@ -1,0 +1,80 @@
+{
+  "content": "**Member churn rate:** **Not found in document.**\n\n- The provided excerpt does not contain a definition, formula, or disclosed metric labeled \u201cmember churn rate,\u201d nor any numerical churn value. (Document excerpt/pages not numbered; no \u201cMember churn rate\u201d section header present.)\n\n**Confidence:** HIGH (the term/definition is not present in the provided text)\n\n**Caveat / limitation:** The document provided appears to be an incomplete/partial extract with many slides redacted or reduced to bullet placeholders (e.g., \u201c\u25cf\u201d), and there are no visible page numbers. This may omit the section where \u201cmember churn rate\u201d is defined.",
+  "model": "gpt-5.2",
+  "input_tokens": 1055,
+  "output_tokens": 134,
+  "latency_ms": 4503,
+  "timestamp": "2026-01-16T20:30:51.525576",
+  "cost_usd": 0.00372225,
+  "raw_response": {
+    "id": "resp_03f20a6dfe53d7d900696a9ff737488193803b08c4d286da94",
+    "object": "response",
+    "created_at": 1768595447,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768595451,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_03f20a6dfe53d7d900696a9ff77d5081939dc2324d78c8c78f",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Member churn rate:** **Not found in document.**\n\n- The provided excerpt does not contain a definition, formula, or disclosed metric labeled \u201cmember churn rate,\u201d nor any numerical churn value. (Document excerpt/pages not numbered; no \u201cMember churn rate\u201d section header present.)\n\n**Confidence:** HIGH (the term/definition is not present in the provided text)\n\n**Caveat / limitation:** The document provided appears to be an incomplete/partial extract with many slides redacted or reduced to bullet placeholders (e.g., \u201c\u25cf\u201d), and there are no visible page numbers. This may omit the section where \u201cmember churn rate\u201d is defined."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1055,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 134,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1189
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

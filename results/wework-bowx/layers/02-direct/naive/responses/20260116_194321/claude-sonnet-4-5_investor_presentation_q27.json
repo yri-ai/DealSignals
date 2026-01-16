@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I cannot identify any specific information about material litigation or disputes. \n\nThe document appears to be a WeWork confidential presentation that covers:\n- Company values and culture\n- Business model information (All Access subscription model)\n- Strategic and operational elements\n- Various bullet points with redacted or unclear content\n\nThere is no section or content visible in this document that specifically discusses litigation, legal disputes, or legal proceedings. To answer your question about material litigation or disputes, I would need access to:\n- SEC filings (10-K, 10-Q)\n- Legal proceedings disclosures\n- Risk factors sections\n- Or other corporate documents that typically contain such information\n\n**Answer: The provided document does not contain information about material litigation or disputes.**",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1237,
+  "output_tokens": 165,
+  "latency_ms": 5525,
+  "timestamp": "2026-01-16T19:44:21.114746",
+  "cost_usd": 0.006186,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01WrTVZpfg8G8iH1DyvEw6JH",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I cannot identify any specific information about material litigation or disputes. \n\nThe document appears to be a WeWork confidential presentation that covers:\n- Company values and culture\n- Business model information (All Access subscription model)\n- Strategic and operational elements\n- Various bullet points with redacted or unclear content\n\nThere is no section or content visible in this document that specifically discusses litigation, legal disputes, or legal proceedings. To answer your question about material litigation or disputes, I would need access to:\n- SEC filings (10-K, 10-Q)\n- Legal proceedings disclosures\n- Risk factors sections\n- Or other corporate documents that typically contain such information\n\n**Answer: The provided document does not contain information about material litigation or disputes.**"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1237,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 165,
+      "service_tier": "standard"
+    }
+  }
+}

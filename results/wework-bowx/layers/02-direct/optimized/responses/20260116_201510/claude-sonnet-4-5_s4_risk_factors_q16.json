@@ -1,0 +1,34 @@
+{
+  "content": "Not found in document.\n\nThe document does not contain specific information about what happens to the business at 70% occupancy levels. While the document mentions \"Physical Occupancy\" as a defined term in the \"Selected Definitions\" section (referring to \"the number of physical memberships divided by total workstations\"), it does not provide details about business performance, profitability, or operational implications at any specific occupancy percentage, including 70%.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 96,
+  "latency_ms": 7299,
+  "timestamp": "2026-01-16T20:24:24.791191",
+  "cost_usd": 0.22059600000000001,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01TrG6T5GC6cua6a4LeyENQL",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Not found in document.\n\nThe document does not contain specific information about what happens to the business at 70% occupancy levels. While the document mentions \"Physical Occupancy\" as a defined term in the \"Selected Definitions\" section (referring to \"the number of physical memberships divided by total workstations\"), it does not provide details about business performance, profitability, or operational implications at any specific occupancy percentage, including 70%."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 96,
+      "service_tier": "standard"
+    }
+  }
+}

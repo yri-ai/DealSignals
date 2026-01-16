@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n- The provided excerpt contains general corporate values statements (e.g., \u201cintegrity,\u201d \u201cshared purpose,\u201d \u201cbold,\u201d \u201cgrateful,\u201d \u201ccommunity\u201d) and a product/business description for \u201cAll Access\u201d (e.g., \u201csubscription-based model,\u201d \u201cHigh Margins\u201d) but **does not include any discussion of management incentives, compensation, equity rollover, earnouts, retention bonuses, or transaction-related payouts**. (Section beginning \u201cWe know the \u2018right thing\u2019\u2026\u201d; section headed \u201cAll Access\u201d)\n\n**Confidence:** HIGH (directly absent from provided document)  \n**Caveats / limitations:** The document appears heavily redacted/truncated (multiple pages show only \u201c\u2022\u201d placeholders and no page numbers). If compensation details existed in omitted slides/appendices, they are not visible in the provided text, so they cannot be assessed here.",
+  "model": "gpt-5.2",
+  "input_tokens": 1061,
+  "output_tokens": 181,
+  "latency_ms": 28005,
+  "timestamp": "2026-01-16T20:32:38.637887",
+  "cost_usd": 0.0043907500000000006,
+  "raw_response": {
+    "id": "resp_0f0d3abe2fef33c600696aa04b5c788190832bb643297e612c",
+    "object": "response",
+    "created_at": 1768595531,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595557,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0f0d3abe2fef33c600696aa04d2a98819093e620fd98ebe8af",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n- The provided excerpt contains general corporate values statements (e.g., \u201cintegrity,\u201d \u201cshared purpose,\u201d \u201cbold,\u201d \u201cgrateful,\u201d \u201ccommunity\u201d) and a product/business description for \u201cAll Access\u201d (e.g., \u201csubscription-based model,\u201d \u201cHigh Margins\u201d) but **does not include any discussion of management incentives, compensation, equity rollover, earnouts, retention bonuses, or transaction-related payouts**. (Section beginning \u201cWe know the \u2018right thing\u2019\u2026\u201d; section headed \u201cAll Access\u201d)\n\n**Confidence:** HIGH (directly absent from provided document)  \n**Caveats / limitations:** The document appears heavily redacted/truncated (multiple pages show only \u201c\u2022\u201d placeholders and no page numbers). If compensation details existed in omitted slides/appendices, they are not visible in the provided text, so they cannot be assessed here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1061,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 181,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1242
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

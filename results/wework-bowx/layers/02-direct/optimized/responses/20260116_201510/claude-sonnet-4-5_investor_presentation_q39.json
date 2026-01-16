@@ -1,0 +1,34 @@
+{
+  "content": "# Debt Covenants and Restrictions Analysis\n\n**Answer: Not found in document**\n\n**Confidence: HIGH**\n\n## Explanation:\nI have thoroughly reviewed the provided document, which appears to be a WeWork investor presentation from 2021 (marked \"\u00a9 2021 WeWork. Confidential.\" throughout). The document contains:\n\n- Company values and mission statements\n- Business model descriptions (including \"All Access\" subscription model)\n- Various bullet points and presentation slides\n- References to financial metrics and definitions\n\nHowever, the document does **not contain any specific information about:**\n- Debt covenants\n- Debt restrictions\n- Lending agreements\n- Financial covenants (e.g., leverage ratios, interest coverage requirements)\n- Operational restrictions\n- Negative covenants\n\n## Caveats:\n1. The document appears to be heavily redacted or contains mostly placeholder content (many pages show only copyright notices and bullet points without detailed text)\n2. This appears to be a business overview/investor presentation rather than a detailed financial or legal document where debt covenants would typically be disclosed\n3. Debt covenant information would more likely be found in:\n   - Credit agreements\n   - Indentures\n   - SEC filings (10-K, 10-Q)\n   - Proxy statements\n   - Definitive merger agreements\n\nTo obtain information about WeWork's debt covenants and restrictions, you would need to review the actual credit agreements, bond indentures, or detailed SEC filings associated with the SPAC merger.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1357,
+  "output_tokens": 344,
+  "latency_ms": 9213,
+  "timestamp": "2026-01-16T20:21:36.104555",
+  "cost_usd": 0.009231,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01XpELbkj3UKRBwic6yiW72L",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Debt Covenants and Restrictions Analysis\n\n**Answer: Not found in document**\n\n**Confidence: HIGH**\n\n## Explanation:\nI have thoroughly reviewed the provided document, which appears to be a WeWork investor presentation from 2021 (marked \"\u00a9 2021 WeWork. Confidential.\" throughout). The document contains:\n\n- Company values and mission statements\n- Business model descriptions (including \"All Access\" subscription model)\n- Various bullet points and presentation slides\n- References to financial metrics and definitions\n\nHowever, the document does **not contain any specific information about:**\n- Debt covenants\n- Debt restrictions\n- Lending agreements\n- Financial covenants (e.g., leverage ratios, interest coverage requirements)\n- Operational restrictions\n- Negative covenants\n\n## Caveats:\n1. The document appears to be heavily redacted or contains mostly placeholder content (many pages show only copyright notices and bullet points without detailed text)\n2. This appears to be a business overview/investor presentation rather than a detailed financial or legal document where debt covenants would typically be disclosed\n3. Debt covenant information would more likely be found in:\n   - Credit agreements\n   - Indentures\n   - SEC filings (10-K, 10-Q)\n   - Proxy statements\n   - Definitive merger agreements\n\nTo obtain information about WeWork's debt covenants and restrictions, you would need to review the actual credit agreements, bond indentures, or detailed SEC filings associated with the SPAC merger."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1357,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 344,
+      "service_tier": "standard"
+    }
+  }
+}

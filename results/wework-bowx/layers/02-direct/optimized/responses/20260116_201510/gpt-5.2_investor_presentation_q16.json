@@ -1,0 +1,80 @@
+{
+  "content": "**Not found in document.** The provided excerpt contains a slide discussing \u201cAll Access\u201d and notes it \u201cdrives occupancy\u201d and \u201callows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections,\u201d but it does **not** state what specifically happens to the business at **70% occupancy** (section header: **\u201cAll Access\u201d**).\n\n**Confidence:** LOW (information not present in the provided document text)\n\n**Caveat / limitation:** The document appears heavily redacted/blank in the provided extract (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d or bullet placeholders), so any quantitative occupancy threshold (e.g., 70%) and its business implications may exist in omitted pages/figures not included here.",
+  "model": "gpt-5.2",
+  "input_tokens": 1060,
+  "output_tokens": 159,
+  "latency_ms": 5176,
+  "timestamp": "2026-01-16T20:31:17.944973",
+  "cost_usd": 0.0040809999999999996,
+  "raw_response": {
+    "id": "resp_0de5e21e706ca34800696aa010f5e881a1b9a6f09ac4e522d9",
+    "object": "response",
+    "created_at": 1768595473,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595477,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0de5e21e706ca34800696aa011702c81a1a31e9d7946204273",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Not found in document.** The provided excerpt contains a slide discussing \u201cAll Access\u201d and notes it \u201cdrives occupancy\u201d and \u201callows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections,\u201d but it does **not** state what specifically happens to the business at **70% occupancy** (section header: **\u201cAll Access\u201d**).\n\n**Confidence:** LOW (information not present in the provided document text)\n\n**Caveat / limitation:** The document appears heavily redacted/blank in the provided extract (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d or bullet placeholders), so any quantitative occupancy threshold (e.g., 70%) and its business implications may exist in omitted pages/figures not included here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1060,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 159,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1219
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "The **lock-up agreements** are agreements entered into in connection with the Business Combination by **the Sponsor, certain BowX officers, and certain WeWork officers and stockholders** under which they agree, for the applicable **lock-up period** (one year or nine months, depending on the agreement), **not to**:\n\n- **Sell or otherwise dispose of** (or agree to sell/dispose of) any shares of **New WeWork common stock** they hold immediately after Closing (the \u201cLock-Up Shares\u201d);\n- Enter into any **swap or similar arrangement** that transfers, in whole or in part, the **economic consequences of ownership** of those Lock-Up Shares; or\n- **Publicly announce** an intention to do any of the above during the lock-up period.",
+  "model": "gpt-5.2",
+  "input_tokens": 67607,
+  "output_tokens": 163,
+  "latency_ms": 4147,
+  "timestamp": "2026-01-16T19:59:13.833405",
+  "cost_usd": 0.12059425000000001,
+  "raw_response": {
+    "id": "resp_0e93b0450daca2eb00696a988e16848197af98dc14f5e464c9",
+    "object": "response",
+    "created_at": 1768593550,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593553,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0e93b0450daca2eb00696a988e89748197b11c795b3e528da3",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The **lock-up agreements** are agreements entered into in connection with the Business Combination by **the Sponsor, certain BowX officers, and certain WeWork officers and stockholders** under which they agree, for the applicable **lock-up period** (one year or nine months, depending on the agreement), **not to**:\n\n- **Sell or otherwise dispose of** (or agree to sell/dispose of) any shares of **New WeWork common stock** they hold immediately after Closing (the \u201cLock-Up Shares\u201d);\n- Enter into any **swap or similar arrangement** that transfers, in whole or in part, the **economic consequences of ownership** of those Lock-Up Shares; or\n- **Publicly announce** an intention to do any of the above during the lock-up period."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67607,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 163,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67770
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

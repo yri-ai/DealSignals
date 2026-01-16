@@ -1,0 +1,80 @@
+{
+  "content": "## Comparable transactions or companies cited\n\n### Companies (as transaction counterparties or comparators)\n- **Cushman & Wakefield plc** \u2014 cited in connection with \u201cour non-binding partnership with Cushman & Wakefield plc (\u201cCushman\u201d)\u201d (section **\u201cCautionary Statement Regarding Forward-Looking Statements\u201d**, p. **xxxv**; also referenced in the risk factor summary, p. **19**).  \n- **SoftBank Group Corp. (SBG)** and affiliates including **SB WW Holdings (Cayman) Limited (SBWW)** and **SVF Endurance (Cayman) Limited (SVFE)** \u2014 cited repeatedly as key related parties / financing counterparties (see **\u201cSelected Definitions\u201d** for SBG/SBWW/SVFE, pp. **xiii\u2013xiv**; also discussed under **\u201cRisk Factors\u2014The Company has engaged in transactions with related parties\u2026\u201d**, p. **40**).  \n- **Trustbridge Partners** \u2014 cited as an investment counterparty in WeWork\u2019s Greater China joint venture restructuring (\u201cTrustbridge Transaction\u201d) (section **\u201cRisk Factors\u2014A significant part of the Company\u2019s international growth strategy\u2026\u201d**, p. **41**).  \n- **Ampa Group (\u201cAmpa\u201d)** \u2014 cited as counterparty to the \u201cIsrael Transaction\u201d granting exclusive right to operate WeWork\u2019s business in Israel (section **\u201cRisk Factors\u2014A significant part of the Company\u2019s international growth strategy\u2026\u201d**, p. **41**).\n\n### Comparable transactions\n- **Not found in document** \u2014 The provided excerpt does not cite \u201ccomparable transactions\u201d (in the valuation/precedent-transaction sense) used to benchmark the SPAC merger valuation. The only \u201ctransactions\u201d explicitly described are WeWork\u2019s own restructuring/joint venture transactions and related agreements (e.g., \u201cTrustbridge Transaction,\u201d \u201cIsrael Transaction\u201d), not valuation comparables (see **Risk Factors**, pp. **41\u201342**).\n\n## Caveats / limitations\n- The document excerpt provided includes corporate counterparties and specific WeWork-related transactions and partnerships, but it does **not** present a formal comps set (trading comps or precedent transactions) for valuation benchmarking. (Inferred from absence of such a section in the provided text; **Not found in document** for explicit comparable-valuation discussion.)\n\n**Confidence:** **HIGH** for listed cited companies/transactions (directly stated in cited sections/pages); **HIGH** for \u201cNot found in document\u201d regarding formal comparable transactions (no such comparables appear in the provided excerpt).",
+  "model": "gpt-5.2",
+  "input_tokens": 67713,
+  "output_tokens": 524,
+  "latency_ms": 16291,
+  "timestamp": "2026-01-16T20:37:14.386777",
+  "cost_usd": 0.12583375,
+  "raw_response": {
+    "id": "resp_0d762d4783fdbe5a00696aa16a7930819eb2312e1d90fbecfa",
+    "object": "response",
+    "created_at": 1768595818,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595834,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0d762d4783fdbe5a00696aa16b183c819e950ace191058ee82",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Comparable transactions or companies cited\n\n### Companies (as transaction counterparties or comparators)\n- **Cushman & Wakefield plc** \u2014 cited in connection with \u201cour non-binding partnership with Cushman & Wakefield plc (\u201cCushman\u201d)\u201d (section **\u201cCautionary Statement Regarding Forward-Looking Statements\u201d**, p. **xxxv**; also referenced in the risk factor summary, p. **19**).  \n- **SoftBank Group Corp. (SBG)** and affiliates including **SB WW Holdings (Cayman) Limited (SBWW)** and **SVF Endurance (Cayman) Limited (SVFE)** \u2014 cited repeatedly as key related parties / financing counterparties (see **\u201cSelected Definitions\u201d** for SBG/SBWW/SVFE, pp. **xiii\u2013xiv**; also discussed under **\u201cRisk Factors\u2014The Company has engaged in transactions with related parties\u2026\u201d**, p. **40**).  \n- **Trustbridge Partners** \u2014 cited as an investment counterparty in WeWork\u2019s Greater China joint venture restructuring (\u201cTrustbridge Transaction\u201d) (section **\u201cRisk Factors\u2014A significant part of the Company\u2019s international growth strategy\u2026\u201d**, p. **41**).  \n- **Ampa Group (\u201cAmpa\u201d)** \u2014 cited as counterparty to the \u201cIsrael Transaction\u201d granting exclusive right to operate WeWork\u2019s business in Israel (section **\u201cRisk Factors\u2014A significant part of the Company\u2019s international growth strategy\u2026\u201d**, p. **41**).\n\n### Comparable transactions\n- **Not found in document** \u2014 The provided excerpt does not cite \u201ccomparable transactions\u201d (in the valuation/precedent-transaction sense) used to benchmark the SPAC merger valuation. The only \u201ctransactions\u201d explicitly described are WeWork\u2019s own restructuring/joint venture transactions and related agreements (e.g., \u201cTrustbridge Transaction,\u201d \u201cIsrael Transaction\u201d), not valuation comparables (see **Risk Factors**, pp. **41\u201342**).\n\n## Caveats / limitations\n- The document excerpt provided includes corporate counterparties and specific WeWork-related transactions and partnerships, but it does **not** present a formal comps set (trading comps or precedent transactions) for valuation benchmarking. (Inferred from absence of such a section in the provided text; **Not found in document** for explicit comparable-valuation discussion.)\n\n**Confidence:** **HIGH** for listed cited companies/transactions (directly stated in cited sections/pages); **HIGH** for \u201cNot found in document\u201d regarding formal comparable transactions (no such comparables appear in the provided excerpt)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67713,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 524,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68237
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Caveat / limitation:** The provided excerpt includes only the beginning of the \u201cRISK FACTORS\u201d section (starting at page 31 per the table of contents) and lists examples of risks in the \u201cSummary\u2014Risk Factors\u201d bullets (pages **19\u201320**, section header \u201c**Risk Factors**\u201d), but it does **not** rank or identify \u201ctop\u201d risk factors (e.g., by probability, severity, or priority). The excerpt also appears incomplete and cuts off mid-risk discussion, so a full \u201ctop risks\u201d determination cannot be made from the provided text. (Sources: Table of Contents showing \u201cRisk Factors\u201d starting on page **31**; \u201c**Risk Factors**\u201d summary bullets on pages **19\u201320**; beginning of \u201c**RISK FACTORS**\u201d narrative on pages **31\u201343**.)\n\n**Confidence:** LOW (the document does not explicitly disclose \u201ctop\u201d risk factors; only general and partial lists are provided).",
+  "model": "gpt-5.2",
+  "input_tokens": 67713,
+  "output_tokens": 205,
+  "latency_ms": 6960,
+  "timestamp": "2026-01-16T20:39:30.490650",
+  "cost_usd": 0.12136774999999998,
+  "raw_response": {
+    "id": "resp_0a244ea0cc0942f000696aa1fbe3b881929aaca4f6cf5fd02f",
+    "object": "response",
+    "created_at": 1768595964,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595970,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0a244ea0cc0942f000696aa1fca7808192b50eed453c6fd406",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Caveat / limitation:** The provided excerpt includes only the beginning of the \u201cRISK FACTORS\u201d section (starting at page 31 per the table of contents) and lists examples of risks in the \u201cSummary\u2014Risk Factors\u201d bullets (pages **19\u201320**, section header \u201c**Risk Factors**\u201d), but it does **not** rank or identify \u201ctop\u201d risk factors (e.g., by probability, severity, or priority). The excerpt also appears incomplete and cuts off mid-risk discussion, so a full \u201ctop risks\u201d determination cannot be made from the provided text. (Sources: Table of Contents showing \u201cRisk Factors\u201d starting on page **31**; \u201c**Risk Factors**\u201d summary bullets on pages **19\u201320**; beginning of \u201c**RISK FACTORS**\u201d narrative on pages **31\u201343**.)\n\n**Confidence:** LOW (the document does not explicitly disclose \u201ctop\u201d risk factors; only general and partial lists are provided)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67713,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 205,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67918
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

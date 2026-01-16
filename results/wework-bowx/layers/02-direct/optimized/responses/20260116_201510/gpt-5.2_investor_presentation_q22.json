@@ -1,0 +1,80 @@
+{
+  "content": "## SoftBank\u2019s role and ongoing obligations\n\n**Not found in document.**\n\nThe provided pages are largely redacted/blank (many slides show only bullets without text) and contain no section header or readable content describing **SoftBank\u2019s role**, **its commitments**, or **any ongoing obligations** (e.g., lock-up, PIPE, backstop, voting agreements, governance rights, financing support).\n\n### Caveats / limitations\n- The document excerpt appears incomplete and heavily redacted (multiple pages contain only \u201c\u2022\u201d placeholders), which may omit the relevant SPAC/transaction terms where SoftBank\u2019s role and obligations would typically be described.\n\n**Confidence: HIGH** (the information is not present in the provided document).",
+  "model": "gpt-5.2",
+  "input_tokens": 1059,
+  "output_tokens": 148,
+  "latency_ms": 4707,
+  "timestamp": "2026-01-16T20:32:05.459180",
+  "cost_usd": 0.00392525,
+  "raw_response": {
+    "id": "resp_0ac0afd969e0437d00696aa040f5bc8190af4745989e0878b6",
+    "object": "response",
+    "created_at": 1768595520,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595525,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ac0afd969e0437d00696aa04138688190bfcaa17492b9fdf0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## SoftBank\u2019s role and ongoing obligations\n\n**Not found in document.**\n\nThe provided pages are largely redacted/blank (many slides show only bullets without text) and contain no section header or readable content describing **SoftBank\u2019s role**, **its commitments**, or **any ongoing obligations** (e.g., lock-up, PIPE, backstop, voting agreements, governance rights, financing support).\n\n### Caveats / limitations\n- The document excerpt appears incomplete and heavily redacted (multiple pages contain only \u201c\u2022\u201d placeholders), which may omit the relevant SPAC/transaction terms where SoftBank\u2019s role and obligations would typically be described.\n\n**Confidence: HIGH** (the information is not present in the provided document)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1059,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 148,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1207
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "Based on the provided document, I can find the following information about lease obligations:\n\n**Total Future Undiscounted Minimum Lease Payment Obligations:**\nAs of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was **$36.6 billion** (page 34, Risk Factors section).\n\n**Committed Sales Contracts:**\nAs of June 30, 2021, committed sales contracts to be recognized as revenue in the future totaled approximately **$3 billion** (page 34).\n\n**Security Coverage:**\nAs of June 30, 2021, the total security packages (including corporate guarantees, outstanding letters of credit, cash security deposits, and surety bonds) provided by the Company and its subsidiaries in respect of those lease obligations was approximately **$6.5 billion**, representing less than 20% of future undiscounted minimum lease cost payment obligations (page 34).\n\n**Average Lease Term:**\nThe average length of the initial term of leases is approximately **15 years**, while the average term of membership agreements is **15 months** (page 34).\n\n**Confidence Level: HIGH** - These figures are directly stated in the document.\n\n**Caveats/Limitations:**\n- These are undiscounted amounts, meaning the present value would be lower\n- The $36.6 billion figure includes both operating and finance leases\n- Security packages represent less than 20% of the total obligations, indicating significant unsecured exposure\n- Individual property lease security obligations typically decrease over the life of the lease",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73046,
+  "output_tokens": 356,
+  "latency_ms": 10646,
+  "timestamp": "2026-01-16T20:51:11.118061",
+  "cost_usd": 0.37413,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01Ube3zhQNDZ8PeQGXk9j1pK",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the provided document, I can find the following information about lease obligations:\n\n**Total Future Undiscounted Minimum Lease Payment Obligations:**\nAs of June 30, 2021, the Company's subsidiaries' future undiscounted minimum lease cost payment obligations under signed operating and finance leases was **$36.6 billion** (page 34, Risk Factors section).\n\n**Committed Sales Contracts:**\nAs of June 30, 2021, committed sales contracts to be recognized as revenue in the future totaled approximately **$3 billion** (page 34).\n\n**Security Coverage:**\nAs of June 30, 2021, the total security packages (including corporate guarantees, outstanding letters of credit, cash security deposits, and surety bonds) provided by the Company and its subsidiaries in respect of those lease obligations was approximately **$6.5 billion**, representing less than 20% of future undiscounted minimum lease cost payment obligations (page 34).\n\n**Average Lease Term:**\nThe average length of the initial term of leases is approximately **15 years**, while the average term of membership agreements is **15 months** (page 34).\n\n**Confidence Level: HIGH** - These figures are directly stated in the document.\n\n**Caveats/Limitations:**\n- These are undiscounted amounts, meaning the present value would be lower\n- The $36.6 billion figure includes both operating and finance leases\n- Security packages represent less than 20% of the total obligations, indicating significant unsecured exposure\n- Individual property lease security obligations typically decrease over the life of the lease"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73046,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 356,
+      "service_tier": "standard"
+    }
+  }
+}

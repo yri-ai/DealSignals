@@ -1,0 +1,80 @@
+{
+  "content": "The provided document excerpt does **not** disclose any information about **management incentives or compensation** related to the deal. It contains high-level content (e.g., company values and a description of the \u201cAll Access\u201d product), but no sections detailing executive/management compensation, transaction bonuses, equity grants/rollovers, retention packages, or change-in-control arrangements.",
+  "model": "gpt-5.2",
+  "input_tokens": 956,
+  "output_tokens": 76,
+  "latency_ms": 3777,
+  "timestamp": "2026-01-16T19:54:33.467110",
+  "cost_usd": 0.002737,
+  "raw_response": {
+    "id": "resp_04ae6154a768a9ab00696a9775e4588194be06415d31f61cb0",
+    "object": "response",
+    "created_at": 1768593269,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593273,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_04ae6154a768a9ab00696a97761bd8819490e2710969cf8839",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The provided document excerpt does **not** disclose any information about **management incentives or compensation** related to the deal. It contains high-level content (e.g., company values and a description of the \u201cAll Access\u201d product), but no sections detailing executive/management compensation, transaction bonuses, equity grants/rollovers, retention packages, or change-in-control arrangements."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 956,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 76,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1032
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

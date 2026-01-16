@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document. The provided excerpts do not cite any specific comparable transactions or comparable companies (no named peers, M&A/SPAC comps, or market comps appear in the text shown). **Confidence: HIGH.** Caveat: The document content appears heavily redacted/partial (many bullets with no text), so comps could exist in missing pages/sections.",
+  "model": "gpt-5.2",
+  "input_tokens": 1057,
+  "output_tokens": 77,
+  "latency_ms": 2863,
+  "timestamp": "2026-01-16T20:31:53.785736",
+  "cost_usd": 0.00292775,
+  "raw_response": {
+    "id": "resp_004ef8aea4915ede00696aa0371b6481909019d51f2d245e08",
+    "object": "response",
+    "created_at": 1768595511,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595513,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_004ef8aea4915ede00696aa0376c8081908a632bccc20dfa0f",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document. The provided excerpts do not cite any specific comparable transactions or comparable companies (no named peers, M&A/SPAC comps, or market comps appear in the text shown). **Confidence: HIGH.** Caveat: The document content appears heavily redacted/partial (many bullets with no text), so comps could exist in missing pages/sections."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1057,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 77,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1134
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

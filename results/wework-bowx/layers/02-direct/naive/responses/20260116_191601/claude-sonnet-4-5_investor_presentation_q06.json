@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document provided, I cannot identify a specific path to profitability or definitive timeline stated. \n\nThe document appears to be a WeWork presentation from 2021 that includes:\n- Company values and mission statements\n- Information about their \"All Access\" on-demand product offering\n- A timeline chart spanning from 2010 to 2030 (though specific details are not visible)\n- Various bullet points and sections (though the actual content is mostly obscured)\n\nWhile there is a timeline graphic showing years from 2010 through 2030, the specific profitability milestones, financial projections, or path to profitability details are not legible or clearly stated in the portions of the document that are visible.\n\nTo provide an accurate answer about WeWork's path to profitability and timeline, I would need access to the actual content within those slides, particularly any financial projections, EBITDA targets, or specific strategic initiatives with associated dates.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1241,
+  "output_tokens": 212,
+  "latency_ms": 6709,
+  "timestamp": "2026-01-16T19:16:40.314235",
+  "cost_usd": 0.006902999999999999,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01FtVAZM4m53bPF7PDKMeutc",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document provided, I cannot identify a specific path to profitability or definitive timeline stated. \n\nThe document appears to be a WeWork presentation from 2021 that includes:\n- Company values and mission statements\n- Information about their \"All Access\" on-demand product offering\n- A timeline chart spanning from 2010 to 2030 (though specific details are not visible)\n- Various bullet points and sections (though the actual content is mostly obscured)\n\nWhile there is a timeline graphic showing years from 2010 through 2030, the specific profitability milestones, financial projections, or path to profitability details are not legible or clearly stated in the portions of the document that are visible.\n\nTo provide an accurate answer about WeWork's path to profitability and timeline, I would need access to the actual content within those slides, particularly any financial projections, EBITDA targets, or specific strategic initiatives with associated dates."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1241,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 212,
+      "service_tier": "standard"
+    }
+  }
+}

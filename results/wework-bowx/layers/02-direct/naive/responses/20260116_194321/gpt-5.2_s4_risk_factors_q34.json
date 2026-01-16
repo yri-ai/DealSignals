@@ -1,0 +1,80 @@
+{
+  "content": "The document describes several **registration rights** arrangements tied to the Business Combination:\n\n- **Amended & Restated Registration Rights Agreement (at Closing):**  \n  BowX/New WeWork will agree to **register for resale (Rule 415)** certain shares of BowX/New WeWork equity held by the parties (including **the Sponsor, Anchor PIPE Investors, and certain WeWork stockholders**).  \n  It provides:\n  - **Demand registration rights** (including the ability to demand **up to 9 underwritten offerings in any 12\u2011month period**, subject to limitations).\n  - **Block trade rights** (ability to collectively demand **no less than 6 underwritten block trade offerings in any 12\u2011month period**, subject to limitations).\n  - **Piggyback registration rights**, subject to limitations.\n\n- **PIPE investor registration rights (in the Subscription Agreements):**  \n  For PIPE Investors **other than the Anchor PIPE Investors** (whose rights are governed by the Registration Rights Agreement):\n  - BowX must file a resale registration statement **as soon as practicable, but no later than 30 calendar days after Closing**.\n  - BowX must use commercially reasonable efforts to have it declared effective **by the earlier of**:\n    - **60 days** after filing (**or 90 days** if the SEC reviews), or\n    - **10 business days** after the SEC says it won\u2019t review/further review.\n  - BowX must keep it effective until the earliest of:\n    - the investor holds **no registrable shares**,\n    - shares can be sold **without restriction under Rule 144** (and without needing current public information under Rule 144(c)(1) or Rule 144(i)(2), as applicable), or\n    - **3 years** from the registration statement\u2019s effectiveness date.",
+  "model": "gpt-5.2",
+  "input_tokens": 67605,
+  "output_tokens": 378,
+  "latency_ms": 9493,
+  "timestamp": "2026-01-16T19:59:23.333178",
+  "cost_usd": 0.12360075,
+  "raw_response": {
+    "id": "resp_08ef3e582c90651c00696a98924fac8190b2da535e73ded560",
+    "object": "response",
+    "created_at": 1768593554,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593563,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_08ef3e582c90651c00696a9892f20c8190998efacd1dc04857",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document describes several **registration rights** arrangements tied to the Business Combination:\n\n- **Amended & Restated Registration Rights Agreement (at Closing):**  \n  BowX/New WeWork will agree to **register for resale (Rule 415)** certain shares of BowX/New WeWork equity held by the parties (including **the Sponsor, Anchor PIPE Investors, and certain WeWork stockholders**).  \n  It provides:\n  - **Demand registration rights** (including the ability to demand **up to 9 underwritten offerings in any 12\u2011month period**, subject to limitations).\n  - **Block trade rights** (ability to collectively demand **no less than 6 underwritten block trade offerings in any 12\u2011month period**, subject to limitations).\n  - **Piggyback registration rights**, subject to limitations.\n\n- **PIPE investor registration rights (in the Subscription Agreements):**  \n  For PIPE Investors **other than the Anchor PIPE Investors** (whose rights are governed by the Registration Rights Agreement):\n  - BowX must file a resale registration statement **as soon as practicable, but no later than 30 calendar days after Closing**.\n  - BowX must use commercially reasonable efforts to have it declared effective **by the earlier of**:\n    - **60 days** after filing (**or 90 days** if the SEC reviews), or\n    - **10 business days** after the SEC says it won\u2019t review/further review.\n  - BowX must keep it effective until the earliest of:\n    - the investor holds **no registrable shares**,\n    - shares can be sold **without restriction under Rule 144** (and without needing current public information under Rule 144(c)(1) or Rule 144(i)(2), as applicable), or\n    - **3 years** from the registration statement\u2019s effectiveness date."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67605,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 378,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67983
+    },
+    "user": null,
+    "metadata": {}
+  }
+}
