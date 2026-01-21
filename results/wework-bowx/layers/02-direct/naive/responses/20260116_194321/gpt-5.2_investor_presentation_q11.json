@@ -1,0 +1,80 @@
+{
+  "content": "**Member churn rate** is the percentage of members who **leave/cancel during a given period**.\n\nA common way to calculate it is:\n\n\\[\n\\text{Member Churn Rate}=\\frac{\\text{Members lost during the period}}{\\text{Members at the beginning of the period}}\n\\]\n\n(often expressed as a %).",
+  "model": "gpt-5.2",
+  "input_tokens": 950,
+  "output_tokens": 74,
+  "latency_ms": 2863,
+  "timestamp": "2026-01-16T19:53:55.578847",
+  "cost_usd": 0.0026985,
+  "raw_response": {
+    "id": "resp_019441a04634368300696a97510ac481a0ab56aae0c611242f",
+    "object": "response",
+    "created_at": 1768593233,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593235,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_019441a04634368300696a9752cf8881a0a682b359fb51baea",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Member churn rate** is the percentage of members who **leave/cancel during a given period**.\n\nA common way to calculate it is:\n\n\\[\n\\text{Member Churn Rate}=\\frac{\\text{Members lost during the period}}{\\text{Members at the beginning of the period}}\n\\]\n\n(often expressed as a %)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 950,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 74,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1024
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

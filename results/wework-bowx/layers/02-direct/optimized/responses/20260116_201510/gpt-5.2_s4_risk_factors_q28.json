@@ -1,0 +1,80 @@
+{
+  "content": "## Are there going concern disclosures?\n\n**Not found in document.** The provided excerpt includes sections such as \u201cSelected Historical Financial Information of BowX\u201d (p. 21), \u201cSelected Historical Financial Information of WeWork\u201d (pp. 23\u201325), \u201cSelected Unaudited Pro Forma Condensed Combined Financial Information\u201d (pp. 26\u201327), \u201cMarket Price and Dividend Information\u201d (p. 30), and the beginning of \u201cRisk Factors\u201d (p. 31), but it **does not include any explicit \u201cgoing concern\u201d disclosure language** (e.g., \u201csubstantial doubt about the Company\u2019s ability to continue as a going concern\u201d) in the text shown.  \n\n### Caveats / limitations\n- The excerpt appears to be only part of the full S-4/A; a going concern paragraph could exist in the **full financial statements and notes (Index to Financial Statements starts at F-1)**, which are referenced but not included in the provided content (Table of Contents shows \u201cINDEX TO FINANCIAL STATEMENTS F-1\u201d and \u201cWEWORK FINANCIAL STATEMENTS F-1\u201d / \u201cBOWX FINANCIAL STATEMENTS F-1\u201d).  \n\n**Confidence: HIGH** (for the provided excerpt only; the term and disclosure are not present in the supplied text).",
+  "model": "gpt-5.2",
+  "input_tokens": 67711,
+  "output_tokens": 273,
+  "latency_ms": 8914,
+  "timestamp": "2026-01-16T20:39:51.586606",
+  "cost_usd": 0.12231625,
+  "raw_response": {
+    "id": "resp_0c12ede3ca1a241e00696aa20f1e6c8196b5487e3ee9331d4c",
+    "object": "response",
+    "created_at": 1768595983,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595991,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0c12ede3ca1a241e00696aa210b3b881969a2e74cb4f807fb0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Are there going concern disclosures?\n\n**Not found in document.** The provided excerpt includes sections such as \u201cSelected Historical Financial Information of BowX\u201d (p. 21), \u201cSelected Historical Financial Information of WeWork\u201d (pp. 23\u201325), \u201cSelected Unaudited Pro Forma Condensed Combined Financial Information\u201d (pp. 26\u201327), \u201cMarket Price and Dividend Information\u201d (p. 30), and the beginning of \u201cRisk Factors\u201d (p. 31), but it **does not include any explicit \u201cgoing concern\u201d disclosure language** (e.g., \u201csubstantial doubt about the Company\u2019s ability to continue as a going concern\u201d) in the text shown.  \n\n### Caveats / limitations\n- The excerpt appears to be only part of the full S-4/A; a going concern paragraph could exist in the **full financial statements and notes (Index to Financial Statements starts at F-1)**, which are referenced but not included in the provided content (Table of Contents shows \u201cINDEX TO FINANCIAL STATEMENTS F-1\u201d and \u201cWEWORK FINANCIAL STATEMENTS F-1\u201d / \u201cBOWX FINANCIAL STATEMENTS F-1\u201d).  \n\n**Confidence: HIGH** (for the provided excerpt only; the term and disclosure are not present in the supplied text)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67711,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 273,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67984
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "**Not found in document.** The provided excerpt does not contain any explicit statement that BowX, WeWork, or New WeWork has identified **\u201cmaterial weaknesses\u201d** in internal control over financial reporting (ICFR), nor any section describing an ICFR assessment or specific control deficiencies.\n\n**Related disclosure (risk discussion, but not a material weakness finding):**\n- The Risk Factors include that \u201c**WeWork\u2019s internal controls, financial systems and procedures need further development for a public company and a company of its global scale**\u201d (section **\u201cRISK FACTORS\u201d**, bullet list in the \u201cSummary of the Proxy Statement/Prospectus,\u201d **page 19**). This is a general risk statement and does not state a material weakness exists.\n\n**Confidence:** HIGH (because \u201cmaterial weakness\u201d identification is not stated anywhere in the provided text; only a general risk statement about needing further development is included).\n\n**Caveats / limitations:**\n- The excerpt appears to be only a portion of the full S-4/A; the full filing may include management\u2019s report on ICFR, auditor reports, or additional risk factor detail that is not present in the provided document text (Table of Contents references to sections that are not included here, e.g., \u201cRisk Factors\u201d starting at page 31).",
+  "model": "gpt-5.2",
+  "input_tokens": 67714,
+  "output_tokens": 269,
+  "latency_ms": 10033,
+  "timestamp": "2026-01-16T20:40:09.001093",
+  "cost_usd": 0.1222655,
+  "raw_response": {
+    "id": "resp_037de76b3c145d3a00696aa21fb5f08197bd529a00092118f8",
+    "object": "response",
+    "created_at": 1768595999,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768596008,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_037de76b3c145d3a00696aa22174588197be69a6552255e583",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Not found in document.** The provided excerpt does not contain any explicit statement that BowX, WeWork, or New WeWork has identified **\u201cmaterial weaknesses\u201d** in internal control over financial reporting (ICFR), nor any section describing an ICFR assessment or specific control deficiencies.\n\n**Related disclosure (risk discussion, but not a material weakness finding):**\n- The Risk Factors include that \u201c**WeWork\u2019s internal controls, financial systems and procedures need further development for a public company and a company of its global scale**\u201d (section **\u201cRISK FACTORS\u201d**, bullet list in the \u201cSummary of the Proxy Statement/Prospectus,\u201d **page 19**). This is a general risk statement and does not state a material weakness exists.\n\n**Confidence:** HIGH (because \u201cmaterial weakness\u201d identification is not stated anywhere in the provided text; only a general risk statement about needing further development is included).\n\n**Caveats / limitations:**\n- The excerpt appears to be only a portion of the full S-4/A; the full filing may include management\u2019s report on ICFR, auditor reports, or additional risk factor detail that is not present in the provided document text (Table of Contents references to sections that are not included here, e.g., \u201cRisk Factors\u201d starting at page 31)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67714,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 269,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67983
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

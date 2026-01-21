@@ -1,0 +1,80 @@
+{
+  "content": "## SoftBank\u2019s role\n\n- **Major WeWork stockholder / SoftBank Parties**: The document identifies SoftBank-affiliated entities as key WeWork stakeholders, including **SB WW Holdings (Cayman) Limited (\u201cSBWW\u201d)** (an indirect wholly-owned subsidiary of SoftBank Group Corp. (\u201cSBG\u201d)) and **SVF Endurance (Cayman) Limited (\u201cSVFE\u201d)** (a SoftBank Vision Fund subsidiary). (Section **\u201cSelected Definitions\u201d**: definitions of \u201cSBG,\u201d \u201cSBWW,\u201d \u201cSVFE,\u201d \u201cSoftBank Party,\u201d \u201cSoftBank Vision Fund,\u201d pp. **xiii\u2013xiv**)\n\n- **Governance / voting limitation post-close**: One of the Organizational Documents Proposals would **restrict \u201cSoftBank Holders\u201d (defined as SBG and SVF)** from exercising voting rights over more than **49.9%** of voting securities present and voting at any stockholder meeting, **for at least two years**. (Notice of Special Meeting / **Organizational Documents Proposal B**, pp. **i\u2013ii**; **Selected Definitions**: \u201cSoftBank Holder,\u201d p. **xiii**)\n\n- **Inducement to support preferred conversion**: SoftBank affiliate **SBWW** is to receive a new warrant (\u201cFirst Warrant\u201d) described as **\u201can inducement to obtain SBWW\u2019s, and its affiliates\u2019, support in effectuating the automatic conversion of WeWork Preferred Stock on a one-to-one basis to WeWork Common Stock.\u201d** (Summary\u2014**\u201cRelated Agreements\u2014Warrants\u201d**, p. **7**; **Selected Definitions**: \u201cFirst Warrant,\u201d p. **xi**)\n\n- **PIPE investors may include SoftBank-affiliated investors**: The PIPE includes \u201cAnchor PIPE Investors,\u201d defined as certain WeWork investors (not explicitly SoftBank-only), participating in the $800 million PIPE. (Summary\u2014**\u201cPIPE Subscription Agreements\u201d**, p. **5**; **Selected Definitions**: \u201cAnchor PIPE Investors,\u201d p. **x**)\n\n## SoftBank\u2019s ongoing obligations (as described)\n\n- **Commitment to support a letter of credit facility extension (SoftBank Obligor)**: The **Credit Support Letter Agreement** provides that the **SoftBank Obligor (SoftBank Group Corp.) commits to consent to extend the termination date of WeWork\u2019s 2020 letter of credit facility from Feb. 10, 2023 to no later than Feb. 10, 2024** (the \u201cLC Facility Termination Extension\u201d), **subject to terms and conditions** and requiring lender consent. (Summary\u2014**\u201cRelated Agreements\u2014Credit Support Letter\u201d**, p. **6**)\n\n- **Consideration tied to the LC extension (LC Warrant)**: **Contingent upon the LC Facility Termination Extension**, BowX will issue the **LC Warrant** to the **SoftBank Obligor or its designees** to purchase shares, and the LC Warrant is stated to be **consideration** for SoftBank Obligor agreeing to continue as **co-obligor** under the LC Facility for the extension period of one year. (Summary\u2014**\u201cRelated Agreements\u2014Warrants\u201d**, p. **7**; **Selected Definitions**: \u201cLC Warrant,\u201d p. **xi**)\n\n- **SoftBank affiliate note purchase commitment / amendment (StarBright WW LP / SBG affiliate)**: An SBG affiliate (**StarBright WW LP**, \u201cNote Purchaser\u201d) executed a **Commitment Letter** to amend terms of a senior secured note purchase arrangement to provide for **up to $550 million of 7.50% senior secured notes** (the \u201cAmended Senior Secured Notes\u201d), with an A&R Note Purchase Agreement to be entered into by the earlier of **Closing** or **August 12, 2021**; maturity is the earlier of **18 months from Closing** or **Feb. 12, 2023**. (Summary\u2014**\u201cRelated Agreements\u2014Commitment Letter for Secured Notes\u201d**, p. **6**; **Selected Definitions**: \u201cCommitment Letter,\u201d p. **x**)\n\n- **Ongoing influence via post-closing Stockholders Agreement (designation rights)**: At Closing, BowX, the Sponsor, **SBWW, SVFE** and others are expected to enter into a **Stockholders Agreement** under which, **so long as they hold specified amounts of BowX common stock**, they will have rights to **designate director nominees** as specified in that agreement. (Summary\u2014**\u201cRelated Agreements\u2014Stockholders Agreement\u201d**, p. **6**; **Selected Definitions**: \u201cStockholders Agreement,\u201d p. **xiv**)\n\n## Caveats / limitations\n- The excerpt describes SoftBank\u2019s role and obligations **at a summary/definition level** and references annexes (e.g., Stockholders Agreement form, Commitment Letter) but **does not include the full contractual terms** in the provided text; therefore, details such as exact holding thresholds, specific covenants, remedies, or duration mechanics beyond what is stated are **not fully available here**. (Summary\u2014**\u201cRelated Agreements\u201d**, p. **4\u20137**; Table of Contents references Annexes **F** and **G**, p. **vii**)\n\n## Confidence\n- **HIGH** for the LC Facility Termination Extension obligation and the stated purpose/consideration of the First Warrant and LC Warrant (explicitly described). (Summary\u2014p. **6\u20137**; Definitions p. **xi**)  \n- **MEDIUM** for \u201congoing influence\u201d characterization via Stockholders Agreement and voting cap proposal, since the document states the rights/limits but not the full operational details. (Summary\u2014p. **6**; Notice **i\u2013ii**)",
+  "model": "gpt-5.2",
+  "input_tokens": 67715,
+  "output_tokens": 1201,
+  "latency_ms": 30927,
+  "timestamp": "2026-01-16T20:38:06.529360",
+  "cost_usd": 0.13531525,
+  "raw_response": {
+    "id": "resp_040770d99dee15a300696aa18fef64819c908c597dc787024d",
+    "object": "response",
+    "created_at": 1768595856,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595886,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_040770d99dee15a300696aa1908520819cb11a4163dc2b64bb",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## SoftBank\u2019s role\n\n- **Major WeWork stockholder / SoftBank Parties**: The document identifies SoftBank-affiliated entities as key WeWork stakeholders, including **SB WW Holdings (Cayman) Limited (\u201cSBWW\u201d)** (an indirect wholly-owned subsidiary of SoftBank Group Corp. (\u201cSBG\u201d)) and **SVF Endurance (Cayman) Limited (\u201cSVFE\u201d)** (a SoftBank Vision Fund subsidiary). (Section **\u201cSelected Definitions\u201d**: definitions of \u201cSBG,\u201d \u201cSBWW,\u201d \u201cSVFE,\u201d \u201cSoftBank Party,\u201d \u201cSoftBank Vision Fund,\u201d pp. **xiii\u2013xiv**)\n\n- **Governance / voting limitation post-close**: One of the Organizational Documents Proposals would **restrict \u201cSoftBank Holders\u201d (defined as SBG and SVF)** from exercising voting rights over more than **49.9%** of voting securities present and voting at any stockholder meeting, **for at least two years**. (Notice of Special Meeting / **Organizational Documents Proposal B**, pp. **i\u2013ii**; **Selected Definitions**: \u201cSoftBank Holder,\u201d p. **xiii**)\n\n- **Inducement to support preferred conversion**: SoftBank affiliate **SBWW** is to receive a new warrant (\u201cFirst Warrant\u201d) described as **\u201can inducement to obtain SBWW\u2019s, and its affiliates\u2019, support in effectuating the automatic conversion of WeWork Preferred Stock on a one-to-one basis to WeWork Common Stock.\u201d** (Summary\u2014**\u201cRelated Agreements\u2014Warrants\u201d**, p. **7**; **Selected Definitions**: \u201cFirst Warrant,\u201d p. **xi**)\n\n- **PIPE investors may include SoftBank-affiliated investors**: The PIPE includes \u201cAnchor PIPE Investors,\u201d defined as certain WeWork investors (not explicitly SoftBank-only), participating in the $800 million PIPE. (Summary\u2014**\u201cPIPE Subscription Agreements\u201d**, p. **5**; **Selected Definitions**: \u201cAnchor PIPE Investors,\u201d p. **x**)\n\n## SoftBank\u2019s ongoing obligations (as described)\n\n- **Commitment to support a letter of credit facility extension (SoftBank Obligor)**: The **Credit Support Letter Agreement** provides that the **SoftBank Obligor (SoftBank Group Corp.) commits to consent to extend the termination date of WeWork\u2019s 2020 letter of credit facility from Feb. 10, 2023 to no later than Feb. 10, 2024** (the \u201cLC Facility Termination Extension\u201d), **subject to terms and conditions** and requiring lender consent. (Summary\u2014**\u201cRelated Agreements\u2014Credit Support Letter\u201d**, p. **6**)\n\n- **Consideration tied to the LC extension (LC Warrant)**: **Contingent upon the LC Facility Termination Extension**, BowX will issue the **LC Warrant** to the **SoftBank Obligor or its designees** to purchase shares, and the LC Warrant is stated to be **consideration** for SoftBank Obligor agreeing to continue as **co-obligor** under the LC Facility for the extension period of one year. (Summary\u2014**\u201cRelated Agreements\u2014Warrants\u201d**, p. **7**; **Selected Definitions**: \u201cLC Warrant,\u201d p. **xi**)\n\n- **SoftBank affiliate note purchase commitment / amendment (StarBright WW LP / SBG affiliate)**: An SBG affiliate (**StarBright WW LP**, \u201cNote Purchaser\u201d) executed a **Commitment Letter** to amend terms of a senior secured note purchase arrangement to provide for **up to $550 million of 7.50% senior secured notes** (the \u201cAmended Senior Secured Notes\u201d), with an A&R Note Purchase Agreement to be entered into by the earlier of **Closing** or **August 12, 2021**; maturity is the earlier of **18 months from Closing** or **Feb. 12, 2023**. (Summary\u2014**\u201cRelated Agreements\u2014Commitment Letter for Secured Notes\u201d**, p. **6**; **Selected Definitions**: \u201cCommitment Letter,\u201d p. **x**)\n\n- **Ongoing influence via post-closing Stockholders Agreement (designation rights)**: At Closing, BowX, the Sponsor, **SBWW, SVFE** and others are expected to enter into a **Stockholders Agreement** under which, **so long as they hold specified amounts of BowX common stock**, they will have rights to **designate director nominees** as specified in that agreement. (Summary\u2014**\u201cRelated Agreements\u2014Stockholders Agreement\u201d**, p. **6**; **Selected Definitions**: \u201cStockholders Agreement,\u201d p. **xiv**)\n\n## Caveats / limitations\n- The excerpt describes SoftBank\u2019s role and obligations **at a summary/definition level** and references annexes (e.g., Stockholders Agreement form, Commitment Letter) but **does not include the full contractual terms** in the provided text; therefore, details such as exact holding thresholds, specific covenants, remedies, or duration mechanics beyond what is stated are **not fully available here**. (Summary\u2014**\u201cRelated Agreements\u201d**, p. **4\u20137**; Table of Contents references Annexes **F** and **G**, p. **vii**)\n\n## Confidence\n- **HIGH** for the LC Facility Termination Extension obligation and the stated purpose/consideration of the First Warrant and LC Warrant (explicitly described). (Summary\u2014p. **6\u20137**; Definitions p. **xi**)  \n- **MEDIUM** for \u201congoing influence\u201d characterization via Stockholders Agreement and voting cap proposal, since the document states the rights/limits but not the full operational details. (Summary\u2014p. **6**; Notice **i\u2013ii**)"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67715,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 1201,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68916
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

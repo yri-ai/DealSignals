@@ -1,0 +1,34 @@
+{
+  "content": "Not found in document.\n\nThe document does not contain specific information about what happens to the business at 50% occupancy levels. While the document discusses Physical Occupancy as a metric (defined as \"the number of physical memberships divided by total workstations\" in the Selected Definitions section, page x), it does not provide analysis or discussion of business performance, operations, or financial implications at any specific occupancy percentage, including 50%.\n\nThe document does discuss occupancy-related risks in general terms, such as noting that \"the Company's leases generally provide for fixed monthly or quarterly payments that are not tied to space utilization or the size of its member base\" (page 33), which means costs remain fixed regardless of occupancy levels, but this is not specific to any particular occupancy threshold.\n\n**Confidence: HIGH** - The document was thoroughly searched and contains no information about 50% occupancy specifically.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 196,
+  "latency_ms": 9944,
+  "timestamp": "2026-01-16T20:24:34.738848",
+  "cost_usd": 0.22209600000000002,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01Gt9iPzU2gmAm6hQsy29FhX",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Not found in document.\n\nThe document does not contain specific information about what happens to the business at 50% occupancy levels. While the document discusses Physical Occupancy as a metric (defined as \"the number of physical memberships divided by total workstations\" in the Selected Definitions section, page x), it does not provide analysis or discussion of business performance, operations, or financial implications at any specific occupancy percentage, including 50%.\n\nThe document does discuss occupancy-related risks in general terms, such as noting that \"the Company's leases generally provide for fixed monthly or quarterly payments that are not tied to space utilization or the size of its member base\" (page 33), which means costs remain fixed regardless of occupancy levels, but this is not specific to any particular occupancy threshold.\n\n**Confidence: HIGH** - The document was thoroughly searched and contains no information about 50% occupancy specifically."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 196,
+      "service_tier": "standard"
+    }
+  }
+}

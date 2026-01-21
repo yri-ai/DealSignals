@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, I cannot provide a precise cash runway calculation at current burn rate.\n\n**Not found in document**: The document does not contain a specific analysis or calculation of cash runway at the current burn rate.\n\nHowever, I can provide relevant financial information that would inform this analysis:\n\n**Relevant Financial Data:**\n\n1. **Cash Position (as of June 30, 2021):**\n   - Total cash: $506.3 million (page 22)\n   - Cash and cash equivalents for consolidated VIEs: $102.6 million (page 24)\n\n2. **Operating Cash Flow:**\n   - Six months ended June 30, 2021: Negative $1,158.9 million used in operating activities (page 24)\n   - Year ended December 31, 2020: Negative $857.0 million used in operating activities (page 24)\n\n3. **Free Cash Flow:**\n   - Six months ended June 30, 2021: Negative $1,312.1 million (page 25)\n   - Year ended December 31, 2020: Negative $2,298.2 million (page 25)\n\n**Minimum Cash Condition:**\nThe Merger Agreement requires that \"the Trust Amount plus the PIPE Investment is at least equal to $800.0 million\" (page 27), suggesting this is the minimum cash threshold required for operations.\n\n**Confidence: MEDIUM** - The document provides the underlying financial metrics but does not explicitly calculate or state the cash runway.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73050,
+  "output_tokens": 344,
+  "latency_ms": 11635,
+  "timestamp": "2026-01-16T20:22:39.344387",
+  "cost_usd": 0.22431,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01FfhaHSAinY9QrzMn8HPK6A",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, I cannot provide a precise cash runway calculation at current burn rate.\n\n**Not found in document**: The document does not contain a specific analysis or calculation of cash runway at the current burn rate.\n\nHowever, I can provide relevant financial information that would inform this analysis:\n\n**Relevant Financial Data:**\n\n1. **Cash Position (as of June 30, 2021):**\n   - Total cash: $506.3 million (page 22)\n   - Cash and cash equivalents for consolidated VIEs: $102.6 million (page 24)\n\n2. **Operating Cash Flow:**\n   - Six months ended June 30, 2021: Negative $1,158.9 million used in operating activities (page 24)\n   - Year ended December 31, 2020: Negative $857.0 million used in operating activities (page 24)\n\n3. **Free Cash Flow:**\n   - Six months ended June 30, 2021: Negative $1,312.1 million (page 25)\n   - Year ended December 31, 2020: Negative $2,298.2 million (page 25)\n\n**Minimum Cash Condition:**\nThe Merger Agreement requires that \"the Trust Amount plus the PIPE Investment is at least equal to $800.0 million\" (page 27), suggesting this is the minimum cash threshold required for operations.\n\n**Confidence: MEDIUM** - The document provides the underlying financial metrics but does not explicitly calculate or state the cash runway."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73050,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 344,
+      "service_tier": "standard"
+    }
+  }
+}

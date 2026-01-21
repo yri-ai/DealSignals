@@ -1,0 +1,34 @@
+{
+  "content": "# Analysis: Total Lease Obligations\n\n## Answer\n\n**Not found in document.**\n\nThe provided document does not contain specific information about total lease obligations. The document appears to be a WeWork investor presentation from 2021, but the actual content consists primarily of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point placeholders (\u2022, \u25cf, \u25cb)\n- Company values/mission statements (page referencing integrity, collaboration, etc.)\n- Product descriptions (All Access offering)\n- A timeline graphic spanning 2010-2030\n\nThe document text that was extracted does not include any financial figures, balance sheet data, or specific lease obligation amounts.\n\n## Confidence Level\n\n**LOW** - The information requested is not present in the document. The extracted text appears to be incomplete or the document may have contained images, charts, or tables with financial data that were not captured in the text extraction.\n\n## Caveats and Limitations\n\n1. **Document Quality**: The extracted text appears to be fragmentary, with many pages showing only copyright notices and bullet points without substantive content\n2. **Missing Data**: Financial metrics and specific figures that would typically appear in a SPAC investor presentation (including lease obligations) are not visible in the provided text\n3. **Potential Image/Table Content**: Lease obligation data may have been presented in visual formats (charts, tables) that were not captured in the text extraction\n\n## Recommendation\n\nTo properly answer this question, I would need:\n- The complete financial slides with actual figures\n- The \"Definitions\" or financial appendix section referenced on some pages\n- Any accompanying SEC filings (S-4, prospectus) that would contain detailed lease obligation disclosures",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1354,
+  "output_tokens": 378,
+  "latency_ms": 11782,
+  "timestamp": "2026-01-16T20:44:08.817035",
+  "cost_usd": 0.01622,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01Wdu9m24ANKXv1h5u3E4PtZ",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Analysis: Total Lease Obligations\n\n## Answer\n\n**Not found in document.**\n\nThe provided document does not contain specific information about total lease obligations. The document appears to be a WeWork investor presentation from 2021, but the actual content consists primarily of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point placeholders (\u2022, \u25cf, \u25cb)\n- Company values/mission statements (page referencing integrity, collaboration, etc.)\n- Product descriptions (All Access offering)\n- A timeline graphic spanning 2010-2030\n\nThe document text that was extracted does not include any financial figures, balance sheet data, or specific lease obligation amounts.\n\n## Confidence Level\n\n**LOW** - The information requested is not present in the document. The extracted text appears to be incomplete or the document may have contained images, charts, or tables with financial data that were not captured in the text extraction.\n\n## Caveats and Limitations\n\n1. **Document Quality**: The extracted text appears to be fragmentary, with many pages showing only copyright notices and bullet points without substantive content\n2. **Missing Data**: Financial metrics and specific figures that would typically appear in a SPAC investor presentation (including lease obligations) are not visible in the provided text\n3. **Potential Image/Table Content**: Lease obligation data may have been presented in visual formats (charts, tables) that were not captured in the text extraction\n\n## Recommendation\n\nTo properly answer this question, I would need:\n- The complete financial slides with actual figures\n- The \"Definitions\" or financial appendix section referenced on some pages\n- Any accompanying SEC filings (S-4, prospectus) that would contain detailed lease obligation disclosures"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1354,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 378,
+      "service_tier": "standard"
+    }
+  }
+}

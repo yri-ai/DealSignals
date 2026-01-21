@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, I cannot provide a specific calculation of cash runway at current burn rate. However, I can share relevant financial information:\n\n**Key Financial Metrics:**\n\n**Cash Position (as of June 30, 2021):**\n- Total cash: $506.3 million\n- Trust account available: ~$483.1 million (before Business Combination)\n\n**Cash Flow Performance:**\n- Six months ended June 30, 2021: Net cash used in operating activities of $(1,158.957) million\n- Year ended December 31, 2020: Net cash used in operating activities of $(857.008) million\n\n**Free Cash Flow (Non-GAAP):**\n- Six months ended June 30, 2021: $(1,312.099) million\n- Year ended December 31, 2020: $(2,298.240) million\n\n**Post-Business Combination:**\nThe document indicates that upon closing of the Business Combination, WeWork would receive:\n- Up to ~$483 million from BowX's trust account (less any redemptions)\n- $800 million from the PIPE investment\n- Total potential available cash of approximately $1.28 billion (assuming no redemptions)\n\nThe Merger Agreement includes a Minimum Available Cash Condition of $800 million at closing.\n\nHowever, the exact cash runway would depend on multiple factors including:\n- The success of ongoing restructuring efforts\n- Changes in operational cash burn\n- Amount of public stockholder redemptions\n- Timing of the Business Combination closing\n\nThe document does not provide a specific cash runway projection.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72931,
+  "output_tokens": 358,
+  "latency_ms": 10852,
+  "timestamp": "2026-01-16T19:46:28.296449",
+  "cost_usd": 0.224163,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_011qMr5pVkk5GRxQv2MrBDr6",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, I cannot provide a specific calculation of cash runway at current burn rate. However, I can share relevant financial information:\n\n**Key Financial Metrics:**\n\n**Cash Position (as of June 30, 2021):**\n- Total cash: $506.3 million\n- Trust account available: ~$483.1 million (before Business Combination)\n\n**Cash Flow Performance:**\n- Six months ended June 30, 2021: Net cash used in operating activities of $(1,158.957) million\n- Year ended December 31, 2020: Net cash used in operating activities of $(857.008) million\n\n**Free Cash Flow (Non-GAAP):**\n- Six months ended June 30, 2021: $(1,312.099) million\n- Year ended December 31, 2020: $(2,298.240) million\n\n**Post-Business Combination:**\nThe document indicates that upon closing of the Business Combination, WeWork would receive:\n- Up to ~$483 million from BowX's trust account (less any redemptions)\n- $800 million from the PIPE investment\n- Total potential available cash of approximately $1.28 billion (assuming no redemptions)\n\nThe Merger Agreement includes a Minimum Available Cash Condition of $800 million at closing.\n\nHowever, the exact cash runway would depend on multiple factors including:\n- The success of ongoing restructuring efforts\n- Changes in operational cash burn\n- Amount of public stockholder redemptions\n- Timing of the Business Combination closing\n\nThe document does not provide a specific cash runway projection."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72931,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 358,
+      "service_tier": "standard"
+    }
+  }
+}

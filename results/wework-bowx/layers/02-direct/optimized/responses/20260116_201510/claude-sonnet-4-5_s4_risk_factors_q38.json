@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, several post-merger integration and business model changes were planned:\n\n**Organizational Structure Changes:**\n- BowX intends to change its name to WeWork Inc. upon closing (page 2)\n- The Proposed Charter would change BowX's name from \"BowX Acquisition Corp.\" to \"WeWork Inc.\" (Organizational Documents Proposal D, page 10)\n\n**Capital Structure Changes:**\n- Authorization to change capital stock from 87,500,000 shares of BowX Class A Common Stock, 12,500,000 shares of BowX Class B Common Stock, and 1,000,000 shares of preferred stock to 1,500,000,000 shares of Class A common stock, 25,041,666 shares of Class C common stock, and 100,000,000 shares of preferred stock (Organizational Documents Proposal A, page 10)\n\n**Governance Changes:**\n- SoftBank Holders would be restricted \"for a period of at least two years, from exercising voting rights over more than 49.9% of the voting securities present (attending virtually or by proxy) and voting at any such meeting of the stockholders\" (Organizational Documents Proposal B, page 10)\n- Board structure changes to \"provide for only one class of board of directors\" (Organizational Documents Proposal C, page 10)\n\n**Management and Board:**\n- \"Immediately following the consummation of the Business Combination, the New WeWork board of directors will be comprised of nine directors: Marcelo Claure, Michel Combes, Bruce Dunlevie, V\u00e9ronique Laury, Sandeep Mathrani, Deven Parekh, Vivek Ranadiv\u00e9, Kirthiga Reddy and Jeff Sine\" (page 15)\n\n**Stock Exchange Listing:**\n- \"BowX intends to apply to continue the listing of New WeWork Class A Common Stock and warrants on the NYSE under the symbols 'WE' and 'WE WS,' respectively, upon the Closing\" (page 2)\n\n**Strategic Business Direction:**\nThe document references WeWork's ongoing transformation but does not detail specific operational changes planned post-merger beyond noting that \"WeWork has refocused on its core business model and applied a disciplined approach to costs\" under new leadership (page 16).\n\n**Confidence Level:** HIGH - These details are directly stated in the merger agreement and proposal descriptions throughout the document.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 557,
+  "latency_ms": 16034,
+  "timestamp": "2026-01-16T20:29:14.040581",
+  "cost_usd": 0.22751100000000002,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01BKoYPCiwwgq43M4ho8rbxX",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, several post-merger integration and business model changes were planned:\n\n**Organizational Structure Changes:**\n- BowX intends to change its name to WeWork Inc. upon closing (page 2)\n- The Proposed Charter would change BowX's name from \"BowX Acquisition Corp.\" to \"WeWork Inc.\" (Organizational Documents Proposal D, page 10)\n\n**Capital Structure Changes:**\n- Authorization to change capital stock from 87,500,000 shares of BowX Class A Common Stock, 12,500,000 shares of BowX Class B Common Stock, and 1,000,000 shares of preferred stock to 1,500,000,000 shares of Class A common stock, 25,041,666 shares of Class C common stock, and 100,000,000 shares of preferred stock (Organizational Documents Proposal A, page 10)\n\n**Governance Changes:**\n- SoftBank Holders would be restricted \"for a period of at least two years, from exercising voting rights over more than 49.9% of the voting securities present (attending virtually or by proxy) and voting at any such meeting of the stockholders\" (Organizational Documents Proposal B, page 10)\n- Board structure changes to \"provide for only one class of board of directors\" (Organizational Documents Proposal C, page 10)\n\n**Management and Board:**\n- \"Immediately following the consummation of the Business Combination, the New WeWork board of directors will be comprised of nine directors: Marcelo Claure, Michel Combes, Bruce Dunlevie, V\u00e9ronique Laury, Sandeep Mathrani, Deven Parekh, Vivek Ranadiv\u00e9, Kirthiga Reddy and Jeff Sine\" (page 15)\n\n**Stock Exchange Listing:**\n- \"BowX intends to apply to continue the listing of New WeWork Class A Common Stock and warrants on the NYSE under the symbols 'WE' and 'WE WS,' respectively, upon the Closing\" (page 2)\n\n**Strategic Business Direction:**\nThe document references WeWork's ongoing transformation but does not detail specific operational changes planned post-merger beyond noting that \"WeWork has refocused on its core business model and applied a disciplined approach to costs\" under new leadership (page 16).\n\n**Confidence Level:** HIGH - These details are directly stated in the merger agreement and proposal descriptions throughout the document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 557,
+      "service_tier": "standard"
+    }
+  }
+}

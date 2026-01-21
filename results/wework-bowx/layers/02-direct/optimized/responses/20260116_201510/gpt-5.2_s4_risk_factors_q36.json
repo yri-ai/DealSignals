@@ -1,0 +1,80 @@
+{
+  "content": "**Not found in document.** The provided excerpt includes sections such as **\u201cSUMMARY OF THE PROXY STATEMENT/PROSPECTUS\u201d** and related subsections (e.g., **\u201cBowX\u2019s Board of Directors\u2019 Reasons for the Business Combination\u201d**) and **\u201cRISK FACTORS\u201d**, but it does **not** disclose any **comparable transactions** (e.g., precedent M&A / SPAC deals, comps multiples, or a comps analysis). (See **Table of Contents** listing and **Summary** discussion beginning **p. 1**, and **Risk Factors** beginning **p. 31**.)\n\n**Confidence:** HIGH (explicitly absent from provided document text)\n\n**Caveat / limitation:** This conclusion is limited to the portion of the filing provided in the prompt; if comparable transactions are discussed elsewhere in the full S-4/A (e.g., in a fairness discussion or valuation section), that content is not included here.",
+  "model": "gpt-5.2",
+  "input_tokens": 67710,
+  "output_tokens": 200,
+  "latency_ms": 6073,
+  "timestamp": "2026-01-16T20:41:14.055273",
+  "cost_usd": 0.12129250000000001,
+  "raw_response": {
+    "id": "resp_00a61e1f23cc221100696aa26450bc81a0923218a37e943441",
+    "object": "response",
+    "created_at": 1768596068,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768596073,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_00a61e1f23cc221100696aa264dd3081a0b4429fb3d249cc49",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Not found in document.** The provided excerpt includes sections such as **\u201cSUMMARY OF THE PROXY STATEMENT/PROSPECTUS\u201d** and related subsections (e.g., **\u201cBowX\u2019s Board of Directors\u2019 Reasons for the Business Combination\u201d**) and **\u201cRISK FACTORS\u201d**, but it does **not** disclose any **comparable transactions** (e.g., precedent M&A / SPAC deals, comps multiples, or a comps analysis). (See **Table of Contents** listing and **Summary** discussion beginning **p. 1**, and **Risk Factors** beginning **p. 31**.)\n\n**Confidence:** HIGH (explicitly absent from provided document text)\n\n**Caveat / limitation:** This conclusion is limited to the portion of the filing provided in the prompt; if comparable transactions are discussed elsewhere in the full S-4/A (e.g., in a fairness discussion or valuation section), that content is not included here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67710,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 200,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67910
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

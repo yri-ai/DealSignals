@@ -1,0 +1,34 @@
+{
+  "content": "## Management Incentives and Compensation in the Deal\n\nBased on the proxy statement/prospectus, the following management incentives and compensation arrangements are tied to the Business Combination:\n\n### WeWork Executive Transaction Bonuses\n\n**Page 14-15 (\"Interests of WeWork's Executive Officers in the Business Combination\"):**\n\nUpon consummation of the Business Combination, the following transaction bonuses will be paid:\n\n| Executive | Bonus Amount |\n|-----------|--------------|\n| Sandeep Mathrani (CEO) | $10.0 million |\n| Anthony Yazbeck | $2.0 million |\n| Ben Dunham | $1.5 million |\n| Jared DeMatteis | $1.5 million |\n| Lauren Fritts | $1.0 million |\n| Peter Greenspan | $1.0 million |\n| Hamid Hashemi | $750,000 |\n| Scott Morey | $300,000 |\n| Maral Kazanjian | $250,000 |\n| Roger Sol\u00e9 Rafols | $250,000 |\n\n**Repayment Terms:** These bonuses are subject to repayment obligations - the full after-tax amount must be repaid if the executive resigns without good reason or is terminated for cause on or before January 31, 2022, and 50% of such amount must be repaid for such termination after January 31, 2022 but on or before January 31, 2023.\n\n**Additional Bonus for Anthony Yazbeck:** In connection with his promotion to President & Chief Operating Officer, Yazbeck received a one-time bonus of GBP 1.44 million payable within 30 days following consummation of the Business Combination, subject to employment through payment date.\n\n### Equity Award Vesting Acceleration\n\n**Page 15:**\n\nWeWork executives hold Restricted Stock Unit Awards with a liquidity event vesting condition. The Business Combination will satisfy this liquidity event condition. As of July 15, 2021:\n- **4,347,818 RSUs** (assuming maximum performance metrics) were held by executive officers\n- **8,863 RSUs** will be fully vested upon consummation\n- The remainder will remain subject to additional service- and/or performance-based vesting requirements\n\n### BowX Sponsor/Director Interests\n\n**Pages 13-14 and 32:**\n\n- Initial stockholders (including Sponsor) hold **12,075,000 shares of Class B Common Stock** and **7,773,333 private placement warrants** that would become worthless without completing the Business Combination\n- Paid only **$25,000** for Class B Common Stock and **$11,660,000** for private placement warrants\n- **Mr. Ranadiv\u00e9** will continue as a director of New WeWork\n\n**Confidence Level: HIGH** - These amounts are directly stated in the document.\n\n**Caveats:** The executive bonus amounts (other than Mr. Mathrani's fixed $10 million) are described as \"target amounts only\" that may be adjusted at Mr. Mathrani's discretion, subject to an aggregate cap of $11.5 million.",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 739,
+  "latency_ms": 20886,
+  "timestamp": "2026-01-16T20:53:56.187532",
+  "cost_usd": 0.38373500000000005,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01XjeTfTi4x2cqtdx9eFPPi5",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Management Incentives and Compensation in the Deal\n\nBased on the proxy statement/prospectus, the following management incentives and compensation arrangements are tied to the Business Combination:\n\n### WeWork Executive Transaction Bonuses\n\n**Page 14-15 (\"Interests of WeWork's Executive Officers in the Business Combination\"):**\n\nUpon consummation of the Business Combination, the following transaction bonuses will be paid:\n\n| Executive | Bonus Amount |\n|-----------|--------------|\n| Sandeep Mathrani (CEO) | $10.0 million |\n| Anthony Yazbeck | $2.0 million |\n| Ben Dunham | $1.5 million |\n| Jared DeMatteis | $1.5 million |\n| Lauren Fritts | $1.0 million |\n| Peter Greenspan | $1.0 million |\n| Hamid Hashemi | $750,000 |\n| Scott Morey | $300,000 |\n| Maral Kazanjian | $250,000 |\n| Roger Sol\u00e9 Rafols | $250,000 |\n\n**Repayment Terms:** These bonuses are subject to repayment obligations - the full after-tax amount must be repaid if the executive resigns without good reason or is terminated for cause on or before January 31, 2022, and 50% of such amount must be repaid for such termination after January 31, 2022 but on or before January 31, 2023.\n\n**Additional Bonus for Anthony Yazbeck:** In connection with his promotion to President & Chief Operating Officer, Yazbeck received a one-time bonus of GBP 1.44 million payable within 30 days following consummation of the Business Combination, subject to employment through payment date.\n\n### Equity Award Vesting Acceleration\n\n**Page 15:**\n\nWeWork executives hold Restricted Stock Unit Awards with a liquidity event vesting condition. The Business Combination will satisfy this liquidity event condition. As of July 15, 2021:\n- **4,347,818 RSUs** (assuming maximum performance metrics) were held by executive officers\n- **8,863 RSUs** will be fully vested upon consummation\n- The remainder will remain subject to additional service- and/or performance-based vesting requirements\n\n### BowX Sponsor/Director Interests\n\n**Pages 13-14 and 32:**\n\n- Initial stockholders (including Sponsor) hold **12,075,000 shares of Class B Common Stock** and **7,773,333 private placement warrants** that would become worthless without completing the Business Combination\n- Paid only **$25,000** for Class B Common Stock and **$11,660,000** for private placement warrants\n- **Mr. Ranadiv\u00e9** will continue as a director of New WeWork\n\n**Confidence Level: HIGH** - These amounts are directly stated in the document.\n\n**Caveats:** The executive bonus amounts (other than Mr. Mathrani's fixed $10 million) are described as \"target amounts only\" that may be adjusted at Mr. Mathrani's discretion, subject to an aggregate cap of $11.5 million."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 739,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "No. The provided document excerpt does not include any going concern disclosure language (e.g., statements about substantial doubt regarding the company\u2019s ability to continue as a going concern, liquidity shortfalls, covenant risks, or auditor going concern emphasis).",
+  "model": "gpt-5.2",
+  "input_tokens": 950,
+  "output_tokens": 51,
+  "latency_ms": 1840,
+  "timestamp": "2026-01-16T19:54:44.116543",
+  "cost_usd": 0.0023765,
+  "raw_response": {
+    "id": "resp_0f7e8462ca095c2400696a97828138819eb516d54b17144b8a",
+    "object": "response",
+    "created_at": 1768593282,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593283,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0f7e8462ca095c2400696a9782cb98819e8e8d634af0c579ec",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "No. The provided document excerpt does not include any going concern disclosure language (e.g., statements about substantial doubt regarding the company\u2019s ability to continue as a going concern, liquidity shortfalls, covenant risks, or auditor going concern emphasis)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 950,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 51,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1001
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

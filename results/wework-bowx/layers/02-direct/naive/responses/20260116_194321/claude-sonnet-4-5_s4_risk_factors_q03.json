@@ -1,0 +1,34 @@
+{
+  "content": "According to the Selected Historical Financial Information of WeWork in the document, for the most recent period (six months ended June 30, 2021), the operating losses were **$2,355,793 thousand** (or approximately **$2.36 billion**).\n\nThis is shown in the \"Loss from operations\" line item in the Consolidated Statements of Operations Data table.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72931,
+  "output_tokens": 84,
+  "latency_ms": 4768,
+  "timestamp": "2026-01-16T19:46:09.044701",
+  "cost_usd": 0.220053,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01MnHapnq3CFdcvLDyBqoxc6",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "According to the Selected Historical Financial Information of WeWork in the document, for the most recent period (six months ended June 30, 2021), the operating losses were **$2,355,793 thousand** (or approximately **$2.36 billion**).\n\nThis is shown in the \"Loss from operations\" line item in the Consolidated Statements of Operations Data table."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72931,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 84,
+      "service_tier": "standard"
+    }
+  }
+}

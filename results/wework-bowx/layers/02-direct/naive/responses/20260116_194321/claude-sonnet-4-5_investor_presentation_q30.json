@@ -1,0 +1,34 @@
+{
+  "content": "Based on the provided document, I cannot find any information about material weaknesses in internal controls. \n\nThe document appears to be a WeWork corporate presentation from 2021 that focuses on:\n- Company values and mission\n- Business model (All Access membership)\n- Growth timeline\n- Operational metrics and definitions\n\nThere is no discussion of internal controls, audit findings, or material weaknesses in this presentation. Information about material weaknesses in internal controls would typically be found in:\n- Annual reports (10-K filings)\n- Quarterly reports (10-Q filings)\n- SOX compliance sections\n- Audit committee reports\n\nTo answer your question about material weaknesses in internal controls, you would need to review WeWork's SEC filings or formal financial reporting documents rather than this business presentation.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1239,
+  "output_tokens": 173,
+  "latency_ms": 5322,
+  "timestamp": "2026-01-16T19:44:37.293023",
+  "cost_usd": 0.006312,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_015eKWT4ERh7c8d5W1ddEWJG",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the provided document, I cannot find any information about material weaknesses in internal controls. \n\nThe document appears to be a WeWork corporate presentation from 2021 that focuses on:\n- Company values and mission\n- Business model (All Access membership)\n- Growth timeline\n- Operational metrics and definitions\n\nThere is no discussion of internal controls, audit findings, or material weaknesses in this presentation. Information about material weaknesses in internal controls would typically be found in:\n- Annual reports (10-K filings)\n- Quarterly reports (10-Q filings)\n- SOX compliance sections\n- Audit committee reports\n\nTo answer your question about material weaknesses in internal controls, you would need to review WeWork's SEC filings or formal financial reporting documents rather than this business presentation."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 173,
+      "service_tier": "standard"
+    }
+  }
+}

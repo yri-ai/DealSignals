@@ -1,0 +1,80 @@
+{
+  "content": "Post\u2011merger, BowX planned to operate as **\u201cNew WeWork\u201d (renamed WeWork Inc.)** and make several business model and operating changes that were already underway at WeWork and expected to continue after closing:\n\n- **Shift to a \u201cleaner, more efficient\u201d operating model focused on profitability/Adjusted EBITDA**, emphasizing expense management and streamlined operations rather than rapid footprint expansion.\n\n- **Optimize the existing real estate portfolio** (continuing the global review of locations), including **negotiating lease amendments/exits** and pursuing **strategic lease restructurings** for underperforming sites.\n\n- **Move toward more \u201casset\u2011light\u201d structures** beyond traditional long-term leasing, including **management agreements, participating leases, variable-rent arrangements, and regional joint ventures/strategic partnerships** with real estate owners/operators.\n\n- **Build/expand a platform business**: develop a **technology/services platform** that landlords and other operators could use to **power and manage flexible space** in their portfolios (leveraging WeWork systems and customer base).\n\n- **Broaden/scale flexible workspace product offerings** across customer segments, including **WeWork On Demand (pay\u2011as\u2011you\u2011go)**, **WeWork All Access (subscription)**, and a **marketplace for business/tech services**.\n\n- **Governance/organizational changes at close**: BowX\u2019s non\u2011continuing directors/officers (other than Vivek Ranadiv\u00e9) would resign; a **new 9\u2011member board** and WeWork\u2019s management team would run the combined company, alongside NYSE listing under \u201cWE\u201d.",
+  "model": "gpt-5.2",
+  "input_tokens": 67612,
+  "output_tokens": 334,
+  "latency_ms": 10438,
+  "timestamp": "2026-01-16T19:59:52.658863",
+  "cost_usd": 0.12299700000000001,
+  "raw_response": {
+    "id": "resp_0279628a2a3775e000696a98aea7508197ba3434c9fff128f4",
+    "object": "response",
+    "created_at": 1768593582,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593592,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0279628a2a3775e000696a98af21f481978f98efb8a9df8fa4",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Post\u2011merger, BowX planned to operate as **\u201cNew WeWork\u201d (renamed WeWork Inc.)** and make several business model and operating changes that were already underway at WeWork and expected to continue after closing:\n\n- **Shift to a \u201cleaner, more efficient\u201d operating model focused on profitability/Adjusted EBITDA**, emphasizing expense management and streamlined operations rather than rapid footprint expansion.\n\n- **Optimize the existing real estate portfolio** (continuing the global review of locations), including **negotiating lease amendments/exits** and pursuing **strategic lease restructurings** for underperforming sites.\n\n- **Move toward more \u201casset\u2011light\u201d structures** beyond traditional long-term leasing, including **management agreements, participating leases, variable-rent arrangements, and regional joint ventures/strategic partnerships** with real estate owners/operators.\n\n- **Build/expand a platform business**: develop a **technology/services platform** that landlords and other operators could use to **power and manage flexible space** in their portfolios (leveraging WeWork systems and customer base).\n\n- **Broaden/scale flexible workspace product offerings** across customer segments, including **WeWork On Demand (pay\u2011as\u2011you\u2011go)**, **WeWork All Access (subscription)**, and a **marketplace for business/tech services**.\n\n- **Governance/organizational changes at close**: BowX\u2019s non\u2011continuing directors/officers (other than Vivek Ranadiv\u00e9) would resign; a **new 9\u2011member board** and WeWork\u2019s management team would run the combined company, alongside NYSE listing under \u201cWE\u201d."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67612,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 334,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67946
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

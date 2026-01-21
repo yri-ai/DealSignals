@@ -1,0 +1,80 @@
+{
+  "content": "## Cash burn rate\n**Not found in document.**\n\n### What related cash-flow information is provided (but insufficient to calculate \u201cburn rate\u201d)\n- The document provides **WeWork net cash used in operating activities** of **$(1,158,957) thousand** for the **six months ended June 30, 2021** (i.e., about **$1.159 billion**), but it does **not** label this as \u201ccash burn rate,\u201d nor does it provide a definition of burn rate or a monthly burn figure. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK \u2014 Consolidated Statements of Cash Flows Data\u201d**, p. **24**)\n- It also provides **WeWork Free Cash Flow** of **$(1,312,099) thousand** for the **six months ended June 30, 2021** (about **$1.312 billion**), defined as operating cash flow less capex, but again not expressed as a burn \u201crate\u201d and not consistently provided as a per-month or per-quarter metric. (Section: **\u201cNon-GAAP Financial Measures\u201d**, p. **25**)\n\n### Caveats / limitations\n- The document does not define **\u201ccash burn rate\u201d** (e.g., operating cash burn vs. free cash flow burn; gross vs. net of financing; per month vs. per quarter), so even with cash-flow totals provided, a burn **rate** cannot be stated directly from the text. (Sections: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK\u201d** p. **23\u201325**)\n\n**Confidence: HIGH** (the document does not explicitly provide a \u201ccash burn rate\u201d metric; only partial inputs like operating cash flow and free cash flow are shown).",
+  "model": "gpt-5.2",
+  "input_tokens": 67712,
+  "output_tokens": 374,
+  "latency_ms": 10850,
+  "timestamp": "2026-01-16T20:34:39.060041",
+  "cost_usd": 0.123732,
+  "raw_response": {
+    "id": "resp_0793833995f12f7700696aa0d4a2488194a0336cdac68941fd",
+    "object": "response",
+    "created_at": 1768595668,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595678,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0793833995f12f7700696aa0d540b8819499b0808bcae2e9bd",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "## Cash burn rate\n**Not found in document.**\n\n### What related cash-flow information is provided (but insufficient to calculate \u201cburn rate\u201d)\n- The document provides **WeWork net cash used in operating activities** of **$(1,158,957) thousand** for the **six months ended June 30, 2021** (i.e., about **$1.159 billion**), but it does **not** label this as \u201ccash burn rate,\u201d nor does it provide a definition of burn rate or a monthly burn figure. (Section: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK \u2014 Consolidated Statements of Cash Flows Data\u201d**, p. **24**)\n- It also provides **WeWork Free Cash Flow** of **$(1,312,099) thousand** for the **six months ended June 30, 2021** (about **$1.312 billion**), defined as operating cash flow less capex, but again not expressed as a burn \u201crate\u201d and not consistently provided as a per-month or per-quarter metric. (Section: **\u201cNon-GAAP Financial Measures\u201d**, p. **25**)\n\n### Caveats / limitations\n- The document does not define **\u201ccash burn rate\u201d** (e.g., operating cash burn vs. free cash flow burn; gross vs. net of financing; per month vs. per quarter), so even with cash-flow totals provided, a burn **rate** cannot be stated directly from the text. (Sections: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK\u201d** p. **23\u201325**)\n\n**Confidence: HIGH** (the document does not explicitly provide a \u201ccash burn rate\u201d metric; only partial inputs like operating cash flow and free cash flow are shown)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67712,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 374,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68086
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "According to the proxy statement/prospectus, WeWork incurred a **loss from operations of $2,355,793 thousand (approximately $2.36 billion) for the six months ended June 30, 2021** (page 23, Consolidated Statements of Operations Data table).\n\nFor full year periods, the operating losses were:\n- Year ended December 31, 2020: $4,346,763 thousand (approximately $4.35 billion)\n- Year ended December 31, 2019: $3,919,498 thousand (approximately $3.92 billion)\n- Year ended December 31, 2018: $1,690,999 thousand (approximately $1.69 billion)\n\n**Confidence: HIGH** - These figures are directly stated in the audited and unaudited financial statements included in the document.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73050,
+  "output_tokens": 193,
+  "latency_ms": 6756,
+  "timestamp": "2026-01-16T20:22:17.885164",
+  "cost_usd": 0.22204500000000002,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_012k8qdN62s3yGwWfV4degrx",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "According to the proxy statement/prospectus, WeWork incurred a **loss from operations of $2,355,793 thousand (approximately $2.36 billion) for the six months ended June 30, 2021** (page 23, Consolidated Statements of Operations Data table).\n\nFor full year periods, the operating losses were:\n- Year ended December 31, 2020: $4,346,763 thousand (approximately $4.35 billion)\n- Year ended December 31, 2019: $3,919,498 thousand (approximately $3.92 billion)\n- Year ended December 31, 2018: $1,690,999 thousand (approximately $1.69 billion)\n\n**Confidence: HIGH** - These figures are directly stated in the audited and unaudited financial statements included in the document."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73050,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 193,
+      "service_tier": "standard"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, here are the key management incentives and compensation in the deal:\n\n## Transaction Bonuses\n\nWeWork established bonus arrangements that will result in payments in connection with the Business Combination:\n\n**Sandeep Mathrani (CEO):**\n- $10.0 million payment\n- Subject to repayment obligations:\n  - Full after-tax amount must be repaid if he resigns without good reason or is terminated for cause on or prior to January 31, 2022\n  - 50% of after-tax amount must be repaid for such termination after January 31, 2022 but on or before January 31, 2023\n\n**Other Executive Officers (Target Amounts, subject to adjustment):**\n- Anthony Yazbeck: $2.0 million\n- Ben Dunham: $1.5 million\n- Jared DeMatteis: $1.5 million\n- Lauren Fritts: $1.0 million\n- Peter Greenspan: $1.0 million\n- Hamid Hashemi: $750,000\n- Scott Morey: $300,000\n- Maral Kazanjian: $250,000\n- Roger Sol\u00e9 Rafols: $250,000\n\nThese amounts are subject to the same repayment obligations as Mathrani's payment, with an aggregate cap of $11.5 million.\n\n**Additional Bonus:**\nAnthony Yazbeck also received a one-time bonus of GBP 1.44 million (for his promotion to President & COO) payable within 30 days following the Business Combination, subject to his employment through the payment date.\n\n## Equity-Based Compensation\n\n**Restricted Stock Units:**\n- Executive officers hold 4,347,818 restricted stock units (assuming maximum performance metrics)\n- 8,863 of these will be fully vested upon Business Combination consummation\n- The remainder remain subject to additional service- and/or performance-based vesting requirements\n- The Business Combination satisfies the liquidity event condition for vesting",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72933,
+  "output_tokens": 471,
+  "latency_ms": 14536,
+  "timestamp": "2026-01-16T19:50:01.699906",
+  "cost_usd": 0.22586399999999998,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01TBWm6BQi4TwCq1BQBra1qc",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, here are the key management incentives and compensation in the deal:\n\n## Transaction Bonuses\n\nWeWork established bonus arrangements that will result in payments in connection with the Business Combination:\n\n**Sandeep Mathrani (CEO):**\n- $10.0 million payment\n- Subject to repayment obligations:\n  - Full after-tax amount must be repaid if he resigns without good reason or is terminated for cause on or prior to January 31, 2022\n  - 50% of after-tax amount must be repaid for such termination after January 31, 2022 but on or before January 31, 2023\n\n**Other Executive Officers (Target Amounts, subject to adjustment):**\n- Anthony Yazbeck: $2.0 million\n- Ben Dunham: $1.5 million\n- Jared DeMatteis: $1.5 million\n- Lauren Fritts: $1.0 million\n- Peter Greenspan: $1.0 million\n- Hamid Hashemi: $750,000\n- Scott Morey: $300,000\n- Maral Kazanjian: $250,000\n- Roger Sol\u00e9 Rafols: $250,000\n\nThese amounts are subject to the same repayment obligations as Mathrani's payment, with an aggregate cap of $11.5 million.\n\n**Additional Bonus:**\nAnthony Yazbeck also received a one-time bonus of GBP 1.44 million (for his promotion to President & COO) payable within 30 days following the Business Combination, subject to his employment through the payment date.\n\n## Equity-Based Compensation\n\n**Restricted Stock Units:**\n- Executive officers hold 4,347,818 restricted stock units (assuming maximum performance metrics)\n- 8,863 of these will be fully vested upon Business Combination consummation\n- The remainder remain subject to additional service- and/or performance-based vesting requirements\n- The Business Combination satisfies the liquidity event condition for vesting"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72933,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 471,
+      "service_tier": "standard"
+    }
+  }
+}

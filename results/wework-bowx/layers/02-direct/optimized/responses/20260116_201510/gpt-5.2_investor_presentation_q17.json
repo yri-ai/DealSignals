@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document. The provided pages include general statements about \u201cAll Access\u201d and that it \u201cDrives Occupancy\u201d by allowing WeWork to \u201cdrive occupancy beyond physical capacity levels across portfolio based on utilization projections,\u201d but there is no discussion of what specifically happens to the business at **50% occupancy** (e.g., profitability, cash burn, break-even, operating actions, or financial impact) (section showing \u201cAll Access \u2026 Drives Occupancy \u2026 based on utilization projections\u201d).  \n\n**Confidence:** HIGH (the document excerpt does not contain any explicit 50% occupancy discussion).  \n**Caveats / limitations:** The excerpt appears to be missing many slide contents (numerous pages show only bullets/placeholders and no readable metrics). If a slide on occupancy sensitivity exists, it is not included in the provided text.",
+  "model": "gpt-5.2",
+  "input_tokens": 1060,
+  "output_tokens": 169,
+  "latency_ms": 5323,
+  "timestamp": "2026-01-16T20:31:23.270646",
+  "cost_usd": 0.004221,
+  "raw_response": {
+    "id": "resp_0761c9031acc860600696aa016348481958a5e8b6b7b418db2",
+    "object": "response",
+    "created_at": 1768595478,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595482,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0761c9031acc860600696aa0168654819593f49c33ebd7847b",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document. The provided pages include general statements about \u201cAll Access\u201d and that it \u201cDrives Occupancy\u201d by allowing WeWork to \u201cdrive occupancy beyond physical capacity levels across portfolio based on utilization projections,\u201d but there is no discussion of what specifically happens to the business at **50% occupancy** (e.g., profitability, cash burn, break-even, operating actions, or financial impact) (section showing \u201cAll Access \u2026 Drives Occupancy \u2026 based on utilization projections\u201d).  \n\n**Confidence:** HIGH (the document excerpt does not contain any explicit 50% occupancy discussion).  \n**Caveats / limitations:** The excerpt appears to be missing many slide contents (numerous pages show only bullets/placeholders and no readable metrics). If a slide on occupancy sensitivity exists, it is not included in the provided text."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1060,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 169,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1229
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

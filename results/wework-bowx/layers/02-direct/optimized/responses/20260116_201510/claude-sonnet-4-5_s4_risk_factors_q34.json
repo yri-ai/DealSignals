@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, several categories of registration rights exist following the Business Combination:\n\n## Registration Rights Agreement\n\nAccording to the document, \"at the Closing, BowX, Anchor PIPE Investors, the Sponsor and certain WeWork Stockholders will enter into an Amended and Restated Registration Rights Agreement (the 'Registration Rights Agreement'), pursuant to which BowX will agree to register for resale, pursuant to Rule 415 under the Securities Act, certain shares of BowX Common Stock and other equity securities of BowX that are held by the parties thereto from time to time.\"\n\nThe document further states: **\"In certain circumstances, various parties in the Registration Rights Agreement can collectively demand up to nine underwritten offerings in any twelve-month period, collectively demand no less than six underwritten block trade offerings in any twelve-month period, and will be entitled to piggyback registration rights, in each case subject to certain limitations set forth in the Registration Rights Agreement.\"** (Page 5)\n\n## PIPE Investor Registration Rights (Non-Anchor)\n\nFor Third-Party PIPE Investors (those who are not Anchor PIPE Investors), the Subscription Agreements provide that **\"BowX is required to, as soon as practicable but no later than 30 calendar days following the Closing, file with the SEC a registration statement registering the resale of such shares.\"** Additionally, **\"BowX is required to use its commercially reasonable efforts to have the registration statement declared effective as soon as practicable after the filing thereof, but no later than the earlier of (i) the 60th calendar day (or 90th calendar day if the SEC notifies BowX that it will 'review' the registration statement) following the filing date thereof or (ii) the 10th business day after the date BowX is notified (orally or in writing, whichever is earlier) by the SEC that the registration statement will not be 'reviewed' or will not be subject to further review.\"** (Page 6)\n\n**Confidence: HIGH** - These registration rights are directly stated in the document with specific details about the parties involved and the scope of the rights.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 73045,
+  "output_tokens": 478,
+  "latency_ms": 15818,
+  "timestamp": "2026-01-16T20:28:22.635341",
+  "cost_usd": 0.226305,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01VomYzUsJ8CPW24UWehD7ng",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, several categories of registration rights exist following the Business Combination:\n\n## Registration Rights Agreement\n\nAccording to the document, \"at the Closing, BowX, Anchor PIPE Investors, the Sponsor and certain WeWork Stockholders will enter into an Amended and Restated Registration Rights Agreement (the 'Registration Rights Agreement'), pursuant to which BowX will agree to register for resale, pursuant to Rule 415 under the Securities Act, certain shares of BowX Common Stock and other equity securities of BowX that are held by the parties thereto from time to time.\"\n\nThe document further states: **\"In certain circumstances, various parties in the Registration Rights Agreement can collectively demand up to nine underwritten offerings in any twelve-month period, collectively demand no less than six underwritten block trade offerings in any twelve-month period, and will be entitled to piggyback registration rights, in each case subject to certain limitations set forth in the Registration Rights Agreement.\"** (Page 5)\n\n## PIPE Investor Registration Rights (Non-Anchor)\n\nFor Third-Party PIPE Investors (those who are not Anchor PIPE Investors), the Subscription Agreements provide that **\"BowX is required to, as soon as practicable but no later than 30 calendar days following the Closing, file with the SEC a registration statement registering the resale of such shares.\"** Additionally, **\"BowX is required to use its commercially reasonable efforts to have the registration statement declared effective as soon as practicable after the filing thereof, but no later than the earlier of (i) the 60th calendar day (or 90th calendar day if the SEC notifies BowX that it will 'review' the registration statement) following the filing date thereof or (ii) the 10th business day after the date BowX is notified (orally or in writing, whichever is earlier) by the SEC that the registration statement will not be 'reviewed' or will not be subject to further review.\"** (Page 6)\n\n**Confidence: HIGH** - These registration rights are directly stated in the document with specific details about the parties involved and the scope of the rights."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73045,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 478,
+      "service_tier": "standard"
+    }
+  }
+}

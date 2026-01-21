@@ -1,0 +1,80 @@
+{
+  "content": "**Revenue per available desk/workstation:** **Not found in document.**  \n\n- The provided excerpts do not include any metric, definition, or calculation for \u201crevenue per available desk/workstation,\u201d nor any underlying inputs (e.g., total revenue and total available desks/workstations) needed to derive it. (Document excerpt contains mostly confidentiality pages, values statements, and an \u201cAll Access\u201d description without numerical revenue/desk figures.)\n\n**Confidence:** HIGH (directly not present)  \n**Caveats / limitations:** The document appears incomplete/redacted (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), so the metric may exist in omitted sections but is not available in the provided text.",
+  "model": "gpt-5.2",
+  "input_tokens": 1058,
+  "output_tokens": 151,
+  "latency_ms": 4334,
+  "timestamp": "2026-01-16T20:30:37.599315",
+  "cost_usd": 0.0039655,
+  "raw_response": {
+    "id": "resp_0ed9df61d960e48800696a9fe96d9481a19bd52ec358a9406a",
+    "object": "response",
+    "created_at": 1768595433,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595437,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ed9df61d960e48800696a9fe9b78081a196d361546a54011c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Revenue per available desk/workstation:** **Not found in document.**  \n\n- The provided excerpts do not include any metric, definition, or calculation for \u201crevenue per available desk/workstation,\u201d nor any underlying inputs (e.g., total revenue and total available desks/workstations) needed to derive it. (Document excerpt contains mostly confidentiality pages, values statements, and an \u201cAll Access\u201d description without numerical revenue/desk figures.)\n\n**Confidence:** HIGH (directly not present)  \n**Caveats / limitations:** The document appears incomplete/redacted (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), so the metric may exist in omitted sections but is not available in the provided text."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1058,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 151,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1209
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

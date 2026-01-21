@@ -1,0 +1,80 @@
+{
+  "content": "**Not found in document.** The provided excerpt discusses WeWork\u2019s memberships, leases, and certain KPIs (e.g., \u201cPhysical Occupancy\u201d is defined as \u201cthe number of physical memberships divided by total workstations\u201d), but it does **not** describe what happens to the business specifically **at 50% occupancy** (e.g., operational, financial breakeven, cash burn, or lease-level economics at that occupancy level). See **\u201cSelected Definitions\u201d (definition of \u201cPhysical Occupancy\u201d)** and **\u201cRisk Factors\u201d** for general discussion of demand declines and fixed lease costs, but no 50% occupancy scenario is provided. (Sections: **\u201cSELECTED DEFINITIONS\u201d**; **\u201cRISK FACTORS \u2014 Risks Relating to the Company\u2019s Business \u2014 The long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d**)\n\n**Confidence:** HIGH (the document excerpt contains no 50% occupancy scenario or outcome discussion).\n\n**Caveat / limitation:** The excerpt appears incomplete relative to the full S-4/A; if the full filing includes occupancy-sensitivity analysis, it is not present in the provided text.",
+  "model": "gpt-5.2",
+  "input_tokens": 67716,
+  "output_tokens": 237,
+  "latency_ms": 7245,
+  "timestamp": "2026-01-16T20:36:42.841169",
+  "cost_usd": 0.121821,
+  "raw_response": {
+    "id": "resp_030288175f6fa4e400696aa1540ac88197ad4fc5ed309ed93f",
+    "object": "response",
+    "created_at": 1768595796,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595802,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_030288175f6fa4e400696aa1548f748197b4f1c496f03e29a5",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Not found in document.** The provided excerpt discusses WeWork\u2019s memberships, leases, and certain KPIs (e.g., \u201cPhysical Occupancy\u201d is defined as \u201cthe number of physical memberships divided by total workstations\u201d), but it does **not** describe what happens to the business specifically **at 50% occupancy** (e.g., operational, financial breakeven, cash burn, or lease-level economics at that occupancy level). See **\u201cSelected Definitions\u201d (definition of \u201cPhysical Occupancy\u201d)** and **\u201cRisk Factors\u201d** for general discussion of demand declines and fixed lease costs, but no 50% occupancy scenario is provided. (Sections: **\u201cSELECTED DEFINITIONS\u201d**; **\u201cRISK FACTORS \u2014 Risks Relating to the Company\u2019s Business \u2014 The long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d**)\n\n**Confidence:** HIGH (the document excerpt contains no 50% occupancy scenario or outcome discussion).\n\n**Caveat / limitation:** The excerpt appears incomplete relative to the full S-4/A; if the full filing includes occupancy-sensitivity analysis, it is not present in the provided text."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67716,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 237,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67953
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

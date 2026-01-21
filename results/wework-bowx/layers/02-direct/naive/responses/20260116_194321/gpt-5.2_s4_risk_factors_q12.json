@@ -1,0 +1,80 @@
+{
+  "content": "The document provided does **not** disclose the data needed to compute an \u201caverage revenue per member\u201d (e.g., total members for the same period as revenue).\n\n- It **does** disclose **revenue** (e.g., **$1,191,331 thousand** for the six months ended June 30, 2021).\n- But it does **not** provide the corresponding **member count** for that period (only some qualitative/percentage information such as memberships declining 16%, and that Enterprise Members account for a certain % of revenue).\n\n**Therefore, the average revenue per member cannot be determined from this document excerpt.**",
+  "model": "gpt-5.2",
+  "input_tokens": 67608,
+  "output_tokens": 133,
+  "latency_ms": 4585,
+  "timestamp": "2026-01-16T19:56:33.898279",
+  "cost_usd": 0.120176,
+  "raw_response": {
+    "id": "resp_0ce56d90e79d31da00696a97edae5081929c85b4c877face66",
+    "object": "response",
+    "created_at": 1768593389,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593393,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ce56d90e79d31da00696a97ee4c708192ad9348b5aa03ce71",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document provided does **not** disclose the data needed to compute an \u201caverage revenue per member\u201d (e.g., total members for the same period as revenue).\n\n- It **does** disclose **revenue** (e.g., **$1,191,331 thousand** for the six months ended June 30, 2021).\n- But it does **not** provide the corresponding **member count** for that period (only some qualitative/percentage information such as memberships declining 16%, and that Enterprise Members account for a certain % of revenue).\n\n**Therefore, the average revenue per member cannot be determined from this document excerpt.**"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67608,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 133,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67741
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document. The provided excerpt includes selected financial information, pro forma information, risk factors, and transaction terms, but it does **not** include an auditors\u2019 report/opinion (e.g., an independent registered public accounting firm\u2019s report with audit opinion language). See \u201cSelected Historical Financial Information of BowX\u201d and \u201cSelected Historical Financial Information of WeWork,\u201d which state the financial statements are included elsewhere but do not reproduce the auditors\u2019 opinion in this excerpt (sections: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF BOWX\u201d** (p. 20\u201322) and **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK\u201d** (p. 23\u201325)).  \n\n**Caveat/limitation:** The table of contents shows an \u201cINDEX TO FINANCIAL STATEMENTS F-1\u201d (Table of Contents, p. vii), implying audit reports may appear in the F-pages not included in the provided text.  \n\n**Confidence:** HIGH (explicitly absent from the provided excerpt).",
+  "model": "gpt-5.2",
+  "input_tokens": 67711,
+  "output_tokens": 216,
+  "latency_ms": 7374,
+  "timestamp": "2026-01-16T20:39:58.965209",
+  "cost_usd": 0.12151825,
+  "raw_response": {
+    "id": "resp_0e39ac14ef402c8600696aa218398c819c92f48c9c1290a42c",
+    "object": "response",
+    "created_at": 1768595992,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595998,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0e39ac14ef402c8600696aa218ddc4819cac9d6d30688147bb",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document. The provided excerpt includes selected financial information, pro forma information, risk factors, and transaction terms, but it does **not** include an auditors\u2019 report/opinion (e.g., an independent registered public accounting firm\u2019s report with audit opinion language). See \u201cSelected Historical Financial Information of BowX\u201d and \u201cSelected Historical Financial Information of WeWork,\u201d which state the financial statements are included elsewhere but do not reproduce the auditors\u2019 opinion in this excerpt (sections: **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF BOWX\u201d** (p. 20\u201322) and **\u201cSELECTED HISTORICAL FINANCIAL INFORMATION OF WEWORK\u201d** (p. 23\u201325)).  \n\n**Caveat/limitation:** The table of contents shows an \u201cINDEX TO FINANCIAL STATEMENTS F-1\u201d (Table of Contents, p. vii), implying audit reports may appear in the F-pages not included in the provided text.  \n\n**Confidence:** HIGH (explicitly absent from the provided excerpt)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67711,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 216,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67927
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

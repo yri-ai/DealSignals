@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document. The provided excerpt contains WeWork-branded slides with high-level statements (e.g., values language and a description of \u201cAll Access\u201d) but **no auditor report, auditor opinion, audit firm name, or any quotation/summary of what auditors said** is included in the text shown (no page numbers or section headers referencing auditors appear in the provided material).\n\n**Confidence:** HIGH (direct absence in provided document)\n\n**Caveats / limitations:** The document excerpt appears incomplete/redacted (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), so auditor commentary may exist in omitted pages not provided here.",
+  "model": "gpt-5.2",
+  "input_tokens": 1055,
+  "output_tokens": 136,
+  "latency_ms": 3694,
+  "timestamp": "2026-01-16T20:33:04.646730",
+  "cost_usd": 0.0037502499999999997,
+  "raw_response": {
+    "id": "resp_0973d27dac5a5ff700696aa07d246c81928b162e9ba6c9a042",
+    "object": "response",
+    "created_at": 1768595581,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595584,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0973d27dac5a5ff700696aa07d7a40819282459a42e7728372",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document. The provided excerpt contains WeWork-branded slides with high-level statements (e.g., values language and a description of \u201cAll Access\u201d) but **no auditor report, auditor opinion, audit firm name, or any quotation/summary of what auditors said** is included in the text shown (no page numbers or section headers referencing auditors appear in the provided material).\n\n**Confidence:** HIGH (direct absence in provided document)\n\n**Caveats / limitations:** The document excerpt appears incomplete/redacted (many pages show only \u201c\u00a9 2021 WeWork. Confidential.\u201d and bullet placeholders), so auditor commentary may exist in omitted pages not provided here."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1055,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 136,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1191
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, I can calculate the revenue growth rate year-over-year from the Selected Historical Financial Information of WeWork section.\n\n**Revenue figures from the Consolidated Statements of Operations Data (page 23):**\n- Year ended December 31, 2018: $1,821,751 thousand\n- Year ended December 31, 2019: $3,458,592 thousand\n- Year ended December 31, 2020: $3,415,865 thousand\n\n**Year-over-Year Revenue Growth Rates:**\n\n1. **2018 to 2019:** Revenue grew from $1.82 billion to $3.46 billion, representing approximately **89.8% growth**\n\n2. **2019 to 2020:** Revenue declined from $3.46 billion to $3.42 billion, representing approximately **-1.2% decline**\n\nFor the six months ended June 30, 2021, revenue was $1,191,331 thousand ($1.19 billion), which compared to half of 2020's annual revenue (~$1.71 billion) suggests continued revenue pressure.\n\n**Confidence Level: HIGH** - These figures are directly stated in the financial statements.\n\n**Caveats:**\n- The document notes that \"WeWork's historical results are not necessarily indicative of the results that may be expected in the future\" (page 23)\n- The 2020 revenue decline and 2021 results were significantly impacted by COVID-19, as extensively discussed in the Risk Factors section (pages 31-32)\n- The document states that between Q2 2020 and Q2 2021, \"total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31)",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73052,
+  "output_tokens": 401,
+  "latency_ms": 10573,
+  "timestamp": "2026-01-16T20:49:05.297680",
+  "cost_usd": 0.37528500000000004,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_0158xRMEJQ5dZyBK1Vk4vqfm",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, I can calculate the revenue growth rate year-over-year from the Selected Historical Financial Information of WeWork section.\n\n**Revenue figures from the Consolidated Statements of Operations Data (page 23):**\n- Year ended December 31, 2018: $1,821,751 thousand\n- Year ended December 31, 2019: $3,458,592 thousand\n- Year ended December 31, 2020: $3,415,865 thousand\n\n**Year-over-Year Revenue Growth Rates:**\n\n1. **2018 to 2019:** Revenue grew from $1.82 billion to $3.46 billion, representing approximately **89.8% growth**\n\n2. **2019 to 2020:** Revenue declined from $3.46 billion to $3.42 billion, representing approximately **-1.2% decline**\n\nFor the six months ended June 30, 2021, revenue was $1,191,331 thousand ($1.19 billion), which compared to half of 2020's annual revenue (~$1.71 billion) suggests continued revenue pressure.\n\n**Confidence Level: HIGH** - These figures are directly stated in the financial statements.\n\n**Caveats:**\n- The document notes that \"WeWork's historical results are not necessarily indicative of the results that may be expected in the future\" (page 23)\n- The 2020 revenue decline and 2021 results were significantly impacted by COVID-19, as extensively discussed in the Risk Factors section (pages 31-32)\n- The document states that between Q2 2020 and Q2 2021, \"total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31)"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73052,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 401,
+      "service_tier": "standard"
+    }
+  }
+}

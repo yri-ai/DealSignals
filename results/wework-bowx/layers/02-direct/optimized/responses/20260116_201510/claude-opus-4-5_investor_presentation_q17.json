@@ -1,0 +1,34 @@
+{
+  "content": "## Analysis: Business Performance at 50% Occupancy\n\n**Answer:** Not found in document.\n\nThe provided document does not contain specific information about what happens to WeWork's business at 50% occupancy. While the document references occupancy-related concepts (such as the \"All Access\" product that \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\"), there is no explicit discussion of business performance, breakeven analysis, or financial metrics at the 50% occupancy threshold.\n\n**Caveats and Limitations:**\n- The document appears to be a WeWork investor presentation (dated 2021) but the actual content is heavily redacted or consists primarily of copyright notices (\"\u00a9 2021 WeWork. Confidential.\") and bullet point placeholders without substantive text\n- Key financial data, charts, and detailed explanations that would typically address occupancy economics appear to be missing from the extracted text\n- The document mentions \"Drives Occupancy\" as a feature of their All Access product but does not quantify the occupancy-related business impacts\n\n**Confidence Level:** N/A - Information not present in document\n\n**Recommendation:** To answer this question, you would need access to:\n1. The full unredacted investor presentation with financial projections\n2. WeWork's S-4 filing or proxy statement for the SPAC merger\n3. Any breakeven analysis or sensitivity tables that may exist in supplementary materials",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1360,
+  "output_tokens": 320,
+  "latency_ms": 8150,
+  "timestamp": "2026-01-16T20:44:46.501546",
+  "cost_usd": 0.0148,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01HYLNpDHAJZJaFLApE6ZKpt",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Analysis: Business Performance at 50% Occupancy\n\n**Answer:** Not found in document.\n\nThe provided document does not contain specific information about what happens to WeWork's business at 50% occupancy. While the document references occupancy-related concepts (such as the \"All Access\" product that \"Allows WeWork to drive occupancy beyond physical capacity levels across portfolio based on utilization projections\"), there is no explicit discussion of business performance, breakeven analysis, or financial metrics at the 50% occupancy threshold.\n\n**Caveats and Limitations:**\n- The document appears to be a WeWork investor presentation (dated 2021) but the actual content is heavily redacted or consists primarily of copyright notices (\"\u00a9 2021 WeWork. Confidential.\") and bullet point placeholders without substantive text\n- Key financial data, charts, and detailed explanations that would typically address occupancy economics appear to be missing from the extracted text\n- The document mentions \"Drives Occupancy\" as a feature of their All Access product but does not quantify the occupancy-related business impacts\n\n**Confidence Level:** N/A - Information not present in document\n\n**Recommendation:** To answer this question, you would need access to:\n1. The full unredacted investor presentation with financial projections\n2. WeWork's S-4 filing or proxy statement for the SPAC merger\n3. Any breakeven analysis or sensitivity tables that may exist in supplementary materials"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1360,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 320,
+      "service_tier": "standard"
+    }
+  }
+}

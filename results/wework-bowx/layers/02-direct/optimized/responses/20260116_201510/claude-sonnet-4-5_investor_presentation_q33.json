@@ -1,0 +1,34 @@
+{
+  "content": "# Answer: Lock-up Agreements\n\n**Not found in document.**\n\n## Explanation:\nThe provided document appears to be a WeWork investor presentation focused on business strategy, values, product offerings (like All Access), and financial metrics. I have thoroughly reviewed all pages, and there is no mention of:\n- Lock-up agreements\n- Lock-up periods\n- Share transfer restrictions\n- SPAC merger lock-up terms\n- Any provisions restricting insiders or sponsors from selling shares post-merger\n\n## Confidence Level: **HIGH**\n\nThe absence of this information is definitive based on the content provided. Lock-up agreements are typically found in:\n- Merger agreements or definitive proxy statements\n- Registration statements (S-4 forms)\n- Separate lock-up agreement exhibits\n\nThis presentation appears to be a business overview deck rather than a legal/merger document that would contain lock-up provisions.\n\n## Recommendation:\nTo find lock-up agreement details, you would need to review:\n1. The definitive merger agreement (DA)\n2. SEC Form S-4 or proxy statement\n3. Form 8-K filings announcing the SPAC transaction\n4. Investor rights agreements or registration rights agreements",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1356,
+  "output_tokens": 268,
+  "latency_ms": 8724,
+  "timestamp": "2026-01-16T20:20:37.325376",
+  "cost_usd": 0.008088000000000001,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01EPnArgRrf7qvm5Jz3VeAaj",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Answer: Lock-up Agreements\n\n**Not found in document.**\n\n## Explanation:\nThe provided document appears to be a WeWork investor presentation focused on business strategy, values, product offerings (like All Access), and financial metrics. I have thoroughly reviewed all pages, and there is no mention of:\n- Lock-up agreements\n- Lock-up periods\n- Share transfer restrictions\n- SPAC merger lock-up terms\n- Any provisions restricting insiders or sponsors from selling shares post-merger\n\n## Confidence Level: **HIGH**\n\nThe absence of this information is definitive based on the content provided. Lock-up agreements are typically found in:\n- Merger agreements or definitive proxy statements\n- Registration statements (S-4 forms)\n- Separate lock-up agreement exhibits\n\nThis presentation appears to be a business overview deck rather than a legal/merger document that would contain lock-up provisions.\n\n## Recommendation:\nTo find lock-up agreement details, you would need to review:\n1. The definitive merger agreement (DA)\n2. SEC Form S-4 or proxy statement\n3. Form 8-K filings announcing the SPAC transaction\n4. Investor rights agreements or registration rights agreements"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1356,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 268,
+      "service_tier": "standard"
+    }
+  }
+}

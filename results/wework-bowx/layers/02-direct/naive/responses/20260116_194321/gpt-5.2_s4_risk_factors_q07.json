@@ -1,0 +1,80 @@
+{
+  "content": "The excerpt provided does **not** include a standalone set of management \u201cprojections\u201d (i.e., forecast financial statements) or a section explicitly listing the **assumptions underlying projections**.\n\nWhat it *does* include are several **assumptions used for illustrative pro forma ownership/per\u2011share data and related transaction modeling**, which are effectively the key stated assumptions underlying the document\u2019s forward-looking illustrative figures:\n\n- **Exchange ratio / equity value assumption**\n  - Aggregate Merger Consideration fixed at **655,300,000 shares** of New WeWork Class A at a deemed value of **$10.00/share** (implying **~$6.553B** pre-transaction equity value).\n  - **Exchange Ratio expected ~0.8257** (based on capitalization as of **Sept. 14, 2021**), subject to adjustment.\n\n- **PIPE financing assumption**\n  - Assumes a **$800 million PIPE**: **80,000,000 shares** at **$10.00/share** purchased at closing.\n\n- **Redemption assumptions (two modeled scenarios)**\n  - **No Redemption** scenario: assumes **0** public shares redeemed.\n  - **Maximum Redemption** scenario: assumes **43,231,098** public shares redeemed (aggregate redemption payments **$432.3M**).\n\n- **Minimum cash / closing condition assumption**\n  - Assumes the transaction satisfies the **Minimum Available Cash Condition**: **Trust Amount + PIPE \u2265 $800.0M** (PIPE alone expected to satisfy it in the maximum redemption case).\n\n- **Equity/convertible instrument treatment assumptions used in ownership/dilution tables**\n  - Assumes vesting/settlement/exercise for certain \u201cin-the-money\u201d instruments (as stated in the ownership table notes), including:\n    - vesting of restricted stock awards,\n    - vesting/exercise of in-the-money options,\n    - vesting/issuance of RSUs,\n    - vesting/net exercise of in-the-money warrants,\n    - issuance of shares as merger consideration per the agreement.\n  - Out-of-the-money options and warrants are **excluded** from Aggregate Merger Consideration calculations.\n\nIf you mean **operating/financial projections for WeWork/New WeWork** (revenue, EBITDA, cash flow, etc.), please share the section of the filing where those projections appear (often in a \u201cCertain Forecasts/Projections\u201d or \u201cBackground of the Business Combination\u201d section), and I can extract the specific assumption list.",
+  "model": "gpt-5.2",
+  "input_tokens": 67609,
+  "output_tokens": 520,
+  "latency_ms": 14068,
+  "timestamp": "2026-01-16T19:56:10.895685",
+  "cost_usd": 0.12559575,
+  "raw_response": {
+    "id": "resp_0f8615d1d91f9c0500696a97cdfc4481a3b07cc9367c41e8f0",
+    "object": "response",
+    "created_at": 1768593358,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593370,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0f8615d1d91f9c0500696a97ce82e081a38763c59939a9aa0c",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The excerpt provided does **not** include a standalone set of management \u201cprojections\u201d (i.e., forecast financial statements) or a section explicitly listing the **assumptions underlying projections**.\n\nWhat it *does* include are several **assumptions used for illustrative pro forma ownership/per\u2011share data and related transaction modeling**, which are effectively the key stated assumptions underlying the document\u2019s forward-looking illustrative figures:\n\n- **Exchange ratio / equity value assumption**\n  - Aggregate Merger Consideration fixed at **655,300,000 shares** of New WeWork Class A at a deemed value of **$10.00/share** (implying **~$6.553B** pre-transaction equity value).\n  - **Exchange Ratio expected ~0.8257** (based on capitalization as of **Sept. 14, 2021**), subject to adjustment.\n\n- **PIPE financing assumption**\n  - Assumes a **$800 million PIPE**: **80,000,000 shares** at **$10.00/share** purchased at closing.\n\n- **Redemption assumptions (two modeled scenarios)**\n  - **No Redemption** scenario: assumes **0** public shares redeemed.\n  - **Maximum Redemption** scenario: assumes **43,231,098** public shares redeemed (aggregate redemption payments **$432.3M**).\n\n- **Minimum cash / closing condition assumption**\n  - Assumes the transaction satisfies the **Minimum Available Cash Condition**: **Trust Amount + PIPE \u2265 $800.0M** (PIPE alone expected to satisfy it in the maximum redemption case).\n\n- **Equity/convertible instrument treatment assumptions used in ownership/dilution tables**\n  - Assumes vesting/settlement/exercise for certain \u201cin-the-money\u201d instruments (as stated in the ownership table notes), including:\n    - vesting of restricted stock awards,\n    - vesting/exercise of in-the-money options,\n    - vesting/issuance of RSUs,\n    - vesting/net exercise of in-the-money warrants,\n    - issuance of shares as merger consideration per the agreement.\n  - Out-of-the-money options and warrants are **excluded** from Aggregate Merger Consideration calculations.\n\nIf you mean **operating/financial projections for WeWork/New WeWork** (revenue, EBITDA, cash flow, etc.), please share the section of the filing where those projections appear (often in a \u201cCertain Forecasts/Projections\u201d or \u201cBackground of the Business Combination\u201d section), and I can extract the specific assumption list."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67609,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 520,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68129
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

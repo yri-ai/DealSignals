@@ -1,0 +1,80 @@
+{
+  "content": "Post-merger (i.e., \u201cimmediately following the consummation of the Business Combination\u201d), **New WeWork\u2019s board is expected to have nine directors**:\n\n1. Marcelo Claure  \n2. Michel Combes  \n3. Bruce Dunlevie  \n4. V\u00e9ronique Laury  \n5. Sandeep Mathrani  \n6. Deven Parekh  \n7. Vivek Ranadiv\u00e9  \n8. Kirthiga Reddy  \n9. Jeff Sine  \n\n**Citations:** \u201cQuestions and Answers for Stockholders of BowX \u2014 *Who will be the officers and directors of New WeWork if the Business Combination is consummated?*\u201d (Q&A section, page xxii); also \u201cManagement of New WeWork Following the Business Combination\u201d is referenced as the detailed section for management/board (Q&A section, page xxii).\n\n**Caveats / limitations:**  \n- The document states what the Merger Agreement \u201cprovides\u201d and what is \u201cexpected\u201d post-closing, which implies the composition is contingent on consummation of the Business Combination and effective election at Closing. (Q&A section, page xxii)  \n\n**Confidence:** HIGH (directly stated).",
+  "model": "gpt-5.2",
+  "input_tokens": 67714,
+  "output_tokens": 248,
+  "latency_ms": 6339,
+  "timestamp": "2026-01-16T20:40:15.346761",
+  "cost_usd": 0.1219715,
+  "raw_response": {
+    "id": "resp_0158de6ae163f12700696aa2299cb0819cbad659c11273b3e5",
+    "object": "response",
+    "created_at": 1768596009,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768596014,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0158de6ae163f12700696aa22a491c819c9cda3de85518cacd",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Post-merger (i.e., \u201cimmediately following the consummation of the Business Combination\u201d), **New WeWork\u2019s board is expected to have nine directors**:\n\n1. Marcelo Claure  \n2. Michel Combes  \n3. Bruce Dunlevie  \n4. V\u00e9ronique Laury  \n5. Sandeep Mathrani  \n6. Deven Parekh  \n7. Vivek Ranadiv\u00e9  \n8. Kirthiga Reddy  \n9. Jeff Sine  \n\n**Citations:** \u201cQuestions and Answers for Stockholders of BowX \u2014 *Who will be the officers and directors of New WeWork if the Business Combination is consummated?*\u201d (Q&A section, page xxii); also \u201cManagement of New WeWork Following the Business Combination\u201d is referenced as the detailed section for management/board (Q&A section, page xxii).\n\n**Caveats / limitations:**  \n- The document states what the Merger Agreement \u201cprovides\u201d and what is \u201cexpected\u201d post-closing, which implies the composition is contingent on consummation of the Business Combination and effective election at Closing. (Q&A section, page xxii)  \n\n**Confidence:** HIGH (directly stated)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67714,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 248,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67962
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

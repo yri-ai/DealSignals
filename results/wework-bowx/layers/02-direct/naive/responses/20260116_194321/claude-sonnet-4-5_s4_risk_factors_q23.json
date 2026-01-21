@@ -1,0 +1,34 @@
+{
+  "content": "Based on the document, several significant related-party transactions exist:\n\n1. **Transactions with SoftBank/SBG:**\n   - As of June 30, 2021: $1.7 billion in outstanding letters of credit under the 2020 LC Facility\n   - $2.2 billion in outstanding indebtedness under the SoftBank Senior Unsecured Debt\n   - Ability to borrow up to $1.1 billion under the SoftBank Senior Secured Debt\n\n2. **Commitment Letter for Senior Secured Notes:**\n   - Up to $550 million of 7.50% senior secured notes with StarBright WW LP (an affiliate of SBG)\n\n3. **Warrants to SBWW:**\n   - First Warrant to purchase approximately 39,115,176 shares of New WeWork Class A Common Stock at $0.01 per share\n   - LC Warrant to purchase approximately 11,917,938 shares at $0.01 per share\n\n4. **Historical Transactions:**\n   - Transactions with landlord entities in which Adam Neumann or WeCap Investment Group (operated with Rh\u00f4ne Group) had ownership interests\n\n5. **Board Observer Rights:**\n   - Agreement granting Adam Neumann board observer rights beginning February 26, 2022\n\n6. **Joint Ventures:**\n   - Various joint venture arrangements with SVFE and other related parties in international markets\n\n7. **Revenue and Expenses:**\n   - Related party revenue: $87,694 (six months ended June 30, 2021), $169,783 (2020), $179,651 (2019)\n   - Related party expenses: $38,253 (six months ended June 30, 2021), $80,524 (2020), $290,748 (2019)\n\nThe document notes that \"all transactions between the Company and SoftBank Obligor are related party transactions\" and that these transactions \"present possible conflicts of interest and could have an adverse effect on its business and results of operations.\"",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 72928,
+  "output_tokens": 469,
+  "latency_ms": 11056,
+  "timestamp": "2026-01-16T19:49:47.160576",
+  "cost_usd": 0.22581900000000005,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01WeHXagdXRYSGA9atR8GUmS",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "Based on the document, several significant related-party transactions exist:\n\n1. **Transactions with SoftBank/SBG:**\n   - As of June 30, 2021: $1.7 billion in outstanding letters of credit under the 2020 LC Facility\n   - $2.2 billion in outstanding indebtedness under the SoftBank Senior Unsecured Debt\n   - Ability to borrow up to $1.1 billion under the SoftBank Senior Secured Debt\n\n2. **Commitment Letter for Senior Secured Notes:**\n   - Up to $550 million of 7.50% senior secured notes with StarBright WW LP (an affiliate of SBG)\n\n3. **Warrants to SBWW:**\n   - First Warrant to purchase approximately 39,115,176 shares of New WeWork Class A Common Stock at $0.01 per share\n   - LC Warrant to purchase approximately 11,917,938 shares at $0.01 per share\n\n4. **Historical Transactions:**\n   - Transactions with landlord entities in which Adam Neumann or WeCap Investment Group (operated with Rh\u00f4ne Group) had ownership interests\n\n5. **Board Observer Rights:**\n   - Agreement granting Adam Neumann board observer rights beginning February 26, 2022\n\n6. **Joint Ventures:**\n   - Various joint venture arrangements with SVFE and other related parties in international markets\n\n7. **Revenue and Expenses:**\n   - Related party revenue: $87,694 (six months ended June 30, 2021), $169,783 (2020), $179,651 (2019)\n   - Related party expenses: $38,253 (six months ended June 30, 2021), $80,524 (2020), $290,748 (2019)\n\nThe document notes that \"all transactions between the Company and SoftBank Obligor are related party transactions\" and that these transactions \"present possible conflicts of interest and could have an adverse effect on its business and results of operations.\""
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 72928,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 469,
+      "service_tier": "standard"
+    }
+  }
+}

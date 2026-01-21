@@ -1,0 +1,80 @@
+{
+  "content": "**Not found in document.** The provided pages/slides are heavily redacted (many sections shown only as bullet placeholders \u201c\u2022\u201d/\u201c\u25cf\u201d) and do not include any readable section or table describing **comparable transactions** (e.g., M&A comps, precedent transactions, transaction multiples). *(Document excerpts throughout; no identifiable \u201cComparable Transactions\u201d section appears in the provided content.)*\n\n**Confidence:** LOW (absence-of-evidence conclusion; document content appears incomplete/redacted)\n\n**Caveats / limitations:**\n- The document appears **incomplete and/or significantly redacted**, so comparable transactions **may exist in omitted pages** but are **not visible** in the provided material. *(Multiple slides show only \u201c\u00a9 2021 WeWork. Confidential.\u201d with placeholder bullets \u201c\u2022/\u25cf\u201d.)*",
+  "model": "gpt-5.2",
+  "input_tokens": 1054,
+  "output_tokens": 167,
+  "latency_ms": 6356,
+  "timestamp": "2026-01-16T20:33:39.677900",
+  "cost_usd": 0.0041825,
+  "raw_response": {
+    "id": "resp_065e169b6ad855a300696aa09d81208195b4b7155a794b1571",
+    "object": "response",
+    "created_at": 1768595613,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595619,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_065e169b6ad855a300696aa09e3a5081958306dcfd39312980",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Not found in document.** The provided pages/slides are heavily redacted (many sections shown only as bullet placeholders \u201c\u2022\u201d/\u201c\u25cf\u201d) and do not include any readable section or table describing **comparable transactions** (e.g., M&A comps, precedent transactions, transaction multiples). *(Document excerpts throughout; no identifiable \u201cComparable Transactions\u201d section appears in the provided content.)*\n\n**Confidence:** LOW (absence-of-evidence conclusion; document content appears incomplete/redacted)\n\n**Caveats / limitations:**\n- The document appears **incomplete and/or significantly redacted**, so comparable transactions **may exist in omitted pages** but are **not visible** in the provided material. *(Multiple slides show only \u201c\u00a9 2021 WeWork. Confidential.\u201d with placeholder bullets \u201c\u2022/\u25cf\u201d.)*"
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1054,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 167,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1221
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

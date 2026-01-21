@@ -1,0 +1,34 @@
+{
+  "content": "**Not found in document**\n\nThe document does not contain sufficient information to calculate the average revenue per member. While the document provides:\n\n1. **Total revenue data**: $1,191,331 thousand for the six months ended June 30, 2021, and $3,415,865 thousand for the year ended December 31, 2020 (page 23, Consolidated Statements of Operations Data)\n\n2. **Membership decline information**: \"between the quarter ended June 30, 2020 and the quarter ended June 30, 2021, the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31)\n\n3. **Enterprise Member revenue percentage**: Enterprise Members accounted for \"50%, 49%, 40% and 32% of the Company's total membership and service revenue for the six months ended June 30, 2021 and the year ended December 31, 2020, 2019 and 2018, respectively\" (page 42)\n\nHowever, the document does not provide:\n- The actual total number of members at any specific point in time\n- A breakdown of revenue specifically attributable to individual memberships versus other revenue sources\n- Sufficient data to calculate average revenue per member\n\n**Confidence: HIGH** (The document clearly does not contain the specific membership count data needed to perform this calculation)",
+  "model": "claude-opus-4-5",
+  "input_tokens": 73048,
+  "output_tokens": 310,
+  "latency_ms": 9205,
+  "timestamp": "2026-01-16T20:51:00.468351",
+  "cost_usd": 0.37299,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01MYJQP3SkWBecEMboTFMHPR",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "**Not found in document**\n\nThe document does not contain sufficient information to calculate the average revenue per member. While the document provides:\n\n1. **Total revenue data**: $1,191,331 thousand for the six months ended June 30, 2021, and $3,415,865 thousand for the year ended December 31, 2020 (page 23, Consolidated Statements of Operations Data)\n\n2. **Membership decline information**: \"between the quarter ended June 30, 2020 and the quarter ended June 30, 2021, the Company's total memberships, including ChinaCo, IndiaCo and Israel locations, declined 16%\" (page 31)\n\n3. **Enterprise Member revenue percentage**: Enterprise Members accounted for \"50%, 49%, 40% and 32% of the Company's total membership and service revenue for the six months ended June 30, 2021 and the year ended December 31, 2020, 2019 and 2018, respectively\" (page 42)\n\nHowever, the document does not provide:\n- The actual total number of members at any specific point in time\n- A breakdown of revenue specifically attributable to individual memberships versus other revenue sources\n- Sufficient data to calculate average revenue per member\n\n**Confidence: HIGH** (The document clearly does not contain the specific membership count data needed to perform this calculation)"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 73048,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 310,
+      "service_tier": "standard"
+    }
+  }
+}

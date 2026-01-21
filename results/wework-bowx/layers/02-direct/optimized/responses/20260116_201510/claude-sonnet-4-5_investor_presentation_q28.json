@@ -1,0 +1,34 @@
+{
+  "content": "# Going Concern Disclosure Analysis\n\n## Answer:\n**Not found in document.**\n\n## Explanation:\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021 related to a SPAC merger. I have reviewed all available pages and content, and there are no going concern disclosures present in this document.\n\n## What the Document Contains:\n- Company values and mission statements\n- Business model descriptions (All Access product, partnerships)\n- Timeline charts (2010-2030)\n- Various bulleted lists with redacted/unavailable content\n- \u00a9 2021 WeWork confidential markings throughout\n\n## Confidence Level: **HIGH**\n\nThe document does not contain:\n- Financial statements\n- Auditor's reports\n- Management's discussion and analysis (MD&A)\n- Risk factors section\n- Notes to financial statements\n\n## Caveats:\n1. **Document Completeness**: The document appears to be primarily presentation slides with limited readable content. Many bullet points appear blank or are not fully visible.\n2. **Document Type**: This appears to be a marketing/presentation document rather than an SEC filing (such as a Form S-4, 10-K, or proxy statement) where going concern disclosures would typically appear.\n3. **Missing Critical Sections**: Going concern warnings would typically be found in audited financial statements or SEC filings, which do not appear to be included in this document.\n\nIf going concern disclosures exist for this SPAC transaction, they would likely be found in separate SEC filing documents not provided here.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1356,
+  "output_tokens": 346,
+  "latency_ms": 10094,
+  "timestamp": "2026-01-16T20:19:49.868943",
+  "cost_usd": 0.009258,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01DX9Knne9VjVJSJ21TnQSoA",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Going Concern Disclosure Analysis\n\n## Answer:\n**Not found in document.**\n\n## Explanation:\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021 related to a SPAC merger. I have reviewed all available pages and content, and there are no going concern disclosures present in this document.\n\n## What the Document Contains:\n- Company values and mission statements\n- Business model descriptions (All Access product, partnerships)\n- Timeline charts (2010-2030)\n- Various bulleted lists with redacted/unavailable content\n- \u00a9 2021 WeWork confidential markings throughout\n\n## Confidence Level: **HIGH**\n\nThe document does not contain:\n- Financial statements\n- Auditor's reports\n- Management's discussion and analysis (MD&A)\n- Risk factors section\n- Notes to financial statements\n\n## Caveats:\n1. **Document Completeness**: The document appears to be primarily presentation slides with limited readable content. Many bullet points appear blank or are not fully visible.\n2. **Document Type**: This appears to be a marketing/presentation document rather than an SEC filing (such as a Form S-4, 10-K, or proxy statement) where going concern disclosures would typically appear.\n3. **Missing Critical Sections**: Going concern warnings would typically be found in audited financial statements or SEC filings, which do not appear to be included in this document.\n\nIf going concern disclosures exist for this SPAC transaction, they would likely be found in separate SEC filing documents not provided here."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1356,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 346,
+      "service_tier": "standard"
+    }
+  }
+}

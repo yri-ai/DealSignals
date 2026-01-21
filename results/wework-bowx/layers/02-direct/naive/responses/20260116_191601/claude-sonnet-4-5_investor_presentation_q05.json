@@ -1,0 +1,34 @@
+{
+  "content": "I cannot find specific information about the cash runway at current burn rate in the provided document. \n\nThe document appears to be a WeWork investor presentation from 2021 that covers company values, business strategy, and various operational metrics, but the specific financial details regarding:\n- Current cash balance\n- Monthly or quarterly burn rate\n- Projected cash runway\n\nare not visible or detailed in the portions of the document that are legible.\n\nTo answer this question accurately, I would need access to the financial statements or specific slides that contain:\n- Cash and cash equivalents balance\n- Operating cash flow or cash burn metrics\n- Management's guidance on runway\n\nIf you have access to other sections of this presentation or WeWork's financial statements from this period, those would contain the relevant information.",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1239,
+  "output_tokens": 166,
+  "latency_ms": 7976,
+  "timestamp": "2026-01-16T19:16:33.601645",
+  "cost_usd": 0.006207000000000001,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01XxS5r8zDFHMnxU9xHa49Dz",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "I cannot find specific information about the cash runway at current burn rate in the provided document. \n\nThe document appears to be a WeWork investor presentation from 2021 that covers company values, business strategy, and various operational metrics, but the specific financial details regarding:\n- Current cash balance\n- Monthly or quarterly burn rate\n- Projected cash runway\n\nare not visible or detailed in the portions of the document that are legible.\n\nTo answer this question accurately, I would need access to the financial statements or specific slides that contain:\n- Cash and cash equivalents balance\n- Operating cash flow or cash burn metrics\n- Management's guidance on runway\n\nIf you have access to other sections of this presentation or WeWork's financial statements from this period, those would contain the relevant information."
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 166,
+      "service_tier": "standard"
+    }
+  }
+}

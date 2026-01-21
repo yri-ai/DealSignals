@@ -1,0 +1,80 @@
+{
+  "content": "The provided document excerpt does **not include any revenue figure** (it contains mostly confidentiality notices and qualitative descriptions), so **WeWork\u2019s revenue for the most recent reported period cannot be determined from this document**.",
+  "model": "gpt-5.2",
+  "input_tokens": 957,
+  "output_tokens": 46,
+  "latency_ms": 2212,
+  "timestamp": "2026-01-16T19:53:21.339690",
+  "cost_usd": 0.00231875,
+  "raw_response": {
+    "id": "resp_0d93f48b0f73eff600696a972f6a1081a0b6483956eb6f658c",
+    "object": "response",
+    "created_at": 1768593199,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593201,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0d93f48b0f73eff600696a972fef0c81a0b0a9330ed20281d7",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The provided document excerpt does **not include any revenue figure** (it contains mostly confidentiality notices and qualitative descriptions), so **WeWork\u2019s revenue for the most recent reported period cannot be determined from this document**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 957,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 46,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1003
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

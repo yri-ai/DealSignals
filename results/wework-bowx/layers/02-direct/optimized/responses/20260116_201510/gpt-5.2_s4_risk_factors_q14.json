@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**What is provided instead (related but not a \u201cduration profile\u201d):**\n- The document states that WeWork\u2019s **average length of the initial term of its leases is approximately 15 years**, and that the **average term of its membership agreements is 15 months** (Risk Factors \u2014 \u201cThe long-term and fixed-cost nature of the Company\u2019s leases may limit the Company\u2019s operating flexibility and could adversely affect its liquidity and results of operations,\u201d p. 33).\n- It also discloses that as of **June 30, 2021**, WeWork\u2019s subsidiaries\u2019 **future undiscounted minimum lease cost payment obligations under signed operating and finance leases were $36.6 billion**, but it does **not break these obligations out by maturity buckets** (same Risk Factors section, p. 33).\n\n**Confidence:** HIGH (the specific \u201cduration profile\u201d/maturity schedule is not presented in the provided excerpt; only averages and aggregate obligations are shown).\n\n**Caveats / limitations:**\n- A \u201cduration profile\u201d typically implies a maturity schedule (e.g., payments due in 1\u20133 years, 3\u20135 years, 5+ years). The provided text does not include such a schedule\u2014only an average initial lease term and a total undiscounted obligation figure (Risk Factors section, p. 33).",
+  "model": "gpt-5.2",
+  "input_tokens": 67714,
+  "output_tokens": 282,
+  "latency_ms": 7447,
+  "timestamp": "2026-01-16T20:36:13.963364",
+  "cost_usd": 0.12244749999999999,
+  "raw_response": {
+    "id": "resp_0224cb4c067a038c00696aa136df4881a385b4ffa060358b74",
+    "object": "response",
+    "created_at": 1768595767,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595773,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0224cb4c067a038c00696aa137790881a3b4a47c3fcbebeec9",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**What is provided instead (related but not a \u201cduration profile\u201d):**\n- The document states that WeWork\u2019s **average length of the initial term of its leases is approximately 15 years**, and that the **average term of its membership agreements is 15 months** (Risk Factors \u2014 \u201cThe long-term and fixed-cost nature of the Company\u2019s leases may limit the Company\u2019s operating flexibility and could adversely affect its liquidity and results of operations,\u201d p. 33).\n- It also discloses that as of **June 30, 2021**, WeWork\u2019s subsidiaries\u2019 **future undiscounted minimum lease cost payment obligations under signed operating and finance leases were $36.6 billion**, but it does **not break these obligations out by maturity buckets** (same Risk Factors section, p. 33).\n\n**Confidence:** HIGH (the specific \u201cduration profile\u201d/maturity schedule is not presented in the provided excerpt; only averages and aggregate obligations are shown).\n\n**Caveats / limitations:**\n- A \u201cduration profile\u201d typically implies a maturity schedule (e.g., payments due in 1\u20133 years, 3\u20135 years, 5+ years). The provided text does not include such a schedule\u2014only an average initial lease term and a total undiscounted obligation figure (Risk Factors section, p. 33)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67714,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 282,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67996
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

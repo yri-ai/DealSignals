@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document. The provided excerpt does not disclose (i) what \u201c70% occupancy\u201d refers to (e.g., physical occupancy, desk occupancy, breakeven occupancy, or an internal KPI threshold), nor (ii) the operational or financial impacts on WeWork/New WeWork \u201cat 70% occupancy.\u201d The document defines **\u201cPhysical Occupancy\u201d** as \u201cthe number of physical memberships divided by total workstations\u201d but does not state consequences at a 70% level (Section: **\u201cSELECTED DEFINITIONS\u201d**, definition of \u201cPhysical Occupancy,\u201d p. **xiii**).  \n\n## Confidence  \nLOW \u2014 Not found in document.\n\n## Caveats / limitations  \n- The excerpt includes general risk disclosures about occupancy reductions and membership churn (e.g., memberships declined 16% between Q2\u201920 and Q2\u201921) but does not quantify outcomes at a 70% occupancy level (Section: **\u201cRISK FACTORS \u2014 Risks Relating to the Company\u2019s Business\u201d**, pp. **31\u201333**).  \n- Additional details might exist elsewhere in the full S-4/A (e.g., MD&A or KPI tables), but they are not included in the provided text.",
+  "model": "gpt-5.2",
+  "input_tokens": 67716,
+  "output_tokens": 252,
+  "latency_ms": 8803,
+  "timestamp": "2026-01-16T20:36:35.592409",
+  "cost_usd": 0.122031,
+  "raw_response": {
+    "id": "resp_0012cc1d5abbb9e900696aa14b60d481a0a83edf5532870aa4",
+    "object": "response",
+    "created_at": 1768595787,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595795,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0012cc1d5abbb9e900696aa14bf9a481a0b3cc451fbab4ed88",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document. The provided excerpt does not disclose (i) what \u201c70% occupancy\u201d refers to (e.g., physical occupancy, desk occupancy, breakeven occupancy, or an internal KPI threshold), nor (ii) the operational or financial impacts on WeWork/New WeWork \u201cat 70% occupancy.\u201d The document defines **\u201cPhysical Occupancy\u201d** as \u201cthe number of physical memberships divided by total workstations\u201d but does not state consequences at a 70% level (Section: **\u201cSELECTED DEFINITIONS\u201d**, definition of \u201cPhysical Occupancy,\u201d p. **xiii**).  \n\n## Confidence  \nLOW \u2014 Not found in document.\n\n## Caveats / limitations  \n- The excerpt includes general risk disclosures about occupancy reductions and membership churn (e.g., memberships declined 16% between Q2\u201920 and Q2\u201921) but does not quantify outcomes at a 70% occupancy level (Section: **\u201cRISK FACTORS \u2014 Risks Relating to the Company\u2019s Business\u201d**, pp. **31\u201333**).  \n- Additional details might exist elsewhere in the full S-4/A (e.g., MD&A or KPI tables), but they are not included in the provided text."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67716,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 252,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67968
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

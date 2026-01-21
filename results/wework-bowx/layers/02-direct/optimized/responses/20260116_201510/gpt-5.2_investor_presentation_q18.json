@@ -1,0 +1,80 @@
+{
+  "content": "Not found in document.\n\n**Citations:** The provided document text contains no enterprise value figure, no valuation table, and no inputs (e.g., market cap, net debt, cash, or pro forma adjustments) sufficient to calculate an implied enterprise value. The only legible sections are qualitative slides (e.g., \u201cAll Access\u201d business description and company values) with no valuation metrics shown (sections visible include \u201cAll Access\u201d and a values slide beginning \u201cWe know the \u2018right thing\u2019\u2026\u201d).  \n\n**Confidence:** HIGH (the enterprise value is not stated anywhere in the provided text)\n\n**Caveats / limitations:** The document appears heavily redacted or truncated (many pages show only bullets with no numbers), so the valuation slide(s) may be missing from the provided excerpt.",
+  "model": "gpt-5.2",
+  "input_tokens": 1056,
+  "output_tokens": 162,
+  "latency_ms": 22320,
+  "timestamp": "2026-01-16T20:31:45.593913",
+  "cost_usd": 0.004116,
+  "raw_response": {
+    "id": "resp_0d32a7cb2a95dab400696aa01c0e1c8196907970ca2f84517a",
+    "object": "response",
+    "created_at": 1768595484,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595504,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0d32a7cb2a95dab400696aa01decbc8196a82a3695b7dbe457",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Not found in document.\n\n**Citations:** The provided document text contains no enterprise value figure, no valuation table, and no inputs (e.g., market cap, net debt, cash, or pro forma adjustments) sufficient to calculate an implied enterprise value. The only legible sections are qualitative slides (e.g., \u201cAll Access\u201d business description and company values) with no valuation metrics shown (sections visible include \u201cAll Access\u201d and a values slide beginning \u201cWe know the \u2018right thing\u2019\u2026\u201d).  \n\n**Confidence:** HIGH (the enterprise value is not stated anywhere in the provided text)\n\n**Caveats / limitations:** The document appears heavily redacted or truncated (many pages show only bullets with no numbers), so the valuation slide(s) may be missing from the provided excerpt."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 1056,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 162,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1218
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

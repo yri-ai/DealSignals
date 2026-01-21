@@ -1,0 +1,80 @@
+{
+  "content": "The provided excerpt is heavily redacted/placeholdered (mostly \u201c\u00a9 2021 WeWork. Confidential.\u201d with bullet points but no readable content). As a result, the document **does not disclose the specific \u201ckey assumptions underlying the projections.\u201d**  \n\nThe only clearly legible assumption-like items relate to **All Access** and imply the projections may assume:\n- **Adoption of an on-demand/subscription model** (\u201cpay\u2011as\u2011you\u2011go or monthly subscription\u201d with access to a global network)\n- **Incremental demand generation via affinity/partnership channels** (\u201cgenerates partnerships\u2026top of funnel demand\u201d)\n- **Improved occupancy/utilization management** (\u201cdrive occupancy beyond physical capacity\u2026based on utilization projections\u201d)\n- **High incremental margins from subscription revenue** layered on top of the traditional leased model (\u201csignificant incremental margins\u201d)\n\nIf you can share the pages/sections where the projection assumptions are listed (or a less-redacted version), I can extract and summarize the full set precisely (e.g., occupancy, pricing, churn, lease costs, expansion cadence, etc.).",
+  "model": "gpt-5.2",
+  "input_tokens": 953,
+  "output_tokens": 226,
+  "latency_ms": 5978,
+  "timestamp": "2026-01-16T19:53:45.854760",
+  "cost_usd": 0.004831749999999999,
+  "raw_response": {
+    "id": "resp_0e81a7df5474ba0600696a974411e481a3b775d3a552e422bf",
+    "object": "response",
+    "created_at": 1768593220,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593225,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0e81a7df5474ba0600696a9744918081a3b34167905c13b89e",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The provided excerpt is heavily redacted/placeholdered (mostly \u201c\u00a9 2021 WeWork. Confidential.\u201d with bullet points but no readable content). As a result, the document **does not disclose the specific \u201ckey assumptions underlying the projections.\u201d**  \n\nThe only clearly legible assumption-like items relate to **All Access** and imply the projections may assume:\n- **Adoption of an on-demand/subscription model** (\u201cpay\u2011as\u2011you\u2011go or monthly subscription\u201d with access to a global network)\n- **Incremental demand generation via affinity/partnership channels** (\u201cgenerates partnerships\u2026top of funnel demand\u201d)\n- **Improved occupancy/utilization management** (\u201cdrive occupancy beyond physical capacity\u2026based on utilization projections\u201d)\n- **High incremental margins from subscription revenue** layered on top of the traditional leased model (\u201csignificant incremental margins\u201d)\n\nIf you can share the pages/sections where the projection assumptions are listed (or a less-redacted version), I can extract and summarize the full set precisely (e.g., occupancy, pricing, churn, lease costs, expansion cadence, etc.)."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 953,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 226,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1179
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

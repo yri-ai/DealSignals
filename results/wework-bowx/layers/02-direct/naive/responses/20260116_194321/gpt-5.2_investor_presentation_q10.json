@@ -1,0 +1,80 @@
+{
+  "content": "**Occupancy rate** is the percentage of WeWork\u2019s available workspace capacity that is occupied (i.e., sold/used) at a given time\u2014typically calculated as **occupied capacity \u00f7 total available capacity**.\n\n**Trend:** The provided document pages do not include any readable numeric occupancy-rate data or a visible chart/table showing its change over time (most content is redacted/blank aside from general statements like \u201cDrives Occupancy\u201d). As a result, **the trend cannot be determined from this document excerpt**.",
+  "model": "gpt-5.2",
+  "input_tokens": 955,
+  "output_tokens": 109,
+  "latency_ms": 3274,
+  "timestamp": "2026-01-16T19:53:52.712119",
+  "cost_usd": 0.00319725,
+  "raw_response": {
+    "id": "resp_01a98facec7f6ce400696a974daa5081a284bcbe3d68d161dd",
+    "object": "response",
+    "created_at": 1768593229,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "openai"
+    },
+    "completed_at": 1768593232,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_01a98facec7f6ce400696a974e24e481a2899a1aafed8478b0",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "**Occupancy rate** is the percentage of WeWork\u2019s available workspace capacity that is occupied (i.e., sold/used) at a given time\u2014typically calculated as **occupied capacity \u00f7 total available capacity**.\n\n**Trend:** The provided document pages do not include any readable numeric occupancy-rate data or a visible chart/table showing its change over time (most content is redacted/blank aside from general statements like \u201cDrives Occupancy\u201d). As a result, **the trend cannot be determined from this document excerpt**."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 955,
+      "input_tokens_details": {
+        "cached_tokens": 0
+      },
+      "output_tokens": 109,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 1064
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

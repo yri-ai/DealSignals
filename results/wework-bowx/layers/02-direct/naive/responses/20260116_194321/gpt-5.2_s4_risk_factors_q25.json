@@ -1,0 +1,80 @@
+{
+  "content": "Adam Neumann\u2019s ongoing relationship/exposure is that **he has contractual \u201cboard observer\u201d rights** in the post\u2011closing company (\u201cNew WeWork\u201d).\n\n- **When it starts:** Beginning **February 26, 2022**.  \n- **What he (or his designee) gets:** The right to **observe meetings of New WeWork\u2019s board (and certain committees) in a non\u2011voting observer capacity**, and to **receive copies of written materials** provided to directors, subject to conditions. He is **not a director** and has **no vote**.  \n- **How long it lasts / termination trigger:** These observer rights terminate once he **ceases to beneficially own** WeWork equity (including profits interest units) representing at least **19,028,251 shares of WeWork Class A common stock (as\u2011converted, adjusted for splits/dividends)**.  \n- **Confidentiality / limits:** He (or his designee) must keep information confidential, and New WeWork can **withhold information or exclude him** from portions of meetings to protect attorney\u2011client privilege, avoid disclosure of trade secrets, address conflicts, or if he violates restrictive covenants.",
+  "model": "gpt-5.2",
+  "input_tokens": 67611,
+  "output_tokens": 248,
+  "latency_ms": 6177,
+  "timestamp": "2026-01-16T19:58:20.834189",
+  "cost_usd": 0.12179125000000002,
+  "raw_response": {
+    "id": "resp_045020887cef566300696a9856ff5c8193a6d1c8797727202b",
+    "object": "response",
+    "created_at": 1768593495,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593500,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_045020887cef566300696a985792588193a2ea22ecf1ec488f",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Adam Neumann\u2019s ongoing relationship/exposure is that **he has contractual \u201cboard observer\u201d rights** in the post\u2011closing company (\u201cNew WeWork\u201d).\n\n- **When it starts:** Beginning **February 26, 2022**.  \n- **What he (or his designee) gets:** The right to **observe meetings of New WeWork\u2019s board (and certain committees) in a non\u2011voting observer capacity**, and to **receive copies of written materials** provided to directors, subject to conditions. He is **not a director** and has **no vote**.  \n- **How long it lasts / termination trigger:** These observer rights terminate once he **ceases to beneficially own** WeWork equity (including profits interest units) representing at least **19,028,251 shares of WeWork Class A common stock (as\u2011converted, adjusted for splits/dividends)**.  \n- **Confidentiality / limits:** He (or his designee) must keep information confidential, and New WeWork can **withhold information or exclude him** from portions of meetings to protect attorney\u2011client privilege, avoid disclosure of trade secrets, address conflicts, or if he violates restrictive covenants."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67611,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 248,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67859
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

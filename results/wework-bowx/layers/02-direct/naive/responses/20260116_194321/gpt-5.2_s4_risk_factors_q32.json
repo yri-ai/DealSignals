@@ -1,0 +1,80 @@
+{
+  "content": "Post\u2011merger (i.e., after BowX changes its name to **WeWork Inc. (\u201cNew WeWork\u201d)**), the company will have a **dual\u2011class common stock voting structure**:\n\n- **Class A common stock (New WeWork Class A)**: the primary economic equity (the document describes it as the common stock being issued as merger consideration and to PIPE investors; it will be NYSE\u2011listed under \u201cWE\u201d).\n- **Class C common stock (New WeWork Class C)**: expressly described as a **\u201cnon\u2011economic voting security\u201d**\u2014it has **no rights to dividends or liquidation proceeds**, but provides voting power (issued in connection with certain WeWork partnership/profits interest arrangements).\n\nIn addition, for at least **two years**, the charter amendments include a **voting cap**: the **SoftBank holders\u2019 voting rights are restricted to no more than 49.9%** of the voting securities **present and voting** at any stockholder meeting.",
+  "model": "gpt-5.2",
+  "input_tokens": 67609,
+  "output_tokens": 208,
+  "latency_ms": 6327,
+  "timestamp": "2026-01-16T19:59:09.679270",
+  "cost_usd": 0.12122775,
+  "raw_response": {
+    "id": "resp_0ed068a64efcc10a00696a9887fbdc8194abe8d3a952640151",
+    "object": "response",
+    "created_at": 1768593544,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593549,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ed068a64efcc10a00696a9888d4908194a6c3e9e7fa2a8bd1",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "Post\u2011merger (i.e., after BowX changes its name to **WeWork Inc. (\u201cNew WeWork\u201d)**), the company will have a **dual\u2011class common stock voting structure**:\n\n- **Class A common stock (New WeWork Class A)**: the primary economic equity (the document describes it as the common stock being issued as merger consideration and to PIPE investors; it will be NYSE\u2011listed under \u201cWE\u201d).\n- **Class C common stock (New WeWork Class C)**: expressly described as a **\u201cnon\u2011economic voting security\u201d**\u2014it has **no rights to dividends or liquidation proceeds**, but provides voting power (issued in connection with certain WeWork partnership/profits interest arrangements).\n\nIn addition, for at least **two years**, the charter amendments include a **voting cap**: the **SoftBank holders\u2019 voting rights are restricted to no more than 49.9%** of the voting securities **present and voting** at any stockholder meeting."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67609,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 208,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67817
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

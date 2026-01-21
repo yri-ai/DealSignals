@@ -1,0 +1,80 @@
+{
+  "content": "The provided excerpt does **not** identify or disclose any **material weaknesses** in internal control over financial reporting.\n\nIt does state, in the \u201cRisk Factors\u201d section, that **WeWork\u2019s internal controls, financial systems and procedures need further development for a public company and a company of its global scale**, but that is framed as a risk/need for improvement rather than an explicit finding of a material weakness.",
+  "model": "gpt-5.2",
+  "input_tokens": 67609,
+  "output_tokens": 86,
+  "latency_ms": 3330,
+  "timestamp": "2026-01-16T19:59:00.450844",
+  "cost_usd": 0.11951975,
+  "raw_response": {
+    "id": "resp_0ce9c1db4d4e635a00696a98818b2881938944404c20f80b1d",
+    "object": "response",
+    "created_at": 1768593537,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768593540,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0ce9c1db4d4e635a00696a98821b248193aa83d4b0ca3ec657",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The provided excerpt does **not** identify or disclose any **material weaknesses** in internal control over financial reporting.\n\nIt does state, in the \u201cRisk Factors\u201d section, that **WeWork\u2019s internal controls, financial systems and procedures need further development for a public company and a company of its global scale**, but that is framed as a risk/need for improvement rather than an explicit finding of a material weakness."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67609,
+      "input_tokens_details": {
+        "cached_tokens": 67456
+      },
+      "output_tokens": 86,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 67695
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

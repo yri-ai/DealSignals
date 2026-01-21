@@ -1,0 +1,80 @@
+{
+  "content": "The document describes **lease termination provisions only at a high level**, and mainly emphasizes that WeWork\u2019s leases generally **do not** allow early termination.\n\n## Lease termination provisions (as described in the document)\n\n- **Most leases do not contain early termination provisions.** The document states that WeWork\u2019s long-term leases \u201c**with limited exceptions, do not contain early termination provisions**.\u201d (Risk Factors \u2014 *\u201cThe long-term and fixed-cost nature of the Company\u2019s leases may limit the Company\u2019s operating flexibility\u2026\u201d*, p. 33)\n\n- **Lease terminations/exits are occurring primarily through negotiated restructurings/exits (not contractual early termination).** The document explains WeWork is executing \u201c**full or partial lease exits**\u201d and has \u201c**negotiated over 500 lease amendments and/or exits** with landlord partners,\u201d indicating these are negotiated outcomes rather than standard lease termination rights. (Risk Factors \u2014 *\u201cThe Company is undergoing a transformation in its business plan\u2026\u201d*, p. 37)\n\n- **Some occupancy arrangements contain termination penalties.** The document notes WeWork is increasingly using \u201cmanagement agreements, participating leases and other occupancy arrangements,\u201d and that \u201c**Some of the Company\u2019s agreements contain penalties that are payable in the event the Company terminates the arrangement**.\u201d (Risk Factors \u2014 *\u201cThe long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d*, p. 35)\n\n## Not found in document (limitations)\n- Specific **contractual termination clauses**, notice periods, termination fees, default/termination triggers, or differences by lease type **are not provided** in the excerpted document. **Not found in document.**\n\n## Confidence\n- **HIGH** for statements that leases generally lack early termination provisions and that some arrangements have termination penalties (directly stated in Risk Factors cited above).\n- **LOW** regarding any further specifics because the document does not provide detailed lease-by-lease provisions or standardized termination terms.",
+  "model": "gpt-5.2",
+  "input_tokens": 67712,
+  "output_tokens": 396,
+  "latency_ms": 12818,
+  "timestamp": "2026-01-16T20:36:26.786012",
+  "cost_usd": 0.12403999999999998,
+  "raw_response": {
+    "id": "resp_0f04628903b463ad00696aa13e76488194bb957323a91dfd40",
+    "object": "response",
+    "created_at": 1768595774,
+    "status": "completed",
+    "background": false,
+    "billing": {
+      "payer": "developer"
+    },
+    "completed_at": 1768595786,
+    "error": null,
+    "frequency_penalty": 0,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": null,
+    "max_tool_calls": null,
+    "model": "gpt-5.2-2025-12-11",
+    "output": [
+      {
+        "id": "msg_0f04628903b463ad00696aa13f06c0819491da7e66b66b5854",
+        "type": "message",
+        "status": "completed",
+        "content": [
+          {
+            "type": "output_text",
+            "annotations": [],
+            "logprobs": [],
+            "text": "The document describes **lease termination provisions only at a high level**, and mainly emphasizes that WeWork\u2019s leases generally **do not** allow early termination.\n\n## Lease termination provisions (as described in the document)\n\n- **Most leases do not contain early termination provisions.** The document states that WeWork\u2019s long-term leases \u201c**with limited exceptions, do not contain early termination provisions**.\u201d (Risk Factors \u2014 *\u201cThe long-term and fixed-cost nature of the Company\u2019s leases may limit the Company\u2019s operating flexibility\u2026\u201d*, p. 33)\n\n- **Lease terminations/exits are occurring primarily through negotiated restructurings/exits (not contractual early termination).** The document explains WeWork is executing \u201c**full or partial lease exits**\u201d and has \u201c**negotiated over 500 lease amendments and/or exits** with landlord partners,\u201d indicating these are negotiated outcomes rather than standard lease termination rights. (Risk Factors \u2014 *\u201cThe Company is undergoing a transformation in its business plan\u2026\u201d*, p. 37)\n\n- **Some occupancy arrangements contain termination penalties.** The document notes WeWork is increasingly using \u201cmanagement agreements, participating leases and other occupancy arrangements,\u201d and that \u201c**Some of the Company\u2019s agreements contain penalties that are payable in the event the Company terminates the arrangement**.\u201d (Risk Factors \u2014 *\u201cThe long-term and fixed-cost nature of the Company\u2019s leases\u2026\u201d*, p. 35)\n\n## Not found in document (limitations)\n- Specific **contractual termination clauses**, notice periods, termination fees, default/termination triggers, or differences by lease type **are not provided** in the excerpted document. **Not found in document.**\n\n## Confidence\n- **HIGH** for statements that leases generally lack early termination provisions and that some arrangements have termination penalties (directly stated in Risk Factors cited above).\n- **LOW** regarding any further specifics because the document does not provide detailed lease-by-lease provisions or standardized termination terms."
+          }
+        ],
+        "role": "assistant"
+      }
+    ],
+    "parallel_tool_calls": true,
+    "presence_penalty": 0,
+    "previous_response_id": null,
+    "prompt_cache_key": null,
+    "prompt_cache_retention": null,
+    "reasoning": {
+      "effort": "none",
+      "summary": null
+    },
+    "safety_identifier": null,
+    "service_tier": "default",
+    "store": true,
+    "temperature": 1,
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "tool_choice": "auto",
+    "tools": [],
+    "top_logprobs": 0,
+    "top_p": 0.98,
+    "truncation": "disabled",
+    "usage": {
+      "input_tokens": 67712,
+      "input_tokens_details": {
+        "cached_tokens": 67584
+      },
+      "output_tokens": 396,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 68108
+    },
+    "user": null,
+    "metadata": {}
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "content": "# Analysis: Auditor Statements\n\n## Answer:\n**Not found in document.**\n\n## Explanation:\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021, likely prepared in connection with their SPAC merger. I have reviewed all pages and found no auditor statements, audit opinions, audit reports, or references to auditors or auditing firms.\n\nThe document contains:\n- Company values and mission statements\n- Business model descriptions (including \"All Access\" subscription model)\n- Various strategic and operational information\n- Multiple slides with bullet points (content not fully visible in the provided text)\n\nHowever, there are **no sections containing:**\n- Independent auditor's report\n- Audit opinions (unqualified, qualified, adverse, or disclaimer)\n- References to accounting firms (e.g., Deloitte, PwC, EY, KPMG)\n- Management's assessment of internal controls\n- Auditor commentary on financial statements or internal controls\n\n## Confidence Level:\n**HIGH** - I can directly confirm that auditor statements are not present in this document.\n\n## Caveats:\n- This appears to be a marketing/presentation document rather than a formal SEC filing (such as an S-4, 10-K, or proxy statement) where auditor reports would typically be included\n- Some slide content appears to be partially obscured or not fully rendered in the provided text\n- Auditor opinions may exist in separate registration statements or financial filings not included in this presentation",
+  "model": "claude-sonnet-4-5",
+  "input_tokens": 1355,
+  "output_tokens": 333,
+  "latency_ms": 9797,
+  "timestamp": "2026-01-16T20:19:59.668426",
+  "cost_usd": 0.00906,
+  "raw_response": {
+    "model": "claude-sonnet-4-5-20250929",
+    "id": "msg_01EQHvcPsH9w4bR4e2mVh8qy",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "# Analysis: Auditor Statements\n\n## Answer:\n**Not found in document.**\n\n## Explanation:\nThe provided document appears to be a WeWork investor presentation or pitch deck from 2021, likely prepared in connection with their SPAC merger. I have reviewed all pages and found no auditor statements, audit opinions, audit reports, or references to auditors or auditing firms.\n\nThe document contains:\n- Company values and mission statements\n- Business model descriptions (including \"All Access\" subscription model)\n- Various strategic and operational information\n- Multiple slides with bullet points (content not fully visible in the provided text)\n\nHowever, there are **no sections containing:**\n- Independent auditor's report\n- Audit opinions (unqualified, qualified, adverse, or disclaimer)\n- References to accounting firms (e.g., Deloitte, PwC, EY, KPMG)\n- Management's assessment of internal controls\n- Auditor commentary on financial statements or internal controls\n\n## Confidence Level:\n**HIGH** - I can directly confirm that auditor statements are not present in this document.\n\n## Caveats:\n- This appears to be a marketing/presentation document rather than a formal SEC filing (such as an S-4, 10-K, or proxy statement) where auditor reports would typically be included\n- Some slide content appears to be partially obscured or not fully rendered in the provided text\n- Auditor opinions may exist in separate registration statements or financial filings not included in this presentation"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1355,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 333,
+      "service_tier": "standard"
+    }
+  }
+}

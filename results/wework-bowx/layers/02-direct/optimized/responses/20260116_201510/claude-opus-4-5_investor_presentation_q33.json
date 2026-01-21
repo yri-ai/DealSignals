@@ -1,0 +1,34 @@
+{
+  "content": "## Analysis: Lock-up Agreements\n\n**Answer:** Not found in document.\n\n**Explanation:** After reviewing the provided document, I was unable to locate any information regarding lock-up agreements. The document appears to be a WeWork confidential presentation (dated 2021), but the extracted text content consists primarily of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point markers without accompanying text\n- Corporate values statements (regarding integrity, collaboration, gratitude, etc.)\n- Brief descriptions of their \"All Access\" product offering\n- Timeline references (2010-2030)\n\nThe document does not contain specific information about:\n- Lock-up periods for shareholders\n- Lock-up terms for insiders, sponsors, or PIPE investors\n- Release schedules or conditions for locked-up shares\n- Any other lock-up agreement provisions\n\n**Confidence Level:** N/A (information not present)\n\n**Caveats/Limitations:**\n1. The document text extraction appears incomplete - many bullet points and sections show markers but no actual content\n2. This appears to be a partial or corrupted extraction of what may be an investor presentation\n3. Lock-up agreements would typically be found in the definitive proxy statement, merger agreement, or S-4 registration statement rather than an investor presentation\n4. To properly answer this question, additional transaction documents would need to be reviewed",
+  "model": "claude-opus-4-5",
+  "input_tokens": 1356,
+  "output_tokens": 305,
+  "latency_ms": 9001,
+  "timestamp": "2026-01-16T20:47:31.569950",
+  "cost_usd": 0.014405,
+  "raw_response": {
+    "model": "claude-opus-4-5-20251101",
+    "id": "msg_01AT1gJPjPxZ4n5FfffQtNWm",
+    "type": "message",
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "## Analysis: Lock-up Agreements\n\n**Answer:** Not found in document.\n\n**Explanation:** After reviewing the provided document, I was unable to locate any information regarding lock-up agreements. The document appears to be a WeWork confidential presentation (dated 2021), but the extracted text content consists primarily of:\n- Copyright notices (\"\u00a9 2021 WeWork. Confidential.\")\n- Bullet point markers without accompanying text\n- Corporate values statements (regarding integrity, collaboration, gratitude, etc.)\n- Brief descriptions of their \"All Access\" product offering\n- Timeline references (2010-2030)\n\nThe document does not contain specific information about:\n- Lock-up periods for shareholders\n- Lock-up terms for insiders, sponsors, or PIPE investors\n- Release schedules or conditions for locked-up shares\n- Any other lock-up agreement provisions\n\n**Confidence Level:** N/A (information not present)\n\n**Caveats/Limitations:**\n1. The document text extraction appears incomplete - many bullet points and sections show markers but no actual content\n2. This appears to be a partial or corrupted extraction of what may be an investor presentation\n3. Lock-up agreements would typically be found in the definitive proxy statement, merger agreement, or S-4 registration statement rather than an investor presentation\n4. To properly answer this question, additional transaction documents would need to be reviewed"
+      }
+    ],
+    "stop_reason": "end_turn",
+    "stop_sequence": null,
+    "usage": {
+      "input_tokens": 1356,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "output_tokens": 305,
+      "service_tier": "standard"
+    }
+  }
+}
