@@ -20,6 +20,15 @@ class OcrClient:
     def __init__(self, base_url: str, transport: httpx.BaseTransport | None = None) -> None:
         self._client = httpx.Client(base_url=base_url, transport=transport, timeout=60.0)
 
+    def __enter__(self) -> "OcrClient":
+        return self
+
+    def __exit__(self, exc_type: object, exc: object, traceback: object) -> None:
+        self.close()
+
+    def close(self) -> None:
+        self._client.close()
+
     def submit_pdf(
         self,
         file_path: str,
