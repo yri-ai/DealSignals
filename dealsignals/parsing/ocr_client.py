@@ -1,0 +1,60 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Any
+
+import httpx
+
+
+@dataclass
+class OcrResult:
+    job_id: str
+    status: str
+    artifacts: dict[str, Any]
+    metadata: dict[str, Any]
+    error: dict[str, Any] | None = None
+
+
+class OcrClient:
+    def __init__(self, base_url: str, transport: httpx.BaseTransport | None = None) -> None:
+        self._client = httpx.Client(base_url=base_url, transport=transport, timeout=60.0)
+
+    def submit_pdf(
+        self,
+        file_path: str,
+        run_id: str,
+        document_id: str,
+        parser_profile: str,
+        callback_url: str,
+    ) -> str:
+        pdf_path = Path(file_path)
+        with pdf_path.open("rb") as handle:
+            files = {"file": (pdf_path.name, handle, "application/pdf")}
+            data = {
+                "run_id": run_id,
+                "document_id": document_id,
+                "parser_profile": parser_profile,
+                "callback_url": callback_url,
+            }
+            response = self._client.post("/v1/ocr", data=data, files=files)
+        response.raise_for_status()
+        payload = response.json()
+        return payload["job_id"]
+
+    def get_status(self, job_id: str) -> dict[str, Any]:
+        response = self._client.get(f"/v1/ocr/{job_id}")
+        response.raise_for_status()
+        return response.json()
+
+    def get_result(self, job_id: str) -> OcrResult:
+        response = self._client.get(f"/v1/ocr/{job_id}/result")
+        response.raise_for_status()
+        payload = response.json()
+        return OcrResult(
+            job_id=payload["job_id"],
+            status=payload["status"],
+            artifacts=payload.get("artifacts", {}),
+            metadata=payload.get("metadata", {}),
+            error=payload.get("error"),
+        )
