@@ -14,6 +14,15 @@ Required environment variables:
 - `LAYER_03_S4_PDF_PATH`
 - `LAYER_03_INVESTOR_PDF_PATH`
 
+Example:
+
+```bash
+LAYER_03_BASE_URL=http://localhost:8000 \
+LAYER_03_S4_PDF_PATH=experiments/wework-bowx/data/source/s4.pdf \
+LAYER_03_INVESTOR_PDF_PATH=experiments/wework-bowx/data/source/investor.pdf \
+.venv/bin/python scripts/prep_layer_03.py
+```
+
 Optional overrides:
 - `LAYER_03_BASE_URL` (default: `http://localhost:8000`)
 - `LAYER_03_OUTPUT_DIR`
