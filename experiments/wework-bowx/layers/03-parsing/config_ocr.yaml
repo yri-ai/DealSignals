@@ -1,0 +1,31 @@
+layer:
+  id: "03-parsing-ocr"
+  name: "Parsing Comparison (OCRmyPDF)"
+  description: |
+    OCRmyPDF/Tesseract outputs used as Layer 03 parsing baseline.
+    Compares OCR-derived text against the standard question set.
+
+  documents:
+    - experiments/wework-bowx/data/layer-03/ocrmypdf_tesseract_v1/investor_presentation_text.txt
+    - experiments/wework-bowx/data/layer-03/ocrmypdf_tesseract_v1/s4_text.txt
+
+  prompts:
+    system: prompts/system.md
+    user: prompts/optimized.md
+
+  models:
+    - claude-sonnet-4-5
+    - gpt-5.2
+    - claude-opus-4-5
+    # Exclude Gemini for now due to 500 errors
+
+  evaluation:
+    criteria:
+      - accurate
+      - cited
+      - relevant
+    outputs:
+      - responses
+
+ground_truth: ../../ground-truth/questions.yaml
+output_dir: ../../../../results/wework-bowx/layers/03-parsing/ocr

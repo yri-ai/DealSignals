@@ -174,6 +174,12 @@ The OCR service POSTs to `callback_url` on completion (success/failure).
 - Timeouts: 10 minutes per 100 pages (configurable)
 - Retention: 30 days (configurable)
 
+## Integration Note (Local OCR Service)
+- Service repo: `~/dev/projects/ocr`
+- Default base URL: `http://localhost:8000` (configured by `OCR_BASE_URL`)
+- Health check: `curl http://localhost:8000/v1/health`
+- Validation run (2026-01-23): job `7536a125a4af4f4391f36924955e7bfa` succeeded via `/v1/ocr`
+
 ## Notes for Layer 03
 - Include `run_id` and `parser_profile` in every Layer 03 run to compare OCR outputs.
 - Store artifact hashes for auditability in `output_meta.json`.
