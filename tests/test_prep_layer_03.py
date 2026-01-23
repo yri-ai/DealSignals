@@ -1,13 +1,28 @@
+import logging
+
 from scripts.prep_layer_03 import build_document_text
 
 
-def test_build_document_text_includes_page_markers(tmp_path):
+def test_build_document_text_includes_page_markers(tmp_path, caplog):
     pages = tmp_path / "pages.jsonl"
     pages.write_text(
-        '{"page":1,"text":"Hello"}\n{"page":2,"text":"World"}\n',
+        "\n".join(
+            [
+                '{"page":1,"text":"Hello"}',
+                "not json",
+                '{"page":2,"text":"World"}',
+                '{"page":3}',
+                '{"text":"Missing page"}',
+                "",
+            ]
+        ),
         encoding="utf-8",
     )
-    content = build_document_text(pages)
-    assert "[Page 1]" in content
-    assert "Hello" in content
-    assert "[Page 2]" in content
+
+    with caplog.at_level(logging.WARNING):
+        content = build_document_text(pages)
+
+    assert content == "[Page 1]\nHello\n\n[Page 2]\nWorld"
+    warning_messages = [record.message for record in caplog.records]
+    assert warning_messages.count("Skipping malformed JSONL line") == 1
+    assert warning_messages.count("Skipping page entry missing keys: page, text") == 2
