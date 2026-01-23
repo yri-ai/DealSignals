@@ -18,7 +18,8 @@ def test_layer_03_readme_includes_run_commands():
 
     required_snippets = [
         "scripts/prep_layer_03.py",
-        "scripts/run.py --config experiments/wework-bowx/layers/03-parsing/config_ocr.yaml",
+        "scripts/run.py",
+        "--config experiments/wework-bowx/layers/03-parsing/config_ocr.yaml",
         "LAYER_03_BASE_URL=",
         "LAYER_03_S4_PDF_PATH=",
         "LAYER_03_INVESTOR_PDF_PATH=",

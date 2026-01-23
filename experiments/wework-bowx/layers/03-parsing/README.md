@@ -35,11 +35,14 @@ The prep step writes outputs under
 ## 2. Run Experiment
 
 ```bash
-.venv/bin/python scripts/run.py --config experiments/wework-bowx/layers/03-parsing/config_ocr.yaml
+.venv/bin/python scripts/run.py \
+  --config experiments/wework-bowx/layers/03-parsing/config_ocr.yaml
 ```
 
 ## 3. Monitor Status
 
 ```bash
-.venv/bin/python scripts/run.py --config experiments/wework-bowx/layers/03-parsing/config_ocr.yaml --status
+.venv/bin/python scripts/run.py \
+  --config experiments/wework-bowx/layers/03-parsing/config_ocr.yaml \
+  --status
 ```
