@@ -24,5 +24,8 @@ def test_build_document_text_includes_page_markers(tmp_path, caplog):
 
     assert content == "[Page 1]\nHello\n\n[Page 2]\nWorld"
     warning_messages = [record.message for record in caplog.records]
-    assert warning_messages.count("Skipping malformed JSONL line") == 1
-    assert warning_messages.count("Skipping page entry missing keys: page, text") == 2
+    assert warning_messages == [
+        "Skipping malformed JSONL line 2",
+        "Skipping page entry missing keys: page, text on line 4",
+        "Skipping page entry missing keys: page, text on line 5",
+    ]
