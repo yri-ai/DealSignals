@@ -42,13 +42,38 @@ def _require_env(name: str) -> str | None:
     return None
 
 
-def _wait_for_completion(client: OcrClient, job_id: str, sleep_seconds: float) -> str:
+def _read_float_env(name: str, default: float) -> float:
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    try:
+        return float(value)
+    except ValueError as exc:
+        raise ValueError(f"Invalid {name} value: {value}") from exc
+
+
+def _wait_for_completion(
+    client: OcrClient,
+    job_id: str,
+    poll_interval_s: float,
+    timeout_s: float,
+) -> str:
+    start = time.monotonic()
+    interval = poll_interval_s
     while True:
-        status_payload = client.get_status(job_id)
+        try:
+            status_payload = client.get_status(job_id)
+        except Exception as exc:
+            raise RuntimeError(f"Failed to fetch OCR status for job {job_id}.") from exc
         status = status_payload.get("status")
         if status in {"succeeded", "failed"}:
             return str(status)
-        time.sleep(sleep_seconds)
+        if status not in {"queued", "running"}:
+            raise RuntimeError(f"Unknown OCR status '{status}' for job {job_id}.")
+        if time.monotonic() - start >= timeout_s:
+            raise TimeoutError(f"OCR job {job_id} timed out after {timeout_s:.0f} seconds.")
+        time.sleep(interval)
+        interval = min(interval * 1.5, max(poll_interval_s * 5, interval))
 
 
 def _copy_artifacts(
@@ -68,19 +93,25 @@ def _copy_artifacts(
         if not source_value:
             continue
         source_path = Path(str(source_value))
+        if not source_path.exists():
+            raise FileNotFoundError(f"Artifact {key} not found at {source_path}")
         destination = output_dir / filename
         shutil.copy(source_path, destination)
         copied[key] = destination
     return copied
 
 
-def main(client: OcrClient | None = None, sleep_seconds: float = 1.0) -> int:
+def main(client: OcrClient | None = None, sleep_seconds: float | None = None) -> int:
     base_url = os.environ.get("LAYER_03_BASE_URL", "http://localhost:8000")
     output_dir_value = os.environ.get("LAYER_03_OUTPUT_DIR")
     if output_dir_value:
         output_dir = Path(output_dir_value)
     else:
         output_dir = Path("experiments/wework-bowx/data/layer-03/ocrmypdf_tesseract_v1")
+    poll_interval = _read_float_env("LAYER_03_POLL_INTERVAL_S", 2.0)
+    poll_timeout = _read_float_env("LAYER_03_POLL_TIMEOUT_S", 600.0)
+    if sleep_seconds is not None:
+        poll_interval = sleep_seconds
 
     s4_path_value = _require_env("LAYER_03_S4_PDF_PATH")
     investor_path_value = _require_env("LAYER_03_INVESTOR_PDF_PATH")
@@ -103,18 +134,24 @@ def main(client: OcrClient | None = None, sleep_seconds: float = 1.0) -> int:
     callback_url = f"{base_url}/v1/ocr/callback"
 
     def process_document(client_instance: OcrClient, document_id: str, path: Path) -> int:
-        job_id = client_instance.submit_pdf(
-            file_path=str(path),
-            run_id=run_id,
-            document_id=document_id,
-            parser_profile=parser_profile,
-            callback_url=callback_url,
-        )
-        status = _wait_for_completion(client_instance, job_id, sleep_seconds)
+        try:
+            job_id = client_instance.submit_pdf(
+                file_path=str(path),
+                run_id=run_id,
+                document_id=document_id,
+                parser_profile=parser_profile,
+                callback_url=callback_url,
+            )
+        except Exception as exc:
+            raise RuntimeError(f"OCR submit failed for {document_id}.") from exc
+        status = _wait_for_completion(client_instance, job_id, poll_interval, poll_timeout)
         if status != "succeeded":
             print(f"Error: OCR job {job_id} failed with status {status}.")
             return 1
-        result = client_instance.get_result(job_id)
+        try:
+            result = client_instance.get_result(job_id)
+        except Exception as exc:
+            raise RuntimeError(f"OCR result fetch failed for job {job_id}.") from exc
         if result.status != "succeeded":
             print(f"Error: OCR job {job_id} failed with status {result.status}.")
             return 1
