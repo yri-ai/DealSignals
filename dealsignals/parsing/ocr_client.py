@@ -49,7 +49,10 @@ class OcrClient:
             response = self._client.post("/v1/ocr", data=data, files=files)
         response.raise_for_status()
         payload = response.json()
-        return payload["job_id"]
+        job_id = payload.get("job_id")
+        if not job_id:
+            raise ValueError(f"Missing job_id in OCR response: {payload}")
+        return job_id
 
     def get_status(self, job_id: str) -> dict[str, Any]:
         response = self._client.get(f"/v1/ocr/{job_id}")

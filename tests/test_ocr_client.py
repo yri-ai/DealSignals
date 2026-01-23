@@ -36,14 +36,14 @@ def test_submit_job_uses_expected_payload(tmp_path, mock_transport):
     pdf_path = tmp_path / "sample.pdf"
     pdf_path.write_bytes(b"%PDF-1.4 sample")
 
-    client = OcrClient(base_url="http://localhost:8000", transport=mock_transport)
-    job_id = client.submit_pdf(
-        file_path=str(pdf_path),
-        run_id="run_123",
-        document_id="doc_456",
-        parser_profile="ocrmypdf_tesseract_v1",
-        callback_url="http://localhost/callback",
-    )
+    with OcrClient(base_url="http://localhost:8000", transport=mock_transport) as client:
+        job_id = client.submit_pdf(
+            file_path=str(pdf_path),
+            run_id="run_123",
+            document_id="doc_456",
+            parser_profile="ocrmypdf_tesseract_v1",
+            callback_url="http://localhost/callback",
+        )
 
     assert job_id == "job_abc"
 
@@ -65,11 +65,29 @@ def test_submit_job_uses_expected_payload(tmp_path, mock_transport):
     assert b"sample.pdf" in body
 
 
+def test_submit_pdf_raises_when_job_id_missing(tmp_path):
+    transport = build_transport(200, {"status": "queued"})
+    pdf_path = tmp_path / "missing-job.pdf"
+    pdf_path.write_bytes(b"%PDF-1.4 sample")
+
+    with OcrClient(base_url="http://localhost:8000", transport=transport) as client:
+        with pytest.raises(ValueError, match="Missing job_id") as excinfo:
+            client.submit_pdf(
+                file_path=str(pdf_path),
+                run_id="run_123",
+                document_id="doc_456",
+                parser_profile="ocrmypdf_tesseract_v1",
+                callback_url="http://localhost/callback",
+            )
+
+    assert "queued" in str(excinfo.value)
+
+
 def test_get_status_parses_json():
     transport = build_transport(200, {"job_id": "job_123", "status": "running"})
-    client = OcrClient(base_url="http://localhost:8000", transport=transport)
 
-    status = client.get_status("job_123")
+    with OcrClient(base_url="http://localhost:8000", transport=transport) as client:
+        status = client.get_status("job_123")
 
     assert status == {"job_id": "job_123", "status": "running"}
     request = transport.captured["request"]
@@ -86,9 +104,9 @@ def test_get_result_parses_json():
         "error": None,
     }
     transport = build_transport(200, payload)
-    client = OcrClient(base_url="http://localhost:8000", transport=transport)
 
-    result = client.get_result("job_123")
+    with OcrClient(base_url="http://localhost:8000", transport=transport) as client:
+        result = client.get_result("job_123")
 
     assert result.job_id == "job_123"
     assert result.status == "done"
@@ -102,10 +120,10 @@ def test_get_result_parses_json():
 
 def test_get_status_raises_for_error_response():
     transport = build_transport(500, {"detail": "server error"})
-    client = OcrClient(base_url="http://localhost:8000", transport=transport)
 
-    with pytest.raises(httpx.HTTPStatusError):
-        client.get_status("job_123")
+    with OcrClient(base_url="http://localhost:8000", transport=transport) as client:
+        with pytest.raises(httpx.HTTPStatusError):
+            client.get_status("job_123")
 
 
 def test_client_close_closes_httpx_client():
