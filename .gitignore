@@ -45,6 +45,7 @@ Thumbs.db
 .env
 .env.local
 TODO.local.md
+.data/
 
 # SEC Filing Data (large, re-downloadable from SEC EDGAR)
 # See experiments/wework-bowx/data/README.md for download instructions
