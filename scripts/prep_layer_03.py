@@ -121,7 +121,7 @@ def main(client: OcrClient | None = None, sleep_seconds: float | None = None) ->
     else:
         output_dir = Path("experiments/wework-bowx/data/layer-03/ocrmypdf_tesseract_v1")
     poll_interval = _read_float_env("LAYER_03_POLL_INTERVAL_S", 2.0)
-    poll_timeout = _read_float_env("LAYER_03_POLL_TIMEOUT_S", 600.0)
+    poll_timeout = _read_float_env("LAYER_03_POLL_TIMEOUT_S", 3600.0)
     skip_text = _read_bool_env("LAYER_03_SKIP_TEXT", False)
     force_ocr = _read_bool_env("LAYER_03_FORCE_OCR", False)
     if sleep_seconds is not None:

@@ -57,6 +57,9 @@ case-studies/*/data/bowx/
 case-studies/*/data/wework/
 case-studies/*/data/supplemental/
 
+# Layer 03 OCR outputs (large, regeneratable via scripts/prep_layer_03.py)
+experiments/*/data/layer-03/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
